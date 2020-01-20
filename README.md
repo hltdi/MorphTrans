@@ -18,6 +18,8 @@ Current folders include:
 
 Translation files end with the extension .tr.
 
+To process data files, use ``Data/proc.py``.
+
 ### Translation file format
 Each line in a translation data (.tr) file has the following form
 ```
