@@ -30,6 +30,8 @@ ES languages are written using the syllabic Ge'ez script but are romanized for t
 
 We use the ASCII romanization scheme that is also used in [HornMorpho](https://github.com/hltdi/HornMorpho).
 
+Important: there are some two-character segments (those with 'W' as the second character), so list(word) won't work for extracting the segments in a word string.
+
 ### Aspect/voice categories
 In ES languages, each verb root, consisting of a sequence of consonants, can appear in up to ten different patterns, which can be viewed as combinations of various aspect and voice features.
 Note that these are **formal** categories; for some roots the labels may not correspond closely to their function (see the next paragraph).
