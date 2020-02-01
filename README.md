@@ -14,7 +14,8 @@ We are attempting to apply this approach to the learning of rules for word-to-wo
 
 ## Data files
 Translation data files are in subdirectories in mt/Data/.
-There is one subdirectory for the CRF subproject, with data from multiple language, and one for each language pair.
+There is one subdirectory for the CRF subproject, with data from multiple languages, and one for each language pair, potentially to be used with NN training.
+
 Current folders include:
 
 * CRF

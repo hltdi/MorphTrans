@@ -28,6 +28,10 @@ class TGroup(list):
     """A list of words that are translations of each other.
     The first word is normally the source, the others targets."""
 
+    # Number of positions before current index in source or target word to check
+    # for presence of current source or target phone
+    context_size = 3
+
     def __init__(self, words, languages=None, problem=None):
         list.__init__(self, words)
         # list of language abbreviations
@@ -103,14 +107,17 @@ class TGroup(list):
         """Repeatedly align source to target words, minimizing edit costs,
         until there are no changes to alignments."""
         change = True
+        cost = 0
         while change:
             cost, change = self.minimize_all(verbosity=verbosity)
+        return cost
 
     def minimize_all(self, verbosity=0):
         """Minimize costs once for all target words, adjusting alignments accordingly."""
         total_cost = 0
         change = False
-        print("ALIGNING SOURCE TO TARGETS")
+        print()
+        print("ALIGNING SOURCE TO TARGETS in {}".format(self))
         for tword_i in range(len(self.targets)):
             # make a copy of the current alignment for this target word
             current_alignment = self.alignments[tword_i][:]
@@ -136,7 +143,6 @@ class TGroup(list):
         alignment = self.alignments[tword_index]
         sourcecopy = source.copy()
 #        if verbosity:
-        print()
         print("Aligning {} with {}".format(source, target))
         return self.minimize1(source, target, len(source)-1, len(target)-1,
                               alignment, sourcecopy, verbosity=verbosity)
@@ -220,14 +226,14 @@ class TGroup(list):
         Return the costs associated with each operation, along with updated source and target indices, and indices
         to distinguish the operations.
         """
-        # difference in length of source and target words
-        ldiff = len(source) - len(target)
+        # difference in length of portions of source and target words remaining
+        ldiff = sindex - tindex
         # current source and target phones in positions sindex and tindex
         sphone = source[sindex] if sindex >= 0 else ''
         tphone = target[tindex] if tindex >= 0 else ''
         # preceding contexts of in source and target words
-        scontext = source[max([0,sindex-2]):sindex] if sindex >= 1 else []
-        tcontext = target[max([0,tindex-2]):tindex] if tindex >= 1 else []
+        scontext = source[max([0,sindex-TGroup.context_size]):sindex] if sindex >= 1 else []
+        tcontext = target[max([0,tindex-TGroup.context_size]):tindex] if tindex >= 1 else []
         # number of other target words with the current source phone in positions aligned with sindex
         matches = self.matches[sindex] - 1 if sindex >= 0 else 0
         if sindex < 0:

@@ -27,49 +27,6 @@ import os
 from .rule import *
 from .data import *
 
-class Problem:
-    """A dataset and scoring functions to use in learning rules for
-    word-to-word translation based on the approach in Durrett & DeNero."""
-
-    # default scoring functions
-    default_scoring = {'insert': Scoring.insert(1, 0.25, 0.5),
-                       'delete': Scoring.delete(1, 0.25),
-                       'substitute': Scoring.substitute(1, 0.5, 0.5),
-                       'nochange': Scoring.nochange(0, -1.0)}
-
-    def __init__(self, datafile='', data=None, info=None, scoring=None):
-        if data:
-            # The data is passed to the constructor.
-            self.data = data
-            for tg in self.data:
-                tg.problem = self
-            self.info = info or {}
-        else:
-            # The data is read in from a file.
-            datafile = datafile or '1.dt'
-            self.data, self.info = Data.read(datafile, self)
-        # A dict of key, functions for each
-        # of delete, insert, substitute, and nochange.
-        self.scoring = scoring or Problem.default_scoring
-
-    ## Functions for scoring
-    def score_insert(self, index, phone, ldiff, context):
-        insert = self.scoring['insert']
-        return insert(phone, ldiff, context)
-
-    def score_delete(self, index, phone, ldiff):
-        delete = self.scoring['delete']
-        return delete(phone, ldiff)
-
-    def score_compare(self, index, newphone, oldphone, scontext, tcontext, matches=0):
-        if newphone == oldphone:
-            # More sophisticated comparison can happen here
-            nochange = self.scoring['nochange']
-            return nochange(matches)
-        else:
-            substitute = self.scoring['substitute']
-            return substitute(newphone, oldphone, scontext, tcontext)
-
 class Scoring:
     """
     Functions for figuring the cost of insertion, deletion,
@@ -130,3 +87,56 @@ class Scoring:
             return basic_cost + match_cost * matches
         return nochhelp
 
+class Problem:
+    """A dataset and scoring functions to use in learning rules for
+    word-to-word translation based on the approach in Durrett & DeNero."""
+
+    # default scoring functions
+    default_scoring = {'insert': Scoring.insert(1, 0.25, 0.5),
+                       'delete': Scoring.delete(1, 0.25),
+                       'substitute': Scoring.substitute(1, 0.5, 0.5),
+                       'nochange': Scoring.nochange(0, -1.0)}
+
+    def __init__(self, datafile='', data=None, info=None, scoring=None):
+        if data:
+            # The data is passed to the constructor.
+            self.data = data
+            for tg in self.data:
+                tg.problem = self
+            self.info = info or {}
+        else:
+            # The data is read in from a file.
+            datafile = datafile or '1.dt'
+            self.data, self.info = Data.read(datafile, self)
+        # A dict of key, functions for each
+        # of delete, insert, substitute, and nochange.
+        self.scoring = scoring or Problem.default_scoring
+
+    ## Alignment of TGroups in self.data
+
+    def align(self, verbosity=0):
+        print("ALIGNING GROUPS in {}".format(self))
+        total_cost = 0
+        for tg in self.data:
+            cost = tg.align(verbosity=verbosity)
+            total_cost += 0
+        print()
+        print("TOTAL COST: {}".format(total_cost))
+
+    ## Functions for scoring
+    def score_insert(self, index, phone, ldiff, context):
+        insert = self.scoring['insert']
+        return insert(phone, ldiff, context)
+
+    def score_delete(self, index, phone, ldiff):
+        delete = self.scoring['delete']
+        return delete(phone, ldiff)
+
+    def score_compare(self, index, newphone, oldphone, scontext, tcontext, matches=0):
+        if newphone == oldphone:
+            # More sophisticated comparison can happen here
+            nochange = self.scoring['nochange']
+            return nochange(matches)
+        else:
+            substitute = self.scoring['substitute']
+            return substitute(newphone, oldphone, scontext, tcontext)

@@ -24,18 +24,20 @@ Author: Michael Gasser <gasser@indiana.edu>
 
 import mt
 
-TG = [mt.TGroup([mt.Word(["a", "b", "c", "d"]),
-                 mt.Word(["b", "c", "d", "e"]),
-                 mt.Word(["a", "c", "d"]),
-                 mt.Word(["a", "b", "f", "c"]),
-                 mt.Word(["b", "c"]),
-                 mt.Word(["g", "a", "b", "d", "e", "d"]),
-                 mt.Word(["f", "a", "b", "d", "e", "g"])])  
-      ]
+### A simple test problem for alignment
+##
+##TG = [mt.TGroup([mt.Word(["a", "b", "c", "d"]),
+##                 mt.Word(["b", "c", "d", "e"]),
+##                 mt.Word(["a", "c", "d"]),
+##                 mt.Word(["a", "b", "f", "c"]),
+##                 mt.Word(["b", "c"]),
+##                 mt.Word(["g", "a", "b", "d", "e", "d"]),
+##                 mt.Word(["f", "a", "b", "d", "e", "g"])])  
+##      ]
+##P = mt.Problem(data=TG)
+##TG0 = TG[0]
+##S = TG0[0]
+##T = TG0[1:]
 
-P = mt.Problem(data=TG)
-
-TG0 = TG[0]
-
-S = TG0[0]
-T = TG0[1:]
+# Problem with 3 translation groups in 5 languages.
+P = mt.Problem('1.tr')
