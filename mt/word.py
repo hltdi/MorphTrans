@@ -233,14 +233,20 @@ class TGroup(list):
         for tword_i in range(len(self.targets)):
             # make a copy of the current alignment for this target word
             current_alignment = self.alignments[tword_i][:]
-            cost = self.minimize(tword_i, forward=forward, verbosity=verbosity)
+            cost = self.minimize(tword_i, forward=forward, change_alignment=True,
+                                 verbosity=verbosity)
+            # Update the matches vector.
+            self.set_matches()
+#            cost2  = self.minimize(tword_i, forward=not forward, change_alignment=False,
+#                                   verbosity=verbosity)
+#            cost = max([cost1, cost2])
             if verbosity:
                 print(" Cost for target {}: {}".format(tword_i, cost))
             total_cost += cost
             if self.alignments[tword_i] != current_alignment:
                 change = True
-        # Update the matches vector.
-        self.set_matches()
+#        # Update the matches vector.
+#        self.set_matches()
         if change:
             print("COST: {}; SOME ALIGNMENT CHANGED, REALIGNING".format(total_cost))
         else:
@@ -405,9 +411,9 @@ class TGroup(list):
             tcontext = target[max([0,tindex-TGroup.context_size]):tindex] if tindex >= 1 else []
         # number of other target words with the current source phone in positions aligned with sindex
         if forward:
-            matches = self.matches[sindex] - 1 if sindex < len(source) else 0
+            matches = self.matches[sindex] if sindex < len(source) else 0
         else:
-            matches = self.matches[sindex] - 1 if sindex >= 0 else 0
+            matches = self.matches[sindex] if sindex >= 0 else 0
         if sindex < 0 or sindex >= len(source):
             # insertion is the only possibility because we're reached the beginning of the source word
             return [self.insert_cost(sindex=sindex, ldiff=ldiff, tindex=tindex, tphone=tphone, scontext=scontext,

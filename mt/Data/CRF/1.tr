@@ -1,8 +1,10 @@
 languages = ti,am,te,ks,ch
 
-# that he broke
+# that he broke: ዝሰበረ የሰበረ ለሰብረ የሰበረ የሰፐረ
 zsebere,yeseb:ere,lesebre,yeseb:ere,yesepere
-# it seems to me
+# it seems to me: ይመስለኒ ይመስለኛል ልመስለኒ ይመስሌው ይመስሬ
 ymeslen:i,ymesleN:al,lmeslen:i,ymeslEw,ymesrE
-# they (f.) didn't receive
+# they (f.) didn't receive: ኣየቐበላን አልተቀበሉም ኢትቀበለየ ኣልትቀበልማ ኣንትቐፐረማ
 ayteQeb:elan,alteqeb:elum,itqeb:eleye,altqeb:elma,antqYeperema
+# let them (m.) eat: ይብልዑ ይብሉ ልብልዑ የብላም የብሮ
+ybl`u,yblu,lbl`u,yeblam,yebro

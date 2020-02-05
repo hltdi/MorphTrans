@@ -33,7 +33,7 @@ class Scoring:
     substitution, and no change in editing word.
     """
 
-    CONTEXT_DECAY = [1.0, 0.5, 0.25, 0.125, 0.062]
+    CONTEXT_DECAY = [1.0, 0.8, 0.6, 0.25, 0.12]
 
     @staticmethod
     def context_cost(phone, context, forward=False):
@@ -182,6 +182,7 @@ class Problem:
     def score_compare(self, index, newphone, oldphone, scontext, tcontext, matches=0, forward=False):
         if newphone == oldphone:
             # More sophisticated comparison can happen here
+#            print("SAME PHONE: {}, matches {}".format(newphone, matches))
             nochange = self.scoring['nochange']
             return nochange(matches)
         else:
