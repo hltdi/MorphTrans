@@ -26,7 +26,8 @@ from .phone import *
 
 class TGroup(list):
     """A list of words that are translations of each other.
-    The first word is normally the source, the others targets."""
+    Any word in the list can be treated as the source, the others
+    as targets."""
 
     # Number of positions before current index in source or target word to check
     # for presence of current source or target phone
@@ -49,6 +50,102 @@ class TGroup(list):
     def __repr__(self):
         """Print name for the TGroup."""
         return "<<{}...>>".format(self.source.name)
+
+    def get_source(self, index):
+        return self[index]
+
+    def get_targets(self, index):
+        return [w for (i, w) in enumerate(self) if i != index]
+
+    def split(self, index, assign=False):
+        """Separate the TGroup into source and target Words."""
+        source = None
+        targets = []
+        for i, w in enumerate(self):
+            if i == index:
+                source = w
+            else:
+                targets.append(w)
+        if assign:
+            self.source = source
+            self.targets = targets
+        return source, targets
+
+    def print_alignments(self, verbosity=0):
+        print("source {}".format(self.source))
+        current_positions = [-1] * len(self.targets)
+        widths = [0] * len(self.source)
+        t_strings = [[] for x in range(len(self.targets))]
+        s_string = []
+        for si, sphone in enumerate(self.source):
+            if verbosity:
+                print()
+                print(" source phone {}:{}".format(si, sphone))
+            current_max = len(sphone) + 1
+            string = " " + sphone
+            strings = []
+            for ti, (alignment, target) in enumerate(zip(self.alignments, self.targets)):
+                align = alignment[si]
+                current_tpos = current_positions[ti]
+                if verbosity:
+                    print()
+                    print("  current max {}".format(current_max))
+                    print("  target {}, alignment {}".format(target, align))
+                    print("  current tpos {}".format(current_tpos))
+                if align == -1:
+                    # sphone corresponds to nothing in target
+#                    print("  not aligned")
+                    strings.append('  ')
+                elif align > current_tpos + 1:
+#                    print("  gap since last alignment")
+                    # positions in target since last aligned phone
+                    new_phones = target[current_tpos+1:align+1]
+                    new_length = sum([len(p)+1 for p in new_phones])
+#                    print("  new phones {}, new length {}".format(new_phones, new_length))
+                    current_max = max(current_max, new_length)
+                    strings.append(''.join([' ' + p for p in new_phones]))
+                    current_positions[ti] = align
+                else:
+#                    print("  alignment agrees with current position")
+                    new_phone = target[align]
+                    new_length = len(new_phone)+1
+#                    print("  new phone {}, new length {}".format(new_phone, new_length))
+                    current_max = max(current_max, new_length)
+                    if si > 0 and align == alignment[si-1]:
+                        # This character already part of string
+                        strings.append(' ' + ' ' * len(new_phone))
+                    else:
+                        strings.append(' ' + new_phone)
+                    current_positions[ti] = align
+                if verbosity:
+                    print("  updated max {}".format(current_max))
+            if verbosity:
+                print(" final max width for position {}: {}".format(si, current_max))
+            widths[si] = current_max
+            string = string.rjust(current_max)
+            s_string.append(string)
+            for i, s in enumerate(strings):
+                strings[i] = s.rjust(current_max)
+            for i, s in enumerate(strings):
+                t_strings[i].append(s)
+            if verbosity:
+                print(" target strings {}".format(strings))
+                print(" source string {}".format(string))
+        # Targets that have positions beyond position aligned with end of source
+        for ti, (target, alignment, t_string) in enumerate(zip(self.targets, self.alignments, t_strings)):
+            # last aligned position that is not -1
+            last_position = [p for p in alignment if p >= 0][-1]
+            if last_position < len(target) -1:
+                t_string.append(''.join([' ' + s for s in target[last_position+1:]]))
+        s_string = ''.join(s_string)
+        for i, s in enumerate(t_strings):
+            t_strings[i] = ''.join(t_strings[i])
+        if verbosity:
+            print("STRINGS")
+        print(s_string)
+        for s in t_strings:
+            print(s)
+        return widths
 
     def init_alignment(self, twordindex):
         """Create an initial alignment for the word at twordindex based on its
@@ -103,62 +200,102 @@ class TGroup(list):
                     count += 1
         return count
 
-    def align(self, verbosity=0):
+    def align(self, forward=False, verbosity=0):
         """Repeatedly align source to target words, minimizing edit costs,
         until there are no changes to alignments."""
         change = True
         cost = 0
+        if verbosity:
+            print()
+        print("INITIAL ALIGNMENTS:")
+        self.print_alignments()
+#        for alignment in self.alignments:
+#            print("{}".format(alignment))
+        iteration = 1
         while change:
-            cost, change = self.minimize_all(verbosity=verbosity)
+            if verbosity:
+                print()
+                print("ALIGNING SOURCE TO TARGETS in {}, iteration {}".format(self, iteration))
+            cost, change = self.minimize_all(forward=forward, verbosity=verbosity)
+            iteration += 1
+        if verbosity:
+            print()
+        print("FINAL ALIGNMENTS:")
+        self.print_alignments()
+#        for alignment in self.alignments:
+#            print("{}".format(alignment))
         return cost
 
-    def minimize_all(self, verbosity=0):
+    def minimize_all(self, forward=False, verbosity=0):
         """Minimize costs once for all target words, adjusting alignments accordingly."""
         total_cost = 0
         change = False
-        print()
-        print("ALIGNING SOURCE TO TARGETS in {}".format(self))
         for tword_i in range(len(self.targets)):
             # make a copy of the current alignment for this target word
             current_alignment = self.alignments[tword_i][:]
-            cost = self.minimize(tword_i, verbosity=verbosity)
-            print("Cost for target {}: {}".format(tword_i, cost))
+            cost = self.minimize(tword_i, forward=forward, verbosity=verbosity)
+            if verbosity:
+                print(" Cost for target {}: {}".format(tword_i, cost))
             total_cost += cost
             if self.alignments[tword_i] != current_alignment:
                 change = True
         # Update the matches vector.
         self.set_matches()
-        print("TOTAL COST: {}".format(total_cost))
         if change:
-            print("SOME ALIGNMENT CHANGED")
+            print("COST: {}; SOME ALIGNMENT CHANGED, REALIGNING".format(total_cost))
         else:
-            print("CONVERGED; NO ALIGNMENT CHANGED")
+            print("COST: {}; CONVERGED, NO ALIGNMENT CHANGED".format(total_cost))
         return total_cost, change
 
-    def minimize(self, tword_index, verbosity=0):
+    def minimize(self, tword_index, forward=False,
+                 change_alignment=True, verbosity=0):
         """Minimize edit costs for the source word and target word at tword_index,
         returning the cost and changing the alignment if necessary."""
         source = self.source
         target = self.targets[tword_index]
         alignment = self.alignments[tword_index]
+        if not change_alignment:
+            # Copy alignment so that it doesn't change while minimizing cost
+            alignment = alignment[:]
         sourcecopy = source.copy()
-#        if verbosity:
-        print("Aligning {} with {}".format(source, target))
-        return self.minimize1(source, target, len(source)-1, len(target)-1,
-                              alignment, sourcecopy, verbosity=verbosity)
+        if verbosity:
+            print(" Aligning {} with {}".format(source, target))
+        if forward:
+            sstart = 0; tstart = 0
+        else:
+            sstart = len(source)-1; tstart = len(target)-1
+        return self.minimize1(source, target, sstart, tstart, alignment,
+                              forward=forward, sourcecopy=sourcecopy, verbosity=verbosity)
 
     def minimize1(self, source, target, sindex, tindex, alignment,
-                  sourcecopy=None, verbosity=0):
+                  forward=False, sourcecopy=None, copyoffset=0, verbosity=0):
         """Return the cost of editing source word to produce target word,
         ending in positions sindex in source, tindex in target. Change the current
         alignment where there are deletions or substitutions.
-        Start at the end of source and target words, recursively figuring the
-        cost, using the expression on p. 1187 of Durrett & DeNero."""
-        if sindex < 0 and tindex < 0:
+        Start at the *beginning* or *end* of source and target words, recursively figuring the
+        cost, using the expression on p. 1187 of Durrett & DeNero.
+        forward option determines direction of recursion."""
+        if forward:
+            sout = sindex >= len(source)
+            tout = tindex >= len(target)
+        else:
+            sout = sindex < 0
+            tout = tindex < 0
+        if sout and tout:
             return 0
+#        if sindex >= len(source) and tindex >= len(target):
+#            return 0
+        if forward:
+            copyindex = sindex + copyoffset
+        else:
+            copyindex = sindex
+        if verbosity:
+            print("Checking positions {}:{}, current phones: {}:{}".format(sindex, tindex,
+                                                                           source[sindex] if not sout else '',
+                                                                           target[tindex] if not tout else ''))
         if not sourcecopy:
             sourcecopy = source.copy()
-        costs = self.costs(source, target, sindex, tindex)
+        costs = self.costs(source, target, sindex, tindex, forward=forward, verbosity=verbosity)
         if verbosity:
             print(" Found costs {} at si {}, ti {}".format(costs, sindex, tindex))
         mincost = min(costs, key=lambda d: d[0])
@@ -170,14 +307,20 @@ class TGroup(list):
             if verbosity > 1:
                 print("  Deleting {}".format(source[sindex]))
             alignment[sindex] = -1
-            sourcecopy.delete(sindex)
+            sourcecopy.delete(copyindex)
+            copyoffset += -1
         else:
             phone = target[tindex]
             if oper == 0:
                 # Insertion; this does *not* change the alignment, it seems
                 if verbosity > 1:
                     print("  Inserting {}".format(phone))
-                sourcecopy.insert(sindex, phone)
+                # for forward algorithm, we insert before the current index
+                if forward:
+                    sourcecopy.insert(copyindex-1, phone)
+                else:
+                    sourcecopy.insert(copyindex, phone)
+                copyoffset += 1
             else:
                 # Substitution
                 alignment[sindex] = tindex
@@ -186,67 +329,101 @@ class TGroup(list):
                     if verbosity > 1:
                         print("  No change for {}".format(phone))
                 else:
-                    sourcecopy.substitute(sindex, phone)
                     if verbosity > 1:
-                        print("  Substituting {} for {}".format(phone, sphone))
+                        print("  Substituting {} for {} in position {}".format(phone, sphone, sindex))
+                    sourcecopy.substitute(copyindex, phone)
         if verbosity:
             print(" Cost: {}, si* {}, ti* {}".format(cost, newsindex, newtindex))
             print(" Current transformed word: {}".format(sourcecopy.chars()))
             print(" Current alignment: {}".format(alignment))
         return cost + self.minimize1(source, target, newsindex, newtindex,
-                                     alignment, sourcecopy=sourcecopy, verbosity=verbosity)
+                                     alignment, sourcecopy=sourcecopy,
+                                     forward=forward, copyoffset=copyoffset, verbosity=verbosity)
 
-    def insert_cost(self, sindex=-1, ldiff=0, tindex=-1, tphone='', scontext=None):
+    def insert_cost(self, sindex=-1, ldiff=0, tindex=-1, tphone='', scontext=None, tcontext=None, forward=False):
         """
         Return the cost of inserting tphone in position sindex in source,
         the new indices to check next,
         and 0 (id for insertion).
         """
-        return (self.problem.score_insert(sindex, tphone, ldiff, scontext), (sindex, tindex-1), 0)
+        if forward:
+            indices = (sindex, tindex+1)
+        else:
+            indices = (sindex, tindex-1)
+        return (self.problem.score_insert(sindex, tphone, ldiff, scontext, forward=forward),
+                indices, 0)
 
-    def delete_cost(self, sindex=-1, sphone='', ldiff=0, tindex=-1, scontext=None):
+    def delete_cost(self, sindex=-1, sphone='', ldiff=0, tindex=-1, scontext=None, forward=False):
         """
         Return the cost of deleting sphone in position sindex in source,
         the new indices to check next,
         and 1 (id for deletion).
         """
-        return (self.problem.score_delete(sindex, sphone, ldiff), (sindex-1, tindex), 1)
+        if forward:
+            indices = (sindex+1, tindex)
+        else:
+            indices = (sindex-1, tindex)
+        return (self.problem.score_delete(sindex, sphone, ldiff), indices, 1)
 
     def compare_cost(self, sindex=-1, sphone='', tindex=-1, tphone='',
-                     ldiff=0, scontext=None, tcontext=None, matches=0):
+                     ldiff=0, scontext=None, tcontext=None, matches=0, forward=False):
         """
         Return the cost of keeping sphone (if it's the same as tphone) or replacing it with tphone (if they're different),
         the new indices to check next,
         and 2 (id for substitution).
         """
-        return (self.problem.score_compare(sindex, tphone, sphone, scontext, tcontext, matches), (sindex-1, tindex-1), 2)
+        if forward:
+            indices = (sindex+1, tindex+1)
+        else:
+            indices = (sindex-1, tindex-1)
+        return (self.problem.score_compare(sindex, tphone, sphone, scontext, tcontext, matches, forward=forward),
+                indices, 2)
 
-    def costs(self, source, target, sindex, tindex):
+    def costs(self, source, target, sindex, tindex, forward=False, verbosity=0):
         """
         Return the costs associated with each operation, along with updated source and target indices, and indices
         to distinguish the operations.
         """
         # difference in length of portions of source and target words remaining
-        ldiff = sindex - tindex
+        if forward:
+            ldiff = len(source) - len(target) - sindex + tindex
+        else:
+            ldiff = sindex - tindex
         # current source and target phones in positions sindex and tindex
-        sphone = source[sindex] if sindex >= 0 else ''
-        tphone = target[tindex] if tindex >= 0 else ''
+        if forward:
+            sphone = source[sindex] if sindex < len(source) else ''
+            tphone = target[tindex] if tindex < len(target) else ''
+        else:
+            sphone = source[sindex] if sindex >= 0 else ''
+            tphone = target[tindex] if tindex >= 0 else ''
         # preceding contexts of in source and target words
-        scontext = source[max([0,sindex-TGroup.context_size]):sindex] if sindex >= 1 else []
-        tcontext = target[max([0,tindex-TGroup.context_size]):tindex] if tindex >= 1 else []
+        if forward:
+            scontext = source[sindex+1:sindex+1+TGroup.context_size] if sindex+1 < len(source) else []
+            tcontext = target[tindex+1:tindex+1+TGroup.context_size] if tindex+1 < len(target) else []
+        else:
+            scontext = source[max([0,sindex-TGroup.context_size]):sindex] if sindex >= 1 else []
+            tcontext = target[max([0,tindex-TGroup.context_size]):tindex] if tindex >= 1 else []
         # number of other target words with the current source phone in positions aligned with sindex
-        matches = self.matches[sindex] - 1 if sindex >= 0 else 0
-        if sindex < 0:
+        if forward:
+            matches = self.matches[sindex] - 1 if sindex < len(source) else 0
+        else:
+            matches = self.matches[sindex] - 1 if sindex >= 0 else 0
+        if sindex < 0 or sindex >= len(source):
             # insertion is the only possibility because we're reached the beginning of the source word
-            return [self.insert_cost(sindex=sindex, ldiff=ldiff, tindex=tindex, tphone=tphone, scontext=scontext)]
-        if tindex < 0:
+            return [self.insert_cost(sindex=sindex, ldiff=ldiff, tindex=tindex, tphone=tphone, scontext=scontext,
+                                     tcontext=tcontext, forward=forward)]
+        if tindex < 0 or tindex >= len(target):
             # deletion is the only possibility because we've reached the beginning of the target word
-            return [self.delete_cost(sindex=sindex, sphone=sphone, ldiff=ldiff, tindex=tindex, scontext=scontext)]
+            return [self.delete_cost(sindex=sindex, sphone=sphone, ldiff=ldiff, tindex=tindex, scontext=scontext, forward=forward)]
+        if verbosity > 1:
+            print("  Calculating costs for {}:{}; {}:{}".format(sindex, tindex, sphone, tphone))
         # all three edit operations are possible in these source and target positions
-        return [self.insert_cost(sindex=sindex, ldiff=ldiff, tindex=tindex, tphone=tphone, scontext=scontext),
-                self.delete_cost(sindex=sindex, sphone=sphone, ldiff=ldiff, tindex=tindex, scontext=scontext),
+        return [self.insert_cost(sindex=sindex, ldiff=ldiff, tindex=tindex, tphone=tphone,
+                                 scontext=scontext, tcontext=tcontext, forward=forward),
+                self.delete_cost(sindex=sindex, sphone=sphone, ldiff=ldiff, tindex=tindex,
+                                 scontext=scontext, forward=forward),
                 self.compare_cost(sindex=sindex, sphone=sphone, tindex=tindex, tphone=tphone,
-                                  ldiff=ldiff, scontext=scontext, tcontext=tcontext, matches=matches)]
+                                  ldiff=ldiff, scontext=scontext, tcontext=tcontext, matches=matches, forward=forward)]
 
 class Word(list):
     """A list of characters (strings) or Phone instances."""

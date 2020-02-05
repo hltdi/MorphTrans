@@ -40,4 +40,4 @@ import mt
 ##T = TG0[1:]
 
 # Problem with 3 translation groups in 5 languages.
-P = mt.Problem('1.tr')
+P = mt.Problem('1.tr', name="taTkc;1")

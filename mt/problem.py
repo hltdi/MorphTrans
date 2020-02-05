@@ -33,47 +33,73 @@ class Scoring:
     substitution, and no change in editing word.
     """
 
+    CONTEXT_DECAY = [1.0, 0.5, 0.25, 0.125, 0.062]
+
     @staticmethod
-    def delete(basic_cost, length_cost):
-        """Given basic deletion cost and cost for short source words,
+    def context_cost(phone, context, forward=False):
+        if phone not in context:
+            return 0
+        if forward:
+            distance = context.index(phone)
+        else:
+            distance = len(context) - context.index(phone) - 1
+        if distance > len(Scoring.CONTEXT_DECAY):
+            return 0
+        return Scoring.CONTEXT_DECAY[distance]
+
+    @staticmethod
+    def delete(basic_cost, length_cost, phone_cost):
+        """Given basic deletion cost, cost for short source words,
+        and the cost of deleting the particular phone,
         return a function that takes the phone to be deleted and
         difference in source and target word lengths."""
         def delhelp(phone, ldiff):
+            cost = basic_cost
             if ldiff <= 0:
-                lcost = length_cost
-            else:
-                lcost = 0
-            return basic_cost + lcost
+                cost += length_cost
+            if phone_cost:
+                cost += phone_cost * Phone.insdel_cost(phone)
+            return cost
         return delhelp
 
     @staticmethod
-    def insert(basic_cost, length_cost, context_cost):
+    def insert(basic_cost, length_cost, context_cost, phone_cost,
+               forward=False):
         """Given basic insertion cost, cost for long source words,
-        and cost for inserting a character that's already nearby in the
-        source word, return a function that takes the phone to be inserted,
+        cost for inserting a character that's already nearby in the
+        source word, and the cost for inserting the particular phone,
+        return a function that takes the phone to be inserted,
         the difference in source and target word lengths, and the
         (previous) source word context."""
-        def inshelp(phone, ldiff, context):
+        def inshelp(phone, ldiff, context, forward):
             cost = basic_cost
             if phone in context:
-                cost += context_cost
+                context_mult = Scoring.context_cost(phone, context, forward=forward)
+                cost += context_mult * context_cost
             if ldiff >= 0:
                 cost += length_cost
+            if phone_cost:
+                cost += phone_cost * Phone.insdel_cost(phone)
             return cost
         return inshelp
 
     @staticmethod
-    def substitute(basic_cost, scontext_cost, tcontext_cost):
+    def substitute(basic_cost, scontext_cost, tcontext_cost, phone_cost,
+                   forward=False):
         """Given basic substitution cost, the cost for replacing a source
         phone that's already nearby in the source word, and the cost for
         replacing it with a target phone that nearby in the target word,
         return a function that takes the two phones and the two contexts."""
-        def subshelp(newphone, oldphone, scontext, tcontext):
+        def subshelp(newphone, oldphone, scontext, tcontext, forward):
             cost = basic_cost
             if newphone in scontext:
-                cost += scontext_cost
+                context_mult = Scoring.context_cost(newphone, scontext, forward=forward)
+                cost += context_mult * scontext_cost
             if oldphone in tcontext:
-                cost += tcontext_cost
+                context_mult = Scoring.context_cost(oldphone, tcontext, forward=forward)
+                cost += context_mult * tcontext_cost
+            if phone_cost:
+                cost += phone_cost * Phone.distance(newphone, oldphone)
             return cost
         return subshelp
 
@@ -92,12 +118,15 @@ class Problem:
     word-to-word translation based on the approach in Durrett & DeNero."""
 
     # default scoring functions
-    default_scoring = {'insert': Scoring.insert(1, 0.25, 0.5),
-                       'delete': Scoring.delete(1, 0.25),
-                       'substitute': Scoring.substitute(1, 0.5, 0.5),
+    default_scoring = {'insert': Scoring.insert(0, 0.25, 0.5, 1.0),
+                       'delete': Scoring.delete(0, 0.25, 1.0),
+                       'substitute': Scoring.substitute(0, 0.5, 0.5, 1.0),
                        'nochange': Scoring.nochange(0, -1.0)}
 
-    def __init__(self, datafile='', data=None, info=None, scoring=None):
+    id = 0
+
+    def __init__(self, datafile='', data=None, info=None, scoring=None,
+                 name=''):
         if data:
             # The data is passed to the constructor.
             self.data = data
@@ -111,32 +140,50 @@ class Problem:
         # A dict of key, functions for each
         # of delete, insert, substitute, and nochange.
         self.scoring = scoring or Problem.default_scoring
+        self.set_name(name)
+
+    def set_name(self, name):
+        if name:
+            self.name = "Problem: {}".format(name)
+        else:
+            self.name = "Problem: {}".format(Problem.id)
+            Problem.id += 1
+
+    def __repr__(self):
+        return self.name
 
     ## Alignment of TGroups in self.data
 
-    def align(self, verbosity=0):
+    def align(self, forward=False, verbosity=0):
         print("ALIGNING GROUPS in {}".format(self))
         total_cost = 0
-        for tg in self.data:
-            cost = tg.align(verbosity=verbosity)
-            total_cost += 0
+        for i, tg in enumerate(self.data):
+            print()
+            print("ALIGNING TGROUP {}: {}".format(i, tg))
+            cost = tg.align(forward=forward, verbosity=verbosity)
+            total_cost += cost
         print()
         print("TOTAL COST: {}".format(total_cost))
 
+    def print_alignments(self, verbosity=0):
+        for i, tg in enumerate(self.data):
+            print("TGroup {}: {}".format(i, tg))
+            tg.print_alignments(verbosity=verbosity)
+
     ## Functions for scoring
-    def score_insert(self, index, phone, ldiff, context):
+    def score_insert(self, index, phone, ldiff, context, forward=False):
         insert = self.scoring['insert']
-        return insert(phone, ldiff, context)
+        return insert(phone, ldiff, context, forward=forward)
 
     def score_delete(self, index, phone, ldiff):
         delete = self.scoring['delete']
         return delete(phone, ldiff)
 
-    def score_compare(self, index, newphone, oldphone, scontext, tcontext, matches=0):
+    def score_compare(self, index, newphone, oldphone, scontext, tcontext, matches=0, forward=False):
         if newphone == oldphone:
             # More sophisticated comparison can happen here
             nochange = self.scoring['nochange']
             return nochange(matches)
         else:
             substitute = self.scoring['substitute']
-            return substitute(newphone, oldphone, scontext, tcontext)
+            return substitute(newphone, oldphone, scontext, tcontext, forward=forward)
