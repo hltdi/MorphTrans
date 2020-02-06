@@ -154,13 +154,35 @@ class Problem:
 
     ## Alignment of TGroups in self.data
 
-    def align(self, forward=False, verbosity=0):
+    def align(self, direction=None, verbosity=0):
+        """Align each of the TGroups in the Problem. If direction is specified ('forward' or 'backward'),
+        use this direction always. If not, try both directions for each TGroup, selecting the cheaper."""
         print("ALIGNING GROUPS in {}".format(self))
         total_cost = 0
         for i, tg in enumerate(self.data):
             print()
-            print("ALIGNING TGROUP {}: {}".format(i, tg))
-            cost = tg.align(forward=forward, verbosity=verbosity)
+            if direction:
+                print("ALIGNING TGROUP {}: {}, DIRECTION: {}".format(i, tg, direction))
+                cost = tg.align(direction=direction, verbosity=verbosity)
+            else:
+                print("ALIGNING TGROUP {}: {}, BOTH DIRECTIONS".format(i, tg))
+                # Try both directions for TGroup, selecting one with the lower cost
+                forward_alignments = tg.copy_alignments()
+                backward_alignments = tg.copy_alignments()
+                forward_cost = tg.align(direction='forward', alignments=forward_alignments,
+                                        verbosity=verbosity)
+                backward_cost = tg.align(direction='backward', alignments=backward_alignments,
+                                         verbosity=verbosity)
+                if forward_cost < backward_cost:
+                    cost = forward_cost
+                    tg.alignments = forward_alignments
+                    print("FORWARD MINIMIZATION CHEAPER FOR TGROUP {}".format(tg))
+                else:
+                    cost = backward_cost
+                    tg.alignments = backward_alignments
+                    print("BACKWARD MINIMIZATION CHEAPER FOR TGROUP {}".format(tg))
+                print("FINAL ASSIGNMENTS:")
+                tg.print_alignments()
             total_cost += cost
         print()
         print("TOTAL COST: {}".format(total_cost))

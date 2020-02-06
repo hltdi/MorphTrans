@@ -57,6 +57,14 @@ class TGroup(list):
     def get_targets(self, index):
         return [w for (i, w) in enumerate(self) if i != index]
 
+    def copy_alignments(self):
+        """Make a copy of the current alignments so it doesn't change as the algorithm
+        is tried in one or the other direction."""
+        alignments = []
+        for alignment in self.alignments:
+            alignments.append(alignment[:])
+        return alignments
+
     def split(self, index, assign=False):
         """Separate the TGroup into source and target Words."""
         source = None
@@ -71,8 +79,9 @@ class TGroup(list):
             self.targets = targets
         return source, targets
 
-    def print_alignments(self, verbosity=0):
-        print("source {}".format(self.source))
+    def print_alignments(self, alignments=None, verbosity=0):
+        alignments = alignments or self.alignments
+#        print("source {}".format(self.source))
         current_positions = [-1] * len(self.targets)
         widths = [0] * len(self.source)
         t_strings = [[] for x in range(len(self.targets))]
@@ -84,7 +93,7 @@ class TGroup(list):
             current_max = len(sphone) + 1
             string = " " + sphone
             strings = []
-            for ti, (alignment, target) in enumerate(zip(self.alignments, self.targets)):
+            for ti, (alignment, target) in enumerate(zip(alignments, self.targets)):
                 align = alignment[si]
                 current_tpos = current_positions[ti]
                 if verbosity:
@@ -200,46 +209,63 @@ class TGroup(list):
                     count += 1
         return count
 
-    def align(self, forward=False, verbosity=0):
+    def align(self, direction=None, alignments=None, verbosity=0):
         """Repeatedly align source to target words, minimizing edit costs,
         until there are no changes to alignments."""
+        alignments = alignments or self.alignments
         change = True
         cost = 0
         if verbosity:
             print()
-        print("INITIAL ALIGNMENTS:")
-        self.print_alignments()
+        print("DIRECTION: {}, INITIAL ALIGNMENTS:".format(direction))
+        self.print_alignments(alignments)
 #        for alignment in self.alignments:
 #            print("{}".format(alignment))
         iteration = 1
         while change:
             if verbosity:
                 print()
-                print("ALIGNING SOURCE TO TARGETS in {}, iteration {}".format(self, iteration))
-            cost, change = self.minimize_all(forward=forward, verbosity=verbosity)
+                print("ALIGNING SOURCE TO TARGETS in {}, DIRECTION {}, ITERATION {}".format(self, direction, iteration))
+            cost, change = self.minimize_all(direction=direction, alignments=alignments,
+                                             verbosity=verbosity)
             iteration += 1
         if verbosity:
             print()
-        print("FINAL ALIGNMENTS:")
-        self.print_alignments()
+        print("DIRECTION: {}, FINAL ALIGNMENTS:".format(direction))
+        self.print_alignments(alignments)
 #        for alignment in self.alignments:
 #            print("{}".format(alignment))
         return cost
 
-    def minimize_all(self, forward=False, verbosity=0):
+    def minimize_all(self, direction=None, alignments=None, verbosity=0):
         """Minimize costs once for all target words, adjusting alignments accordingly."""
         total_cost = 0
         change = False
         for tword_i in range(len(self.targets)):
-            # make a copy of the current alignment for this target word
-            current_alignment = self.alignments[tword_i][:]
-            cost = self.minimize(tword_i, forward=forward, change_alignment=True,
+            # make 3 copies of the current alignment for this target word
+            alignment = alignments[tword_i]
+            current_alignment = alignment[:]
+#            if direction:
+            cost = self.minimize(tword_i, forward=direction=='forward', alignment=alignment,
                                  verbosity=verbosity)
+#            else:
+#                # compare forward and backward minimization
+#                forward_alignment = alignment[:]
+#                backward_alignment = alignment[:]
+#                forward_cost = self.minimize(tword_i, forward=True, alignment=forward_alignment,
+#                                             verbosity=verbosity)
+#                backward_cost = self.minimize(tword_i, forward=False, alignment=backward_alignment,
+#                                              verbosity=verbosity)
+#                if backward_cost < forward_cost:
+#                    print("Backward algorithm cheaper for tword {}".format(tword_i))
+#                    self.alignments[tword_i] = backward_alignment
+#                    cost = backward_cost
+#                else:
+#                    print("Forward algorithm cheaper for tword {}".format(tword_i))
+#                    self.alignments[tword_i] = forward_alignment
+#                    cost = forward_cost
             # Update the matches vector.
             self.set_matches()
-#            cost2  = self.minimize(tword_i, forward=not forward, change_alignment=False,
-#                                   verbosity=verbosity)
-#            cost = max([cost1, cost2])
             if verbosity:
                 print(" Cost for target {}: {}".format(tword_i, cost))
             total_cost += cost
@@ -253,16 +279,14 @@ class TGroup(list):
             print("COST: {}; CONVERGED, NO ALIGNMENT CHANGED".format(total_cost))
         return total_cost, change
 
-    def minimize(self, tword_index, forward=False,
-                 change_alignment=True, verbosity=0):
+    def minimize(self, tword_index, forward=False, alignment=None,
+                 verbosity=0):
         """Minimize edit costs for the source word and target word at tword_index,
         returning the cost and changing the alignment if necessary."""
         source = self.source
         target = self.targets[tword_index]
-        alignment = self.alignments[tword_index]
-        if not change_alignment:
-            # Copy alignment so that it doesn't change while minimizing cost
-            alignment = alignment[:]
+        # if alignment is specified it's a copy of the current alignment
+        alignment = alignment or self.alignments[tword_index]
         sourcecopy = source.copy()
         if verbosity:
             print(" Aligning {} with {}".format(source, target))
