@@ -22,7 +22,7 @@ Author: Michael Gasser <gasser@indiana.edu>
 
 -- 20.1.2020
    Created.
-   Functions to get data from a data file, to extract word pairs from the
+   Functions to get data from a bilingual data file, to extract word pairs from the
    resulting data.
 """
 

@@ -1,0 +1,40 @@
+personal pronouns 
+english 	tigre 	tigrinya
+1st,sg	አና		ኣነ	
+1st p,pl	ሕና/ንሕና		ንሕና	
+2nd p, sg, f	እንቲ		ንስኺ	
+2nd p, sp, m	እንታ		ንስኻ	
+2nd p, pl, f	እንትን 		ንስኻትክን 	
+2nd p, pl, m	እንቱም 		ንስኻትኩም	
+2nd p, pl, f, h	እንትን 		ንስኽን 	
+2nd p, pl, m, h	እንቱም		ንስኹም	
+3rd p, sg, f, 	ህታ		ንሳ	
+3rd p, sg, m	ህቱ		ንሱ	
+3rd p, pl, f	ህተን 		ንሳተን 	
+3rd p, pl, m	ህቶም		ንሳቶም 	
+3rd p, pl, f, h	ህተን 		ንሰን 	
+3rd p, pl, m, h	ህቶም		ንሶም 	
+ 
+verb ‘to be’: imperfective, locative form: i am at home, i am sick, but not in the sense “i am a woman.”
+	tigre 				
+					
+1stp,sg	ሀለኮ		ኣለኹ 		
+1stp,pl	ሀለነ		ኣለና		
+2stp,sg, m	ሀለከ		ኣለኻ		
+2stp,sg, f	ሀለኪ		ኣለኺ		
+2stp,pl, m	ሀለኩም 		ኣለኹም 		
+2stp,pl, f	ሀለክን 		ኣለኽን 		
+3rd p,pl, f	ሀለት		ኣላ		
+3rd p, pl, m	ሀለ		ኣሎ		
+3rd p, pl, f	ሀለየ		ኣለዋ		
+3rdp, pl, m	ሀለው 		ኣለዉ		
+					
+1stp,sg	ዐልኮ		ነይረ 		
+1stp,pl	ዐልነ		ነይርና		
+2stp,sg, f	ዐልኪ		ነይርኪ		
+2stp,sg, m	ዐልከ		ነይርካ		
+2stp,pl, m	ዐልኩም 		ነይርኩም 		
+2stp,pl, f	ዐልክን		ነርይክን 		
+3stp,pl, f	ዐለየ		ነርይረን 		
+3stp, pl, m	ዐለዉ		ነርይሮም 		
+

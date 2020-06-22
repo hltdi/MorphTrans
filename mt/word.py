@@ -33,7 +33,7 @@ class TGroup(list):
     # for presence of current source or target phone
     context_size = 3
 
-    def __init__(self, words, languages=None, problem=None):
+    def __init__(self, words, languages=None, problem=None, comments=None):
         list.__init__(self, words)
         # list of language abbreviations
         self.languages = languages
@@ -41,9 +41,10 @@ class TGroup(list):
         self.problem = problem
         self.source = self[0]
         self.targets = self[1:]
+        self.comments = comments
         # list of positions corresponding to source positions, one for each target word
         self.alignments = [self.init_alignment(l) for l in range(len(self)-1)]
-        # set the number of phone matches for each source word position; to be update
+        # set the number of phone matches for each source word position; to be updated
         # after each re-alignment
         self.set_matches()
 
@@ -80,6 +81,8 @@ class TGroup(list):
         return source, targets
 
     def print_alignments(self, alignments=None, verbosity=0):
+        """Pretty print alignments. If alignments isn't passed, the currently
+        saved alignments are printed."""
         alignments = alignments or self.alignments
 #        print("source {}".format(self.source))
         current_positions = [-1] * len(self.targets)
@@ -156,6 +159,77 @@ class TGroup(list):
             print(s)
         return widths
 
+    def get_spans(self, source, target, alignment):
+        """Given an alignment of source with target, return the spans."""
+        si, ti = 0, 0
+        spans = []
+        current_span = []
+        print("SOURCE {}, len {}; TARGET {}, len {}".format(source, len(source), target, len(target)))
+        while si < len(source) or ti < len(target):
+#            print("SI {}, TI {}".format(si, ti))
+            current = None
+            if ti >= len(target):
+                # DELETE
+                s = source[si]
+#                print("Deleting {} at end of source".format(s))
+                current = (si, ti, s, 'd')
+                si += 1
+            elif si >= len(source):
+                # INSERT
+                t = target[ti]
+#                print("Inserting {} at end of source".format(t))
+                current = (si, ti, t, 'i')
+                ti += 1
+            else:
+                a = alignment[si]
+                if a < 0:
+                    # DELETE
+                    s = source[si]
+#                    print("Deleting {}".format(s))
+                    current = (si, ti, s, 'd')
+                    si += 1
+                elif ti < a:
+                    # INSERT
+                    t = target[ti]
+#                    print("Inserting {}".format(t))
+                    current = (si, ti, t, 'i')
+                    ti += 1
+                else:
+                    # either substitute or nochange
+                    s = source[si]
+                    t = target[ti]
+                    if s == t:
+#                        print("No change: {}".format(s))
+                        current = (si, ti, s, 'n')
+                    else:
+#                        print("Substituting {} for {}".format(t, s))
+                        current = (si, ti, (s, t), 's')
+                    si += 1
+                    ti += 1
+            # Decide whether to include with current span or close off
+#            print("current span {}".format(current_span))
+#            print("new {}".format(current))
+#            print("spans {}".format(spans))
+            if current[-1] == 'n':
+                if current_span and current_span[-1][-1] == 'n':
+                    # continue with nochange span
+                    current_span.append(current)
+                else:
+                    # start new nochange span
+                    spans.append(current_span)
+                    current_span = [current]
+            elif current_span and current_span[-1][-1] != 'n':
+                # continue change span
+                current_span.append(current)
+            else:
+                # start new change span
+                if current_span:
+                    spans.append(current_span)
+                current_span = [current]
+        if current_span:
+            spans.append(current_span)
+        return spans
+
     def init_alignment(self, twordindex):
         """Create an initial alignment for the word at twordindex based on its
         length and similarity of ends to ends of source word."""
@@ -217,10 +291,8 @@ class TGroup(list):
         cost = 0
         if verbosity:
             print()
-        print("DIRECTION: {}, INITIAL ALIGNMENTS:".format(direction))
-        self.print_alignments(alignments)
-#        for alignment in self.alignments:
-#            print("{}".format(alignment))
+            print("DIRECTION: {}, INITIAL ALIGNMENTS:".format(direction))
+            self.print_alignments(alignments)
         iteration = 1
         while change:
             if verbosity:
@@ -231,10 +303,8 @@ class TGroup(list):
             iteration += 1
         if verbosity:
             print()
-        print("DIRECTION: {}, FINAL ALIGNMENTS:".format(direction))
-        self.print_alignments(alignments)
-#        for alignment in self.alignments:
-#            print("{}".format(alignment))
+            print("DIRECTION: {}, FINAL ALIGNMENTS:".format(direction))
+            self.print_alignments(alignments)
         return cost
 
     def minimize_all(self, direction=None, alignments=None, verbosity=0):
@@ -245,25 +315,8 @@ class TGroup(list):
             # make 3 copies of the current alignment for this target word
             alignment = alignments[tword_i]
             current_alignment = alignment[:]
-#            if direction:
             cost = self.minimize(tword_i, forward=direction=='forward', alignment=alignment,
                                  verbosity=verbosity)
-#            else:
-#                # compare forward and backward minimization
-#                forward_alignment = alignment[:]
-#                backward_alignment = alignment[:]
-#                forward_cost = self.minimize(tword_i, forward=True, alignment=forward_alignment,
-#                                             verbosity=verbosity)
-#                backward_cost = self.minimize(tword_i, forward=False, alignment=backward_alignment,
-#                                              verbosity=verbosity)
-#                if backward_cost < forward_cost:
-#                    print("Backward algorithm cheaper for tword {}".format(tword_i))
-#                    self.alignments[tword_i] = backward_alignment
-#                    cost = backward_cost
-#                else:
-#                    print("Forward algorithm cheaper for tword {}".format(tword_i))
-#                    self.alignments[tword_i] = forward_alignment
-#                    cost = forward_cost
             # Update the matches vector.
             self.set_matches()
             if verbosity:

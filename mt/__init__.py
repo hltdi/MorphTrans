@@ -26,14 +26,13 @@ Author: Michael Gasser <gasser@indiana.edu>
 
 _version = 0.5
 
-__all__ = ['problem', 'rule', 'word', 'segment']
+__all__ = ['problem', 'rule', 'word', 'segment', 'align']
 
 from .problem import *
 
 print('\n@@@@ This is MorphTrans, version {} @@@@\n'.format(_version))
 
 def exit(save=True):
-    """Exit the program, caching any new analyses for each loaded language
-    if save is True."""
+    """Exit the program."""
     print("Quitting...")
 

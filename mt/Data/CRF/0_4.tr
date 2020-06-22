@@ -1,0 +1,123 @@
+comments = created 2020.6.15
+languages = ti,am,te,ks
+
+## ;prf,3sm,0o,neg,main
+'aydemeQen # dmq|A;ኣይደመቐን
+'aldem:eqem # dmq|A;አልደመ፟ቀም
+'idemqe # dmq|A;ኢደምቀ
+'aldemeqe # dmq|A;አልደመቀ
+## ;prf,3sm,0o,neg,rel
+zeydemeQe # dmq|A;ዘይደመቐ
+yaldem:eqe # dmq|A;ያልደመ፟ቀ
+le'idemqe # dmq|A;ለኢደምቀ
+yaldemeqe # dmq|A;ያልደመቀ
+## ;prf,3sm,0o,aff,main
+demeQe # dmq|A;ደመቐ
+dem:eqe # dmq|A;ደመ፟ቀ
+demqe # dmq|A;ደምቀ
+dem:eqo # dmq|A;ደመ፟ቆ
+## ;prf,3sm,0o,aff,rel
+zdemeQe # dmq|A;ዝደመቐ
+yedem:eqe # dmq|A;የደመ፟ቀ
+ledemqe # dmq|A;ለደምቀ
+yedem:eqe # dmq|A;የደመ፟ቀ
+## ;imf,3sm,0o,neg,main
+'ay:dem:Qn # dmq|A;ኣይ፟ደም፟ቕን
+'aydemqm # dmq|A;አይደምቅም
+'ildem:q # dmq|A;ኢልደም፟ቅ
+tidemq # dmq|A;ቲደምቅ
+## ;imf,3sm,0o,neg,rel
+zey:dem:Q # dmq|A;ዘይ፟ደም፟ቕ
+yem:aydemq # dmq|A;የማ፟ይደምቅ
+le'ildem:q # dmq|A;ለኢልደም፟ቅ
+'aydemq # dmq|A;አይደምቅ
+## ;imf,3sm,0o,aff,main
+ydem:Q # dmq|A;ይደም፟ቕ
+ydemqal # dmq|A;ይደምቃል
+ldem:q # dmq|A;ልደም፟ቅ
+ydemqu # dmq|A;ይደምቁ
+## ;imf,3sm,0o,aff,rel
+zidem:Q # dmq|A;ዚደም፟ቕ
+yem:idemq # dmq|A;የሚ፟ደምቅ
+leldem:q # dmq|A;ለልደም፟ቅ
+ydemq # dmq|A;ይደምቅ
+## ;prf,3sm,0o,neg,main
+'aybeselen # bsl|A;ኣይበሰለን
+'albes:elem # bsl|A;አልበሰ፟ለም
+'ibexle # bxl|A;ኢበሽለ
+'albesele # bsl|A;አልበሰለ
+## ;prf,3sm,0o,neg,rel
+zeybesele # bsl|A;ዘይበሰለ
+yalbes:ele # bsl|A;ያልበሰ፟ለ
+le'ibexle # bxl|A;ለኢበሽለ
+yalbesele # bsl|A;ያልበሰለ
+## ;prf,3sm,0o,aff,main
+besele # bsl|A;በሰለ
+bes:ele # bsl|A;በሰ፟ለ
+bexle # bxl|A;በሽለ
+bes:elo # bsl|A;በሰ፟ሎ
+## ;prf,3sm,0o,aff,rel
+zbesele # bsl|A;ዝበሰለ
+yebes:ele # bsl|A;የበሰ፟ለ
+lebexle # bxl|A;ለበሽለ
+yebes:ele # bsl|A;የበሰ፟ለ
+## ;imf,3sm,0o,neg,main
+'ay:bes:ln # bsl|A;ኣይ፟በስ፟ልን
+'aybeslm # bsl|A;አይበስልም
+'ilbex:l # bxl|A;ኢልበሽ፟ል
+tibesl # bsl|A;ቲበስል
+## ;imf,3sm,0o,neg,rel
+zey:bes:l # bsl|A;ዘይ፟በስ፟ል
+yem:aybesl # bsl|A;የማ፟ይበስል
+le'ilbex:l # bxl|A;ለኢልበሽ፟ል
+'aybesl # bsl|A;አይበስል
+## ;imf,3sm,0o,aff,main
+ybes:l # bsl|A;ይበስ፟ል
+ybeslal # bsl|A;ይበስላል
+lbex:l # bxl|A;ልበሽ፟ል
+ybeslu # bsl|A;ይበስሉ
+## ;imf,3sm,0o,aff,rel
+zibes:l # bsl|A;ዚበስ፟ል
+yem:ibesl # bsl|A;የሚ፟በስል
+lelbex:l # bxl|A;ለልበሽ፟ል
+ybesl # bsl|A;ይበስል
+## ps;prf,3sm,0o,neg,main
+'aytele'aKen # l'k|A;ኣይተለኣኸን
+'altelakem # l'k|A;አልተላከም
+'itle'eke # l'k|A;ኢትለአከ
+'altlake # lhk|A;አልትላከ
+## ps;prf,3sm,0o,neg,rel
+zeytele'aKe # l'k|A;ዘይተለኣኸ
+yaltelake # l'k|A;ያልተላከ
+le'itle'eke # l'k|A;ለኢትለአከ
+yaltlake # lhk|A;ያልትላከ
+## ps;prf,3sm,0o,aff,main
+tele'aKe # l'k|A;ተለኣኸ
+telake # l'k|A;ተላከ
+tle'eke # l'k|A;ትለአከ
+telako # lhk|A;ተላኮ
+## ps;prf,3sm,0o,aff,rel
+zt:ele'aKe # l'k|A;ዝተ፟ለኣኸ
+yetelake # l'k|A;የተላከ
+letle'eke # l'k|A;ለትለአከ
+yetlake # lhk|A;የትላከ
+## ps;imf,3sm,0o,neg,main
+'ay:l:e'aKn # l'k|A;ኣይ፟ለ፟ኣኽን
+'ayl:akm # l'k|A;አይላ፟ክም
+'iltl'k # l'k|A;ኢልትልእክ
+titlek # lhk|A;ቲትለክ
+## ps;imf,3sm,0o,neg,rel
+zey:l:e'aK # l'k|A;ዘይ፟ለ፟ኣኽ
+yem:ayl:ak # l'k|A;የማ፟ይላ፟ክ
+le'iltl'k # l'k|A;ለኢልትልእክ
+'aytlek # lhk|A;አይትለክ
+## ps;imf,3sm,0o,aff,main
+yl:e'aK # l'k|A;ይለ፟ኣኽ
+yl:akal # l'k|A;ይላ፟ካል
+ltl'k # l'k|A;ልትልእክ
+ytleku # lhk|A;ይትለኩ
+## ps;imf,3sm,0o,aff,rel
+zil:e'aK # l'k|A;ዚለ፟ኣኽ
+yem:il:ak # l'k|A;የሚ፟ላ፟ክ
+leltl'k # l'k|A;ለልትልእክ
+ytlek # lhk|A;ይትለክ

@@ -26,6 +26,35 @@ class Phone(str):
     """A character or sequence of characters representing a phone type (not an instance) within a Word.
     As of 31.1.2020, not used."""
 
+    PHONES = \
+      {'am':
+        [[   
+        'a', 'e', 'E', 'i', 'o', 'u', \
+        'w', 'y', "'", ':', 'b', 'bW', 'c', 'cW', 'C', 'CW', 'd', 'dW', \
+        'f', 'fW', 'g', 'gW', 'h', 'hW', 'j', 'jW', 'k', 'kW', 'l', 'lW', \
+        'm', 'mW', 'n', 'nW', 'N', 'NW', 'q', 'qW', \
+        'r', 'rW', 's', 'sW', 'S', 'SW', 't', 'tW', 'T', 'TW', \
+        'x', 'xW', 'z', 'zW', 'Z', 'ZW'
+        ],
+        [
+        'I', 'p', 'pW', 'P', 'PW', 'v', 'vW', \
+        '^s', '^S', '^h', '^hW', '^sW', '^SW'
+        ]],
+        'ti':
+        [[
+        'a', 'e', 'E', 'i', 'o', 'u', \
+        'w', 'y', "'", '`', ':', 'b', 'bW', 'c', 'cW', 'C', 'CW', 'd', 'dW', \
+        'f', 'fW', 'g', 'gW', 'h', 'hW', 'H', 'HW', 'j', 'jW', \
+        'k', 'kW', 'K', 'KW', 'l', 'lW', 'm', 'mW', 'n', 'nW', 'N', 'NW', \
+        'q', 'qW', 'Q', 'QW', 'r', 'rW', 's', 'sW', 'S', 'SW', 't', 'tW', \
+        'T', 'TW', 'x', 'xW', 'z', 'zW', 'Z', 'ZW'
+         ],
+        [
+        'I', 'p', 'pW', 'P', 'PW', 'v', 'vW', \
+        '^s', '^S', '^h', '^hW', '^sW', '^SW'
+        ]]
+        }
+
     # tentative list of phonetic features for phones
     FEATS = ['vowel', 'high', 'low', 'back', 'round', 'palatal', 'stop', 'ejective',
              'voiced', 'fricative', 'liquid', 'nasal', 'lateral', 'labial', 'coronal', 'velar', 'pharyngeal']

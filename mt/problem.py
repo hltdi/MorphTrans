@@ -25,7 +25,7 @@ Author: Michael Gasser <gasser@indiana.edu>
 import os
 
 from .rule import *
-from .data import *
+from .align import *
 
 class Scoring:
     """
@@ -74,6 +74,7 @@ class Scoring:
         def inshelp(phone, ldiff, context, forward):
             cost = basic_cost
             if phone in context:
+                # Penalize insertion of consonant that is in source context
                 context_mult = Scoring.context_cost(phone, context, forward=forward)
                 cost += context_mult * context_cost
             if ldiff >= 0:
@@ -94,12 +95,15 @@ class Scoring:
             cost = basic_cost
             if newphone in scontext:
                 context_mult = Scoring.context_cost(newphone, scontext, forward=forward)
+#                print(">>newphone {} in scontext {}, mult {}".format(newphone, scontext, context_mult))
                 cost += context_mult * scontext_cost
             if oldphone in tcontext:
                 context_mult = Scoring.context_cost(oldphone, tcontext, forward=forward)
                 cost += context_mult * tcontext_cost
             if phone_cost:
-                cost += phone_cost * Phone.distance(newphone, oldphone)
+                distance = Phone.distance(newphone, oldphone)
+#                print(">>distance between {} and {}: {}".format(newphone, oldphone, distance))
+                cost += phone_cost * distance
             return cost
         return subshelp
 
@@ -120,7 +124,7 @@ class Problem:
     # default scoring functions
     default_scoring = {'insert': Scoring.insert(0, 0.25, 0.5, 1.0),
                        'delete': Scoring.delete(0, 0.25, 1.0),
-                       'substitute': Scoring.substitute(0, 0.5, 0.5, 1.0),
+                       'substitute': Scoring.substitute(0, 0.75, 0.75, 1.0),
                        'nochange': Scoring.nochange(0, -1.0)}
 
     id = 0

@@ -24,6 +24,12 @@ Author: Michael Gasser <gasser@indiana.edu>
 
 import mt
 
+A = mt.align.Aligner('am', 'ti', datafiles=["0_4.tr", "2_4.tr", "3_4.tr"])
+
+# Test of new data format and Data.read()
+def get_data(vc=0):
+    return mt.Data.read("0_4.tr", None)
+
 ### A simple test problem for alignment
 ##
 ##TG = [mt.TGroup([mt.Word(["a", "b", "c", "d"]),
@@ -40,4 +46,4 @@ import mt
 ##T = TG0[1:]
 
 # Problem with 3 translation groups in 5 languages.
-P = mt.Problem('1.tr', name="taTkc;1")
+# P = mt.Problem('1.tr', name="taTkc;1")
