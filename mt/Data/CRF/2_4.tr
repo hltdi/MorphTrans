@@ -1461,22 +1461,22 @@ yetemer:ahu # mr'|A;የተመራ፟ሁ
 letmer:Heko # mrH|A;ለትመር፟ሐኮ
 yetmer:ahW # mrh|A;የትመራ፟ኍ
 ## ps;prf,3sm,0o,neg,main
-'aytemerH@n # mrH|A;ኣይተመርሐን
+'aytemerHen # mrH|A;ኣይተመርሐን
 'altemer:am # mr'|A;አልተመራ፟ም
 'itmer:He # mrH|A;ኢትመር፟ሐ
 'altmer:a # mrh|A;አልትመራ፟
 ## ps;prf,3sm,0o,neg,rel
-zeytemerH@ # mrH|A;ዘይተመርሐ
+zeytemerHe # mrH|A;ዘይተመርሐ
 yaltemer:a # mr'|A;ያልተመራ፟
 le'itmer:He # mrH|A;ለኢትመር፟ሐ
 yaltmer:a # mrh|A;ያልትመራ፟
 ## ps;prf,3sm,0o,aff,main
-temerH@ # mrH|A;ተመርሐ
+temerHe # mrH|A;ተመርሐ
 temer:a # mr'|A;ተመራ፟
 tmer:He # mrH|A;ትመር፟ሐ
 temer:aw # mrh|A;ተመራ፟ው
 ## ps;prf,3sm,0o,aff,rel
-zt:emerH@ # mrH|A;ዝተ፟መርሐ
+zt:emerHe # mrH|A;ዝተ፟መርሐ
 yetemer:a # mr'|A;የተመራ፟
 letmer:He # mrH|A;ለትመር፟ሐ
 yetmer:a # mrh|A;የትመራ፟
