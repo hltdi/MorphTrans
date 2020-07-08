@@ -35,7 +35,6 @@ class Data:
 
     tgroup_sep = "##"
 
-
     # segmentation units for ES languages, used in segment()
     # ES[0] is a list of phones consisting of single characters
     # ES[1] is a dict for characters that may be combined (or not) to make phones
@@ -67,6 +66,17 @@ class Data:
     def get_words(self, languages):
         lindices = [self.get_lindex(language) for language in languages]
         return [self.get_words1(tg, lindices) for tg in self.tgroups]
+
+    # @staticmethod
+    # def shuffle(dataset, seedgen=None):
+    #     """
+    #     Shuffle a dataset so that it can be split into subsets.
+    #     If seedgen is non-null,
+    #     use seedgen to create the same sets each time this is called.
+    #     """
+    #     if seedgen:
+    #         random.seed(seedgen)
+    #     random.shuffle(dataset)
 
     # New data format: 2020.6.16
     @staticmethod

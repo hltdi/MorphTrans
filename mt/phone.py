@@ -28,7 +28,7 @@ class Phone(str):
 
     PHONES = \
       {'am':
-        [[   
+        [[
         'a', 'e', 'E', 'i', 'o', 'u', \
         'w', 'y', "'", ':', 'b', 'bW', 'c', 'cW', 'C', 'CW', 'd', 'dW', \
         'f', 'fW', 'g', 'gW', 'h', 'hW', 'j', 'jW', 'k', 'kW', 'l', 'lW', \
@@ -54,6 +54,21 @@ class Phone(str):
         '^s', '^S', '^h', '^hW', '^sW', '^SW'
         ]]
         }
+
+    # Not "phones" really but why not here
+    FIDEL = \
+      {'am':
+      [[
+      ],
+      [
+
+      ]],
+      'ti':
+      [[
+      ],
+      [
+      ]]
+      }
 
     # tentative list of phonetic features for phones
     FEATS = ['vowel', 'high', 'low', 'back', 'round', 'palatal', 'stop', 'ejective',
@@ -137,4 +152,3 @@ class Phone(str):
     @staticmethod
     def is_consonant(phone):
         return not Phone.is_vowel(phone) and not Phone.is_misc(phone)
-
