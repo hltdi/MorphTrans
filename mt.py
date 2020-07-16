@@ -24,7 +24,15 @@ Author: Michael Gasser <gasser@indiana.edu>
 
 import mt
 
-A = mt.align.Aligner('am', 'ti', datafiles=["0_4.tr", "2_4.tr", "3_4.tr"])
+A = mt.Aligner('am', 'ti', datafiles=["0_4.tr", "2_4.tr", "3_4.tr"])
+a = A.make_alignment(1)
+                 #, explicit=[0, 1, 3, -1, 6, 7, 8, -1, 9])
+b = A.make_alignment(0)
+                 # , explicit=[0, 1, 2, 3, 5, -1, -1])
+#B = mt.Aligner('ti', 'am', datafiles=["0_4.tr", "2_4.tr", "3_4.tr"])
+#c = mt.Alignment(B.data_indices[0], B.data[0], B, explicit=[0, 1, 2, 3, -1, 4])
+#B = mt.align.Aligner('am', 'ti', datafiles=["test1.tr"],
+#                     test=False, validate=False)
 
 # Test of new data format and Data.read()
 def get_data(vc=0):
