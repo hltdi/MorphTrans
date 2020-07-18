@@ -64,14 +64,16 @@ class Aligner:
         # Number of source and target characters
         self.ns = len(self.schars)
         self.nt = len(self.tchars)
-        # Character association probabilities
+        ## Trained parameters (saved with save(), loaded with load())
+        # Character connections probabilities
         self.probs = self.make_probs()
         self.init_probs()
-        self.tnorms = numpy.zeros(self.nt+1)
-        # History of sum of squares of changes in probs during M-step
-        self.changes = []
+        # Probabilities of deleting target characters
+        self.tdeltas = []
         # Justification/alignment parameters
         self.lambdas = self.make_ljust_probs()
+        # History of sum of squares of changes in probs during M-step
+        self.changes = []
         ## Variables depending on data
         # Subsets of data for training, test, validation
         # List of word pairs, consisting of character strings
@@ -84,10 +86,11 @@ class Aligner:
         self.test_indices = []
         self.validation = []
         self.validation_indices = []
-        # Other arrays that depend on data
+        ## Other arrays needed for training
+        self.tnorms = numpy.zeros(self.nt+1)
+        # Arrays that depend on data
         self.counts = []
         self.tchar_counts = []
-        self.tdeltas = []
         self.tdelt_counts = []
         self.ljustcounts = []
         self.rjustcounts = []
@@ -119,6 +122,7 @@ class Aligner:
             self.tdelt_counts = self.make_tdel_counts()
             # Number of target characters
             self.tchar_counts = self.make_tchar_counts()
+            # Probabilities of deleting target characters
             self.tdeltas = self.make_tdeltas()
             # Store combinations of target indices to avoid
             # repeating itertools.combinations()
@@ -190,62 +194,99 @@ class Aligner:
         (self.get_data_indices(training=training, test=test, validate=validate),
          self.get_data_chars(training=training, test=test, validate=validate))
 
-    ### Accessing characters, probabilities, indices
+    ### Accessing characters and character indices
 
     def get_schars(self, every=False):
+        """
+        All characters for source language.
+        """
         phones = Phone.PHONES.get(self.source)
         if every:
             return phones[0] + phones[1]
         return phones[0]
 
     def get_tchars(self, every=False):
+        """
+        All characters for target language.
+        """
         phones = Phone.PHONES.get(self.target)
         if every:
             return phones[0] + phones[1]
         return phones[0]
 
     def get_tchar_index(self, char, check=False):
+        """
+        Index associated with target character.
+        """
         if check:
             if char not in self.tchars:
                 return -1
         return self.tchars.index(char)
 
     def get_schar_index(self, char, check=False):
+        """
+        Index associated with source character.
+        """
         if check:
             if char not in self.schars:
                 return -1
         return self.schars.index(char)
 
     def get_schar(self, index):
+        """
+        Character associated with source character index.
+        """
         if index >= self.ns:
             return Aligner.NULL
         return self.schars[index]
 
     def get_tchar(self, index):
+        """
+        Character associated with target character index.
+        """
         if index >= self.nt:
             return Aligner.NULL
         return self.tchars[index]
 
+    ### Accessing parameter values
+
     def get_prob(self, sindex, tindex):
+        """
+        Connection probability for source character
+        with index sindex and target character with
+        index tindex.
+        """
         return self.probs[sindex][tindex]
 
     def get_schar_probs(self, char):
+        """
+        All connection probabilities associated with
+        source character char.
+        """
         charindex = self.get_schar_index(char)
         return self.probs[charindex]
 
     def get_tchar_probs(self, char):
+        """
+        All connection probability associated with
+        target character char.
+        """
         charindex = self.get_tchar_index(char)
         return self.probs[:,charindex]
 
     def get_char_prob(self, schar, tchar):
+        """
+        Connection probability for source character
+        schar and target character tchar.
+        """
         sindex = self.get_schar_index(schar)
         tindex = self.get_tchar_index(tchar)
         return self.get_prob(sindex, tindex)
 
     def get_target_probs(self, tword, sindex):
         """
-        Given a sindex, find the st probabilities of all characters
-        in tword, with NULL in last position.
+        Given a sindex, find the connection probabilities
+        of all characters in tword, with NULL in last position.
         """
         tprobs = [self.probs[sindex,tindex] for tindex in tword]
         tprobs += [self.probs[sindex,self.nt]]
@@ -259,47 +300,37 @@ class Aligner:
         tdeltas = [self.tdeltas[tindex] for tindex in tword]
         return numpy.array(tdeltas)
 
-    # def get_del_prob(self, sword, tword):
-    #     """
-    #     Get the probability that a character in source word will be
-    #     deleted (connected to the NULL character).
-    #     """
-    #     m = len(sword)
-    #     l = len(tword)
-    #     count = self.deltas[m-l]
-    #     return count / m
-
     def get_ljust_prob(self, sword, tword):
+        """
+        Left justification probability for source word
+        sword and target word tword (depending on length
+        difference).
+        """
         m = len(sword)
         l = len(tword)
         index = self.get_lendiff_index(m-l)
         return self.lambdas[index]
 
-    # def get_delta(self, lendiff):
-    #     index = self.get_lendiff_index(lendiff)
-    #     return self.deltas[index]
-
     def get_NULL_prob(self, si):
+        """
+        Probability that source character with index si
+        is deleted (not connected to any target character).
+        """
         return self.probs[si,self.nt]
 
     def get_lendiff(self, index):
-        """Return the len(s) - len(t) difference associated with the
-        count or parameter in the index position."""
+        """
+        The len(s) - len(t) difference associated with the
+        count or parameter in the index position.
+        """
         return Aligner.lendiff0 + index
 
     def get_lendiff_index(self, diff):
         """
-        Return the index associated with the len(s) - len(t) difference
+        The index associated with the len(s) - len(t) difference
         in the count or parameter table.
         """
         return diff - Aligner.lendiff0
-
-    # def get_wpair_lendiff(self, wpair):
-    #     """
-    #     Return the difference in lengths between the source and target
-    #     words in wpair.
-    #     """
-    #     return len(wpair[0]) - len(wpair[1])
 
     def wpair2indices(self, wpair):
         """
@@ -316,19 +347,20 @@ class Aligner:
         """
         return self.nt+1
 
-    ### Arrays and parameters
+    ### Parameters and other arrays.
 
     def make_probs(self):
         """
-        Make the 'st' table of probabilities: p(s|t) for s/t character
-        combinations. source is rows, target columns.
+        Make the table of character connection probabilities:
+        p(s|t) for s/t character combinations.
+        source is rows, target columns.
         """
         array = numpy.full((self.ns, self.targetN()), Aligner.otherprob)
         return array
 
     def init_probs(self):
         """
-        Initialize the probabilities in the table.
+        Initialize the connection probabilities in the table.
         """
         array = self.probs
         getrowchar = self.get_schar
@@ -367,15 +399,15 @@ class Aligner:
     def make_counts(self):
         """
         Make the 'st' table of normalized counts: c(s|t) for s/t character
-        combinations. source is rows, target columns.
+        connections. source is rows, target columns.
         """
         array = numpy.zeros((self.ns, self.targetN(), self.trainingN))
         return array
 
     def make_just_counts(self):
         """
-        Make the left- or right-justified table of normalized counts, one for each
-        combination of len(s) - len(t) distance."""
+        Make the left- or right-justified table of normalized counts,
+        one for each combination of len(s) - len(t) distance."""
         array = numpy.zeros((Aligner.nlendiffs))
         return array
 
@@ -390,36 +422,17 @@ class Aligner:
             array[index] += 1
         return array
 
-    # def make_deltas(self):
-    #     """
-    #     Make the parameters governing how many characters in a source
-    #     sentence will be deleted (connected to the NULL character), given
-    #     different differences between source and target word lengths.
-    #     The numbers represent additional deleted characters beyond what
-    #     must be the case because of the diffence in word lengths.
-    #     """
-    #     return numpy.array(
-    #     [0.0, 0.0, 0.01, 0.05, 0.5, 0.0, 0.3, 0.5, 0.7, 1.0, 1.3,
-    #      1.5, 2.0, 2.3, 2.5, 3.0, 4.3]
-    #      )
-
-    # def make_del_counts(self):
-    #     """
-    #     Initialize the array where expected counts of deleted characters
-    #     are stored for each len(s) - len(t) difference.
-    #     """
-    #     array = numpy.zeros((Aligner.nlendiffs))
-    #     return array
-
     def make_tdeltas(self):
         """
         Make the parameters governing whether characters in a
-        target word will be deleted.
+        target word will be deleted (not connected to any
+        source character).
         """
-        # array = numpy.full((self.nt), 0.1)
         array = numpy.zeros((self.nt))
         for tindex in range(self.nt):
             if self.tchar_counts[tindex] > 0:
+                # we only need values for target characters
+                # that actually occur in the dataset
                 array[tindex] = 0.1
         return array
 
@@ -435,7 +448,7 @@ class Aligner:
     def make_tchar_counts(self):
         """
         Count the number of times each target character
-        occurs in the training set.
+        occurs in the dataset.
         """
         occs = []
         for index in range(self.nt):
@@ -465,15 +478,13 @@ class Aligner:
         """
         self.lambdas[:] = 0.5
 
-    # def init_deltas(self):
-    #     """
-    #     Initialize the deltas (character deletion parameters).
-    #     """
-    #     self.deltas = self.make_deltas()
-
     ### EM
 
     def EM(self, iter_cutoff=10, error_cutoff=-10.0, verbosity=0):
+        """
+        Run the EM algorithm for up to iter_cutoff iterations
+        or up to a RMS error of error_cutoff.
+        """
         iteration = 0
         changes = 1.0
         while iteration < iter_cutoff and changes > error_cutoff:
@@ -500,8 +511,8 @@ class Aligner:
 
     def e_init(self):
         """
-        Do whatever initialization is required before the E-step on each
-        EM iteration.
+        Do whatever initialization is required before the E-step
+        on each EM iteration.
         """
         # Reset ljust and rjust counts to 0
         self.ljustcounts[:] = 0.0
@@ -756,20 +767,6 @@ class Aligner:
                     print("  New tdelt for {}: {}".format(tindex, norm))
                 self.tdeltas[tindex] = norm
 
-    #     for lendiffi in range(Aligner.nlendiffs):
-    #         # length difference for this parameter
-    #         lendiff = self.get_lendiff(lendiffi)
-    #         # required deletions
-    #         baseline = max([0, lendiff])
-    #         # total estimated deletions for this length difference
-    #         count = self.delcounts[lendiffi]
-    #         # number of word pairs with this length difference
-    #         nwpairs = self.diffcounts[lendiff]
-    #         # estimated deletions per word pair
-    #         deletions = count / nwpairs
-    #         # number of extra deletions (greater than length difference)
-    #         deletions = deletions - baseline
-
     ### Relative positions within source and target Words
 
     # @staticmethod
@@ -882,21 +879,21 @@ class Aligner:
                   evaluate=lambda s: s.cost + s.distance)
         return searcher
 
-    @staticmethod
-    def argmaxes(array):
-        """
-        Utility function. Like argmax except that it returns a list of
-        positions in case there's a tie.
-        """
-        indices = [0]
-        maximum = array[0]
-        for i, a in enumerate(array[1:]):
-            if a > maximum:
-                maximum = a
-                indices = [i+1]
-            elif a == maximum:
-                indices.append(i+1)
-        return indices
+    # @staticmethod
+    # def argmaxes(array):
+    #     """
+    #     Utility function. Like argmax except that it returns a list of
+    #     positions in case there's a tie.
+    #     """
+    #     indices = [0]
+    #     maximum = array[0]
+    #     for i, a in enumerate(array[1:]):
+    #         if a > maximum:
+    #             maximum = a
+    #             indices = [i+1]
+    #         elif a == maximum:
+    #             indices.append(i+1)
+    #     return indices
 
 #     def find_best_alignment(self, wpair):
 #         sword, tword = wpair
@@ -941,7 +938,8 @@ class Aligner:
 class Alignment(list):
     """
     Alignment between a source word and its translation in
-    one target language.
+    one target language, implemented as a subclass of list,
+    with indices into positions in the target word as list elements.
     """
 
     beam = 2
@@ -950,21 +948,27 @@ class Alignment(list):
 
     def __init__(self, wpair, wpair_chars, aligner,
                  cost=0, distance=0, explicit=None):
+        # explicit is one or more target positions specified
+        # at initialization
         if explicit:
             list.__init__(self, explicit)
         else:
             list.__init__(self)
+        # source and target words as lists of integers
         self.sword = wpair[0]
         self.tword = wpair[1]
+        # lengths of source and target words
         self.slength = len(self.sword)
         self.tlength = len(self.tword)
-        # We need this because it's got all of the parameters
-        # and characters
+        # associated Aligner instance; neede because it's got all
+        # of the parameters and characters
         self.aligner = aligner
+        # source and target words as lists of character strings
         self.schars = wpair_chars[0]
         self.tchars = wpair_chars[1]
-        # Accumulated evaluation
+        # accumulated evaluation
         self.cost = cost
+        # number of source characters left to align
         self.distance = distance or len(self.sword)
 
     def __repr__(self):
@@ -976,18 +980,32 @@ class Alignment(list):
     ### Access
 
     def swi(self, index):
+        """The source word index associated with position index."""
         return self.sword[index]
 
     def twi(self, index):
+        """
+        The target word index associated with position index,
+        via this alignment.
+        """
         return self.tword[index]
 
     def schar(self, index):
+        """The source word character associated with position index."""
         return self.schars[index]
 
     def tchar(self, index):
+        """
+        The target word character associated with position index,
+        via this alignment.
+        """
         return self.tchars[index]
 
     def last_nondel(self):
+        """
+        The last non-deleted aligned position,
+        -1 if there are none.
+        """
         nondel = [p for p in self if not self.deleted(p)]
         if nondel:
             return nondel[-1]
@@ -996,16 +1014,16 @@ class Alignment(list):
 
     ### Extending: creating new search states
 
-    def copy(self):
+    def copy(self, newcost=0):
         """
         Return a copy of the Alignment with the same
-        word pair and indices.
+        word pair and indices, cost, and distance.
         """
         return Alignment((self.sword, self.tword),
                          (self.schars, self.tchars),
                          self.aligner,
                          explicit=self[:],
-                         cost=self.cost,
+                         cost=self.cost + newcost,
                          distance=self.distance)
 
     def update(self, tpos):
@@ -1017,9 +1035,17 @@ class Alignment(list):
         self.distance -= 1
 
     def deleted(self, position):
+        """
+        Is the character in this source word position
+        deleted (not connected to any target word character?
+        """
         return position < 0
 
     def complete(self):
+        """
+        Is the alignment complete? Does it have a connection
+        or deletion for every character?
+        """
         return len(self) == self.slength
 
     # def add_delete(self):
@@ -1035,20 +1061,41 @@ class Alignment(list):
         return self.sword[len(self)]
 
     def extend(self):
+        """
+        Create new alignments starting with the current one
+        by trying different connections for the next character
+        and deletion of the next character.
+        This will produce a maximum of Alignment.beam + 1
+        new alignments.
+        """
         if self.complete():
+            # impossible to extend a complete state
             return
         alignments = []
         # make new alignments of the current source position
-        # with the next beam positions
+        # with the next beam positions, starting at the
+        # last target position connected to a source character
         if len(self) == 0 or all([self.deleted(p) for p in self]):
             last_tpos = -1
         else:
             last_tpos = self.last_nondel()
 #            last_tpos = self[-1]
+        # start connecting here
         tpos = last_tpos + 1
+        # number of target positions tried
         beam = 0
+        # cost to add to new alignment because of deleted target character
+        newcost = 0
         while tpos < self.tlength and beam < Alignment.beam:
-            new_alignment = self.copy()
+            if beam:
+                # a target position has been skipped, so
+                # add the cost of deleting the last character
+                tdel_cost = self.tdel_cost(tpos-1) or 1.0e-20
+#                tc = self.aligner.get_tchar(self.twi(tpos-1))
+#                print("tdel cost for {} {}".format(tc, tdel_cost))
+                newcost -= numpy.log(tdel_cost)
+            # make a new connection alignment
+            new_alignment = self.copy(newcost=newcost)
             new_alignment.update(tpos)
             alignments.append(new_alignment)
             tpos += 1
@@ -1096,6 +1143,14 @@ class Alignment(list):
         """
         index = len(self) - 1
         self.cost -= numpy.log(self.prob1(index))
+
+    def tdel_cost(self, tpos):
+        """
+        Get the cost (neg log of) the probability of
+        deleting the target character at position tpos.
+        """
+        twi = self.twi(tpos)
+        return self.aligner.tdeltas[twi]
 
     def distance(self):
         """

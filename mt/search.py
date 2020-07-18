@@ -24,43 +24,55 @@ Author: Michael Gasser <gasser@indiana.edu>
 
 import queue
 
-class State:
-
-    def __init__(self, obj=0, parent=None, cost=0):
-        self.parent = parent
-        self.cost = cost
-        self.obj = obj
-
-    def __repr__(self):
-        return "{}:{}".format(self.position, self.cost)
+# class State:
+#
+#     def __init__(self, obj=0, parent=None, cost=0):
+#         self.parent = parent
+#         self.cost = cost
+#         self.obj = obj
+#
+#     def __repr__(self):
+#         return "{}:{}".format(self.position, self.cost)
 
 class Searcher:
+    """
+    Simple unconstrained search using the queue module.
+    """
 
     def __init__(self, name='', goal_test=None,
                  extend=None, make_start=None):
         self.name = name
+        # Function taking a state testing whether it's a goal state
         self.goal_test = goal_test
+        # Function tatking a state returning a list of new new states
+        # reached from it
         self.extend = extend
+        # Function of no arguments creating the start state
         self.make_start = make_start
+        # Queue of states
         self.queue = self.make_queue()
 
-    def start(self):
-        start_state = State()
-        self.queue.append(start_state)
-
     def make_queue(self):
+        """Create the queue."""
         return queue.SimpleQueue()
 
     def empty_queue(self):
+        """Is the queue empty?"""
         return not self.queue
 
     def add_state(self, state):
+        """Add a new state to the queue."""
         self.queue.put(state)
 
     def qsize(self):
-        return len(self.queue)
+        """Number of states in the queue."""
+        return self.queue.qsize()
 
-    def run(self, cutoff=50 ):
+    def run(self, cutoff=50):
+        """
+        Run search, stopping after cutoff iterations if no goal
+        is found.
+        """
         # Create start state
         self.add_state(self.make_start())
         iter = 0
@@ -71,6 +83,10 @@ class Searcher:
             iter += 1
 
     def expand(self):
+        """
+        Expand the queue by taking a state from it and replacing
+        it with new states reached by extending that state.
+        """
         if self.empty_queue():
             print("No more states")
             return False
@@ -85,6 +101,10 @@ class Searcher:
         return False
 
 class BestFirst(Searcher):
+    """
+    Best first search using queue.PriorityQueue to rank
+    states in the queue by their values.
+    """
 
     def __init__(self, name='', goal_test=None, make_start=None,
                  extend=None, evaluate=None):
@@ -96,26 +116,35 @@ class BestFirst(Searcher):
         return "BFS:{}".format(self.name)
 
     def make_queue(self):
+        """Create a PriorityQueue."""
         return queue.PriorityQueue()
 
-    def empty_queue(self):
-        return self.queue.empty()
-
-    def qsize(self):
-        return self.queue.qsize()
-
     def add_state(self, state):
+        """
+        Add a state to the queue, along with its
+        value (cost+distance to goal); low values go to the front.
+        """
         self.queue.put((self.evaluate(state), state))
 
-    def expand(self):
+    def expand(self, verbosity=1):
+        """
+        Expand the queue by removing the first (current best)
+        state and replacing it in the queue by the states
+        reached by extending it.
+        """
         if self.empty_queue():
-            print("No more states")
+            if verbosity:
+                print("No more states")
             return False
+        if verbosity:
+            print("Queue length {}".format(self.qsize()))
         # This line is different from Searcher
         next_value, next_state = self.queue.get()
-        print(" Next state\n{}\n VALUE {}".format(next_state, next_value))
+        if verbosity:
+            print(" Next state\n{}\n VALUE {}".format(next_state, next_value))
         if self.goal_test(next_state):
-            print(" Goal state")
+            if verbosity:
+                print(" Goal state")
             return True
         new_states = self.extend(next_state)
         for ns in new_states:
