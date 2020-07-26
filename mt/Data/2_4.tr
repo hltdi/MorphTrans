@@ -481,12 +481,12 @@ yem:t:kebru # kbr|A;የም፟ት፟ከብሩ
 letkebre # kbr|A;ለትከብረ
 tkebrma # kbr|A;ትከብርማ
 ## ;prf,1s,0o,neg,main
-'ayHeferkun # Hfr|A;ኣይሐፈርኩን
+'ayHaferkun # Hfr|A;ኣይሓፈርኩን
 'alaf:erkum # 'fr|A;አላፈ፟ርኩም
 'iHeferko # Hfr|A;ኢሐፈርኮ
 'aleferkW # hfr|A;አለፈርኵ
 ## ;prf,1s,0o,neg,rel
-zeyHeferku # Hfr|A;ዘይሐፈርኩ
+zeyHaferku # Hfr|A;ዘይሓፈርኩ
 yalaf:erku # 'fr|A;ያላፈ፟ርኩ
 le'iHeferko # Hfr|A;ለኢሐፈርኮ
 yaleferkW # hfr|A;ያለፈርኵ
@@ -496,17 +496,17 @@ Haferku # Hfr|A;ሓፈርኩ
 Heferko # Hfr|A;ሐፈርኮ
 'af:erki # hfr|A;አፈ፟ርኪ
 ## ;prf,1s,0o,aff,rel
-zHeferku # Hfr|A;ዝሐፈርኩ
+zHaferku # Hfr|A;ዝሓፈርኩ
 yaf:erku # 'fr|A;ያፈ፟ርኩ
 leHeferko # Hfr|A;ለሐፈርኮ
 yaf:erkW # hfr|A;ያፈ፟ርኵ
 ## ;prf,3sm,0o,neg,main
-'ayHeferen # Hfr|A;ኣይሐፈረን
+'ayHaferen # Hfr|A;ኣይሓፈረን
 'alaf:erem # 'fr|A;አላፈ፟ረም
 'iHefre # Hfr|A;ኢሐፍረ
 'alefere # hfr|A;አለፈረ
 ## ;prf,3sm,0o,neg,rel
-zeyHefere # Hfr|A;ዘይሐፈረ
+zeyHafere # Hfr|A;ዘይሓፈረ
 yalaf:ere # 'fr|A;ያላፈ፟ረ
 le'iHefre # Hfr|A;ለኢሐፍረ
 yalefere # hfr|A;ያለፈረ
@@ -516,17 +516,17 @@ Hafere # Hfr|A;ሓፈረ
 Hefre # Hfr|A;ሐፍረ
 'af:ero # hfr|A;አፈ፟ሮ
 ## ;prf,3sm,0o,aff,rel
-zHefere # Hfr|A;ዝሐፈረ
+zHafere # Hfr|A;ዝሓፈረ
 yaf:ere # 'fr|A;ያፈ፟ረ
 leHefre # Hfr|A;ለሐፍረ
 yaf:ere # hfr|A;ያፈ፟ረ
 ## ;prf,2pf,0o,neg,main
-'ayHeferknn # Hfr|A;ኣይሐፈርክንን
+'ayHaferknn # Hfr|A;ኣይሓፈርክንን
 'alaf:erac:hum # 'fr|A;አላፈ፟ራች፟ሁም
 'iHeferkn # Hfr|A;ኢሐፈርክን
 'aleferkma # hfr|A;አለፈርክማ
 ## ;prf,2pf,0o,neg,rel
-zeyHeferkn # Hfr|A;ዘይሐፈርክን
+zeyHaferkn # Hfr|A;ዘይሓፈርክን
 yalaf:erac:hu # 'fr|A;ያላፈ፟ራች፟ሁ
 le'iHeferkn # Hfr|A;ለኢሐፈርክን
 yaleferkma # hfr|A;ያለፈርክማ
@@ -536,67 +536,67 @@ Haferkn # Hfr|A;ሓፈርክን
 Heferkn # Hfr|A;ሐፈርክን
 'af:erkman # hfr|A;አፈ፟ርክማን
 ## ;prf,2pf,0o,aff,rel
-zHeferkn # Hfr|A;ዝሐፈርክን
+zHaferkn # Hfr|A;ዝሓፈርክን
 yaf:erac:hu # 'fr|A;ያፈ፟ራች፟ሁ
 leHeferkn # Hfr|A;ለሐፈርክን
 yaf:erkma # hfr|A;ያፈ፟ርክማ
 ## ;imf,1s,0o,neg,main
-'ayHef:rn # Hfr|A;ኣይሐፍ፟ርን
+'ayHaf:rn # Hfr|A;ኣይሓፍ፟ርን
 'alafrm # 'fr|A;አላፍርም
 'iHef:r # Hfr|A;ኢሐፍ፟ር
 tafr # hfr|A;ታፍር
 ## ;imf,1s,0o,neg,rel
-zeyHef:r # Hfr|A;ዘይሐፍ፟ር
+zeyHaf:r # Hfr|A;ዘይሓፍ፟ር
 yem:alafr # 'fr|A;የማ፟ላፍር
 le'iHef:r # Hfr|A;ለኢሐፍ፟ር
 'an:afr # hfr|A;አና፟ፍር
 ## ;imf,1s,0o,aff,main
-'Hef:r # Hfr|A;እሐፍ፟ር
+'Haf:r # Hfr|A;እሓፍ፟ር
 'afral:ehu # 'fr|A;አፍራለ፟ሁ
 Hef:r # Hfr|A;ሐፍ፟ር
 'afru # hfr|A;አፍሩ
 ## ;imf,1s,0o,aff,rel
-zHef:r # Hfr|A;ዝሐፍ፟ር
+zHaf:r # Hfr|A;ዝሓፍ፟ር
 yem:afr # 'fr|A;የማ፟ፍር
 leHef:r # Hfr|A;ለሐፍ፟ር
 'afr # hfr|A;አፍር
 ## ;imf,3sm,0o,neg,main
-'ay:Hef:rn # Hfr|A;ኣይ፟ሐፍ፟ርን
+'ay:Haf:rn # Hfr|A;ኣይ፟ሓፍ፟ርን
 'ayafrm # 'fr|A;አያፍርም
 'ilHef:r # Hfr|A;ኢልሐፍ፟ር
 tiyafr # hfr|A;ቲያፍር
 ## ;imf,3sm,0o,neg,rel
-zey:Hef:r # Hfr|A;ዘይ፟ሐፍ፟ር
+zey:Haf:r # Hfr|A;ዘይ፟ሓፍ፟ር
 yem:ayafr # 'fr|A;የማ፟ያፍር
 le'ilHef:r # Hfr|A;ለኢልሐፍ፟ር
 'ayafr # hfr|A;አያፍር
 ## ;imf,3sm,0o,aff,main
-yHef:r # Hfr|A;ይሐፍ፟ር
+yHaf:r # Hfr|A;ይሓፍ፟ር
 yafral # 'fr|A;ያፍራል
 leHef:r # Hfr|A;ለሐፍ፟ር
 yafru # hfr|A;ያፍሩ
 ## ;imf,3sm,0o,aff,rel
-ziHef:r # Hfr|A;ዚሐፍ፟ር
+ziHaf:r # Hfr|A;ዚሓፍ፟ር
 yem:iyafr # 'fr|A;የሚ፟ያፍር
 lelHef:r # Hfr|A;ለልሐፍ፟ር
 yafr # hfr|A;ያፍር
 ## ;imf,2pf,0o,neg,main
-'aytHefran # Hfr|A;ኣይትሐፍራን
+'aytHafran # Hfr|A;ኣይትሓፍራን
 'at:afrum # 'fr|A;አታ፟ፍሩም
 'itHefre # Hfr|A;ኢትሐፍረ
 tt:afrma # hfr|A;ትታ፟ፍርማ
 ## ;imf,2pf,0o,neg,rel
-zeytHefra # Hfr|A;ዘይትሐፍራ
+zeytHafra # Hfr|A;ዘይትሓፍራ
 yem:at:afru # 'fr|A;የማ፟ታ፟ፍሩ
 le'itHefre # Hfr|A;ለኢትሐፍረ
 'at:afrma # hfr|A;አታ፟ፍርማ
 ## ;imf,2pf,0o,aff,main
-tHefra # Hfr|A;ትሐፍራ
+tHafra # Hfr|A;ትሓፍራ
 tafral:ac:hu # 'fr|A;ታፍራላ፟ች፟ሁ
 teHefre # Hfr|A;ተሐፍረ
 tafrman # hfr|A;ታፍርማን
 ## ;imf,2pf,0o,aff,rel
-zt:Hefra # Hfr|A;ዝት፟ሐፍራ
+zt:Hafra # Hfr|A;ዝት፟ሓፍራ
 yem:t:afru # 'fr|A;የም፟ታ፟ፍሩ
 letHefre # Hfr|A;ለትሐፍረ
 tafrma # hfr|A;ታፍርማ
@@ -1921,62 +1921,62 @@ yem:t:s:ed:edu # sdd|A;የም፟ት፟ሰ፟ደ፟ዱ
 lettsed:ede # sdd|A;ለትትሰደ፟ደ
 ttsed:edma # sdd|A;ትትሰደ፟ድማ
 ## ps;prf,1s,0o,neg,main
-'ayteHeSebkun # HSb|A;ኣይተሐጸብኩን
+'ayteHaSebkun # HSb|A;ኣይተሓጸብኩን
 'altaT:ebkum # 'Tb|A;አልታጠ፟ብኩም
 'itHeS:ebko # HSb|A;ኢትሐጸ፟ብኮ
 'alteT:ebkW # hTb|A;አልተጠ፟ብኵ
 ## ps;prf,1s,0o,neg,rel
-zeyteHeSebku # HSb|A;ዘይተሐጸብኩ
+zeyteHaSebku # HSb|A;ዘይተሓጸብኩ
 yaltaT:ebku # 'Tb|A;ያልታጠ፟ብኩ
 le'itHeS:ebko # HSb|A;ለኢትሐጸ፟ብኮ
 yalteT:ebkW # hTb|A;ያልተጠ፟ብኵ
 ## ps;prf,1s,0o,aff,main
-teHeSebku # HSb|A;ተሐጸብኩ
+teHaSebku # HSb|A;ተሓጸብኩ
 taT:ebku # 'Tb|A;ታጠ፟ብኩ
 teHeS:ebko # HSb|A;ተሐጸ፟ብኮ
 taT:ebki # hTb|A;ታጠ፟ብኪ
 ## ps;prf,1s,0o,aff,rel
-zt:eHeSebku # HSb|A;ዝተ፟ሐጸብኩ
+zt:eHaSebku # HSb|A;ዝተ፟ሓጸብኩ
 yetaT:ebku # 'Tb|A;የታጠ፟ብኩ
 letHeS:ebko # HSb|A;ለትሐጸ፟ብኮ
 yetaT:ebkW # hTb|A;የታጠ፟ብኵ
 ## ps;prf,3sm,0o,neg,main
-'ayteHeSben # HSb|A;ኣይተሐጽበን
+'ayteHaSben # HSb|A;ኣይተሓጽበን
 'altaT:ebem # 'Tb|A;አልታጠ፟በም
 'itHeS:ebe # HSb|A;ኢትሐጸ፟በ
 'alteT:ebe # hTb|A;አልተጠ፟በ
 ## ps;prf,3sm,0o,neg,rel
-zeyteHeSbe # HSb|A;ዘይተሐጽበ
+zeyteHaSbe # HSb|A;ዘይተሓጽበ
 yaltaT:ebe # 'Tb|A;ያልታጠ፟በ
 le'itHeS:ebe # HSb|A;ለኢትሐጸ፟በ
 yalteT:ebe # hTb|A;ያልተጠ፟በ
 ## ps;prf,3sm,0o,aff,main
-teHeSbe # HSb|A;ተሐጽበ
+teHaSbe # HSb|A;ተሓጽበ
 taT:ebe # 'Tb|A;ታጠ፟በ
 teHeS:ebe # HSb|A;ተሐጸ፟በ
 taT:ebo # hTb|A;ታጠ፟ቦ
 ## ps;prf,3sm,0o,aff,rel
-zt:eHeSbe # HSb|A;ዝተ፟ሐጽበ
+zt:eHaSbe # HSb|A;ዝተ፟ሓጽበ
 yetaT:ebe # 'Tb|A;የታጠ፟በ
 letHeS:ebe # HSb|A;ለትሐጸ፟በ
 yetaT:ebe # hTb|A;የታጠ፟በ
 ## ps;prf,2pf,0o,neg,main
-'ayteHeSebknn # HSb|A;ኣይተሐጸብክንን
+'ayteHaSebknn # HSb|A;ኣይተሓጸብክንን
 'altaT:ebac:hum # 'Tb|A;አልታጠ፟ባች፟ሁም
 'itHeS:ebkn # HSb|A;ኢትሐጸ፟ብክን
 'alteT:ebkma # hTb|A;አልተጠ፟ብክማ
 ## ps;prf,2pf,0o,neg,rel
-zeyteHeSebkn # HSb|A;ዘይተሐጸብክን
+zeyteHaSebkn # HSb|A;ዘይተሓጸብክን
 yaltaT:ebac:hu # 'Tb|A;ያልታጠ፟ባች፟ሁ
 le'itHeS:ebkn # HSb|A;ለኢትሐጸ፟ብክን
 yalteT:ebkma # hTb|A;ያልተጠ፟ብክማ
 ## ps;prf,2pf,0o,aff,main
-teHeSebkn # HSb|A;ተሐጸብክን
+teHaSebkn # HSb|A;ተሓጸብክን
 taT:ebac:hu # 'Tb|A;ታጠ፟ባች፟ሁ
 teHeS:ebkn # HSb|A;ተሐጸ፟ብክን
 taT:ebkman # hTb|A;ታጠ፟ብክማን
 ## ps;prf,2pf,0o,aff,rel
-zt:eHeSebkn # HSb|A;ዝተ፟ሐጸብክን
+zt:eHaSebkn # HSb|A;ዝተ፟ሓጸብክን
 yetaT:ebac:hu # 'Tb|A;የታጠ፟ባች፟ሁ
 letHeS:ebkn # HSb|A;ለትሐጸ፟ብክን
 yetaT:ebkma # hTb|A;የታጠ፟ብክማ

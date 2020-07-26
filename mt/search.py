@@ -39,6 +39,8 @@ class Searcher:
     Simple unconstrained search using the queue module.
     """
 
+    cutoff = 100
+
     def __init__(self, name='', goal_test=None,
                  extend=None, make_start=None):
         self.name = name
@@ -68,33 +70,40 @@ class Searcher:
         """Number of states in the queue."""
         return self.queue.qsize()
 
-    def run(self, cutoff=50):
+    def run(self, cutoff=0, verbosity=0):
         """
         Run search, stopping after cutoff iterations if no goal
         is found.
         """
+        cutoff = cutoff or Searcher.cutoff
         # Create start state
         self.add_state(self.make_start())
         iter = 0
         success = False
-        while (not success and iter < 100 and not self.empty_queue()):
-            print("Iteration {}".format(iter))
-            success = self.expand()
+        while (not success and iter < cutoff and not self.empty_queue()):
+            if verbosity:
+                print("Iteration {}".format(iter))
+            success = self.expand(verbosity=verbosity)
             iter += 1
+        # Final (goal) state
+        return success
 
-    def expand(self):
+    def expand(self, verbosity=0):
         """
         Expand the queue by taking a state from it and replacing
         it with new states reached by extending that state.
         """
         if self.empty_queue():
-            print("No more states")
+            if verbosity:
+                print("No more states")
             return False
         next_state = self.queue.get()
-        print(" Next {}".format(next_state))
+        if verbosity:
+            print(" Next {}".format(next_state))
         if self.goal_test(next_state):
-            print("goal state")
-            return True
+            if verbosity:
+                print("goal state")
+            return next_state
         new_states = self.extend(next_state)
         for ns in new_states:
             self.add_state(ns)
@@ -126,7 +135,7 @@ class BestFirst(Searcher):
         """
         self.queue.put((self.evaluate(state), state))
 
-    def expand(self, verbosity=1):
+    def expand(self, verbosity=0):
         """
         Expand the queue by removing the first (current best)
         state and replacing it in the queue by the states
@@ -145,7 +154,7 @@ class BestFirst(Searcher):
         if self.goal_test(next_state):
             if verbosity:
                 print(" Goal state")
-            return True
+            return next_value, next_state
         new_states = self.extend(next_state)
         for ns in new_states:
 #            print(" Adding new state\n{}".format(ns))

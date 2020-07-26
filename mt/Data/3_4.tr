@@ -3841,12 +3841,12 @@ yem:t:ksWat # k's|A;የም፟ት፟ክሷት
 letkHsehe # kHs|A;ለትክሕሰኀ
 tkesman:a # khs|A;ትከስማና፟
 ## ;prf,1s,3smo,neg,main
-'ayHereskuw:on # Hrs|A;ኣይሐረስኩዎ፟ን
+'ayHareskuw:on # Hrs|A;ኣይሓረስኩዎ፟ን
 'alar:eskutm # 'rs|A;አላረ፟ስኩትም
 'iHereskwo # Hrs|A;ኢሐረስክዎ
 'alereskun: # hrs|A;አለረስኩን፟
 ## ;prf,1s,3smo,neg,rel
-zeyHereskuw:o # Hrs|A;ዘይሐረስኩዎ፟
+zeyHareskuw:o # Hrs|A;ዘይሓረስኩዎ፟
 yalar:eskut # 'rs|A;ያላረ፟ስኩት
 le'iHereskwo # Hrs|A;ለኢሐረስክዎ
 yalereskun: # hrs|A;ያለረስኩን፟
@@ -3856,17 +3856,17 @@ Hareskuw:o # Hrs|A;ሓረስኩዎ፟
 Hereskwo # Hrs|A;ሐረስክዎ
 'ar:eskun:t # hrs|A;አረ፟ስኩን፟ት
 ## ;prf,1s,3smo,aff,rel
-zHereskuw:o # Hrs|A;ዝሐረስኩዎ፟
+zHareskuw:o # Hrs|A;ዝሓረስኩዎ፟
 yar:eskut # 'rs|A;ያረ፟ስኩት
 leHereskwo # Hrs|A;ለሐረስክዎ
 yar:eskun: # hrs|A;ያረ፟ስኩን፟
 ## ;prf,1s,3sfo,neg,main
-'ayHereskuw:an # Hrs|A;ኣይሐረስኩዋ፟ን
+'ayHareskuw:an # Hrs|A;ኣይሓረስኩዋ፟ን
 'alar:eskWatm # 'rs|A;አላረ፟ስኳትም
 'iHereskwe # Hrs|A;ኢሐረስክወ
 'alereskun:a # hrs|A;አለረስኩና፟
 ## ;prf,1s,3sfo,neg,rel
-zeyHereskuw:a # Hrs|A;ዘይሐረስኩዋ፟
+zeyHareskuw:a # Hrs|A;ዘይሓረስኩዋ፟
 yalar:eskWat # 'rs|A;ያላረ፟ስኳት
 le'iHereskwe # Hrs|A;ለኢሐረስክወ
 yalereskun:a # hrs|A;ያለረስኩና፟
@@ -3876,17 +3876,17 @@ Hareskuw:a # Hrs|A;ሓረስኩዋ፟
 Hereskwe # Hrs|A;ሐረስክወ
 'ar:eskun:at # hrs|A;አረ፟ስኩና፟ት
 ## ;prf,1s,3sfo,aff,rel
-zHereskuw:a # Hrs|A;ዝሐረስኩዋ፟
+zHareskuw:a # Hrs|A;ዝሓረስኩዋ፟
 yar:eskWat # 'rs|A;ያረ፟ስኳት
 leHereskwe # Hrs|A;ለሐረስክወ
 yar:eskun:a # hrs|A;ያረ፟ስኩና፟
 ## ;prf,3sm,3smo,neg,main
-'ayHereson # Hrs|A;ኣይሐረሶን
+'ayHareson # Hrs|A;ኣይሓረሶን
 'alar:esewm # 'rs|A;አላረ፟ሰውም
 'iHerseyu # Hrs|A;ኢሐርሰዩ
 'aleresen: # hrs|A;አለረሰን፟
 ## ;prf,3sm,3smo,neg,rel
-zeyHereso # Hrs|A;ዘይሐረሶ
+zeyHareso # Hrs|A;ዘይሓረሶ
 yalar:esew # 'rs|A;ያላረ፟ሰው
 le'iHerseyu # Hrs|A;ለኢሐርሰዩ
 yaleresen: # hrs|A;ያለረሰን፟
@@ -3896,17 +3896,17 @@ Hareso # Hrs|A;ሓረሶ
 Herseyu # Hrs|A;ሐርሰዩ
 'ar:esen:t # hrs|A;አረ፟ሰን፟ት
 ## ;prf,3sm,3smo,aff,rel
-zHereso # Hrs|A;ዝሐረሶ
+zHareso # Hrs|A;ዝሓረሶ
 yar:esew # 'rs|A;ያረ፟ሰው
 leHerseyu # Hrs|A;ለሐርሰዩ
 yar:esen: # hrs|A;ያረ፟ሰን፟
 ## ;prf,3sm,3sfo,neg,main
-'ayHeresan # Hrs|A;ኣይሐረሳን
+'ayHaresan # Hrs|A;ኣይሓረሳን
 'alar:esatm # 'rs|A;አላረ፟ሳትም
 'iHerseye # Hrs|A;ኢሐርሰየ
 'aleresen:a # hrs|A;አለረሰና፟
 ## ;prf,3sm,3sfo,neg,rel
-zeyHeresa # Hrs|A;ዘይሐረሳ
+zeyHaresa # Hrs|A;ዘይሓረሳ
 yalar:esat # 'rs|A;ያላረ፟ሳት
 le'iHerseye # Hrs|A;ለኢሐርሰየ
 yaleresen:a # hrs|A;ያለረሰና፟
@@ -3916,17 +3916,17 @@ Haresa # Hrs|A;ሓረሳ
 Herseye # Hrs|A;ሐርሰየ
 'ar:esen:at # hrs|A;አረ፟ሰና፟ት
 ## ;prf,3sm,3sfo,aff,rel
-zHeresa # Hrs|A;ዝሐረሳ
+zHaresa # Hrs|A;ዝሓረሳ
 yar:esat # 'rs|A;ያረ፟ሳት
 leHerseye # Hrs|A;ለሐርሰየ
 yar:esen:a # hrs|A;ያረ፟ሰና፟
 ## ;prf,2pf,3smo,neg,main
-'ayHereskn'on # Hrs|A;ኣይሐረስክንኦን
+'ayHareskn'on # Hrs|A;ኣይሓረስክንኦን
 'alar:esac:hutm # 'rs|A;አላረ፟ሳች፟ሁትም
 'iHeresknehu # Hrs|A;ኢሐረስክነኁ
 'alereskman: # hrs|A;አለረስክማን፟
 ## ;prf,2pf,3smo,neg,rel
-zeyHereskn'o # Hrs|A;ዘይሐረስክንኦ
+zeyHareskn'o # Hrs|A;ዘይሓረስክንኦ
 yalar:esac:hut # 'rs|A;ያላረ፟ሳች፟ሁት
 le'iHeresknehu # Hrs|A;ለኢሐረስክነኁ
 yalereskman: # hrs|A;ያለረስክማን፟
@@ -3936,17 +3936,17 @@ Hareskn'o # Hrs|A;ሓረስክንኦ
 Heresknehu # Hrs|A;ሐረስክነኁ
 'ar:eskman:t # hrs|A;አረ፟ስክማን፟ት
 ## ;prf,2pf,3smo,aff,rel
-zHereskn'o # Hrs|A;ዝሐረስክንኦ
+zHareskn'o # Hrs|A;ዝሓረስክንኦ
 yar:esac:hut # 'rs|A;ያረ፟ሳች፟ሁት
 leHeresknehu # Hrs|A;ለሐረስክነኁ
 yar:eskman: # hrs|A;ያረ፟ስክማን፟
 ## ;prf,2pf,3sfo,neg,main
-'ayHereskn'an # Hrs|A;ኣይሐረስክንኣን
+'ayHareskn'an # Hrs|A;ኣይሓረስክንኣን
 'alar:esac:hWatm # 'rs|A;አላረ፟ሳች፟ኋትም
 'iHeresknehe # Hrs|A;ኢሐረስክነኀ
 'alereskman:a # hrs|A;አለረስክማና፟
 ## ;prf,2pf,3sfo,neg,rel
-zeyHereskn'a # Hrs|A;ዘይሐረስክንኣ
+zeyHareskn'a # Hrs|A;ዘይሓረስክንኣ
 yalar:esac:hWat # 'rs|A;ያላረ፟ሳች፟ኋት
 le'iHeresknehe # Hrs|A;ለኢሐረስክነኀ
 yalereskman:a # hrs|A;ያለረስክማና፟
@@ -3956,127 +3956,127 @@ Hareskn'a # Hrs|A;ሓረስክንኣ
 Heresknehe # Hrs|A;ሐረስክነኀ
 'ar:eskman:at # hrs|A;አረ፟ስክማና፟ት
 ## ;prf,2pf,3sfo,aff,rel
-zHereskn'a # Hrs|A;ዝሐረስክንኣ
+zHareskn'a # Hrs|A;ዝሓረስክንኣ
 yar:esac:hWat # 'rs|A;ያረ፟ሳች፟ኋት
 leHeresknehe # Hrs|A;ለሐረስክነኀ
 yar:eskman:a # hrs|A;ያረ፟ስክማና፟
 ## ;imf,1s,3smo,neg,main
-'ayHerson # Hrs|A;ኣይሐርሶን
+'ayHarson # Hrs|A;ኣይሓርሶን
 'alarsewm # 'rs|A;አላርሰውም
 'iHer:s:o # Hrs|A;ኢሐር፟ሶ፟
 tars: # hrs|A;ታርስ፟
 ## ;imf,1s,3smo,neg,rel
-zeyHerso # Hrs|A;ዘይሐርሶ
+zeyHarso # Hrs|A;ዘይሓርሶ
 yem:alarsew # 'rs|A;የማ፟ላርሰው
 le'iHer:s:o # Hrs|A;ለኢሐር፟ሶ፟
 'an:ars: # hrs|A;አና፟ርስ፟
 ## ;imf,1s,3smo,aff,main
-'Herso # Hrs|A;እሐርሶ
+'Harso # Hrs|A;እሓርሶ
 'arsewal:ehu # 'rs|A;አርሰዋለ፟ሁ
 Her:s:o # Hrs|A;ሐር፟ሶ፟
 'ars:t # hrs|A;አርስ፟ት
 ## ;imf,1s,3smo,aff,rel
-zHerso # Hrs|A;ዝሐርሶ
+zHarso # Hrs|A;ዝሓርሶ
 yem:arsew # 'rs|A;የማ፟ርሰው
 leHer:s:o # Hrs|A;ለሐር፟ሶ፟
 'ars: # hrs|A;አርስ፟
 ## ;imf,1s,3sfo,neg,main
-'ayHersan # Hrs|A;ኣይሐርሳን
+'ayHarsan # Hrs|A;ኣይሓርሳን
 'alarsatm # 'rs|A;አላርሳትም
 'iHer:s:e # Hrs|A;ኢሐር፟ሰ፟
 tars:a # hrs|A;ታርሳ፟
 ## ;imf,1s,3sfo,neg,rel
-zeyHersa # Hrs|A;ዘይሐርሳ
+zeyHarsa # Hrs|A;ዘይሓርሳ
 yem:alarsat # 'rs|A;የማ፟ላርሳት
 le'iHer:s:e # Hrs|A;ለኢሐር፟ሰ፟
 'an:ars:a # hrs|A;አና፟ርሳ፟
 ## ;imf,1s,3sfo,aff,main
-'Hersa # Hrs|A;እሐርሳ
+'Harsa # Hrs|A;እሓርሳ
 'arsatal:ehu # 'rs|A;አርሳታለ፟ሁ
 Her:s:e # Hrs|A;ሐር፟ሰ፟
 'ars:at # hrs|A;አርሳ፟ት
 ## ;imf,1s,3sfo,aff,rel
-zHersa # Hrs|A;ዝሐርሳ
+zHarsa # Hrs|A;ዝሓርሳ
 yem:arsat # 'rs|A;የማ፟ርሳት
 leHer:s:e # Hrs|A;ለሐር፟ሰ፟
 'ars:a # hrs|A;አርሳ፟
 ## ;imf,3sm,3smo,neg,main
-'ay:Herson # Hrs|A;ኣይ፟ሐርሶን
+'ay:Harson # Hrs|A;ኣይ፟ሓርሶን
 'ayarsewm # 'rs|A;አያርሰውም
 'ilHer:s:o # Hrs|A;ኢልሐር፟ሶ፟
 tiyars: # hrs|A;ቲያርስ፟
 ## ;imf,3sm,3smo,neg,rel
-zey:Herso # Hrs|A;ዘይ፟ሐርሶ
+zey:Harso # Hrs|A;ዘይ፟ሓርሶ
 yem:ayarsew # 'rs|A;የማ፟ያርሰው
 le'ilHer:s:o # Hrs|A;ለኢልሐር፟ሶ፟
 'ayars: # hrs|A;አያርስ፟
 ## ;imf,3sm,3smo,aff,main
-yHerso # Hrs|A;ይሐርሶ
+yHarso # Hrs|A;ይሓርሶ
 yarsewal # 'rs|A;ያርሰዋል
 leHer:s:o # Hrs|A;ለሐር፟ሶ፟
 yars:t # hrs|A;ያርስ፟ት
 ## ;imf,3sm,3smo,aff,rel
-ziHerso # Hrs|A;ዚሐርሶ
+ziHarso # Hrs|A;ዚሓርሶ
 yem:iyarsew # 'rs|A;የሚ፟ያርሰው
 lelHer:s:o # Hrs|A;ለልሐር፟ሶ፟
 yars: # hrs|A;ያርስ፟
 ## ;imf,3sm,3sfo,neg,main
-'ay:Hersan # Hrs|A;ኣይ፟ሐርሳን
+'ay:Harsan # Hrs|A;ኣይ፟ሓርሳን
 'ayarsatm # 'rs|A;አያርሳትም
 'ilHer:s:e # Hrs|A;ኢልሐር፟ሰ፟
 tiyars:a # hrs|A;ቲያርሳ፟
 ## ;imf,3sm,3sfo,neg,rel
-zey:Hersa # Hrs|A;ዘይ፟ሐርሳ
+zey:Harsa # Hrs|A;ዘይ፟ሓርሳ
 yem:ayarsat # 'rs|A;የማ፟ያርሳት
 le'ilHer:s:e # Hrs|A;ለኢልሐር፟ሰ፟
 'ayars:a # hrs|A;አያርሳ፟
 ## ;imf,3sm,3sfo,aff,main
-yHersa # Hrs|A;ይሐርሳ
+yHarsa # Hrs|A;ይሓርሳ
 yarsatal # 'rs|A;ያርሳታል
 leHer:s:e # Hrs|A;ለሐር፟ሰ፟
 yars:at # hrs|A;ያርሳ፟ት
 ## ;imf,3sm,3sfo,aff,rel
-ziHersa # Hrs|A;ዚሐርሳ
+ziHarsa # Hrs|A;ዚሓርሳ
 yem:iyarsat # 'rs|A;የሚ፟ያርሳት
 lelHer:s:e # Hrs|A;ለልሐር፟ሰ፟
 yars:a # hrs|A;ያርሳ፟
 ## ;imf,2pf,3smo,neg,main
-'aytHers'on # Hrs|A;ኣይትሐርስኦን
+'aytHars'on # Hrs|A;ኣይትሓርስኦን
 'at:arsutm # 'rs|A;አታ፟ርሱትም
 'itHersehu # Hrs|A;ኢትሐርሰኁ
 tt:arsman: # hrs|A;ትታ፟ርስማን፟
 ## ;imf,2pf,3smo,neg,rel
-zeytHers'o # Hrs|A;ዘይትሐርስኦ
+zeytHars'o # Hrs|A;ዘይትሓርስኦ
 yem:at:arsut # 'rs|A;የማ፟ታ፟ርሱት
 le'itHersehu # Hrs|A;ለኢትሐርሰኁ
 'at:arsman: # hrs|A;አታ፟ርስማን፟
 ## ;imf,2pf,3smo,aff,main
-tHers'o # Hrs|A;ትሐርስኦ
+tHars'o # Hrs|A;ትሓርስኦ
 tarsutal:ac:hu # 'rs|A;ታርሱታላ፟ች፟ሁ
 teHersehu # Hrs|A;ተሐርሰኁ
 tarsman:t # hrs|A;ታርስማን፟ት
 ## ;imf,2pf,3smo,aff,rel
-zt:Hers'o # Hrs|A;ዝት፟ሐርስኦ
+zt:Hars'o # Hrs|A;ዝት፟ሓርስኦ
 yem:t:arsut # 'rs|A;የም፟ታ፟ርሱት
 letHersehu # Hrs|A;ለትሐርሰኁ
 tarsman: # hrs|A;ታርስማን፟
 ## ;imf,2pf,3sfo,neg,main
-'aytHers'an # Hrs|A;ኣይትሐርስኣን
+'aytHars'an # Hrs|A;ኣይትሓርስኣን
 'at:arsWatm # 'rs|A;አታ፟ርሷትም
 'itHersehe # Hrs|A;ኢትሐርሰኀ
 tt:arsman:a # hrs|A;ትታ፟ርስማና፟
 ## ;imf,2pf,3sfo,neg,rel
-zeytHers'a # Hrs|A;ዘይትሐርስኣ
+zeytHars'a # Hrs|A;ዘይትሓርስኣ
 yem:at:arsWat # 'rs|A;የማ፟ታ፟ርሷት
 le'itHersehe # Hrs|A;ለኢትሐርሰኀ
 'at:arsman:a # hrs|A;አታ፟ርስማና፟
 ## ;imf,2pf,3sfo,aff,main
-tHers'a # Hrs|A;ትሐርስኣ
+tHars'a # Hrs|A;ትሓርስኣ
 tarsWatal:ac:hu # 'rs|A;ታርሷታላ፟ች፟ሁ
 teHersehe # Hrs|A;ተሐርሰኀ
 tarsman:at # hrs|A;ታርስማና፟ት
 ## ;imf,2pf,3sfo,aff,rel
-zt:Hers'a # Hrs|A;ዝት፟ሐርስኣ
+zt:Hars'a # Hrs|A;ዝት፟ሓርስኣ
 yem:t:arsWat # 'rs|A;የም፟ታ፟ርሷት
 letHersehe # Hrs|A;ለትሐርሰኀ
 tarsman:a # hrs|A;ታርስማና፟
@@ -4561,12 +4561,12 @@ yem:t:lkWat # l'k|A;የም፟ት፟ልኳት
 letl'kehe # l'k|A;ለትልእከኀ
 tlekman:a # lhk|A;ትለክማና፟
 ## ;prf,1s,3smo,neg,main
-'ayHeredkuw:on # Hrd|A;ኣይሐረድኩዎ፟ን
+'ayHaredkuw:on # Hrd|A;ኣይሓረድኩዎ፟ን
 'alar:edkutm # 'rd|A;አላረ፟ድኩትም
 'iHeredkwo # Hrd|A;ኢሐረድክዎ
 'aleredkun: # hrd|A;አለረድኩን፟
 ## ;prf,1s,3smo,neg,rel
-zeyHeredkuw:o # Hrd|A;ዘይሐረድኩዎ፟
+zeyHaredkuw:o # Hrd|A;ዘይሓረድኩዎ፟
 yalar:edkut # 'rd|A;ያላረ፟ድኩት
 le'iHeredkwo # Hrd|A;ለኢሐረድክዎ
 yaleredkun: # hrd|A;ያለረድኩን፟
@@ -4576,17 +4576,17 @@ Haredkuw:o # Hrd|A;ሓረድኩዎ፟
 Heredkwo # Hrd|A;ሐረድክዎ
 'ar:edkun:t # hrd|A;አረ፟ድኩን፟ት
 ## ;prf,1s,3smo,aff,rel
-zHeredkuw:o # Hrd|A;ዝሐረድኩዎ፟
+zHaredkuw:o # Hrd|A;ዝሓረድኩዎ፟
 yar:edkut # 'rd|A;ያረ፟ድኩት
 leHeredkwo # Hrd|A;ለሐረድክዎ
 yar:edkun: # hrd|A;ያረ፟ድኩን፟
 ## ;prf,1s,3sfo,neg,main
-'ayHeredkuw:an # Hrd|A;ኣይሐረድኩዋ፟ን
+'ayHaredkuw:an # Hrd|A;ኣይሓረድኩዋ፟ን
 'alar:edkWatm # 'rd|A;አላረ፟ድኳትም
 'iHeredkwe # Hrd|A;ኢሐረድክወ
 'aleredkun:a # hrd|A;አለረድኩና፟
 ## ;prf,1s,3sfo,neg,rel
-zeyHeredkuw:a # Hrd|A;ዘይሐረድኩዋ፟
+zeyHaredkuw:a # Hrd|A;ዘይሓረድኩዋ፟
 yalar:edkWat # 'rd|A;ያላረ፟ድኳት
 le'iHeredkwe # Hrd|A;ለኢሐረድክወ
 yaleredkun:a # hrd|A;ያለረድኩና፟
@@ -4596,17 +4596,17 @@ Haredkuw:a # Hrd|A;ሓረድኩዋ፟
 Heredkwe # Hrd|A;ሐረድክወ
 'ar:edkun:at # hrd|A;አረ፟ድኩና፟ት
 ## ;prf,1s,3sfo,aff,rel
-zHeredkuw:a # Hrd|A;ዝሐረድኩዋ፟
+zHaredkuw:a # Hrd|A;ዝሓረድኩዋ፟
 yar:edkWat # 'rd|A;ያረ፟ድኳት
 leHeredkwe # Hrd|A;ለሐረድክወ
 yar:edkun:a # hrd|A;ያረ፟ድኩና፟
 ## ;prf,3sm,3smo,neg,main
-'ayHeredon # Hrd|A;ኣይሐረዶን
+'ayHaredon # Hrd|A;ኣይሓረዶን
 'alar:edewm # 'rd|A;አላረ፟ደውም
 'iHerdeyu # Hrd|A;ኢሐርደዩ
 'alereden: # hrd|A;አለረደን፟
 ## ;prf,3sm,3smo,neg,rel
-zeyHeredo # Hrd|A;ዘይሐረዶ
+zeyHaredo # Hrd|A;ዘይሓረዶ
 yalar:edew # 'rd|A;ያላረ፟ደው
 le'iHerdeyu # Hrd|A;ለኢሐርደዩ
 yalereden: # hrd|A;ያለረደን፟
@@ -4616,17 +4616,17 @@ Haredo # Hrd|A;ሓረዶ
 Herdeyu # Hrd|A;ሐርደዩ
 'ar:eden:t # hrd|A;አረ፟ደን፟ት
 ## ;prf,3sm,3smo,aff,rel
-zHeredo # Hrd|A;ዝሐረዶ
+zHaredo # Hrd|A;ዝሓረዶ
 yar:edew # 'rd|A;ያረ፟ደው
 leHerdeyu # Hrd|A;ለሐርደዩ
 yar:eden: # hrd|A;ያረ፟ደን፟
 ## ;prf,3sm,3sfo,neg,main
-'ayHeredan # Hrd|A;ኣይሐረዳን
+'ayHaredan # Hrd|A;ኣይሓረዳን
 'alar:edatm # 'rd|A;አላረ፟ዳትም
 'iHerdeye # Hrd|A;ኢሐርደየ
 'alereden:a # hrd|A;አለረደና፟
 ## ;prf,3sm,3sfo,neg,rel
-zeyHereda # Hrd|A;ዘይሐረዳ
+zeyHareda # Hrd|A;ዘይሓረዳ
 yalar:edat # 'rd|A;ያላረ፟ዳት
 le'iHerdeye # Hrd|A;ለኢሐርደየ
 yalereden:a # hrd|A;ያለረደና፟
@@ -4636,17 +4636,17 @@ Hareda # Hrd|A;ሓረዳ
 Herdeye # Hrd|A;ሐርደየ
 'ar:eden:at # hrd|A;አረ፟ደና፟ት
 ## ;prf,3sm,3sfo,aff,rel
-zHereda # Hrd|A;ዝሐረዳ
+zHareda # Hrd|A;ዝሓረዳ
 yar:edat # 'rd|A;ያረ፟ዳት
 leHerdeye # Hrd|A;ለሐርደየ
 yar:eden:a # hrd|A;ያረ፟ደና፟
 ## ;prf,2pf,3smo,neg,main
-'ayHeredkn'on # Hrd|A;ኣይሐረድክንኦን
+'ayHaredkn'on # Hrd|A;ኣይሓረድክንኦን
 'alar:edac:hutm # 'rd|A;አላረ፟ዳች፟ሁትም
 'iHeredknehu # Hrd|A;ኢሐረድክነኁ
 'aleredkman: # hrd|A;አለረድክማን፟
 ## ;prf,2pf,3smo,neg,rel
-zeyHeredkn'o # Hrd|A;ዘይሐረድክንኦ
+zeyHaredkn'o # Hrd|A;ዘይሓረድክንኦ
 yalar:edac:hut # 'rd|A;ያላረ፟ዳች፟ሁት
 le'iHeredknehu # Hrd|A;ለኢሐረድክነኁ
 yaleredkman: # hrd|A;ያለረድክማን፟
@@ -4656,17 +4656,17 @@ Haredkn'o # Hrd|A;ሓረድክንኦ
 Heredknehu # Hrd|A;ሐረድክነኁ
 'ar:edkman:t # hrd|A;አረ፟ድክማን፟ት
 ## ;prf,2pf,3smo,aff,rel
-zHeredkn'o # Hrd|A;ዝሐረድክንኦ
+zHaredkn'o # Hrd|A;ዝሓረድክንኦ
 yar:edac:hut # 'rd|A;ያረ፟ዳች፟ሁት
 leHeredknehu # Hrd|A;ለሐረድክነኁ
 yar:edkman: # hrd|A;ያረ፟ድክማን፟
 ## ;prf,2pf,3sfo,neg,main
-'ayHeredkn'an # Hrd|A;ኣይሐረድክንኣን
+'ayHaredkn'an # Hrd|A;ኣይሓረድክንኣን
 'alar:edac:hWatm # 'rd|A;አላረ፟ዳች፟ኋትም
 'iHeredknehe # Hrd|A;ኢሐረድክነኀ
 'aleredkman:a # hrd|A;አለረድክማና፟
 ## ;prf,2pf,3sfo,neg,rel
-zeyHeredkn'a # Hrd|A;ዘይሐረድክንኣ
+zeyHaredkn'a # Hrd|A;ዘይሓረድክንኣ
 yalar:edac:hWat # 'rd|A;ያላረ፟ዳች፟ኋት
 le'iHeredknehe # Hrd|A;ለኢሐረድክነኀ
 yaleredkman:a # hrd|A;ያለረድክማና፟
@@ -4676,137 +4676,137 @@ Haredkn'a # Hrd|A;ሓረድክንኣ
 Heredknehe # Hrd|A;ሐረድክነኀ
 'ar:edkman:at # hrd|A;አረ፟ድክማና፟ት
 ## ;prf,2pf,3sfo,aff,rel
-zHeredkn'a # Hrd|A;ዝሐረድክንኣ
+zHaredkn'a # Hrd|A;ዝሓረድክንኣ
 yar:edac:hWat # 'rd|A;ያረ፟ዳች፟ኋት
 leHeredknehe # Hrd|A;ለሐረድክነኀ
 yar:edkman:a # hrd|A;ያረ፟ድክማና፟
 ## ;imf,1s,3smo,neg,main
-'ayHerdon # Hrd|A;ኣይሐርዶን
+'ayHardon # Hrd|A;ኣይሓርዶን
 'alardewm # 'rd|A;አላርደውም
 'iHer:d:o # Hrd|A;ኢሐር፟ዶ፟
 tard: # hrd|A;ታርድ፟
 ## ;imf,1s,3smo,neg,rel
-zeyHerdo # Hrd|A;ዘይሐርዶ
+zeyHardo # Hrd|A;ዘይሓርዶ
 yem:alardew # 'rd|A;የማ፟ላርደው
 le'iHer:d:o # Hrd|A;ለኢሐር፟ዶ፟
 'an:ard: # hrd|A;አና፟ርድ፟
 ## ;imf,1s,3smo,aff,main
-'Herdo # Hrd|A;እሐርዶ
+'Hardo # Hrd|A;እሓርዶ
 'ardewal:ehu # 'rd|A;አርደዋለ፟ሁ
 Her:d:o # Hrd|A;ሐር፟ዶ፟
 'ard:t # hrd|A;አርድ፟ት
 ## ;imf,1s,3smo,aff,rel
-zHerdo # Hrd|A;ዝሐርዶ
+zHardo # Hrd|A;ዝሓርዶ
 yem:ardew # 'rd|A;የማ፟ርደው
 leHer:d:o # Hrd|A;ለሐር፟ዶ፟
 'ard: # hrd|A;አርድ፟
 ## ;imf,1s,3sfo,neg,main
-'ayHerdan # Hrd|A;ኣይሐርዳን
+'ayHardan # Hrd|A;ኣይሓርዳን
 'alardatm # 'rd|A;አላርዳትም
 'iHer:d:e # Hrd|A;ኢሐር፟ደ፟
 tard:a # hrd|A;ታርዳ፟
 ## ;imf,1s,3sfo,neg,rel
-zeyHerda # Hrd|A;ዘይሐርዳ
+zeyHarda # Hrd|A;ዘይሓርዳ
 yem:alardat # 'rd|A;የማ፟ላርዳት
 le'iHer:d:e # Hrd|A;ለኢሐር፟ደ፟
 'an:ard:a # hrd|A;አና፟ርዳ፟
 ## ;imf,1s,3sfo,aff,main
-'Herda # Hrd|A;እሐርዳ
+'Harda # Hrd|A;እሓርዳ
 'ardatal:ehu # 'rd|A;አርዳታለ፟ሁ
 Her:d:e # Hrd|A;ሐር፟ደ፟
 'ard:at # hrd|A;አርዳ፟ት
 ## ;imf,1s,3sfo,aff,rel
-zHerda # Hrd|A;ዝሐርዳ
+zHarda # Hrd|A;ዝሓርዳ
 yem:ardat # 'rd|A;የማ፟ርዳት
 leHer:d:e # Hrd|A;ለሐር፟ደ፟
 'ard:a # hrd|A;አርዳ፟
 ## ;imf,3sm,3smo,neg,main
-'ay:Herdon # Hrd|A;ኣይ፟ሐርዶን
+'ay:Hardon # Hrd|A;ኣይ፟ሓርዶን
 'ayardewm # 'rd|A;አያርደውም
 'ilHer:d:o # Hrd|A;ኢልሐር፟ዶ፟
 tiyard: # hrd|A;ቲያርድ፟
 ## ;imf,3sm,3smo,neg,rel
-zey:Herdo # Hrd|A;ዘይ፟ሐርዶ
+zey:Hardo # Hrd|A;ዘይ፟ሓርዶ
 yem:ayardew # 'rd|A;የማ፟ያርደው
 le'ilHer:d:o # Hrd|A;ለኢልሐር፟ዶ፟
 'ayard: # hrd|A;አያርድ፟
 ## ;imf,3sm,3smo,aff,main
-yHerdo # Hrd|A;ይሐርዶ
+yHardo # Hrd|A;ይሓርዶ
 yardewal # 'rd|A;ያርደዋል
 leHer:d:o # Hrd|A;ለሐር፟ዶ፟
 yard:t # hrd|A;ያርድ፟ት
 ## ;imf,3sm,3smo,aff,rel
-ziHerdo # Hrd|A;ዚሐርዶ
+ziHardo # Hrd|A;ዚሓርዶ
 yem:iyardew # 'rd|A;የሚ፟ያርደው
 lelHer:d:o # Hrd|A;ለልሐር፟ዶ፟
 yard: # hrd|A;ያርድ፟
 ## ;imf,3sm,3sfo,neg,main
-'ay:Herdan # Hrd|A;ኣይ፟ሐርዳን
+'ay:Hardan # Hrd|A;ኣይ፟ሓርዳን
 'ayardatm # 'rd|A;አያርዳትም
 'ilHer:d:e # Hrd|A;ኢልሐር፟ደ፟
 tiyard:a # hrd|A;ቲያርዳ፟
 ## ;imf,3sm,3sfo,neg,rel
-zey:Herda # Hrd|A;ዘይ፟ሐርዳ
+zey:Harda # Hrd|A;ዘይ፟ሓርዳ
 yem:ayardat # 'rd|A;የማ፟ያርዳት
 le'ilHer:d:e # Hrd|A;ለኢልሐር፟ደ፟
 'ayard:a # hrd|A;አያርዳ፟
 ## ;imf,3sm,3sfo,aff,main
-yHerda # Hrd|A;ይሐርዳ
+yHarda # Hrd|A;ይሓርዳ
 yardatal # 'rd|A;ያርዳታል
 leHer:d:e # Hrd|A;ለሐር፟ደ፟
 yard:at # hrd|A;ያርዳ፟ት
 ## ;imf,3sm,3sfo,aff,rel
-ziHerda # Hrd|A;ዚሐርዳ
+ziHarda # Hrd|A;ዚሓርዳ
 yem:iyardat # 'rd|A;የሚ፟ያርዳት
 lelHer:d:e # Hrd|A;ለልሐር፟ደ፟
 yard:a # hrd|A;ያርዳ፟
 ## ;imf,2pf,3smo,neg,main
-'aytHerd'on # Hrd|A;ኣይትሐርድኦን
+'aytHard'on # Hrd|A;ኣይትሓርድኦን
 'at:ardutm # 'rd|A;አታ፟ርዱትም
 'itHerdehu # Hrd|A;ኢትሐርደኁ
 tt:ardman: # hrd|A;ትታ፟ርድማን፟
 ## ;imf,2pf,3smo,neg,rel
-zeytHerd'o # Hrd|A;ዘይትሐርድኦ
+zeytHard'o # Hrd|A;ዘይትሓርድኦ
 yem:at:ardut # 'rd|A;የማ፟ታ፟ርዱት
 le'itHerdehu # Hrd|A;ለኢትሐርደኁ
 'at:ardman: # hrd|A;አታ፟ርድማን፟
 ## ;imf,2pf,3smo,aff,main
-tHerd'o # Hrd|A;ትሐርድኦ
+tHard'o # Hrd|A;ትሓርድኦ
 tardutal:ac:hu # 'rd|A;ታርዱታላ፟ች፟ሁ
 teHerdehu # Hrd|A;ተሐርደኁ
 tardman:t # hrd|A;ታርድማን፟ት
 ## ;imf,2pf,3smo,aff,rel
-zt:Herd'o # Hrd|A;ዝት፟ሐርድኦ
+zt:Hard'o # Hrd|A;ዝት፟ሓርድኦ
 yem:t:ardut # 'rd|A;የም፟ታ፟ርዱት
 letHerdehu # Hrd|A;ለትሐርደኁ
 tardman: # hrd|A;ታርድማን፟
 ## ;imf,2pf,3sfo,neg,main
-'aytHerd'an # Hrd|A;ኣይትሐርድኣን
+'aytHard'an # Hrd|A;ኣይትሓርድኣን
 'at:ardWatm # 'rd|A;አታ፟ርዷትም
 'itHerdehe # Hrd|A;ኢትሐርደኀ
 tt:ardman:a # hrd|A;ትታ፟ርድማና፟
 ## ;imf,2pf,3sfo,neg,rel
-zeytHerd'a # Hrd|A;ዘይትሐርድኣ
+zeytHard'a # Hrd|A;ዘይትሓርድኣ
 yem:at:ardWat # 'rd|A;የማ፟ታ፟ርዷት
 le'itHerdehe # Hrd|A;ለኢትሐርደኀ
 'at:ardman:a # hrd|A;አታ፟ርድማና፟
 ## ;imf,2pf,3sfo,aff,main
-tHerd'a # Hrd|A;ትሐርድኣ
+tHard'a # Hrd|A;ትሓርድኣ
 tardWatal:ac:hu # 'rd|A;ታርዷታላ፟ች፟ሁ
 teHerdehe # Hrd|A;ተሐርደኀ
 tardman:at # hrd|A;ታርድማና፟ት
 ## ;imf,2pf,3sfo,aff,rel
-zt:Herd'a # Hrd|A;ዝት፟ሐርድኣ
+zt:Hard'a # Hrd|A;ዝት፟ሓርድኣ
 yem:t:ardWat # 'rd|A;የም፟ታ፟ርዷት
 letHerdehe # Hrd|A;ለትሐርደኀ
 tardman:a # hrd|A;ታርድማና፟
 ## ;prf,1s,3smo,neg,main
-'ayHeSebkuw:on # HSb|A;ኣይሐጸብኩዎ፟ን
+'ayHaSebkuw:on # HSb|A;ኣይሓጸብኩዎ፟ን
 'alaT:ebkutm # 'Tb|A;አላጠ፟ብኩትም
 'iHeSebkwo # HSb|A;ኢሐጸብክዎ
 'aleTebkun: # hTb|A;አለጠብኩን፟
 ## ;prf,1s,3smo,neg,rel
-zeyHeSebkuw:o # HSb|A;ዘይሐጸብኩዎ፟
+zeyHaSebkuw:o # HSb|A;ዘይሓጸብኩዎ፟
 yalaT:ebkut # 'Tb|A;ያላጠ፟ብኩት
 le'iHeSebkwo # HSb|A;ለኢሐጸብክዎ
 yaleTebkun: # hTb|A;ያለጠብኩን፟
@@ -4816,17 +4816,17 @@ HaSebkuw:o # HSb|A;ሓጸብኩዎ፟
 HeSebkwo # HSb|A;ሐጸብክዎ
 'aT:ebkun:t # hTb|A;አጠ፟ብኩን፟ት
 ## ;prf,1s,3smo,aff,rel
-zHeSebkuw:o # HSb|A;ዝሐጸብኩዎ፟
+zHaSebkuw:o # HSb|A;ዝሓጸብኩዎ፟
 yaT:ebkut # 'Tb|A;ያጠ፟ብኩት
 leHeSebkwo # HSb|A;ለሐጸብክዎ
 yaT:ebkun: # hTb|A;ያጠ፟ብኩን፟
 ## ;prf,1s,3sfo,neg,main
-'ayHeSebkuw:an # HSb|A;ኣይሐጸብኩዋ፟ን
+'ayHaSebkuw:an # HSb|A;ኣይሓጸብኩዋ፟ን
 'alaT:ebkWatm # 'Tb|A;አላጠ፟ብኳትም
 'iHeSebkwe # HSb|A;ኢሐጸብክወ
 'aleTebkun:a # hTb|A;አለጠብኩና፟
 ## ;prf,1s,3sfo,neg,rel
-zeyHeSebkuw:a # HSb|A;ዘይሐጸብኩዋ፟
+zeyHaSebkuw:a # HSb|A;ዘይሓጸብኩዋ፟
 yalaT:ebkWat # 'Tb|A;ያላጠ፟ብኳት
 le'iHeSebkwe # HSb|A;ለኢሐጸብክወ
 yaleTebkun:a # hTb|A;ያለጠብኩና፟
@@ -4836,17 +4836,17 @@ HaSebkuw:a # HSb|A;ሓጸብኩዋ፟
 HeSebkwe # HSb|A;ሐጸብክወ
 'aT:ebkun:at # hTb|A;አጠ፟ብኩና፟ት
 ## ;prf,1s,3sfo,aff,rel
-zHeSebkuw:a # HSb|A;ዝሐጸብኩዋ፟
+zHaSebkuw:a # HSb|A;ዝሓጸብኩዋ፟
 yaT:ebkWat # 'Tb|A;ያጠ፟ብኳት
 leHeSebkwe # HSb|A;ለሐጸብክወ
 yaT:ebkun:a # hTb|A;ያጠ፟ብኩና፟
 ## ;prf,3sm,3smo,neg,main
-'ayHeSebon # HSb|A;ኣይሐጸቦን
+'ayHaSebon # HSb|A;ኣይሓጸቦን
 'alaT:ebewm # 'Tb|A;አላጠ፟በውም
 'iHeSbeyu # HSb|A;ኢሐጽበዩ
 'aleTeben: # hTb|A;አለጠበን፟
 ## ;prf,3sm,3smo,neg,rel
-zeyHeSebo # HSb|A;ዘይሐጸቦ
+zeyHaSebo # HSb|A;ዘይሓጸቦ
 yalaT:ebew # 'Tb|A;ያላጠ፟በው
 le'iHeSbeyu # HSb|A;ለኢሐጽበዩ
 yaleTeben: # hTb|A;ያለጠበን፟
@@ -4856,17 +4856,17 @@ HaSebo # HSb|A;ሓጸቦ
 HeSbeyu # HSb|A;ሐጽበዩ
 'aT:eben:t # hTb|A;አጠ፟በን፟ት
 ## ;prf,3sm,3smo,aff,rel
-zHeSebo # HSb|A;ዝሐጸቦ
+zHaSebo # HSb|A;ዝሓጸቦ
 yaT:ebew # 'Tb|A;ያጠ፟በው
 leHeSbeyu # HSb|A;ለሐጽበዩ
 yaT:eben: # hTb|A;ያጠ፟በን፟
 ## ;prf,3sm,3sfo,neg,main
-'ayHeSeban # HSb|A;ኣይሐጸባን
+'ayHaSeban # HSb|A;ኣይሓጸባን
 'alaT:ebatm # 'Tb|A;አላጠ፟ባትም
 'iHeSbeye # HSb|A;ኢሐጽበየ
 'aleTeben:a # hTb|A;አለጠበና፟
 ## ;prf,3sm,3sfo,neg,rel
-zeyHeSeba # HSb|A;ዘይሐጸባ
+zeyHaSeba # HSb|A;ዘይሓጸባ
 yalaT:ebat # 'Tb|A;ያላጠ፟ባት
 le'iHeSbeye # HSb|A;ለኢሐጽበየ
 yaleTeben:a # hTb|A;ያለጠበና፟
@@ -4876,17 +4876,17 @@ HaSeba # HSb|A;ሓጸባ
 HeSbeye # HSb|A;ሐጽበየ
 'aT:eben:at # hTb|A;አጠ፟በና፟ት
 ## ;prf,3sm,3sfo,aff,rel
-zHeSeba # HSb|A;ዝሐጸባ
+zHaSeba # HSb|A;ዝሓጸባ
 yaT:ebat # 'Tb|A;ያጠ፟ባት
 leHeSbeye # HSb|A;ለሐጽበየ
 yaT:eben:a # hTb|A;ያጠ፟በና፟
 ## ;prf,2pf,3smo,neg,main
-'ayHeSebkn'on # HSb|A;ኣይሐጸብክንኦን
+'ayHaSebkn'on # HSb|A;ኣይሓጸብክንኦን
 'alaT:ebac:hutm # 'Tb|A;አላጠ፟ባች፟ሁትም
 'iHeSebknehu # HSb|A;ኢሐጸብክነኁ
 'aleTebkman: # hTb|A;አለጠብክማን፟
 ## ;prf,2pf,3smo,neg,rel
-zeyHeSebkn'o # HSb|A;ዘይሐጸብክንኦ
+zeyHaSebkn'o # HSb|A;ዘይሓጸብክንኦ
 yalaT:ebac:hut # 'Tb|A;ያላጠ፟ባች፟ሁት
 le'iHeSebknehu # HSb|A;ለኢሐጸብክነኁ
 yaleTebkman: # hTb|A;ያለጠብክማን፟
@@ -4896,17 +4896,17 @@ HaSebkn'o # HSb|A;ሓጸብክንኦ
 HeSebknehu # HSb|A;ሐጸብክነኁ
 'aT:ebkman:t # hTb|A;አጠ፟ብክማን፟ት
 ## ;prf,2pf,3smo,aff,rel
-zHeSebkn'o # HSb|A;ዝሐጸብክንኦ
+zHaSebkn'o # HSb|A;ዝሓጸብክንኦ
 yaT:ebac:hut # 'Tb|A;ያጠ፟ባች፟ሁት
 leHeSebknehu # HSb|A;ለሐጸብክነኁ
 yaT:ebkman: # hTb|A;ያጠ፟ብክማን፟
 ## ;prf,2pf,3sfo,neg,main
-'ayHeSebkn'an # HSb|A;ኣይሐጸብክንኣን
+'ayHaSebkn'an # HSb|A;ኣይሓጸብክንኣን
 'alaT:ebac:hWatm # 'Tb|A;አላጠ፟ባች፟ኋትም
 'iHeSebknehe # HSb|A;ኢሐጸብክነኀ
 'aleTebkman:a # hTb|A;አለጠብክማና፟
 ## ;prf,2pf,3sfo,neg,rel
-zeyHeSebkn'a # HSb|A;ዘይሐጸብክንኣ
+zeyHaSebkn'a # HSb|A;ዘይሓጸብክንኣ
 yalaT:ebac:hWat # 'Tb|A;ያላጠ፟ባች፟ኋት
 le'iHeSebknehe # HSb|A;ለኢሐጸብክነኀ
 yaleTebkman:a # hTb|A;ያለጠብክማና፟
@@ -4916,127 +4916,127 @@ HaSebkn'a # HSb|A;ሓጸብክንኣ
 HeSebknehe # HSb|A;ሐጸብክነኀ
 'aT:ebkman:at # hTb|A;አጠ፟ብክማና፟ት
 ## ;prf,2pf,3sfo,aff,rel
-zHeSebkn'a # HSb|A;ዝሐጸብክንኣ
+zHaSebkn'a # HSb|A;ዝሓጸብክንኣ
 yaT:ebac:hWat # 'Tb|A;ያጠ፟ባች፟ኋት
 leHeSebknehe # HSb|A;ለሐጸብክነኀ
 yaT:ebkman:a # hTb|A;ያጠ፟ብክማና፟
 ## ;imf,1s,3smo,neg,main
-'ayHeSbon # HSb|A;ኣይሐጽቦን
+'ayHaSbon # HSb|A;ኣይሓጽቦን
 'alaTbewm # 'Tb|A;አላጥበውም
 'iHeS:b:o # HSb|A;ኢሐጽ፟ቦ፟
 taTb: # hTb|A;ታጥብ፟
 ## ;imf,1s,3smo,neg,rel
-zeyHeSbo # HSb|A;ዘይሐጽቦ
+zeyHaSbo # HSb|A;ዘይሓጽቦ
 yem:alaTbew # 'Tb|A;የማ፟ላጥበው
 le'iHeS:b:o # HSb|A;ለኢሐጽ፟ቦ፟
 'an:aTb: # hTb|A;አና፟ጥብ፟
 ## ;imf,1s,3smo,aff,main
-'HeSbo # HSb|A;እሐጽቦ
+'HaSbo # HSb|A;እሓጽቦ
 'aTbewal:ehu # 'Tb|A;አጥበዋለ፟ሁ
 HeS:b:o # HSb|A;ሐጽ፟ቦ፟
 'aTb:t # hTb|A;አጥብ፟ት
 ## ;imf,1s,3smo,aff,rel
-zHeSbo # HSb|A;ዝሐጽቦ
+zHaSbo # HSb|A;ዝሓጽቦ
 yem:aTbew # 'Tb|A;የማ፟ጥበው
 leHeS:b:o # HSb|A;ለሐጽ፟ቦ፟
 'aTb: # hTb|A;አጥብ፟
 ## ;imf,1s,3sfo,neg,main
-'ayHeSban # HSb|A;ኣይሐጽባን
+'ayHaSban # HSb|A;ኣይሓጽባን
 'alaTbatm # 'Tb|A;አላጥባትም
 'iHeS:b:e # HSb|A;ኢሐጽ፟በ፟
 taTb:a # hTb|A;ታጥባ፟
 ## ;imf,1s,3sfo,neg,rel
-zeyHeSba # HSb|A;ዘይሐጽባ
+zeyHaSba # HSb|A;ዘይሓጽባ
 yem:alaTbat # 'Tb|A;የማ፟ላጥባት
 le'iHeS:b:e # HSb|A;ለኢሐጽ፟በ፟
 'an:aTb:a # hTb|A;አና፟ጥባ፟
 ## ;imf,1s,3sfo,aff,main
-'HeSba # HSb|A;እሐጽባ
+'HaSba # HSb|A;እሓጽባ
 'aTbatal:ehu # 'Tb|A;አጥባታለ፟ሁ
 HeS:b:e # HSb|A;ሐጽ፟በ፟
 'aTb:at # hTb|A;አጥባ፟ት
 ## ;imf,1s,3sfo,aff,rel
-zHeSba # HSb|A;ዝሐጽባ
+zHaSba # HSb|A;ዝሓጽባ
 yem:aTbat # 'Tb|A;የማ፟ጥባት
 leHeS:b:e # HSb|A;ለሐጽ፟በ፟
 'aTb:a # hTb|A;አጥባ፟
 ## ;imf,3sm,3smo,neg,main
-'ay:HeSbon # HSb|A;ኣይ፟ሐጽቦን
+'ay:HaSbon # HSb|A;ኣይ፟ሓጽቦን
 'ayaTbewm # 'Tb|A;አያጥበውም
 'ilHeS:b:o # HSb|A;ኢልሐጽ፟ቦ፟
 tiyaTb: # hTb|A;ቲያጥብ፟
 ## ;imf,3sm,3smo,neg,rel
-zey:HeSbo # HSb|A;ዘይ፟ሐጽቦ
+zey:HaSbo # HSb|A;ዘይ፟ሓጽቦ
 yem:ayaTbew # 'Tb|A;የማ፟ያጥበው
 le'ilHeS:b:o # HSb|A;ለኢልሐጽ፟ቦ፟
 'ayaTb: # hTb|A;አያጥብ፟
 ## ;imf,3sm,3smo,aff,main
-yHeSbo # HSb|A;ይሐጽቦ
+yHaSbo # HSb|A;ይሓጽቦ
 yaTbewal # 'Tb|A;ያጥበዋል
 leHeS:b:o # HSb|A;ለሐጽ፟ቦ፟
 yaTb:t # hTb|A;ያጥብ፟ት
 ## ;imf,3sm,3smo,aff,rel
-ziHeSbo # HSb|A;ዚሐጽቦ
+ziHaSbo # HSb|A;ዚሓጽቦ
 yem:iyaTbew # 'Tb|A;የሚ፟ያጥበው
 lelHeS:b:o # HSb|A;ለልሐጽ፟ቦ፟
 yaTb: # hTb|A;ያጥብ፟
 ## ;imf,3sm,3sfo,neg,main
-'ay:HeSban # HSb|A;ኣይ፟ሐጽባን
+'ay:HaSban # HSb|A;ኣይ፟ሓጽባን
 'ayaTbatm # 'Tb|A;አያጥባትም
 'ilHeS:b:e # HSb|A;ኢልሐጽ፟በ፟
 tiyaTb:a # hTb|A;ቲያጥባ፟
 ## ;imf,3sm,3sfo,neg,rel
-zey:HeSba # HSb|A;ዘይ፟ሐጽባ
+zey:HaSba # HSb|A;ዘይ፟ሓጽባ
 yem:ayaTbat # 'Tb|A;የማ፟ያጥባት
 le'ilHeS:b:e # HSb|A;ለኢልሐጽ፟በ፟
 'ayaTb:a # hTb|A;አያጥባ፟
 ## ;imf,3sm,3sfo,aff,main
-yHeSba # HSb|A;ይሐጽባ
+yHaSba # HSb|A;ይሓጽባ
 yaTbatal # 'Tb|A;ያጥባታል
 leHeS:b:e # HSb|A;ለሐጽ፟በ፟
 yaTb:at # hTb|A;ያጥባ፟ት
 ## ;imf,3sm,3sfo,aff,rel
-ziHeSba # HSb|A;ዚሐጽባ
+ziHaSba # HSb|A;ዚሓጽባ
 yem:iyaTbat # 'Tb|A;የሚ፟ያጥባት
 lelHeS:b:e # HSb|A;ለልሐጽ፟በ፟
 yaTb:a # hTb|A;ያጥባ፟
 ## ;imf,2pf,3smo,neg,main
-'aytHeSb'on # HSb|A;ኣይትሐጽብኦን
+'aytHaSb'on # HSb|A;ኣይትሓጽብኦን
 'at:aTbutm # 'Tb|A;አታ፟ጥቡትም
 'itHeSbehu # HSb|A;ኢትሐጽበኁ
 tt:aTbman: # hTb|A;ትታ፟ጥብማን፟
 ## ;imf,2pf,3smo,neg,rel
-zeytHeSb'o # HSb|A;ዘይትሐጽብኦ
+zeytHaSb'o # HSb|A;ዘይትሓጽብኦ
 yem:at:aTbut # 'Tb|A;የማ፟ታ፟ጥቡት
 le'itHeSbehu # HSb|A;ለኢትሐጽበኁ
 'at:aTbman: # hTb|A;አታ፟ጥብማን፟
 ## ;imf,2pf,3smo,aff,main
-tHeSb'o # HSb|A;ትሐጽብኦ
+tHaSb'o # HSb|A;ትሓጽብኦ
 taTbutal:ac:hu # 'Tb|A;ታጥቡታላ፟ች፟ሁ
 teHeSbehu # HSb|A;ተሐጽበኁ
 taTbman:t # hTb|A;ታጥብማን፟ት
 ## ;imf,2pf,3smo,aff,rel
-zt:HeSb'o # HSb|A;ዝት፟ሐጽብኦ
+zt:HaSb'o # HSb|A;ዝት፟ሓጽብኦ
 yem:t:aTbut # 'Tb|A;የም፟ታ፟ጥቡት
 letHeSbehu # HSb|A;ለትሐጽበኁ
 taTbman: # hTb|A;ታጥብማን፟
 ## ;imf,2pf,3sfo,neg,main
-'aytHeSb'an # HSb|A;ኣይትሐጽብኣን
+'aytHaSb'an # HSb|A;ኣይትሓጽብኣን
 'at:aTbWatm # 'Tb|A;አታ፟ጥቧትም
 'itHeSbehe # HSb|A;ኢትሐጽበኀ
 tt:aTbman:a # hTb|A;ትታ፟ጥብማና፟
 ## ;imf,2pf,3sfo,neg,rel
-zeytHeSb'a # HSb|A;ዘይትሐጽብኣ
+zeytHaSb'a # HSb|A;ዘይትሓጽብኣ
 yem:at:aTbWat # 'Tb|A;የማ፟ታ፟ጥቧት
 le'itHeSbehe # HSb|A;ለኢትሐጽበኀ
 'at:aTbman:a # hTb|A;አታ፟ጥብማና፟
 ## ;imf,2pf,3sfo,aff,main
-tHeSb'a # HSb|A;ትሐጽብኣ
+tHaSb'a # HSb|A;ትሓጽብኣ
 taTbWatal:ac:hu # 'Tb|A;ታጥቧታላ፟ች፟ሁ
 teHeSbehe # HSb|A;ተሐጽበኀ
 taTbman:at # hTb|A;ታጥብማና፟ት
 ## ;imf,2pf,3sfo,aff,rel
-zt:HeSb'a # HSb|A;ዝት፟ሐጽብኣ
+zt:HaSb'a # HSb|A;ዝት፟ሓጽብኣ
 yem:t:aTbWat # 'Tb|A;የም፟ታ፟ጥቧት
 letHeSbehe # HSb|A;ለትሐጽበኀ
 taTbman:a # hTb|A;ታጥብማና፟

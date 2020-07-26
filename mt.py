@@ -25,18 +25,45 @@ Author: Michael Gasser <gasser@indiana.edu>
 import mt
 
 A = mt.Aligner('am', 'ti', datafiles=["0_4.tr", "2_4.tr", "3_4.tr"])
-a = A.make_alignment(1)
-                 #, explicit=[0, 1, 3, -1, 6, 7, 8, -1, 9])
-b = A.make_alignment(0)
+B = mt.Aligner('amG', 'tiG', datafiles=["0_4ግ.tr", "2_4ግ.tr", "3_4ግ.tr"])
+a = A.make_alignment(data_i=1, explicit=[0, 1, 3, -1, 6, 7, 8, -1, 9],
+                     dscat=mt.Aligner.TEST)
+#a.constraints = [0, 1, ['a', 2, 3], 'a', ['b', 4, 6], 7, ['c', 8, 8], 'c', 9]
+c1 = [((0, 0), (1, 1), (5, 7), (8, 9)),
+      [( (2, 3), (3, 3) ), ( (4, 4), (4, 6) ), ( (6, 8), (7, 8) )]
+      ]
+# a
+# ' a l : a     k a t m
+# ' a y l e ' a K a   n
+# b
+# ' a   l :   a   k a t m
+# ' a y l   e ' a K a   n
+b = A.make_alignment(data_i=1, explicit=[0, 1, 3, -1, -1, 7, 8, -1, 9],
+                     dscat=mt.Aligner.TEST)
+c = A.make_alignment(data_i=1, explicit=[0, 1, 3, -1, 6, 7, -1, 8, 9],
+                     dscat=mt.Aligner.TEST)
+a.constraints = c1
+b.constraints = c1
+c.constraints = c1
+#b = A.make_alignment(0)
+#k = A.make_alignment(17)
+##' a l g e n : e n k u m
+##' a y g e n   e n k u n
+d = A.make_alignment(data_i=5, explicit=[0, 1, 2, 3, 4, -1, 5, 6, 7, 8, 9, 10])
+e = A.make_alignment(data_i=8, explicit=[0, 1, 2, 5, 6, 7]) #, left=False)
+## y e q e d : e s kW      a t
+## z   Q e d : e s k u w : a
+#e = A.make_alignment(9, explicit=[-1, 0, 4, 5, 6, 7, 8, 9, 10, -1, 11]) #, left=False)
+#f = A.make_alignment(9, explicit=[0, -1, 1, 2, 3, 4, 5, 6, 7, 11, -1])
                  # , explicit=[0, 1, 2, 3, 5, -1, -1])
 #B = mt.Aligner('ti', 'am', datafiles=["0_4.tr", "2_4.tr", "3_4.tr"])
 #c = mt.Alignment(B.data_indices[0], B.data[0], B, explicit=[0, 1, 2, 3, -1, 4])
 #B = mt.align.Aligner('am', 'ti', datafiles=["test1.tr"],
 #                     test=False, validate=False)
 
-# Test of new data format and Data.read()
-def get_data(vc=0):
-    return mt.Data.read("0_4.tr", None)
+### Test of new data format and Data.read()
+##def get_data(vc=0):
+##    return mt.Data.read("0_4.tr", None)
 
 ### A simple test problem for alignment
 ##

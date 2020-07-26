@@ -26,10 +26,8 @@ Author: Michael Gasser <gasser@indiana.edu>
 """
 
 from .data import *
-from .word import *
 from .utils import *
 from .search import *
-import numpy
 
 class Aligner:
 
@@ -53,6 +51,8 @@ class Aligner:
     TRAINING = 0
     TEST = 1
     VALIDATION = 2
+    # IDs for different datasets
+    DS_IDS = ['t', 'T', 'v']
 
     def __init__(self, source, target, datafiles=None,
                  test=True, validate=True):
@@ -61,17 +61,6 @@ class Aligner:
         # Source and target language characters
         self.schars = self.get_schars()
         self.tchars = self.get_tchars()
-        # Number of source and target characters
-        self.ns = len(self.schars)
-        self.nt = len(self.tchars)
-        ## Trained parameters (saved with save(), loaded with load())
-        # Character connections probabilities
-        self.probs = self.make_probs()
-        self.init_probs()
-        # Probabilities of deleting target characters
-        self.tdeltas = []
-        # Justification/alignment parameters
-        self.lambdas = self.make_ljust_probs()
         # History of sum of squares of changes in probs during M-step
         self.changes = []
         ## Variables depending on data
@@ -79,15 +68,10 @@ class Aligner:
         # List of word pairs, consisting of character strings
         self.data = []
         # List of word pairs, consisting of lists of character indices
-        self.data_indices = []
         self.training = []
-        self.training_indices = []
         self.test = []
-        self.test_indices = []
         self.validation = []
-        self.validation_indices = []
         ## Other arrays needed for training
-        self.tnorms = numpy.zeros(self.nt+1)
         # Arrays that depend on data
         self.counts = []
         self.tchar_counts = []
@@ -97,25 +81,31 @@ class Aligner:
         self.diffcounts = []
         self.tindex_combs = []
         if datafiles:
-            for datafile in datafiles:
-                d = Data(datafile)
-                wpairs = d.get_words([self.source, self.target])
-                self.data.extend(wpairs)
+            self.data = Data.create_dataset(datafiles,
+                                            [self.source, self.target],
+                                            test=test, validate=validate)
+            # get source and target characters in data
+            self.schars, self.tchars = self.data.chars
+            # Number of source and target characters
+            self.ns = len(self.schars)
+            self.nt = len(self.tchars)
+            ## Trained parameters (saved with save(), loaded with load())
+            # Character connections probabilities
+            self.probs = self.make_probs()
+            self.init_probs()
+            # Probabilities of deleting target characters
+            self.tdeltas = []
+            # Justification/alignment parameters
+            self.lambdas = self.make_ljust_probs()
+            # array to store normalization denominator in M-step
+            self.tnorms = numpy.zeros(self.nt+1)
             # Shuffle data so that it can be split into training, testing
             # and validation subsets
-            self.shuffle(self.data)
+            # self.shuffle(self.data)
             if test or validate:
-                self.test, self.validation, self.training =\
-                self.split_data(self.data)
+                self.training, self.validation, self.test = self.data.subds
             else:
                 self.training = self.data
-            # Or only work with indexed data
-            self.data_indices = [self.wpair2indices(wp) for wp in self.data]
-            if test:
-                self.test_indices = [self.wpair2indices(wp) for wp in self.test]
-            if validate:
-                self.validation_indices = [self.wpair2indices(wp) for wp in self.validation]
-            self.training_indices = [self.wpair2indices(wp) for wp in self.training]
             self.trainingN = len(self.training)
             self.counts = self.make_counts()
             # Target character deletion parameters and counts
@@ -131,68 +121,69 @@ class Aligner:
             self.ljustcounts = self.make_just_counts()
             self.rjustcounts = self.make_just_counts()
             self.diffcounts = self.make_diff_counts()
+        else:
+            # no data provided; set parameters on the basis
+            # of list of all source and target characters
+            self.ns = len(self.schars)
+            self.nt = len(self.tchars)
+            self.probs = self.make_probs()
+            self.init_probs()
+            self.tdeltas = []
+            self.lambdas = self.make_ljust_probs()
+            self.tnorms = numpy.zeros(self.nt+1)
 
     def __repr__(self):
         return "↙↘:{},{}".format(self.source, self.target)
 
+    ### experiments
+
+    def prepare(self):
+        """
+        Prepare for an experiment.
+        """
+        # create constraints
+        #   assumes there is a test dataset and a constraint file
+        self.test.read_constraints()
+        # create searchers for all
+        self.make_searchers(Aligner.TEST)
+
     ### datasets
 
-    def shuffle(self, data, reproduce=True):
-        """
-        Shuffle items in dataset so they can be split into training, test,
-        validation sets.
-        """
-        if reproduce:
-            numpy.random.seed(Aligner.seedgen)
-        numpy.random.shuffle(data)
-
-    def split_data(self, data, test=True, validate=True):
-        """Split data into test, validation, and training sets."""
-        n = len(data)
-        test_i = 0
-        validation_i = 0
-        if test:
-            test_i = round(n * Aligner.test_frac)
-        if validate:
-            validation_i = test_i + round(n * Aligner.validation_frac)
-        return data[:test_i], data[test_i:validation_i], data[validation_i:]
-
-    def get_data_indices(self,
-                         training=False, test=False, validate=False):
+    def get_data_indices(self, training=False, test=False, validate=False):
         """
         Word pairs as indices into various parameter arrays.
         """
         if training:
-            return self.training_indices
+            return self.training.indices
         elif test:
-            return self.test_indices
+            return self.test.indices
         elif validate:
-            return self.validation_indices
+            return self.validation.indices
         else:
-            return self.data_indices
+            return self.data.indices
 
-    def get_data_chars(self,
-                       training=False, test=False, validate=False):
-        """
-        Word pairs as lists of characters.
-        """
-        if training:
+    # def get_data(self, training=False, test=False, validate=False):
+    #     """
+    #     Word pairs as lists of characters.
+    #     """
+    #     if training:
+    #         return self.training
+    #     elif test:
+    #         return self.test
+    #     elif validate:
+    #         return self.validation
+    #     else:
+    #         return self.data
+
+    def get_data_by_cat(self, cat):
+        if cat == Aligner.TRAINING:
             return self.training
-        elif test:
+        elif cat == Aligner.TEST:
             return self.test
-        elif validate:
+        elif cat == Aligner.VALIDATION:
             return self.validation
         else:
             return self.data
-
-    def get_data(self,
-                 training=False, test=False, validate=False):
-        """
-        (data_indices, data_chars) for particular datasets
-        """
-        return \
-        (self.get_data_indices(training=training, test=test, validate=validate),
-         self.get_data_chars(training=training, test=test, validate=validate))
 
     ### Accessing characters and character indices
 
@@ -227,6 +218,7 @@ class Aligner:
         """
         Index associated with source character.
         """
+#        print("Getting index for {}".format(char))
         if check:
             if char not in self.schars:
                 return -1
@@ -331,14 +323,6 @@ class Aligner:
         in the count or parameter table.
         """
         return diff - Aligner.lendiff0
-
-    def wpair2indices(self, wpair):
-        """
-        Convert words in wpair to lists of indices into arrays.
-        """
-        sindices = [self.get_schar_index(c) for c in wpair[0]]
-        tindices = [self.get_tchar_index(c) for c in wpair[1]]
-        return sindices, tindices
 
     def targetN(self):
         """
@@ -572,8 +556,6 @@ class Aligner:
             # s|Σt_i for all i in target word.
             denom = self.calc_prob_sum(si, tword)
         prob = self.probs[si,ti]
-        #schar = self.get_schar(si)
-        #tchar = self.get_tchar(ti)
         leftprox, rightprox = self.calc_cooccs(sword, si, tword, ti)
         if leftprox or rightprox:
             cooccs = (leftprox + rightprox) / 2.0
@@ -581,7 +563,6 @@ class Aligner:
             # also normalize these?
             self.ljustcounts[diffindex] += (prob * leftprox)
             self.rjustcounts[diffindex] += (prob * rightprox)
-        #return leftprox, rightprox
 
     def calc_prob_sum(self, si, tword):
         """
@@ -598,8 +579,6 @@ class Aligner:
         positions.
         Return both left and right estimates.
         """
-        # if schar not in sword or tchar not in tword:
-        #     return 0.0, 0.0
         total = 0.0
         lbd = self.get_ljust_prob(sword, tword)
         slength = len(sword)
@@ -626,7 +605,6 @@ class Aligner:
                 leftproxsum += leftprox
                 rightproxsum += rightprox
         return leftproxsum, rightproxsum
-#        return sword.count(schar) * tword.count(tchar)
 
     # Deletion counts on E-step
 
@@ -661,8 +639,6 @@ class Aligner:
         if exptdels == 0.0:
             return
         tdeltsum = sum(tdelts)
-        # if verbosity:
-        #     print(" updating tdelts counts; tword {}, tdelts {}".format(tword, tdelts))
         for tindex, tdelt in zip(tword, tdelts):
             exptdel = tdelt * exptdels / tdeltsum
             self.tdelt_counts[tindex] += exptdel
@@ -670,34 +646,12 @@ class Aligner:
                 print("  Updating tdcount for {}: {}".format(tindex,
                 self.tdelt_counts[tindex]))
 
-    # def get_deletions(self, diff):
-    #     """
-    #     Get the expected number of deleted characters in source word of
-    #     length slength associated with target word of length tlength.
-    #     """
-    #     param = self.get_delta(diff)
-    #     baseline = max([0, diff])
-    #     return baseline + param
-    #     #return (baseline + param) / slength
-    #
-    #     """
-    #     Calculate the exptected number of source word
-    #     character deletions, based on the target word
-    #     character probabilities and the difference in
-    #     word lengths.
-    #     """
-    #     ldiff = len(sword) - len(tword)
-    #     tdels = self.calc_exp_tdels(tword)
-    #     return max(0, ldiff + tdels)
-
     def calc_exp_tdels(self, tword, tdelts):
         """
         Calculate the expected number of target char
         deletions, based on their character deletion
         probabilities.
         """
-        # if tdelts == None:
-        #     tdelts = self.get_tdeltas(tword)
         icombs = self.tindex_combs[len(tword)]
         return weighted_seq_prob_combs(tdelts, icombs)
 
@@ -708,8 +662,6 @@ class Aligner:
         and the lengths of the words.
         """
         ldiff = len(sword) - len(tword)
-        # if not tdels:
-        #     tdels = self.calc_exp_tdels(tword)
         return max([0, ldiff + tdels])
 
     ## M-step
@@ -845,39 +797,58 @@ class Aligner:
     #     return sum([Aligner.rel_proximity(sword, sindex, tword, tindex, l, m) \
     #     for tindex in range(m)])
 
-    ### Alignments for word pairs.
+    ### Alignments for word pairs and for a whole dataset.
 
-    def make_alignment(self, data_i, explicit=None,
-                       training=False, test=False, validate=False):
+    def align(self):
+        """
+        Create searchers if they don't already exist.
+        Run each searcher and save the resulting goal alignment.
+        """
+
+    def make_searchers(self, dscat=-1):
+        """
+        Create searcher and alignment objects for each word pairs in the
+        indicated dataset.
+        """
+        data = self.get_data_by_cat(dscat)
+        dsid = Aligner.DS_IDS[dscat] if dscat >=0 else ''
+        searchers = []
+        for d_i in range(len(data)):
+            wp = data.indices[d_i]
+            wp_chars = data[d_i]
+            cons = data.constraints[d_i]
+            name = "Aligner_{}{}".format(dsid, d_i)
+            searcher = self.make_searcher(name, wp, wp_chars, cons)
+            searchers.append(searcher)
+        data.searchers = searchers
+
+    def make_alignment(self, wpair=None, wpair_chars=None,
+                       constraints=None,
+                       data_i=None, explicit=None, dscat=-1):
         """
         Create an Alignment object for the wpair at index data_i.
+        Assume this happens after training.
         """
-        indices, data = self.get_data(training=training,
-                                      test=test,
-                                      validate=validate)
-        return Alignment(indices[data_i], data[data_i],
-                         self, explicit=explicit)
+        if not wpair or not wpair_chars:
+            data = self.get_data_by_cat(dscat)
+            wpair = data.indices[data_i]
+            wpair_chars = data[data_i]
+            constraints = data.constraints[data_i] if data.constraints else None
+        return Alignment(wpair, wpair_chars,
+                         self, explicit=explicit,
+                         constraints=constraints, setdir=True)
 
-    def make_align_searcher(self, data_i, dataset=-1):
+    def make_searcher(self, name, wp=None, wpc=None, cons=None):
         """
-        Create a best-first searcher for alignments.
+        Create a best-first searcher for alignments, using
+        instances of the Alignment class as states.
         """
-        training = test = validate = False
-        if dataset == Aligner.TRAINING:
-            training = True
-        elif dataset == Aligner.TEST:
-            test = True
-        elif dataset == Aligner.VALIDATION:
-            validate = True
-
-        searcher = \
-        BestFirst("AlignSearcher",
+        return \
+        BestFirst(name,
                   goal_test=lambda s: s.complete(),
-                  make_start=lambda: self.make_alignment(data_i,
-                       training=training, test=test, validate=validate),
+                  make_start=lambda: self.make_alignment(wp, wpc, cons),
                   extend=lambda s: s.extend(),
                   evaluate=lambda s: s.cost + s.distance)
-        return searcher
 
     # @staticmethod
     # def argmaxes(array):
@@ -895,46 +866,6 @@ class Aligner:
     #             indices.append(i+1)
     #     return indices
 
-#     def find_best_alignment(self, wpair):
-#         sword, tword = wpair
-#         alignment = []
-#         conflicts = []
-#         for scindex, sindex in enumerate(sword):
-#             tprobs = self.get_target_probs(tword, sindex)
-#             maxtcindices = Aligner.argmaxes(tprobs)
-#             if len(maxtcindices) > 1:
-#                 # the best target char appears more than once;
-#                 # pick the closest one
-#                 print("Multiple maxtcindices for {}|{}: {}".format(scindex, sindex, maxtcindices))
-#                 stdists = [(abs(scindex - tcindex), tcindex) for tcindex in maxtcindices]
-#                 stdists.sort(key=lambda x: x[0])
-#                 besttcindex = stdists[0][1]
-#             else:
-#                 besttcindex = maxtcindices[0]
-#             print("Best tc index for {}|{}: {}".format(scindex, sindex, besttcindex))
-#             if besttcindex in alignment:
-#                 prevscindex = alignment.index(besttcindex)
-#                 conflicts.append(((prevscindex, scindex), besttcindex))
-# #                if self.keep_old_stconn(sword, tword, scindex, prevscindex, besttcindex):
-#                     # Previous connection is better; connect this scindex to NONE
-# #                    alignment.append(len(tword))
-# #                else:
-#                     # New connection is better; replace old one with NONE
-# #                    alignment[prevscindex] = len(tword)
-#                     #alignment.append(besttcindex)
-#             alignment.append(besttcindex)
-#         return alignment, conflicts
-
-    # def keep_old_stconn(self, sword, tword, newsci, oldsci, tci):
-    #     """
-    #     When two source char indices are to be connected to the same
-    #     target char index (other than NONE), pick the scindex that is closer
-    #     in relative index to the target char index.
-    #     """
-    #     olddist = Aligner.get_rel_index_distance(sword, oldsci, tword, tci)
-    #     newdist = Aligner.get_rel_index_distance(sword, newsci, tword, tci)
-    #     return olddist < newdist
-
 class Alignment(list):
     """
     Alignment between a source word and its translation in
@@ -942,12 +873,13 @@ class Alignment(list):
     with indices into positions in the target word as list elements.
     """
 
-    beam = 2
+    beam = 5
     '''Number of succeeding positions to align with current
     s position when extending.'''
 
     def __init__(self, wpair, wpair_chars, aligner,
-                 cost=0, distance=0, explicit=None):
+                 cost=0, distance=0, explicit=None,
+                 setdir=False, left=True, constraints=None):
         # explicit is one or more target positions specified
         # at initialization
         if explicit:
@@ -970,6 +902,13 @@ class Alignment(list):
         self.cost = cost
         # number of source characters left to align
         self.distance = distance or len(self.sword)
+        # whether to set alignment direction now
+        if setdir:
+            self.set_direction()
+        else:
+            self.left = left
+        # constraints on valid alignments for this word pair
+        self.constraints = constraints
 
     def __repr__(self):
         #return "{}→{}\n{}".format(
@@ -980,7 +919,13 @@ class Alignment(list):
     ### Access
 
     def swi(self, index):
-        """The source word index associated with position index."""
+        """
+        The source word index associated with position index.
+        If the alignment is right-justified, this represents
+        the distance from the right end of the word.
+        """
+        if not self.left:
+            return self.sword[-index-1]
         return self.sword[index]
 
     def twi(self, index):
@@ -988,10 +933,17 @@ class Alignment(list):
         The target word index associated with position index,
         via this alignment.
         """
+        if not self.left:
+            return self.tword[-index-1]
         return self.tword[index]
 
     def schar(self, index):
-        """The source word character associated with position index."""
+        """
+        The source word character associated with position
+        index.
+        """
+        if not self.left:
+            return self.schars[-index-1]
         return self.schars[index]
 
     def tchar(self, index):
@@ -999,11 +951,15 @@ class Alignment(list):
         The target word character associated with position index,
         via this alignment.
         """
+        if not self.left:
+            return self.tchars[-index-1]
         return self.tchars[index]
 
     def last_nondel(self):
         """
-        The last non-deleted aligned position,
+        For left alignment, the rightmost non-deleted aligned position,
+        for right alignment, the leftmost non-deleted aligned position
+        (though both are searched for from the end of the self list),
         -1 if there are none.
         """
         nondel = [p for p in self if not self.deleted(p)]
@@ -1012,19 +968,35 @@ class Alignment(list):
         else:
             return -1
 
+    ### Alignment direction, based on justification parameters
+
+    def set_direction(self):
+        """
+        Set the direction of alignment after training.
+        """
+        lam = self.aligner.get_ljust_prob(self.sword, self.tword)
+        if lam >= 0.5:
+            self.left = True
+        else:
+            self.left = False
+
     ### Extending: creating new search states
 
     def copy(self, newcost=0):
         """
         Return a copy of the Alignment with the same
         word pair and indices, cost, and distance.
+        Explicit is set to the current alignment values
+        for this alignment.
         """
         return Alignment((self.sword, self.tword),
                          (self.schars, self.tchars),
                          self.aligner,
                          explicit=self[:],
                          cost=self.cost + newcost,
-                         distance=self.distance)
+                         distance=self.distance,
+                         left=self.left,
+                         constraints=self.constraints)
 
     def update(self, tpos):
         """
@@ -1033,6 +1005,13 @@ class Alignment(list):
         self.append(tpos)
         self.update_cost()
         self.distance -= 1
+
+    def update_cost(self):
+        """
+        Add cost of last index.
+        """
+        index = len(self) - 1
+        self.cost -= numpy.log(self.prob1(index))
 
     def deleted(self, position):
         """
@@ -1048,9 +1027,6 @@ class Alignment(list):
         """
         return len(self) == self.slength
 
-    # def add_delete(self):
-    #     self.append(-1)
-
     def next(self):
         """
         The character following the last one aligned.
@@ -1058,7 +1034,7 @@ class Alignment(list):
         if self.complete():
             # No more characters
             return
-        return self.sword[len(self)]
+        return self.swi(len(self))
 
     def extend(self):
         """
@@ -1079,7 +1055,6 @@ class Alignment(list):
             last_tpos = -1
         else:
             last_tpos = self.last_nondel()
-#            last_tpos = self[-1]
         # start connecting here
         tpos = last_tpos + 1
         # number of target positions tried
@@ -1091,8 +1066,6 @@ class Alignment(list):
                 # a target position has been skipped, so
                 # add the cost of deleting the last character
                 tdel_cost = self.tdel_cost(tpos-1) or 1.0e-20
-#                tc = self.aligner.get_tchar(self.twi(tpos-1))
-#                print("tdel cost for {} {}".format(tc, tdel_cost))
                 newcost -= numpy.log(tdel_cost)
             # make a new connection alignment
             new_alignment = self.copy(newcost=newcost)
@@ -1106,7 +1079,7 @@ class Alignment(list):
         alignments.append(new_alignment)
         return alignments
 
-    ### Evaluation
+    ### Evaluation during search
 
     def prob1(self, sindex):
         """
@@ -1137,13 +1110,6 @@ class Alignment(list):
         p = self.prob() or 1.0e-20
         return - numpy.log(p)
 
-    def update_cost(self):
-        """
-        Add cost of last index.
-        """
-        index = len(self) - 1
-        self.cost -= numpy.log(self.prob1(index))
-
     def tdel_cost(self, tpos):
         """
         Get the cost (neg log of) the probability of
@@ -1164,14 +1130,182 @@ class Alignment(list):
         """
         return self.distance() + self.cost()
 
-    def pretty(self, verbosity=0, print=False):
+    ### Evaluation of complete alignment, based on
+    ### constraints
+
+    def reverse(self):
+        """
+        The target-to-source alignment corresponding
+        to this alignment.
+        """
+        tsa = []
+        for sp, a in enumerate(self):
+            # get the non-deleted alignment covered
+            nondel = [p for p in self[:sp] if not self.deleted(p)]
+            if nondel:
+                last_tsa = nondel[-1]
+            else:
+                last_tsa = -1
+            if a > last_tsa + 1:
+                # one or more deleted characters in target
+                tstart = last_tsa + 1
+                for tp in range(tstart, a):
+                    tsa.append(-1)
+            if not self.deleted(a):
+                # source char is aligned with something
+                tsa.append(sp)
+        # Positions in target beyond position aligned with end of source
+        # last aligned position that is not -1
+        if self.complete():
+            last_nondel = self.last_nondel()
+            if last_nondel < self.tlength:
+                for ti in range(last_nondel+1, self.tlength):
+                    tsa.append(-1)
+        return tsa
+
+    def evaluate(self, recall=True, verbosity=0):
+        """
+        Return a score for this alignment based on
+        constraints in the self.constraints list.
+        """
+        abs_score = 0
+        int_score = 0
+        int_scores = []
+        if self.constraints:
+            # constraints is a pair:
+            #  (absolute_constraints, interval_constraints)
+            abs_c, int_c = self.constraints
+            if abs_c:
+                score = 0
+                total = 0
+                for sp, tp in abs_c:
+                    sa = self[sp]
+                    if sa == tp:
+                        score += 1
+                        total += 1
+                    elif sa < 0:
+                        if recall: total += 1
+                    else:
+                        total += 1
+                    if verbosity:
+                        print(" satisifed abscon {}->{}".format(sp, tp))
+                if verbosity:
+                    print("abs raw: {}".format(score))
+                if total:
+                    abs_score = score / total
+            if int_c:
+#                score = 0
+                a_rev = self.reverse()
+                for beginning, end in int_c:
+                    if verbosity:
+                        print(" intcon {}...{}".format(beginning, end))
+                    in_count = 0
+#                    out_count = 0
+                    total = 0
+#                    satisfied = False
+                    sp0, tp0 = beginning
+                    sp1, tp1 = end
+                    # score number of characters in shorter segment
+                    # which are inside the interval
+                    if (sp1 - sp0) <= (tp1 - tp0):
+                        # check source characters
+                        for sp in range(sp0, sp1+1):
+                            ta = self[sp]
+                            if ta >= 0 and tp0 <= ta <= tp1:
+                                in_count += 1
+                                total += 1
+                            elif ta < 0:
+                                # deletion; count only for recall
+                                if recall: total += 1
+                            else:
+                                total += 1
+                    else:
+                        for tp in range(tp0, tp1+1):
+                            sa = a_rev[tp]
+                            if sa >= 0 and sp0 <= sa <= sp1:
+                                in_count += 1
+                                total += 1
+                            elif sa < 0:
+                                if recall: total += 1
+                            else:
+                                total += 1
+                    if verbosity:
+                        print(" {} chars in interval of {}".format(in_count, total))
+                    score = in_count / total if total else 0
+                    int_scores.append(score)
+#                            satisfied = False
+#                            break
+#                        else:
+                            #satisfied = True
+#                    if satisfied:
+#                        if verbosity:
+                            #print(" satisfied intcon {}...{}".format(beginning, end))
+#                        score += 1
+#                    elif verbosity:
+#                        print(" failed intcon {}...{}".format(beginning, end))
+#                if verbosity:
+                    #print("int raw: {}".format(score))
+#                int_score = score / len(int_c)
+        return abs_score, int_scores
+        #     total = 0
+        #     intervs = {}
+        #     interv_aligns = {}
+        #     interv_fails = []
+        #     for c, a in zip(self.constraints, self):
+        #         tp = type(c)
+        #         if tp == int:
+        #             if c < 0:
+        #                 continue
+        #             if a == c:
+        #                 print("Succeeded on {}".format(c))
+        #                 score += 1
+        #             total += 1
+        #         elif tp == str:
+        #             interv = intervs.get(c)
+        #             if not interv:
+        #                 return
+        #             lower, upper = interv
+        #             if lower <= a <= upper:
+        #                 if c in interv_aligns:
+        #                     interv_aligns[c].append(a)
+        #                 else:
+        #                     interv_aligns[c] = [a]
+        #             elif a >= 0:
+        #                 print(" {} fails because {} is outside".format(c, a))
+        #                 interv_fails.append(c)
+        #         else:
+        #             i, lower, upper = c
+        #             intervs[i] = (lower, upper)
+        #             if lower <= a <= upper:
+        #                 interv_aligns[i] = [a]
+        #             elif a >= 0:
+        #                 print(" {} fails because {} is outside".format(c, a))
+        #                 interv_fails.append(c)
+        #             total += 1
+        #     for i in intervs:
+        #         if i in interv_aligns and i not in interv_fails:
+        #             print("Succeeded on {}".format(i))
+        #             score += 1
+        # if total:
+        #     return score / total
+        # return 0
+
+    ### Displaying the alignment
+
+    def pretty(self, verbosity=0, printit=False):
         """
         Pretty print alignment.
         """
         t_string = []
         s_string = []
         last_align = 0
-        for si, schar in enumerate(self.schars[:len(self)]):
+        if self.left:
+            schars = self.schars
+            tchars = self.tchars
+        else:
+            schars = list(reversed(self.schars))
+            tchars = list(reversed(self.tchars))
+        for si, schar in enumerate(schars[:len(self)]):
             current_max = len(schar) + 1
             string = " " + schar
             align = self[si]
@@ -1182,7 +1316,7 @@ class Alignment(list):
                 # one or more deleted characters in target
                 tstart = last_align + 1
                 for tindex in range(tstart, align):
-                    tchar = self.tchars[tindex]
+                    tchar = tchars[tindex]
                     new_length = len(tchar) + 1
                     current_max = max(current_max, new_length)
                     s_string.append(" " + ' ' * len(tchar))
@@ -1190,14 +1324,17 @@ class Alignment(list):
             if not self.deleted(align):
                 # source char is aligned with something
                 last_align = align
-                tchar = self.tchars[align]
+                tchar = tchars[align]
                 new_length = len(tchar) + 1
                 current_max = max(current_max, new_length)
+                newtstring = ''
                 if si > 0 and align == self[si-1]:
                     # This character already part of string
-                    t_string.append(' ' + ' ' * len(tchar))
+                    newtstring = ' ' + ' ' * len(tchar)
                 else:
-                    t_string.append(' ' + tchar)
+                    newtstring = ' ' + tchar
+                newtstring = newtstring.rjust(current_max)
+                t_string.append(newtstring)
             string = string.rjust(current_max)
             s_string.append(string)
         # Positions in target beyond position aligned with end of source
@@ -1206,10 +1343,13 @@ class Alignment(list):
             last_nondel = self.last_nondel()
             if last_nondel < self.tlength:
                 for ti in range(last_nondel+1, self.tlength):
-                    t_string.append(" " + self.tchars[ti])
+                    t_string.append(" " + tchars[ti])
+        if not self.left:
+            s_string.reverse()
+            t_string.reverse()
         s_string = ''.join(s_string)
         t_string = ''.join(t_string)
-        if print:
+        if printit:
             print(s_string)
             print(t_string)
         else:

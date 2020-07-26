@@ -20,6 +20,9 @@ Author: Michael Gasser <gasser@indiana.edu>
 
 -- 29.1.2020
    Created.
+-- 7.2020
+   Note that "alignments" in the TGroup class have been, at least temporarily,
+   replaced by the Alignment and Aligner classes in align.py.
 """
 
 from .phone import *
