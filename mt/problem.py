@@ -117,7 +117,7 @@ class Scoring:
             return basic_cost + match_cost * matches
         return nochhelp
 
-class Problem:
+class CRFProblem:
     """A dataset and scoring functions to use in learning rules for
     word-to-word translation based on the approach in Durrett & DeNero."""
 

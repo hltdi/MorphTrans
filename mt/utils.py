@@ -22,7 +22,59 @@ Author: Michael Gasser <gasser@indiana.edu>
    Created.
 """
 
-import itertools
+import itertools, datetime
+
+def get_file_id(filename):
+    """
+    Get the characters before the first number in the filename.
+    """
+    name = ''
+    for char in filename:
+        if char.isdigit():
+            return name
+        else:
+            name += char
+    return name
+
+### Time formatting
+
+TIME_FORMAT = "%d.%m.%Y/%H:%M:%S:%f"
+# Time format without microseconds;
+SHORT_TIME_FORMAT = "%d.%m.%Y/%H:%M:%S"
+# Format without punctuation, for filenames (sortable by date created)
+FILE_SHORT_TIME_FORMAT = "%Y%m%d%H%M%S"
+
+ZERO_TIME = datetime.timedelta()
+TIME0 = datetime.datetime.utcnow()
+
+def get_time(string=False, short=False, file=False):
+    time = datetime.datetime.utcnow()
+    if string:
+        return time2str(time, short=short, file=file)
+    return time
+
+def get_time_since0(time):
+    return time - TIME0
+
+def time2str(time, short=False, file=False):
+    if file:
+        format = FILE_SHORT_TIME_FORMAT
+    elif short:
+        format = SHORT_TIME_FORMAT
+    else:
+        format = TIME_FORMAT
+    return time.strftime(format)
+
+def str2time(string, short=False, file=False):
+    if file:
+        format = FILE_SHORT_TIME_FORMAT
+    elif short:
+        format = SHORT_TIME_FORMAT
+    else:
+        format = TIME_FORMAT
+    return datetime.datetime.strptime(string, format)
+
+### Combinations and probabilities (used in Aligner)
 
 def product(*numbers):
     """
@@ -76,5 +128,6 @@ def weighted_seq_prob_combs(seq, icombs=None):
     """
     if not icombs:
         icombs = all_index_combs(len(seq))
-    weighted_combs = [(i+1) * seq_prob_comb(seq, i+1, icombs[i]) for i in range(len(seq))]
+    weighted_combs = [(i+1) * seq_prob_comb(seq, i+1, icombs[i])\
+                     for i in range(len(seq))]
     return sum(weighted_combs)

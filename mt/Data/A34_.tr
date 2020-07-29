@@ -1,0 +1,5282 @@
+languages = ti_,am_,te_,ks_
+
+## ;prf,1s,3smo,neg,main
+'aymeKerkuw_on # mkr|A;ኣይመኸርኩዎ፟ን
+'almek_erkutm # mkr|A;አልመከ፟ርኩትም
+'imekerkwo # mkr|A;ኢመከርክዎ
+'almekerkun_ # mkr|A;አልመከርኩን፟
+## ;prf,1s,3smo,neg,rel
+zeymeKerkuw_o # mkr|A;ዘይመኸርኩዎ፟
+yalmek_erkut # mkr|A;ያልመከ፟ርኩት
+le'imekerkwo # mkr|A;ለኢመከርክዎ
+yalmekerkun_ # mkr|A;ያልመከርኩን፟
+## ;prf,1s,3smo,aff,main
+meKerkuw_o # mkr|A;መኸርኩዎ፟
+mek_erkut # mkr|A;መከ፟ርኩት
+mekerkwo # mkr|A;መከርክዎ
+mek_erkun_t # mkr|A;መከ፟ርኩን፟ት
+## ;prf,1s,3smo,aff,rel
+zmeKerkuw_o # mkr|A;ዝመኸርኩዎ፟
+yemek_erkut # mkr|A;የመከ፟ርኩት
+lemekerkwo # mkr|A;ለመከርክዎ
+yemek_erkun_ # mkr|A;የመከ፟ርኩን፟
+## ;prf,1s,3sfo,neg,main
+'aymeKerkuw_an # mkr|A;ኣይመኸርኩዋ፟ን
+'almek_erkWatm # mkr|A;አልመከ፟ርኳትም
+'imekerkwe # mkr|A;ኢመከርክወ
+'almekerkun_a # mkr|A;አልመከርኩና፟
+## ;prf,1s,3sfo,neg,rel
+zeymeKerkuw_a # mkr|A;ዘይመኸርኩዋ፟
+yalmek_erkWat # mkr|A;ያልመከ፟ርኳት
+le'imekerkwe # mkr|A;ለኢመከርክወ
+yalmekerkun_a # mkr|A;ያልመከርኩና፟
+## ;prf,1s,3sfo,aff,main
+meKerkuw_a # mkr|A;መኸርኩዋ፟
+mek_erkWat # mkr|A;መከ፟ርኳት
+mekerkwe # mkr|A;መከርክወ
+mek_erkun_at # mkr|A;መከ፟ርኩና፟ት
+## ;prf,1s,3sfo,aff,rel
+zmeKerkuw_a # mkr|A;ዝመኸርኩዋ፟
+yemek_erkWat # mkr|A;የመከ፟ርኳት
+lemekerkwe # mkr|A;ለመከርክወ
+yemek_erkun_a # mkr|A;የመከ፟ርኩና፟
+## ;prf,3sm,3smo,neg,main
+'aymeKeron # mkr|A;ኣይመኸሮን
+'almek_erewm # mkr|A;አልመከ፟ረውም
+'imekreyu # mkr|A;ኢመክረዩ
+'almekeren_ # mkr|A;አልመከረን፟
+## ;prf,3sm,3smo,neg,rel
+zeymeKero # mkr|A;ዘይመኸሮ
+yalmek_erew # mkr|A;ያልመከ፟ረው
+le'imekreyu # mkr|A;ለኢመክረዩ
+yalmekeren_ # mkr|A;ያልመከረን፟
+## ;prf,3sm,3smo,aff,main
+meKero # mkr|A;መኸሮ
+mek_erew # mkr|A;መከ፟ረው
+mekreyu # mkr|A;መክረዩ
+mek_eren_t # mkr|A;መከ፟ረን፟ት
+## ;prf,3sm,3smo,aff,rel
+zmeKero # mkr|A;ዝመኸሮ
+yemek_erew # mkr|A;የመከ፟ረው
+lemekreyu # mkr|A;ለመክረዩ
+yemek_eren_ # mkr|A;የመከ፟ረን፟
+## ;prf,3sm,3sfo,neg,main
+'aymeKeran # mkr|A;ኣይመኸራን
+'almek_eratm # mkr|A;አልመከ፟ራትም
+'imekreye # mkr|A;ኢመክረየ
+'almekeren_a # mkr|A;አልመከረና፟
+## ;prf,3sm,3sfo,neg,rel
+zeymeKera # mkr|A;ዘይመኸራ
+yalmek_erat # mkr|A;ያልመከ፟ራት
+le'imekreye # mkr|A;ለኢመክረየ
+yalmekeren_a # mkr|A;ያልመከረና፟
+## ;prf,3sm,3sfo,aff,main
+meKera # mkr|A;መኸራ
+mek_erat # mkr|A;መከ፟ራት
+mekreye # mkr|A;መክረየ
+mek_eren_at # mkr|A;መከ፟ረና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zmeKera # mkr|A;ዝመኸራ
+yemek_erat # mkr|A;የመከ፟ራት
+lemekreye # mkr|A;ለመክረየ
+yemek_eren_a # mkr|A;የመከ፟ረና፟
+## ;prf,2pf,3smo,neg,main
+'aymeKerkn'on # mkr|A;ኣይመኸርክንኦን
+'almek_erac_hutm # mkr|A;አልመከ፟ራች፟ሁትም
+'imekerknehu # mkr|A;ኢመከርክነኁ
+'almekerkman_ # mkr|A;አልመከርክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeymeKerkn'o # mkr|A;ዘይመኸርክንኦ
+yalmek_erac_hut # mkr|A;ያልመከ፟ራች፟ሁት
+le'imekerknehu # mkr|A;ለኢመከርክነኁ
+yalmekerkman_ # mkr|A;ያልመከርክማን፟
+## ;prf,2pf,3smo,aff,main
+meKerkn'o # mkr|A;መኸርክንኦ
+mek_erac_hut # mkr|A;መከ፟ራች፟ሁት
+mekerknehu # mkr|A;መከርክነኁ
+mek_erkman_t # mkr|A;መከ፟ርክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zmeKerkn'o # mkr|A;ዝመኸርክንኦ
+yemek_erac_hut # mkr|A;የመከ፟ራች፟ሁት
+lemekerknehu # mkr|A;ለመከርክነኁ
+yemek_erkman_ # mkr|A;የመከ፟ርክማን፟
+## ;prf,2pf,3sfo,neg,main
+'aymeKerkn'an # mkr|A;ኣይመኸርክንኣን
+'almek_erac_hWatm # mkr|A;አልመከ፟ራች፟ኋትም
+'imekerknehe # mkr|A;ኢመከርክነኀ
+'almekerkman_a # mkr|A;አልመከርክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeymeKerkn'a # mkr|A;ዘይመኸርክንኣ
+yalmek_erac_hWat # mkr|A;ያልመከ፟ራች፟ኋት
+le'imekerknehe # mkr|A;ለኢመከርክነኀ
+yalmekerkman_a # mkr|A;ያልመከርክማና፟
+## ;prf,2pf,3sfo,aff,main
+meKerkn'a # mkr|A;መኸርክንኣ
+mek_erac_hWat # mkr|A;መከ፟ራች፟ኋት
+mekerknehe # mkr|A;መከርክነኀ
+mek_erkman_at # mkr|A;መከ፟ርክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zmeKerkn'a # mkr|A;ዝመኸርክንኣ
+yemek_erac_hWat # mkr|A;የመከ፟ራች፟ኋት
+lemekerknehe # mkr|A;ለመከርክነኀ
+yemek_erkman_a # mkr|A;የመከ፟ርክማና፟
+## ;imf,1s,3smo,neg,main
+'aymeKron # mkr|A;ኣይመኽሮን
+'almekrewm # mkr|A;አልመክረውም
+'i'mek_r_o # mkr|A;ኢእመክ፟ሮ፟
+temekr_ # mkr|A;ተመክር፟
+## ;imf,1s,3smo,neg,rel
+zeymeKro # mkr|A;ዘይመኽሮ
+yem_almekrew # mkr|A;የማ፟ልመክረው
+le'i'mek_r_o # mkr|A;ለኢእመክ፟ሮ፟
+'an_mekr_ # mkr|A;አን፟መክር፟
+## ;imf,1s,3smo,aff,main
+'meKro # mkr|A;እመኽሮ
+'mekrewal_ehu # mkr|A;እመክረዋለ፟ሁ
+'mek_r_o # mkr|A;እመክ፟ሮ፟
+'emekr_t # mkr|A;ኧመክር፟ት
+## ;imf,1s,3smo,aff,rel
+zmeKro # mkr|A;ዝመኽሮ
+yem_mekrew # mkr|A;የም፟መክረው
+le'mek_r_o # mkr|A;ለእመክ፟ሮ፟
+'emekr_ # mkr|A;ኧመክር፟
+## ;imf,1s,3sfo,neg,main
+'aymeKran # mkr|A;ኣይመኽራን
+'almekratm # mkr|A;አልመክራትም
+'i'mek_r_e # mkr|A;ኢእመክ፟ረ፟
+temekr_a # mkr|A;ተመክራ፟
+## ;imf,1s,3sfo,neg,rel
+zeymeKra # mkr|A;ዘይመኽራ
+yem_almekrat # mkr|A;የማ፟ልመክራት
+le'i'mek_r_e # mkr|A;ለኢእመክ፟ረ፟
+'an_mekr_a # mkr|A;አን፟መክራ፟
+## ;imf,1s,3sfo,aff,main
+'meKra # mkr|A;እመኽራ
+'mekratal_ehu # mkr|A;እመክራታለ፟ሁ
+'mek_r_e # mkr|A;እመክ፟ረ፟
+'emekr_at # mkr|A;ኧመክራ፟ት
+## ;imf,1s,3sfo,aff,rel
+zmeKra # mkr|A;ዝመኽራ
+yem_mekrat # mkr|A;የም፟መክራት
+le'mek_r_e # mkr|A;ለእመክ፟ረ፟
+'emekr_a # mkr|A;ኧመክራ፟
+## ;imf,3sm,3smo,neg,main
+'ay_meKron # mkr|A;ኣይ፟መኽሮን
+'aymekrewm # mkr|A;አይመክረውም
+'ilmek_r_o # mkr|A;ኢልመክ፟ሮ፟
+timekr_ # mkr|A;ቲመክር፟
+## ;imf,3sm,3smo,neg,rel
+zey_meKro # mkr|A;ዘይ፟መኽሮ
+yem_aymekrew # mkr|A;የማ፟ይመክረው
+le'ilmek_r_o # mkr|A;ለኢልመክ፟ሮ፟
+'aymekr_ # mkr|A;አይመክር፟
+## ;imf,3sm,3smo,aff,main
+ymeKro # mkr|A;ይመኽሮ
+ymekrewal # mkr|A;ይመክረዋል
+lmek_r_o # mkr|A;ልመክ፟ሮ፟
+ymekr_t # mkr|A;ይመክር፟ት
+## ;imf,3sm,3smo,aff,rel
+zimeKro # mkr|A;ዚመኽሮ
+yem_imekrew # mkr|A;የሚ፟መክረው
+lelmek_r_o # mkr|A;ለልመክ፟ሮ፟
+ymekr_ # mkr|A;ይመክር፟
+## ;imf,3sm,3sfo,neg,main
+'ay_meKran # mkr|A;ኣይ፟መኽራን
+'aymekratm # mkr|A;አይመክራትም
+'ilmek_r_e # mkr|A;ኢልመክ፟ረ፟
+timekr_a # mkr|A;ቲመክራ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_meKra # mkr|A;ዘይ፟መኽራ
+yem_aymekrat # mkr|A;የማ፟ይመክራት
+le'ilmek_r_e # mkr|A;ለኢልመክ፟ረ፟
+'aymekr_a # mkr|A;አይመክራ፟
+## ;imf,3sm,3sfo,aff,main
+ymeKra # mkr|A;ይመኽራ
+ymekratal # mkr|A;ይመክራታል
+lmek_r_e # mkr|A;ልመክ፟ረ፟
+ymekr_at # mkr|A;ይመክራ፟ት
+## ;imf,3sm,3sfo,aff,rel
+zimeKra # mkr|A;ዚመኽራ
+yem_imekrat # mkr|A;የሚ፟መክራት
+lelmek_r_e # mkr|A;ለልመክ፟ረ፟
+ymekr_a # mkr|A;ይመክራ፟
+## ;imf,2pf,3smo,neg,main
+'aytmeKr'on # mkr|A;ኣይትመኽርኦን
+'at_mekrutm # mkr|A;አት፟መክሩትም
+'itmekrehu # mkr|A;ኢትመክረኁ
+tt_mekrman_ # mkr|A;ትት፟መክርማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytmeKr'o # mkr|A;ዘይትመኽርኦ
+yem_at_mekrut # mkr|A;የማ፟ት፟መክሩት
+le'itmekrehu # mkr|A;ለኢትመክረኁ
+'at_mekrman_ # mkr|A;አት፟መክርማን፟
+## ;imf,2pf,3smo,aff,main
+tmeKr'o # mkr|A;ትመኽርኦ
+tmekrutal_ac_hu # mkr|A;ትመክሩታላ፟ች፟ሁ
+tmekrehu # mkr|A;ትመክረኁ
+tmekrman_t # mkr|A;ትመክርማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_meKr'o # mkr|A;ዝት፟መኽርኦ
+yem_t_mekrut # mkr|A;የም፟ት፟መክሩት
+letmekrehu # mkr|A;ለትመክረኁ
+tmekrman_ # mkr|A;ትመክርማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytmeKr'an # mkr|A;ኣይትመኽርኣን
+'at_mekrWatm # mkr|A;አት፟መክሯትም
+'itmekrehe # mkr|A;ኢትመክረኀ
+tt_mekrman_a # mkr|A;ትት፟መክርማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytmeKr'a # mkr|A;ዘይትመኽርኣ
+yem_at_mekrWat # mkr|A;የማ፟ት፟መክሯት
+le'itmekrehe # mkr|A;ለኢትመክረኀ
+'at_mekrman_a # mkr|A;አት፟መክርማና፟
+## ;imf,2pf,3sfo,aff,main
+tmeKr'a # mkr|A;ትመኽርኣ
+tmekrWatal_ac_hu # mkr|A;ትመክሯታላ፟ች፟ሁ
+tmekrehe # mkr|A;ትመክረኀ
+tmekrman_at # mkr|A;ትመክርማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_meKr'a # mkr|A;ዝት፟መኽርኣ
+yem_t_mekrWat # mkr|A;የም፟ት፟መክሯት
+letmekrehe # mkr|A;ለትመክረኀ
+tmekrman_a # mkr|A;ትመክርማና፟
+## ;prf,1s,3smo,neg,main
+'ayqed_eskuw_on # qds|B;ኣይቀደ፟ስኩዎ፟ን
+'alqed_eskutm # qds|B;አልቀደ፟ስኩትም
+'iqed_eskwo # qds|B;ኢቀደ፟ስክዎ
+'alqed_eskun_ # qds|B;አልቀደ፟ስኩን፟
+## ;prf,1s,3smo,neg,rel
+zeyqed_eskuw_o # qds|B;ዘይቀደ፟ስኩዎ፟
+yalqed_eskut # qds|B;ያልቀደ፟ስኩት
+le'iqed_eskwo # qds|B;ለኢቀደ፟ስክዎ
+yalqed_eskun_ # qds|B;ያልቀደ፟ስኩን፟
+## ;prf,1s,3smo,aff,main
+qed_eskuw_o # qds|B;ቀደ፟ስኩዎ፟
+qed_eskut # qds|B;ቀደ፟ስኩት
+qed_eskwo # qds|B;ቀደ፟ስክዎ
+qid_eskun_t # qds|B;ቂደ፟ስኩን፟ት
+## ;prf,1s,3smo,aff,rel
+zQed_eskuw_o # qds|B;ዝቐደ፟ስኩዎ፟
+yeqed_eskut # qds|B;የቀደ፟ስኩት
+leqed_eskwo # qds|B;ለቀደ፟ስክዎ
+yeqid_eskun_ # qds|B;የቂደ፟ስኩን፟
+## ;prf,1s,3sfo,neg,main
+'ayqed_eskuw_an # qds|B;ኣይቀደ፟ስኩዋ፟ን
+'alqed_eskWatm # qds|B;አልቀደ፟ስኳትም
+'iqed_eskwe # qds|B;ኢቀደ፟ስክወ
+'alqed_eskun_a # qds|B;አልቀደ፟ስኩና፟
+## ;prf,1s,3sfo,neg,rel
+zeyqed_eskuw_a # qds|B;ዘይቀደ፟ስኩዋ፟
+yalqed_eskWat # qds|B;ያልቀደ፟ስኳት
+le'iqed_eskwe # qds|B;ለኢቀደ፟ስክወ
+yalqed_eskun_a # qds|B;ያልቀደ፟ስኩና፟
+## ;prf,1s,3sfo,aff,main
+qed_eskuw_a # qds|B;ቀደ፟ስኩዋ፟
+qed_eskWat # qds|B;ቀደ፟ስኳት
+qed_eskwe # qds|B;ቀደ፟ስክወ
+qid_eskun_at # qds|B;ቂደ፟ስኩና፟ት
+## ;prf,1s,3sfo,aff,rel
+zQed_eskuw_a # qds|B;ዝቐደ፟ስኩዋ፟
+yeqed_eskWat # qds|B;የቀደ፟ስኳት
+leqed_eskwe # qds|B;ለቀደ፟ስክወ
+yeqid_eskun_a # qds|B;የቂደ፟ስኩና፟
+## ;prf,3sm,3smo,neg,main
+'ayqed_eson # qds|B;ኣይቀደ፟ሶን
+'alqed_esewm # qds|B;አልቀደ፟ሰውም
+'iqed_eseyu # qds|B;ኢቀደ፟ሰዩ
+'alqed_esen_ # qds|B;አልቀደ፟ሰን፟
+## ;prf,3sm,3smo,neg,rel
+zeyqed_eso # qds|B;ዘይቀደ፟ሶ
+yalqed_esew # qds|B;ያልቀደ፟ሰው
+le'iqed_eseyu # qds|B;ለኢቀደ፟ሰዩ
+yalqed_esen_ # qds|B;ያልቀደ፟ሰን፟
+## ;prf,3sm,3smo,aff,main
+qed_eso # qds|B;ቀደ፟ሶ
+qed_esew # qds|B;ቀደ፟ሰው
+qed_eseyu # qds|B;ቀደ፟ሰዩ
+qid_esen_t # qds|B;ቂደ፟ሰን፟ት
+## ;prf,3sm,3smo,aff,rel
+zQed_eso # qds|B;ዝቐደ፟ሶ
+yeqed_esew # qds|B;የቀደ፟ሰው
+leqed_eseyu # qds|B;ለቀደ፟ሰዩ
+yeqid_esen_ # qds|B;የቂደ፟ሰን፟
+## ;prf,3sm,3sfo,neg,main
+'ayqed_esan # qds|B;ኣይቀደ፟ሳን
+'alqed_esatm # qds|B;አልቀደ፟ሳትም
+'iqed_eseye # qds|B;ኢቀደ፟ሰየ
+'alqed_esen_a # qds|B;አልቀደ፟ሰና፟
+## ;prf,3sm,3sfo,neg,rel
+zeyqed_esa # qds|B;ዘይቀደ፟ሳ
+yalqed_esat # qds|B;ያልቀደ፟ሳት
+le'iqed_eseye # qds|B;ለኢቀደ፟ሰየ
+yalqed_esen_a # qds|B;ያልቀደ፟ሰና፟
+## ;prf,3sm,3sfo,aff,main
+qed_esa # qds|B;ቀደ፟ሳ
+qed_esat # qds|B;ቀደ፟ሳት
+qed_eseye # qds|B;ቀደ፟ሰየ
+qid_esen_at # qds|B;ቂደ፟ሰና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zQed_esa # qds|B;ዝቐደ፟ሳ
+yeqed_esat # qds|B;የቀደ፟ሳት
+leqed_eseye # qds|B;ለቀደ፟ሰየ
+yeqid_esen_a # qds|B;የቂደ፟ሰና፟
+## ;prf,2pf,3smo,neg,main
+'ayqed_eskn'on # qds|B;ኣይቀደ፟ስክንኦን
+'alqed_esac_hutm # qds|B;አልቀደ፟ሳች፟ሁትም
+'iqed_esknehu # qds|B;ኢቀደ፟ስክነኁ
+'alqed_eskman_ # qds|B;አልቀደ፟ስክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeyqed_eskn'o # qds|B;ዘይቀደ፟ስክንኦ
+yalqed_esac_hut # qds|B;ያልቀደ፟ሳች፟ሁት
+le'iqed_esknehu # qds|B;ለኢቀደ፟ስክነኁ
+yalqed_eskman_ # qds|B;ያልቀደ፟ስክማን፟
+## ;prf,2pf,3smo,aff,main
+qed_eskn'o # qds|B;ቀደ፟ስክንኦ
+qed_esac_hut # qds|B;ቀደ፟ሳች፟ሁት
+qed_esknehu # qds|B;ቀደ፟ስክነኁ
+qid_eskman_t # qds|B;ቂደ፟ስክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zQed_eskn'o # qds|B;ዝቐደ፟ስክንኦ
+yeqed_esac_hut # qds|B;የቀደ፟ሳች፟ሁት
+leqed_esknehu # qds|B;ለቀደ፟ስክነኁ
+yeqid_eskman_ # qds|B;የቂደ፟ስክማን፟
+## ;prf,2pf,3sfo,neg,main
+'ayqed_eskn'an # qds|B;ኣይቀደ፟ስክንኣን
+'alqed_esac_hWatm # qds|B;አልቀደ፟ሳች፟ኋትም
+'iqed_esknehe # qds|B;ኢቀደ፟ስክነኀ
+'alqed_eskman_a # qds|B;አልቀደ፟ስክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeyqed_eskn'a # qds|B;ዘይቀደ፟ስክንኣ
+yalqed_esac_hWat # qds|B;ያልቀደ፟ሳች፟ኋት
+le'iqed_esknehe # qds|B;ለኢቀደ፟ስክነኀ
+yalqed_eskman_a # qds|B;ያልቀደ፟ስክማና፟
+## ;prf,2pf,3sfo,aff,main
+qed_eskn'a # qds|B;ቀደ፟ስክንኣ
+qed_esac_hWat # qds|B;ቀደ፟ሳች፟ኋት
+qed_esknehe # qds|B;ቀደ፟ስክነኀ
+qid_eskman_at # qds|B;ቂደ፟ስክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zQed_eskn'a # qds|B;ዝቐደ፟ስክንኣ
+yeqed_esac_hWat # qds|B;የቀደ፟ሳች፟ኋት
+leqed_esknehe # qds|B;ለቀደ፟ስክነኀ
+yeqid_eskman_a # qds|B;የቂደ፟ስክማና፟
+## ;imf,1s,3smo,neg,main
+'ayqd_son # qds|B;ኣይቅድ፟ሶን
+'alqed_sewm # qds|B;አልቀድ፟ሰውም
+'i'qed_s_o # qds|B;ኢእቀድ፟ሶ፟
+teqid_s_ # qds|B;ተቂድ፟ስ፟
+## ;imf,1s,3smo,neg,rel
+zeyqd_so # qds|B;ዘይቅድ፟ሶ
+yem_alqed_sew # qds|B;የማ፟ልቀድ፟ሰው
+le'i'qed_s_o # qds|B;ለኢእቀድ፟ሶ፟
+'an_qid_s_ # qds|B;አን፟ቂድ፟ስ፟
+## ;imf,1s,3smo,aff,main
+'Qd_so # qds|B;እቕድ፟ሶ
+'qed_sewal_ehu # qds|B;እቀድ፟ሰዋለ፟ሁ
+'qed_s_o # qds|B;እቀድ፟ሶ፟
+'eqid_s_t # qds|B;ኧቂድ፟ስ፟ት
+## ;imf,1s,3smo,aff,rel
+zQd_so # qds|B;ዝቕድ፟ሶ
+yem_qed_sew # qds|B;የም፟ቀድ፟ሰው
+le'qed_s_o # qds|B;ለእቀድ፟ሶ፟
+'eqid_s_ # qds|B;ኧቂድ፟ስ፟
+## ;imf,1s,3sfo,neg,main
+'ayqd_san # qds|B;ኣይቅድ፟ሳን
+'alqed_satm # qds|B;አልቀድ፟ሳትም
+'i'qed_s_e # qds|B;ኢእቀድ፟ሰ፟
+teqid_s_a # qds|B;ተቂድ፟ሳ፟
+## ;imf,1s,3sfo,neg,rel
+zeyqd_sa # qds|B;ዘይቅድ፟ሳ
+yem_alqed_sat # qds|B;የማ፟ልቀድ፟ሳት
+le'i'qed_s_e # qds|B;ለኢእቀድ፟ሰ፟
+'an_qid_s_a # qds|B;አን፟ቂድ፟ሳ፟
+## ;imf,1s,3sfo,aff,main
+'Qd_sa # qds|B;እቕድ፟ሳ
+'qed_satal_ehu # qds|B;እቀድ፟ሳታለ፟ሁ
+'qed_s_e # qds|B;እቀድ፟ሰ፟
+'eqid_s_at # qds|B;ኧቂድ፟ሳ፟ት
+## ;imf,1s,3sfo,aff,rel
+zQd_sa # qds|B;ዝቕድ፟ሳ
+yem_qed_sat # qds|B;የም፟ቀድ፟ሳት
+le'qed_s_e # qds|B;ለእቀድ፟ሰ፟
+'eqid_s_a # qds|B;ኧቂድ፟ሳ፟
+## ;imf,3sm,3smo,neg,main
+'ay_Qd_son # qds|B;ኣይ፟ቕድ፟ሶን
+'ayqed_sewm # qds|B;አይቀድ፟ሰውም
+'ilqed_s_o # qds|B;ኢልቀድ፟ሶ፟
+tiqid_s_ # qds|B;ቲቂድ፟ስ፟
+## ;imf,3sm,3smo,neg,rel
+zey_Qd_so # qds|B;ዘይ፟ቕድ፟ሶ
+yem_ayqed_sew # qds|B;የማ፟ይቀድ፟ሰው
+le'ilqed_s_o # qds|B;ለኢልቀድ፟ሶ፟
+'ayqid_s_ # qds|B;አይቂድ፟ስ፟
+## ;imf,3sm,3smo,aff,main
+yQd_so # qds|B;ይቕድ፟ሶ
+yqed_sewal # qds|B;ይቀድ፟ሰዋል
+lqed_s_o # qds|B;ልቀድ፟ሶ፟
+yqid_s_t # qds|B;ይቂድ፟ስ፟ት
+## ;imf,3sm,3smo,aff,rel
+ziQd_so # qds|B;ዚቕድ፟ሶ
+yem_iqed_sew # qds|B;የሚ፟ቀድ፟ሰው
+lelqed_s_o # qds|B;ለልቀድ፟ሶ፟
+yqid_s_ # qds|B;ይቂድ፟ስ፟
+## ;imf,3sm,3sfo,neg,main
+'ay_Qd_san # qds|B;ኣይ፟ቕድ፟ሳን
+'ayqed_satm # qds|B;አይቀድ፟ሳትም
+'ilqed_s_e # qds|B;ኢልቀድ፟ሰ፟
+tiqid_s_a # qds|B;ቲቂድ፟ሳ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_Qd_sa # qds|B;ዘይ፟ቕድ፟ሳ
+yem_ayqed_sat # qds|B;የማ፟ይቀድ፟ሳት
+le'ilqed_s_e # qds|B;ለኢልቀድ፟ሰ፟
+'ayqid_s_a # qds|B;አይቂድ፟ሳ፟
+## ;imf,3sm,3sfo,aff,main
+yQd_sa # qds|B;ይቕድ፟ሳ
+yqed_satal # qds|B;ይቀድ፟ሳታል
+lqed_s_e # qds|B;ልቀድ፟ሰ፟
+yqid_s_at # qds|B;ይቂድ፟ሳ፟ት
+## ;imf,3sm,3sfo,aff,rel
+ziQd_sa # qds|B;ዚቕድ፟ሳ
+yem_iqed_sat # qds|B;የሚ፟ቀድ፟ሳት
+lelqed_s_e # qds|B;ለልቀድ፟ሰ፟
+yqid_s_a # qds|B;ይቂድ፟ሳ፟
+## ;imf,2pf,3smo,neg,main
+'aytQd_s'on # qds|B;ኣይትቕድ፟ስኦን
+'at_qed_sutm # qds|B;አት፟ቀድ፟ሱትም
+'itqedsehu # qds|B;ኢትቀድሰኁ
+tt_qid_sman_ # qds|B;ትት፟ቂድ፟ስማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytQd_s'o # qds|B;ዘይትቕድ፟ስኦ
+yem_at_qed_sut # qds|B;የማ፟ት፟ቀድ፟ሱት
+le'itqedsehu # qds|B;ለኢትቀድሰኁ
+'at_qid_sman_ # qds|B;አት፟ቂድ፟ስማን፟
+## ;imf,2pf,3smo,aff,main
+tQd_s'o # qds|B;ትቕድ፟ስኦ
+tqed_sutal_ac_hu # qds|B;ትቀድ፟ሱታላ፟ች፟ሁ
+tqedsehu # qds|B;ትቀድሰኁ
+tqid_sman_t # qds|B;ትቂድ፟ስማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_Qd_s'o # qds|B;ዝት፟ቕድ፟ስኦ
+yem_t_qed_sut # qds|B;የም፟ት፟ቀድ፟ሱት
+letqedsehu # qds|B;ለትቀድሰኁ
+tqid_sman_ # qds|B;ትቂድ፟ስማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytQd_s'an # qds|B;ኣይትቕድ፟ስኣን
+'at_qed_sWatm # qds|B;አት፟ቀድ፟ሷትም
+'itqedsehe # qds|B;ኢትቀድሰኀ
+tt_qid_sman_a # qds|B;ትት፟ቂድ፟ስማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytQd_s'a # qds|B;ዘይትቕድ፟ስኣ
+yem_at_qed_sWat # qds|B;የማ፟ት፟ቀድ፟ሷት
+le'itqedsehe # qds|B;ለኢትቀድሰኀ
+'at_qid_sman_a # qds|B;አት፟ቂድ፟ስማና፟
+## ;imf,2pf,3sfo,aff,main
+tQd_s'a # qds|B;ትቕድ፟ስኣ
+tqed_sWatal_ac_hu # qds|B;ትቀድ፟ሷታላ፟ች፟ሁ
+tqedsehe # qds|B;ትቀድሰኀ
+tqid_sman_at # qds|B;ትቂድ፟ስማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_Qd_s'a # qds|B;ዝት፟ቕድ፟ስኣ
+yem_t_qed_sWat # qds|B;የም፟ት፟ቀድ፟ሷት
+letqedsehe # qds|B;ለትቀድሰኀ
+tqid_sman_a # qds|B;ትቂድ፟ስማና፟
+## ;prf,1s,3smo,neg,main
+'ayseberkuw_on # sbr|A;ኣይሰበርኩዎ፟ን
+'alseb_erkutm # sbr|A;አልሰበ፟ርኩትም
+'iseberkwo # sbr|A;ኢሰበርክዎ
+'alseberkun_ # sbr|A;አልሰበርኩን፟
+## ;prf,1s,3smo,neg,rel
+zeyseberkuw_o # sbr|A;ዘይሰበርኩዎ፟
+yalseb_erkut # sbr|A;ያልሰበ፟ርኩት
+le'iseberkwo # sbr|A;ለኢሰበርክዎ
+yalseberkun_ # sbr|A;ያልሰበርኩን፟
+## ;prf,1s,3smo,aff,main
+seberkuw_o # sbr|A;ሰበርኩዎ፟
+seb_erkut # sbr|A;ሰበ፟ርኩት
+seberkwo # sbr|A;ሰበርክዎ
+seb_erkun_t # sbr|A;ሰበ፟ርኩን፟ት
+## ;prf,1s,3smo,aff,rel
+zseberkuw_o # sbr|A;ዝሰበርኩዎ፟
+yeseb_erkut # sbr|A;የሰበ፟ርኩት
+leseberkwo # sbr|A;ለሰበርክዎ
+yeseb_erkun_ # sbr|A;የሰበ፟ርኩን፟
+## ;prf,1s,3sfo,neg,main
+'ayseberkuw_an # sbr|A;ኣይሰበርኩዋ፟ን
+'alseb_erkWatm # sbr|A;አልሰበ፟ርኳትም
+'iseberkwe # sbr|A;ኢሰበርክወ
+'alseberkun_a # sbr|A;አልሰበርኩና፟
+## ;prf,1s,3sfo,neg,rel
+zeyseberkuw_a # sbr|A;ዘይሰበርኩዋ፟
+yalseb_erkWat # sbr|A;ያልሰበ፟ርኳት
+le'iseberkwe # sbr|A;ለኢሰበርክወ
+yalseberkun_a # sbr|A;ያልሰበርኩና፟
+## ;prf,1s,3sfo,aff,main
+seberkuw_a # sbr|A;ሰበርኩዋ፟
+seb_erkWat # sbr|A;ሰበ፟ርኳት
+seberkwe # sbr|A;ሰበርክወ
+seb_erkun_at # sbr|A;ሰበ፟ርኩና፟ት
+## ;prf,1s,3sfo,aff,rel
+zseberkuw_a # sbr|A;ዝሰበርኩዋ፟
+yeseb_erkWat # sbr|A;የሰበ፟ርኳት
+leseberkwe # sbr|A;ለሰበርክወ
+yeseb_erkun_a # sbr|A;የሰበ፟ርኩና፟
+## ;prf,3sm,3smo,neg,main
+'ayseberon # sbr|A;ኣይሰበሮን
+'alseb_erewm # sbr|A;አልሰበ፟ረውም
+'isebreyu # sbr|A;ኢሰብረዩ
+'alseberen_ # sbr|A;አልሰበረን፟
+## ;prf,3sm,3smo,neg,rel
+zeysebero # sbr|A;ዘይሰበሮ
+yalseb_erew # sbr|A;ያልሰበ፟ረው
+le'isebreyu # sbr|A;ለኢሰብረዩ
+yalseberen_ # sbr|A;ያልሰበረን፟
+## ;prf,3sm,3smo,aff,main
+sebero # sbr|A;ሰበሮ
+seb_erew # sbr|A;ሰበ፟ረው
+sebreyu # sbr|A;ሰብረዩ
+seb_eren_t # sbr|A;ሰበ፟ረን፟ት
+## ;prf,3sm,3smo,aff,rel
+zsebero # sbr|A;ዝሰበሮ
+yeseb_erew # sbr|A;የሰበ፟ረው
+lesebreyu # sbr|A;ለሰብረዩ
+yeseb_eren_ # sbr|A;የሰበ፟ረን፟
+## ;prf,3sm,3sfo,neg,main
+'ayseberan # sbr|A;ኣይሰበራን
+'alseb_eratm # sbr|A;አልሰበ፟ራትም
+'isebreye # sbr|A;ኢሰብረየ
+'alseberen_a # sbr|A;አልሰበረና፟
+## ;prf,3sm,3sfo,neg,rel
+zeysebera # sbr|A;ዘይሰበራ
+yalseb_erat # sbr|A;ያልሰበ፟ራት
+le'isebreye # sbr|A;ለኢሰብረየ
+yalseberen_a # sbr|A;ያልሰበረና፟
+## ;prf,3sm,3sfo,aff,main
+sebera # sbr|A;ሰበራ
+seb_erat # sbr|A;ሰበ፟ራት
+sebreye # sbr|A;ሰብረየ
+seb_eren_at # sbr|A;ሰበ፟ረና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zsebera # sbr|A;ዝሰበራ
+yeseb_erat # sbr|A;የሰበ፟ራት
+lesebreye # sbr|A;ለሰብረየ
+yeseb_eren_a # sbr|A;የሰበ፟ረና፟
+## ;prf,2pf,3smo,neg,main
+'ayseberkn'on # sbr|A;ኣይሰበርክንኦን
+'alseb_erac_hutm # sbr|A;አልሰበ፟ራች፟ሁትም
+'iseberknehu # sbr|A;ኢሰበርክነኁ
+'alseberkman_ # sbr|A;አልሰበርክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeyseberkn'o # sbr|A;ዘይሰበርክንኦ
+yalseb_erac_hut # sbr|A;ያልሰበ፟ራች፟ሁት
+le'iseberknehu # sbr|A;ለኢሰበርክነኁ
+yalseberkman_ # sbr|A;ያልሰበርክማን፟
+## ;prf,2pf,3smo,aff,main
+seberkn'o # sbr|A;ሰበርክንኦ
+seb_erac_hut # sbr|A;ሰበ፟ራች፟ሁት
+seberknehu # sbr|A;ሰበርክነኁ
+seb_erkman_t # sbr|A;ሰበ፟ርክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zseberkn'o # sbr|A;ዝሰበርክንኦ
+yeseb_erac_hut # sbr|A;የሰበ፟ራች፟ሁት
+leseberknehu # sbr|A;ለሰበርክነኁ
+yeseb_erkman_ # sbr|A;የሰበ፟ርክማን፟
+## ;prf,2pf,3sfo,neg,main
+'ayseberkn'an # sbr|A;ኣይሰበርክንኣን
+'alseb_erac_hWatm # sbr|A;አልሰበ፟ራች፟ኋትም
+'iseberknehe # sbr|A;ኢሰበርክነኀ
+'alseberkman_a # sbr|A;አልሰበርክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeyseberkn'a # sbr|A;ዘይሰበርክንኣ
+yalseb_erac_hWat # sbr|A;ያልሰበ፟ራች፟ኋት
+le'iseberknehe # sbr|A;ለኢሰበርክነኀ
+yalseberkman_a # sbr|A;ያልሰበርክማና፟
+## ;prf,2pf,3sfo,aff,main
+seberkn'a # sbr|A;ሰበርክንኣ
+seb_erac_hWat # sbr|A;ሰበ፟ራች፟ኋት
+seberknehe # sbr|A;ሰበርክነኀ
+seb_erkman_at # sbr|A;ሰበ፟ርክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zseberkn'a # sbr|A;ዝሰበርክንኣ
+yeseb_erac_hWat # sbr|A;የሰበ፟ራች፟ኋት
+leseberknehe # sbr|A;ለሰበርክነኀ
+yeseb_erkman_a # sbr|A;የሰበ፟ርክማና፟
+## ;imf,1s,3smo,neg,main
+'aysebron # sbr|A;ኣይሰብሮን
+'alsebrewm # sbr|A;አልሰብረውም
+'i'seb_r_o # sbr|A;ኢእሰብ፟ሮ፟
+tesebr_ # sbr|A;ተሰብር፟
+## ;imf,1s,3smo,neg,rel
+zeysebro # sbr|A;ዘይሰብሮ
+yem_alsebrew # sbr|A;የማ፟ልሰብረው
+le'i'seb_r_o # sbr|A;ለኢእሰብ፟ሮ፟
+'an_sebr_ # sbr|A;አን፟ሰብር፟
+## ;imf,1s,3smo,aff,main
+'sebro # sbr|A;እሰብሮ
+'sebrewal_ehu # sbr|A;እሰብረዋለ፟ሁ
+'seb_r_o # sbr|A;እሰብ፟ሮ፟
+'esebr_t # sbr|A;ኧሰብር፟ት
+## ;imf,1s,3smo,aff,rel
+zsebro # sbr|A;ዝሰብሮ
+yem_sebrew # sbr|A;የም፟ሰብረው
+le'seb_r_o # sbr|A;ለእሰብ፟ሮ፟
+'esebr_ # sbr|A;ኧሰብር፟
+## ;imf,1s,3sfo,neg,main
+'aysebran # sbr|A;ኣይሰብራን
+'alsebratm # sbr|A;አልሰብራትም
+'i'seb_r_e # sbr|A;ኢእሰብ፟ረ፟
+tesebr_a # sbr|A;ተሰብራ፟
+## ;imf,1s,3sfo,neg,rel
+zeysebra # sbr|A;ዘይሰብራ
+yem_alsebrat # sbr|A;የማ፟ልሰብራት
+le'i'seb_r_e # sbr|A;ለኢእሰብ፟ረ፟
+'an_sebr_a # sbr|A;አን፟ሰብራ፟
+## ;imf,1s,3sfo,aff,main
+'sebra # sbr|A;እሰብራ
+'sebratal_ehu # sbr|A;እሰብራታለ፟ሁ
+'seb_r_e # sbr|A;እሰብ፟ረ፟
+'esebr_at # sbr|A;ኧሰብራ፟ት
+## ;imf,1s,3sfo,aff,rel
+zsebra # sbr|A;ዝሰብራ
+yem_sebrat # sbr|A;የም፟ሰብራት
+le'seb_r_e # sbr|A;ለእሰብ፟ረ፟
+'esebr_a # sbr|A;ኧሰብራ፟
+## ;imf,3sm,3smo,neg,main
+'ay_sebron # sbr|A;ኣይ፟ሰብሮን
+'aysebrewm # sbr|A;አይሰብረውም
+'ilseb_r_o # sbr|A;ኢልሰብ፟ሮ፟
+tisebr_ # sbr|A;ቲሰብር፟
+## ;imf,3sm,3smo,neg,rel
+zey_sebro # sbr|A;ዘይ፟ሰብሮ
+yem_aysebrew # sbr|A;የማ፟ይሰብረው
+le'ilseb_r_o # sbr|A;ለኢልሰብ፟ሮ፟
+'aysebr_ # sbr|A;አይሰብር፟
+## ;imf,3sm,3smo,aff,main
+ysebro # sbr|A;ይሰብሮ
+ysebrewal # sbr|A;ይሰብረዋል
+lseb_r_o # sbr|A;ልሰብ፟ሮ፟
+ysebr_t # sbr|A;ይሰብር፟ት
+## ;imf,3sm,3smo,aff,rel
+zisebro # sbr|A;ዚሰብሮ
+yem_isebrew # sbr|A;የሚ፟ሰብረው
+lelseb_r_o # sbr|A;ለልሰብ፟ሮ፟
+ysebr_ # sbr|A;ይሰብር፟
+## ;imf,3sm,3sfo,neg,main
+'ay_sebran # sbr|A;ኣይ፟ሰብራን
+'aysebratm # sbr|A;አይሰብራትም
+'ilseb_r_e # sbr|A;ኢልሰብ፟ረ፟
+tisebr_a # sbr|A;ቲሰብራ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_sebra # sbr|A;ዘይ፟ሰብራ
+yem_aysebrat # sbr|A;የማ፟ይሰብራት
+le'ilseb_r_e # sbr|A;ለኢልሰብ፟ረ፟
+'aysebr_a # sbr|A;አይሰብራ፟
+## ;imf,3sm,3sfo,aff,main
+ysebra # sbr|A;ይሰብራ
+ysebratal # sbr|A;ይሰብራታል
+lseb_r_e # sbr|A;ልሰብ፟ረ፟
+ysebr_at # sbr|A;ይሰብራ፟ት
+## ;imf,3sm,3sfo,aff,rel
+zisebra # sbr|A;ዚሰብራ
+yem_isebrat # sbr|A;የሚ፟ሰብራት
+lelseb_r_e # sbr|A;ለልሰብ፟ረ፟
+ysebr_a # sbr|A;ይሰብራ፟
+## ;imf,2pf,3smo,neg,main
+'aytsebr'on # sbr|A;ኣይትሰብርኦን
+'at_sebrutm # sbr|A;አት፟ሰብሩትም
+'itsebrehu # sbr|A;ኢትሰብረኁ
+tt_sebrman_ # sbr|A;ትት፟ሰብርማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytsebr'o # sbr|A;ዘይትሰብርኦ
+yem_at_sebrut # sbr|A;የማ፟ት፟ሰብሩት
+le'itsebrehu # sbr|A;ለኢትሰብረኁ
+'at_sebrman_ # sbr|A;አት፟ሰብርማን፟
+## ;imf,2pf,3smo,aff,main
+tsebr'o # sbr|A;ትሰብርኦ
+tsebrutal_ac_hu # sbr|A;ትሰብሩታላ፟ች፟ሁ
+tsebrehu # sbr|A;ትሰብረኁ
+tsebrman_t # sbr|A;ትሰብርማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_sebr'o # sbr|A;ዝት፟ሰብርኦ
+yem_t_sebrut # sbr|A;የም፟ት፟ሰብሩት
+letsebrehu # sbr|A;ለትሰብረኁ
+tsebrman_ # sbr|A;ትሰብርማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytsebr'an # sbr|A;ኣይትሰብርኣን
+'at_sebrWatm # sbr|A;አት፟ሰብሯትም
+'itsebrehe # sbr|A;ኢትሰብረኀ
+tt_sebrman_a # sbr|A;ትት፟ሰብርማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytsebr'a # sbr|A;ዘይትሰብርኣ
+yem_at_sebrWat # sbr|A;የማ፟ት፟ሰብሯት
+le'itsebrehe # sbr|A;ለኢትሰብረኀ
+'at_sebrman_a # sbr|A;አት፟ሰብርማና፟
+## ;imf,2pf,3sfo,aff,main
+tsebr'a # sbr|A;ትሰብርኣ
+tsebrWatal_ac_hu # sbr|A;ትሰብሯታላ፟ች፟ሁ
+tsebrehe # sbr|A;ትሰብረኀ
+tsebrman_at # sbr|A;ትሰብርማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_sebr'a # sbr|A;ዝት፟ሰብርኣ
+yem_t_sebrWat # sbr|A;የም፟ት፟ሰብሯት
+letsebrehe # sbr|A;ለትሰብረኀ
+tsebrman_a # sbr|A;ትሰብርማና፟
+## ;prf,1s,3smo,neg,main
+'ayselebkuw_on # slb|A;ኣይሰለብኩዎ፟ን
+'alsel_ebkutm # slb|A;አልሰለ፟ብኩትም
+'iselebkwo # slb|A;ኢሰለብክዎ
+'alselebkun_ # slb|A;አልሰለብኩን፟
+## ;prf,1s,3smo,neg,rel
+zeyselebkuw_o # slb|A;ዘይሰለብኩዎ፟
+yalsel_ebkut # slb|A;ያልሰለ፟ብኩት
+le'iselebkwo # slb|A;ለኢሰለብክዎ
+yalselebkun_ # slb|A;ያልሰለብኩን፟
+## ;prf,1s,3smo,aff,main
+selebkuw_o # slb|A;ሰለብኩዎ፟
+sel_ebkut # slb|A;ሰለ፟ብኩት
+selebkwo # slb|A;ሰለብክዎ
+sel_ebkun_t # slb|A;ሰለ፟ብኩን፟ት
+## ;prf,1s,3smo,aff,rel
+zselebkuw_o # slb|A;ዝሰለብኩዎ፟
+yesel_ebkut # slb|A;የሰለ፟ብኩት
+leselebkwo # slb|A;ለሰለብክዎ
+yesel_ebkun_ # slb|A;የሰለ፟ብኩን፟
+## ;prf,1s,3sfo,neg,main
+'ayselebkuw_an # slb|A;ኣይሰለብኩዋ፟ን
+'alsel_ebkWatm # slb|A;አልሰለ፟ብኳትም
+'iselebkwe # slb|A;ኢሰለብክወ
+'alselebkun_a # slb|A;አልሰለብኩና፟
+## ;prf,1s,3sfo,neg,rel
+zeyselebkuw_a # slb|A;ዘይሰለብኩዋ፟
+yalsel_ebkWat # slb|A;ያልሰለ፟ብኳት
+le'iselebkwe # slb|A;ለኢሰለብክወ
+yalselebkun_a # slb|A;ያልሰለብኩና፟
+## ;prf,1s,3sfo,aff,main
+selebkuw_a # slb|A;ሰለብኩዋ፟
+sel_ebkWat # slb|A;ሰለ፟ብኳት
+selebkwe # slb|A;ሰለብክወ
+sel_ebkun_at # slb|A;ሰለ፟ብኩና፟ት
+## ;prf,1s,3sfo,aff,rel
+zselebkuw_a # slb|A;ዝሰለብኩዋ፟
+yesel_ebkWat # slb|A;የሰለ፟ብኳት
+leselebkwe # slb|A;ለሰለብክወ
+yesel_ebkun_a # slb|A;የሰለ፟ብኩና፟
+## ;prf,3sm,3smo,neg,main
+'ayselebon # slb|A;ኣይሰለቦን
+'alsel_ebewm # slb|A;አልሰለ፟በውም
+'iselbeyu # slb|A;ኢሰልበዩ
+'alseleben_ # slb|A;አልሰለበን፟
+## ;prf,3sm,3smo,neg,rel
+zeyselebo # slb|A;ዘይሰለቦ
+yalsel_ebew # slb|A;ያልሰለ፟በው
+le'iselbeyu # slb|A;ለኢሰልበዩ
+yalseleben_ # slb|A;ያልሰለበን፟
+## ;prf,3sm,3smo,aff,main
+selebo # slb|A;ሰለቦ
+sel_ebew # slb|A;ሰለ፟በው
+selbeyu # slb|A;ሰልበዩ
+sel_eben_t # slb|A;ሰለ፟በን፟ት
+## ;prf,3sm,3smo,aff,rel
+zselebo # slb|A;ዝሰለቦ
+yesel_ebew # slb|A;የሰለ፟በው
+leselbeyu # slb|A;ለሰልበዩ
+yesel_eben_ # slb|A;የሰለ፟በን፟
+## ;prf,3sm,3sfo,neg,main
+'ayseleban # slb|A;ኣይሰለባን
+'alsel_ebatm # slb|A;አልሰለ፟ባትም
+'iselbeye # slb|A;ኢሰልበየ
+'alseleben_a # slb|A;አልሰለበና፟
+## ;prf,3sm,3sfo,neg,rel
+zeyseleba # slb|A;ዘይሰለባ
+yalsel_ebat # slb|A;ያልሰለ፟ባት
+le'iselbeye # slb|A;ለኢሰልበየ
+yalseleben_a # slb|A;ያልሰለበና፟
+## ;prf,3sm,3sfo,aff,main
+seleba # slb|A;ሰለባ
+sel_ebat # slb|A;ሰለ፟ባት
+selbeye # slb|A;ሰልበየ
+sel_eben_at # slb|A;ሰለ፟በና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zseleba # slb|A;ዝሰለባ
+yesel_ebat # slb|A;የሰለ፟ባት
+leselbeye # slb|A;ለሰልበየ
+yesel_eben_a # slb|A;የሰለ፟በና፟
+## ;prf,2pf,3smo,neg,main
+'ayselebkn'on # slb|A;ኣይሰለብክንኦን
+'alsel_ebac_hutm # slb|A;አልሰለ፟ባች፟ሁትም
+'iselebknehu # slb|A;ኢሰለብክነኁ
+'alselebkman_ # slb|A;አልሰለብክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeyselebkn'o # slb|A;ዘይሰለብክንኦ
+yalsel_ebac_hut # slb|A;ያልሰለ፟ባች፟ሁት
+le'iselebknehu # slb|A;ለኢሰለብክነኁ
+yalselebkman_ # slb|A;ያልሰለብክማን፟
+## ;prf,2pf,3smo,aff,main
+selebkn'o # slb|A;ሰለብክንኦ
+sel_ebac_hut # slb|A;ሰለ፟ባች፟ሁት
+selebknehu # slb|A;ሰለብክነኁ
+sel_ebkman_t # slb|A;ሰለ፟ብክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zselebkn'o # slb|A;ዝሰለብክንኦ
+yesel_ebac_hut # slb|A;የሰለ፟ባች፟ሁት
+leselebknehu # slb|A;ለሰለብክነኁ
+yesel_ebkman_ # slb|A;የሰለ፟ብክማን፟
+## ;prf,2pf,3sfo,neg,main
+'ayselebkn'an # slb|A;ኣይሰለብክንኣን
+'alsel_ebac_hWatm # slb|A;አልሰለ፟ባች፟ኋትም
+'iselebknehe # slb|A;ኢሰለብክነኀ
+'alselebkman_a # slb|A;አልሰለብክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeyselebkn'a # slb|A;ዘይሰለብክንኣ
+yalsel_ebac_hWat # slb|A;ያልሰለ፟ባች፟ኋት
+le'iselebknehe # slb|A;ለኢሰለብክነኀ
+yalselebkman_a # slb|A;ያልሰለብክማና፟
+## ;prf,2pf,3sfo,aff,main
+selebkn'a # slb|A;ሰለብክንኣ
+sel_ebac_hWat # slb|A;ሰለ፟ባች፟ኋት
+selebknehe # slb|A;ሰለብክነኀ
+sel_ebkman_at # slb|A;ሰለ፟ብክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zselebkn'a # slb|A;ዝሰለብክንኣ
+yesel_ebac_hWat # slb|A;የሰለ፟ባች፟ኋት
+leselebknehe # slb|A;ለሰለብክነኀ
+yesel_ebkman_a # slb|A;የሰለ፟ብክማና፟
+## ;imf,1s,3smo,neg,main
+'ayselbon # slb|A;ኣይሰልቦን
+'alselbewm # slb|A;አልሰልበውም
+'i'sel_b_o # slb|A;ኢእሰል፟ቦ፟
+teselb_ # slb|A;ተሰልብ፟
+## ;imf,1s,3smo,neg,rel
+zeyselbo # slb|A;ዘይሰልቦ
+yem_alselbew # slb|A;የማ፟ልሰልበው
+le'i'sel_b_o # slb|A;ለኢእሰል፟ቦ፟
+'an_selb_ # slb|A;አን፟ሰልብ፟
+## ;imf,1s,3smo,aff,main
+'selbo # slb|A;እሰልቦ
+'selbewal_ehu # slb|A;እሰልበዋለ፟ሁ
+'sel_b_o # slb|A;እሰል፟ቦ፟
+'eselb_t # slb|A;ኧሰልብ፟ት
+## ;imf,1s,3smo,aff,rel
+zselbo # slb|A;ዝሰልቦ
+yem_selbew # slb|A;የም፟ሰልበው
+le'sel_b_o # slb|A;ለእሰል፟ቦ፟
+'eselb_ # slb|A;ኧሰልብ፟
+## ;imf,1s,3sfo,neg,main
+'ayselban # slb|A;ኣይሰልባን
+'alselbatm # slb|A;አልሰልባትም
+'i'sel_b_e # slb|A;ኢእሰል፟በ፟
+teselb_a # slb|A;ተሰልባ፟
+## ;imf,1s,3sfo,neg,rel
+zeyselba # slb|A;ዘይሰልባ
+yem_alselbat # slb|A;የማ፟ልሰልባት
+le'i'sel_b_e # slb|A;ለኢእሰል፟በ፟
+'an_selb_a # slb|A;አን፟ሰልባ፟
+## ;imf,1s,3sfo,aff,main
+'selba # slb|A;እሰልባ
+'selbatal_ehu # slb|A;እሰልባታለ፟ሁ
+'sel_b_e # slb|A;እሰል፟በ፟
+'eselb_at # slb|A;ኧሰልባ፟ት
+## ;imf,1s,3sfo,aff,rel
+zselba # slb|A;ዝሰልባ
+yem_selbat # slb|A;የም፟ሰልባት
+le'sel_b_e # slb|A;ለእሰል፟በ፟
+'eselb_a # slb|A;ኧሰልባ፟
+## ;imf,3sm,3smo,neg,main
+'ay_selbon # slb|A;ኣይ፟ሰልቦን
+'ayselbewm # slb|A;አይሰልበውም
+'ilsel_b_o # slb|A;ኢልሰል፟ቦ፟
+tiselb_ # slb|A;ቲሰልብ፟
+## ;imf,3sm,3smo,neg,rel
+zey_selbo # slb|A;ዘይ፟ሰልቦ
+yem_ayselbew # slb|A;የማ፟ይሰልበው
+le'ilsel_b_o # slb|A;ለኢልሰል፟ቦ፟
+'ayselb_ # slb|A;አይሰልብ፟
+## ;imf,3sm,3smo,aff,main
+yselbo # slb|A;ይሰልቦ
+yselbewal # slb|A;ይሰልበዋል
+lsel_b_o # slb|A;ልሰል፟ቦ፟
+yselb_t # slb|A;ይሰልብ፟ት
+## ;imf,3sm,3smo,aff,rel
+ziselbo # slb|A;ዚሰልቦ
+yem_iselbew # slb|A;የሚ፟ሰልበው
+lelsel_b_o # slb|A;ለልሰል፟ቦ፟
+yselb_ # slb|A;ይሰልብ፟
+## ;imf,3sm,3sfo,neg,main
+'ay_selban # slb|A;ኣይ፟ሰልባን
+'ayselbatm # slb|A;አይሰልባትም
+'ilsel_b_e # slb|A;ኢልሰል፟በ፟
+tiselb_a # slb|A;ቲሰልባ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_selba # slb|A;ዘይ፟ሰልባ
+yem_ayselbat # slb|A;የማ፟ይሰልባት
+le'ilsel_b_e # slb|A;ለኢልሰል፟በ፟
+'ayselb_a # slb|A;አይሰልባ፟
+## ;imf,3sm,3sfo,aff,main
+yselba # slb|A;ይሰልባ
+yselbatal # slb|A;ይሰልባታል
+lsel_b_e # slb|A;ልሰል፟በ፟
+yselb_at # slb|A;ይሰልባ፟ት
+## ;imf,3sm,3sfo,aff,rel
+ziselba # slb|A;ዚሰልባ
+yem_iselbat # slb|A;የሚ፟ሰልባት
+lelsel_b_e # slb|A;ለልሰል፟በ፟
+yselb_a # slb|A;ይሰልባ፟
+## ;imf,2pf,3smo,neg,main
+'aytselb'on # slb|A;ኣይትሰልብኦን
+'at_selbutm # slb|A;አት፟ሰልቡትም
+'itselbehu # slb|A;ኢትሰልበኁ
+tt_selbman_ # slb|A;ትት፟ሰልብማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytselb'o # slb|A;ዘይትሰልብኦ
+yem_at_selbut # slb|A;የማ፟ት፟ሰልቡት
+le'itselbehu # slb|A;ለኢትሰልበኁ
+'at_selbman_ # slb|A;አት፟ሰልብማን፟
+## ;imf,2pf,3smo,aff,main
+tselb'o # slb|A;ትሰልብኦ
+tselbutal_ac_hu # slb|A;ትሰልቡታላ፟ች፟ሁ
+tselbehu # slb|A;ትሰልበኁ
+tselbman_t # slb|A;ትሰልብማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_selb'o # slb|A;ዝት፟ሰልብኦ
+yem_t_selbut # slb|A;የም፟ት፟ሰልቡት
+letselbehu # slb|A;ለትሰልበኁ
+tselbman_ # slb|A;ትሰልብማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytselb'an # slb|A;ኣይትሰልብኣን
+'at_selbWatm # slb|A;አት፟ሰልቧትም
+'itselbehe # slb|A;ኢትሰልበኀ
+tt_selbman_a # slb|A;ትት፟ሰልብማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytselb'a # slb|A;ዘይትሰልብኣ
+yem_at_selbWat # slb|A;የማ፟ት፟ሰልቧት
+le'itselbehe # slb|A;ለኢትሰልበኀ
+'at_selbman_a # slb|A;አት፟ሰልብማና፟
+## ;imf,2pf,3sfo,aff,main
+tselb'a # slb|A;ትሰልብኣ
+tselbWatal_ac_hu # slb|A;ትሰልቧታላ፟ች፟ሁ
+tselbehe # slb|A;ትሰልበኀ
+tselbman_at # slb|A;ትሰልብማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_selb'a # slb|A;ዝት፟ሰልብኣ
+yem_t_selbWat # slb|A;የም፟ት፟ሰልቧት
+letselbehe # slb|A;ለትሰልበኀ
+tselbman_a # slb|A;ትሰልብማና፟
+## ;prf,1s,3smo,neg,main
+'ayregemkuw_on # rgm|A;ኣይረገምኩዎ፟ን
+'alreg_emkutm # rgm|A;አልረገ፟ምኩትም
+'iregemkwo # rgm|A;ኢረገምክዎ
+'alregemkun_ # rgm|A;አልረገምኩን፟
+## ;prf,1s,3smo,neg,rel
+zeyregemkuw_o # rgm|A;ዘይረገምኩዎ፟
+yalreg_emkut # rgm|A;ያልረገ፟ምኩት
+le'iregemkwo # rgm|A;ለኢረገምክዎ
+yalregemkun_ # rgm|A;ያልረገምኩን፟
+## ;prf,1s,3smo,aff,main
+regemkuw_o # rgm|A;ረገምኩዎ፟
+reg_emkut # rgm|A;ረገ፟ምኩት
+regemkwo # rgm|A;ረገምክዎ
+'ereg_emkun_t # rgm|A;ኧረገ፟ምኩን፟ት
+## ;prf,1s,3smo,aff,rel
+zregemkuw_o # rgm|A;ዝረገምኩዎ፟
+yereg_emkut # rgm|A;የረገ፟ምኩት
+leregemkwo # rgm|A;ለረገምክዎ
+yereg_emkun_ # rgm|A;የረገ፟ምኩን፟
+## ;prf,1s,3sfo,neg,main
+'ayregemkuw_an # rgm|A;ኣይረገምኩዋ፟ን
+'alreg_emkWatm # rgm|A;አልረገ፟ምኳትም
+'iregemkwe # rgm|A;ኢረገምክወ
+'alregemkun_a # rgm|A;አልረገምኩና፟
+## ;prf,1s,3sfo,neg,rel
+zeyregemkuw_a # rgm|A;ዘይረገምኩዋ፟
+yalreg_emkWat # rgm|A;ያልረገ፟ምኳት
+le'iregemkwe # rgm|A;ለኢረገምክወ
+yalregemkun_a # rgm|A;ያልረገምኩና፟
+## ;prf,1s,3sfo,aff,main
+regemkuw_a # rgm|A;ረገምኩዋ፟
+reg_emkWat # rgm|A;ረገ፟ምኳት
+regemkwe # rgm|A;ረገምክወ
+'ereg_emkun_at # rgm|A;ኧረገ፟ምኩና፟ት
+## ;prf,1s,3sfo,aff,rel
+zregemkuw_a # rgm|A;ዝረገምኩዋ፟
+yereg_emkWat # rgm|A;የረገ፟ምኳት
+leregemkwe # rgm|A;ለረገምክወ
+yereg_emkun_a # rgm|A;የረገ፟ምኩና፟
+## ;prf,3sm,3smo,neg,main
+'ayregemon # rgm|A;ኣይረገሞን
+'alreg_emewm # rgm|A;አልረገ፟መውም
+'iregmeyu # rgm|A;ኢረግመዩ
+'alregemen_ # rgm|A;አልረገመን፟
+## ;prf,3sm,3smo,neg,rel
+zeyregemo # rgm|A;ዘይረገሞ
+yalreg_emew # rgm|A;ያልረገ፟መው
+le'iregmeyu # rgm|A;ለኢረግመዩ
+yalregemen_ # rgm|A;ያልረገመን፟
+## ;prf,3sm,3smo,aff,main
+regemo # rgm|A;ረገሞ
+reg_emew # rgm|A;ረገ፟መው
+regmeyu # rgm|A;ረግመዩ
+'ereg_emen_t # rgm|A;ኧረገ፟መን፟ት
+## ;prf,3sm,3smo,aff,rel
+zregemo # rgm|A;ዝረገሞ
+yereg_emew # rgm|A;የረገ፟መው
+leregmeyu # rgm|A;ለረግመዩ
+yereg_emen_ # rgm|A;የረገ፟መን፟
+## ;prf,3sm,3sfo,neg,main
+'ayregeman # rgm|A;ኣይረገማን
+'alreg_ematm # rgm|A;አልረገ፟ማትም
+'iregmeye # rgm|A;ኢረግመየ
+'alregemen_a # rgm|A;አልረገመና፟
+## ;prf,3sm,3sfo,neg,rel
+zeyregema # rgm|A;ዘይረገማ
+yalreg_emat # rgm|A;ያልረገ፟ማት
+le'iregmeye # rgm|A;ለኢረግመየ
+yalregemen_a # rgm|A;ያልረገመና፟
+## ;prf,3sm,3sfo,aff,main
+regema # rgm|A;ረገማ
+reg_emat # rgm|A;ረገ፟ማት
+regmeye # rgm|A;ረግመየ
+'ereg_emen_at # rgm|A;ኧረገ፟መና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zregema # rgm|A;ዝረገማ
+yereg_emat # rgm|A;የረገ፟ማት
+leregmeye # rgm|A;ለረግመየ
+yereg_emen_a # rgm|A;የረገ፟መና፟
+## ;prf,2pf,3smo,neg,main
+'ayregemkn'on # rgm|A;ኣይረገምክንኦን
+'alreg_emac_hutm # rgm|A;አልረገ፟ማች፟ሁትም
+'iregemknehu # rgm|A;ኢረገምክነኁ
+'alregemkman_ # rgm|A;አልረገምክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeyregemkn'o # rgm|A;ዘይረገምክንኦ
+yalreg_emac_hut # rgm|A;ያልረገ፟ማች፟ሁት
+le'iregemknehu # rgm|A;ለኢረገምክነኁ
+yalregemkman_ # rgm|A;ያልረገምክማን፟
+## ;prf,2pf,3smo,aff,main
+regemkn'o # rgm|A;ረገምክንኦ
+reg_emac_hut # rgm|A;ረገ፟ማች፟ሁት
+regemknehu # rgm|A;ረገምክነኁ
+'ereg_emkman_t # rgm|A;ኧረገ፟ምክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zregemkn'o # rgm|A;ዝረገምክንኦ
+yereg_emac_hut # rgm|A;የረገ፟ማች፟ሁት
+leregemknehu # rgm|A;ለረገምክነኁ
+yereg_emkman_ # rgm|A;የረገ፟ምክማን፟
+## ;prf,2pf,3sfo,neg,main
+'ayregemkn'an # rgm|A;ኣይረገምክንኣን
+'alreg_emac_hWatm # rgm|A;አልረገ፟ማች፟ኋትም
+'iregemknehe # rgm|A;ኢረገምክነኀ
+'alregemkman_a # rgm|A;አልረገምክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeyregemkn'a # rgm|A;ዘይረገምክንኣ
+yalreg_emac_hWat # rgm|A;ያልረገ፟ማች፟ኋት
+le'iregemknehe # rgm|A;ለኢረገምክነኀ
+yalregemkman_a # rgm|A;ያልረገምክማና፟
+## ;prf,2pf,3sfo,aff,main
+regemkn'a # rgm|A;ረገምክንኣ
+reg_emac_hWat # rgm|A;ረገ፟ማች፟ኋት
+regemknehe # rgm|A;ረገምክነኀ
+'ereg_emkman_at # rgm|A;ኧረገ፟ምክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zregemkn'a # rgm|A;ዝረገምክንኣ
+yereg_emac_hWat # rgm|A;የረገ፟ማች፟ኋት
+leregemknehe # rgm|A;ለረገምክነኀ
+yereg_emkman_a # rgm|A;የረገ፟ምክማና፟
+## ;imf,1s,3smo,neg,main
+'ayregmon # rgm|A;ኣይረግሞን
+'alregmewm # rgm|A;አልረግመውም
+'i'reg_m_o # rgm|A;ኢእረግ፟ሞ፟
+teregm_ # rgm|A;ተረግም፟
+## ;imf,1s,3smo,neg,rel
+zeyregmo # rgm|A;ዘይረግሞ
+yem_alregmew # rgm|A;የማ፟ልረግመው
+le'i'reg_m_o # rgm|A;ለኢእረግ፟ሞ፟
+'an_regm_ # rgm|A;አን፟ረግም፟
+## ;imf,1s,3smo,aff,main
+'regmo # rgm|A;እረግሞ
+'regmewal_ehu # rgm|A;እረግመዋለ፟ሁ
+'reg_m_o # rgm|A;እረግ፟ሞ፟
+'eregm_t # rgm|A;ኧረግም፟ት
+## ;imf,1s,3smo,aff,rel
+zregmo # rgm|A;ዝረግሞ
+yem_regmew # rgm|A;የም፟ረግመው
+le'reg_m_o # rgm|A;ለእረግ፟ሞ፟
+'eregm_ # rgm|A;ኧረግም፟
+## ;imf,1s,3sfo,neg,main
+'ayregman # rgm|A;ኣይረግማን
+'alregmatm # rgm|A;አልረግማትም
+'i'reg_m_e # rgm|A;ኢእረግ፟መ፟
+teregm_a # rgm|A;ተረግማ፟
+## ;imf,1s,3sfo,neg,rel
+zeyregma # rgm|A;ዘይረግማ
+yem_alregmat # rgm|A;የማ፟ልረግማት
+le'i'reg_m_e # rgm|A;ለኢእረግ፟መ፟
+'an_regm_a # rgm|A;አን፟ረግማ፟
+## ;imf,1s,3sfo,aff,main
+'regma # rgm|A;እረግማ
+'regmatal_ehu # rgm|A;እረግማታለ፟ሁ
+'reg_m_e # rgm|A;እረግ፟መ፟
+'eregm_at # rgm|A;ኧረግማ፟ት
+## ;imf,1s,3sfo,aff,rel
+zregma # rgm|A;ዝረግማ
+yem_regmat # rgm|A;የም፟ረግማት
+le'reg_m_e # rgm|A;ለእረግ፟መ፟
+'eregm_a # rgm|A;ኧረግማ፟
+## ;imf,3sm,3smo,neg,main
+'ay_regmon # rgm|A;ኣይ፟ረግሞን
+'ayregmewm # rgm|A;አይረግመውም
+'ilreg_m_o # rgm|A;ኢልረግ፟ሞ፟
+tiregm_ # rgm|A;ቲረግም፟
+## ;imf,3sm,3smo,neg,rel
+zey_regmo # rgm|A;ዘይ፟ረግሞ
+yem_ayregmew # rgm|A;የማ፟ይረግመው
+le'ilreg_m_o # rgm|A;ለኢልረግ፟ሞ፟
+'ayregm_ # rgm|A;አይረግም፟
+## ;imf,3sm,3smo,aff,main
+yregmo # rgm|A;ይረግሞ
+yregmewal # rgm|A;ይረግመዋል
+lreg_m_o # rgm|A;ልረግ፟ሞ፟
+yregm_t # rgm|A;ይረግም፟ት
+## ;imf,3sm,3smo,aff,rel
+ziregmo # rgm|A;ዚረግሞ
+yem_iregmew # rgm|A;የሚ፟ረግመው
+lelreg_m_o # rgm|A;ለልረግ፟ሞ፟
+yregm_ # rgm|A;ይረግም፟
+## ;imf,3sm,3sfo,neg,main
+'ay_regman # rgm|A;ኣይ፟ረግማን
+'ayregmatm # rgm|A;አይረግማትም
+'ilreg_m_e # rgm|A;ኢልረግ፟መ፟
+tiregm_a # rgm|A;ቲረግማ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_regma # rgm|A;ዘይ፟ረግማ
+yem_ayregmat # rgm|A;የማ፟ይረግማት
+le'ilreg_m_e # rgm|A;ለኢልረግ፟መ፟
+'ayregm_a # rgm|A;አይረግማ፟
+## ;imf,3sm,3sfo,aff,main
+yregma # rgm|A;ይረግማ
+yregmatal # rgm|A;ይረግማታል
+lreg_m_e # rgm|A;ልረግ፟መ፟
+yregm_at # rgm|A;ይረግማ፟ት
+## ;imf,3sm,3sfo,aff,rel
+ziregma # rgm|A;ዚረግማ
+yem_iregmat # rgm|A;የሚ፟ረግማት
+lelreg_m_e # rgm|A;ለልረግ፟መ፟
+yregm_a # rgm|A;ይረግማ፟
+## ;imf,2pf,3smo,neg,main
+'aytregm'on # rgm|A;ኣይትረግምኦን
+'at_regmutm # rgm|A;አት፟ረግሙትም
+'itregmehu # rgm|A;ኢትረግመኁ
+tt_regm_an_ # rgm|A;ትት፟ረግማ፟ን፟
+## ;imf,2pf,3smo,neg,rel
+zeytregm'o # rgm|A;ዘይትረግምኦ
+yem_at_regmut # rgm|A;የማ፟ት፟ረግሙት
+le'itregmehu # rgm|A;ለኢትረግመኁ
+'at_regm_an_ # rgm|A;አት፟ረግማ፟ን፟
+## ;imf,2pf,3smo,aff,main
+tregm'o # rgm|A;ትረግምኦ
+tregmutal_ac_hu # rgm|A;ትረግሙታላ፟ች፟ሁ
+tregmehu # rgm|A;ትረግመኁ
+tregm_an_t # rgm|A;ትረግማ፟ን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_regm'o # rgm|A;ዝት፟ረግምኦ
+yem_t_regmut # rgm|A;የም፟ት፟ረግሙት
+letregmehu # rgm|A;ለትረግመኁ
+tregm_an_ # rgm|A;ትረግማ፟ን፟
+## ;imf,2pf,3sfo,neg,main
+'aytregm'an # rgm|A;ኣይትረግምኣን
+'at_regmWatm # rgm|A;አት፟ረግሟትም
+'itregmehe # rgm|A;ኢትረግመኀ
+tt_regm_an_a # rgm|A;ትት፟ረግማ፟ና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytregm'a # rgm|A;ዘይትረግምኣ
+yem_at_regmWat # rgm|A;የማ፟ት፟ረግሟት
+le'itregmehe # rgm|A;ለኢትረግመኀ
+'at_regm_an_a # rgm|A;አት፟ረግማ፟ና፟
+## ;imf,2pf,3sfo,aff,main
+tregm'a # rgm|A;ትረግምኣ
+tregmWatal_ac_hu # rgm|A;ትረግሟታላ፟ች፟ሁ
+tregmehe # rgm|A;ትረግመኀ
+tregm_an_at # rgm|A;ትረግማ፟ና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_regm'a # rgm|A;ዝት፟ረግምኣ
+yem_t_regmWat # rgm|A;የም፟ት፟ረግሟት
+letregmehe # rgm|A;ለትረግመኀ
+tregm_an_a # rgm|A;ትረግማ፟ና፟
+## ;prf,1s,3smo,neg,main
+'aylebeskuw_on # lbs|A;ኣይለበስኩዎ፟ን
+'al_eb_eskutm # lbs|A;አለ፟በ፟ስኩትም
+'ilebeskwo # lbs|A;ኢለበስክዎ
+'allebeskun_ # lbs|A;አልለበስኩን፟
+## ;prf,1s,3smo,neg,rel
+zeylebeskuw_o # lbs|A;ዘይለበስኩዎ፟
+yal_eb_eskut # lbs|A;ያለ፟በ፟ስኩት
+le'ilebeskwo # lbs|A;ለኢለበስክዎ
+yallebeskun_ # lbs|A;ያልለበስኩን፟
+## ;prf,1s,3smo,aff,main
+lebeskuw_o # lbs|A;ለበስኩዎ፟
+leb_eskut # lbs|A;ለበ፟ስኩት
+lebeskwo # lbs|A;ለበስክዎ
+leb_eskun_t # lbs|A;ለበ፟ስኩን፟ት
+## ;prf,1s,3smo,aff,rel
+zlebeskuw_o # lbs|A;ዝለበስኩዎ፟
+yeleb_eskut # lbs|A;የለበ፟ስኩት
+lelebeskwo # lbs|A;ለለበስክዎ
+yeleb_eskun_ # lbs|A;የለበ፟ስኩን፟
+## ;prf,1s,3sfo,neg,main
+'aylebeskuw_an # lbs|A;ኣይለበስኩዋ፟ን
+'al_eb_eskWatm # lbs|A;አለ፟በ፟ስኳትም
+'ilebeskwe # lbs|A;ኢለበስክወ
+'allebeskun_a # lbs|A;አልለበስኩና፟
+## ;prf,1s,3sfo,neg,rel
+zeylebeskuw_a # lbs|A;ዘይለበስኩዋ፟
+yal_eb_eskWat # lbs|A;ያለ፟በ፟ስኳት
+le'ilebeskwe # lbs|A;ለኢለበስክወ
+yallebeskun_a # lbs|A;ያልለበስኩና፟
+## ;prf,1s,3sfo,aff,main
+lebeskuw_a # lbs|A;ለበስኩዋ፟
+leb_eskWat # lbs|A;ለበ፟ስኳት
+lebeskwe # lbs|A;ለበስክወ
+leb_eskun_at # lbs|A;ለበ፟ስኩና፟ት
+## ;prf,1s,3sfo,aff,rel
+zlebeskuw_a # lbs|A;ዝለበስኩዋ፟
+yeleb_eskWat # lbs|A;የለበ፟ስኳት
+lelebeskwe # lbs|A;ለለበስክወ
+yeleb_eskun_a # lbs|A;የለበ፟ስኩና፟
+## ;prf,3sm,3smo,neg,main
+'aylebeson # lbs|A;ኣይለበሶን
+'al_eb_esewm # lbs|A;አለ፟በ፟ሰውም
+'ilebseyu # lbs|A;ኢለብሰዩ
+'allebesen_ # lbs|A;አልለበሰን፟
+## ;prf,3sm,3smo,neg,rel
+zeylebeso # lbs|A;ዘይለበሶ
+yal_eb_esew # lbs|A;ያለ፟በ፟ሰው
+le'ilebseyu # lbs|A;ለኢለብሰዩ
+yallebesen_ # lbs|A;ያልለበሰን፟
+## ;prf,3sm,3smo,aff,main
+lebeso # lbs|A;ለበሶ
+leb_esew # lbs|A;ለበ፟ሰው
+lebseyu # lbs|A;ለብሰዩ
+leb_esen_t # lbs|A;ለበ፟ሰን፟ት
+## ;prf,3sm,3smo,aff,rel
+zlebeso # lbs|A;ዝለበሶ
+yeleb_esew # lbs|A;የለበ፟ሰው
+lelebseyu # lbs|A;ለለብሰዩ
+yeleb_esen_ # lbs|A;የለበ፟ሰን፟
+## ;prf,3sm,3sfo,neg,main
+'aylebesan # lbs|A;ኣይለበሳን
+'al_eb_esatm # lbs|A;አለ፟በ፟ሳትም
+'ilebseye # lbs|A;ኢለብሰየ
+'allebesen_a # lbs|A;አልለበሰና፟
+## ;prf,3sm,3sfo,neg,rel
+zeylebesa # lbs|A;ዘይለበሳ
+yal_eb_esat # lbs|A;ያለ፟በ፟ሳት
+le'ilebseye # lbs|A;ለኢለብሰየ
+yallebesen_a # lbs|A;ያልለበሰና፟
+## ;prf,3sm,3sfo,aff,main
+lebesa # lbs|A;ለበሳ
+leb_esat # lbs|A;ለበ፟ሳት
+lebseye # lbs|A;ለብሰየ
+leb_esen_at # lbs|A;ለበ፟ሰና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zlebesa # lbs|A;ዝለበሳ
+yeleb_esat # lbs|A;የለበ፟ሳት
+lelebseye # lbs|A;ለለብሰየ
+yeleb_esen_a # lbs|A;የለበ፟ሰና፟
+## ;prf,2pf,3smo,neg,main
+'aylebeskn'on # lbs|A;ኣይለበስክንኦን
+'al_eb_esac_hutm # lbs|A;አለ፟በ፟ሳች፟ሁትም
+'ilebesknehu # lbs|A;ኢለበስክነኁ
+'allebeskman_ # lbs|A;አልለበስክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeylebeskn'o # lbs|A;ዘይለበስክንኦ
+yal_eb_esac_hut # lbs|A;ያለ፟በ፟ሳች፟ሁት
+le'ilebesknehu # lbs|A;ለኢለበስክነኁ
+yallebeskman_ # lbs|A;ያልለበስክማን፟
+## ;prf,2pf,3smo,aff,main
+lebeskn'o # lbs|A;ለበስክንኦ
+leb_esac_hut # lbs|A;ለበ፟ሳች፟ሁት
+lebesknehu # lbs|A;ለበስክነኁ
+leb_eskman_t # lbs|A;ለበ፟ስክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zlebeskn'o # lbs|A;ዝለበስክንኦ
+yeleb_esac_hut # lbs|A;የለበ፟ሳች፟ሁት
+lelebesknehu # lbs|A;ለለበስክነኁ
+yeleb_eskman_ # lbs|A;የለበ፟ስክማን፟
+## ;prf,2pf,3sfo,neg,main
+'aylebeskn'an # lbs|A;ኣይለበስክንኣን
+'al_eb_esac_hWatm # lbs|A;አለ፟በ፟ሳች፟ኋትም
+'ilebesknehe # lbs|A;ኢለበስክነኀ
+'allebeskman_a # lbs|A;አልለበስክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeylebeskn'a # lbs|A;ዘይለበስክንኣ
+yal_eb_esac_hWat # lbs|A;ያለ፟በ፟ሳች፟ኋት
+le'ilebesknehe # lbs|A;ለኢለበስክነኀ
+yallebeskman_a # lbs|A;ያልለበስክማና፟
+## ;prf,2pf,3sfo,aff,main
+lebeskn'a # lbs|A;ለበስክንኣ
+leb_esac_hWat # lbs|A;ለበ፟ሳች፟ኋት
+lebesknehe # lbs|A;ለበስክነኀ
+leb_eskman_at # lbs|A;ለበ፟ስክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zlebeskn'a # lbs|A;ዝለበስክንኣ
+yeleb_esac_hWat # lbs|A;የለበ፟ሳች፟ኋት
+lelebesknehe # lbs|A;ለለበስክነኀ
+yeleb_eskman_a # lbs|A;የለበ፟ስክማና፟
+## ;imf,1s,3smo,neg,main
+'aylebson # lbs|A;ኣይለብሶን
+'al_ebsewm # lbs|A;አለ፟ብሰውም
+'i'leb_s_o # lbs|A;ኢእለብ፟ሶ፟
+telebs_ # lbs|A;ተለብስ፟
+## ;imf,1s,3smo,neg,rel
+zeylebso # lbs|A;ዘይለብሶ
+yem_al_ebsew # lbs|A;የማ፟ለ፟ብሰው
+le'i'leb_s_o # lbs|A;ለኢእለብ፟ሶ፟
+'an_lebs_ # lbs|A;አን፟ለብስ፟
+## ;imf,1s,3smo,aff,main
+'lebso # lbs|A;እለብሶ
+'lebsewal_ehu # lbs|A;እለብሰዋለ፟ሁ
+'leb_s_o # lbs|A;እለብ፟ሶ፟
+'elebs_t # lbs|A;ኧለብስ፟ት
+## ;imf,1s,3smo,aff,rel
+zlebso # lbs|A;ዝለብሶ
+yem_lebsew # lbs|A;የም፟ለብሰው
+le'leb_s_o # lbs|A;ለእለብ፟ሶ፟
+'elebs_ # lbs|A;ኧለብስ፟
+## ;imf,1s,3sfo,neg,main
+'aylebsan # lbs|A;ኣይለብሳን
+'al_ebsatm # lbs|A;አለ፟ብሳትም
+'i'leb_s_e # lbs|A;ኢእለብ፟ሰ፟
+telebs_a # lbs|A;ተለብሳ፟
+## ;imf,1s,3sfo,neg,rel
+zeylebsa # lbs|A;ዘይለብሳ
+yem_al_ebsat # lbs|A;የማ፟ለ፟ብሳት
+le'i'leb_s_e # lbs|A;ለኢእለብ፟ሰ፟
+'an_lebs_a # lbs|A;አን፟ለብሳ፟
+## ;imf,1s,3sfo,aff,main
+'lebsa # lbs|A;እለብሳ
+'lebsatal_ehu # lbs|A;እለብሳታለ፟ሁ
+'leb_s_e # lbs|A;እለብ፟ሰ፟
+'elebs_at # lbs|A;ኧለብሳ፟ት
+## ;imf,1s,3sfo,aff,rel
+zlebsa # lbs|A;ዝለብሳ
+yem_lebsat # lbs|A;የም፟ለብሳት
+le'leb_s_e # lbs|A;ለእለብ፟ሰ፟
+'elebs_a # lbs|A;ኧለብሳ፟
+## ;imf,3sm,3smo,neg,main
+'ay_lebson # lbs|A;ኣይ፟ለብሶን
+'aylebsewm # lbs|A;አይለብሰውም
+'illeb_s_o # lbs|A;ኢልለብ፟ሶ፟
+tilebs_ # lbs|A;ቲለብስ፟
+## ;imf,3sm,3smo,neg,rel
+zey_lebso # lbs|A;ዘይ፟ለብሶ
+yem_aylebsew # lbs|A;የማ፟ይለብሰው
+le'illeb_s_o # lbs|A;ለኢልለብ፟ሶ፟
+'aylebs_ # lbs|A;አይለብስ፟
+## ;imf,3sm,3smo,aff,main
+ylebso # lbs|A;ይለብሶ
+ylebsewal # lbs|A;ይለብሰዋል
+lleb_s_o # lbs|A;ልለብ፟ሶ፟
+ylebs_t # lbs|A;ይለብስ፟ት
+## ;imf,3sm,3smo,aff,rel
+zilebso # lbs|A;ዚለብሶ
+yem_ilebsew # lbs|A;የሚ፟ለብሰው
+lelleb_s_o # lbs|A;ለልለብ፟ሶ፟
+ylebs_ # lbs|A;ይለብስ፟
+## ;imf,3sm,3sfo,neg,main
+'ay_lebsan # lbs|A;ኣይ፟ለብሳን
+'aylebsatm # lbs|A;አይለብሳትም
+'illeb_s_e # lbs|A;ኢልለብ፟ሰ፟
+tilebs_a # lbs|A;ቲለብሳ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_lebsa # lbs|A;ዘይ፟ለብሳ
+yem_aylebsat # lbs|A;የማ፟ይለብሳት
+le'illeb_s_e # lbs|A;ለኢልለብ፟ሰ፟
+'aylebs_a # lbs|A;አይለብሳ፟
+## ;imf,3sm,3sfo,aff,main
+ylebsa # lbs|A;ይለብሳ
+ylebsatal # lbs|A;ይለብሳታል
+lleb_s_e # lbs|A;ልለብ፟ሰ፟
+ylebs_at # lbs|A;ይለብሳ፟ት
+## ;imf,3sm,3sfo,aff,rel
+zilebsa # lbs|A;ዚለብሳ
+yem_ilebsat # lbs|A;የሚ፟ለብሳት
+lelleb_s_e # lbs|A;ለልለብ፟ሰ፟
+ylebs_a # lbs|A;ይለብሳ፟
+## ;imf,2pf,3smo,neg,main
+'aytlebs'on # lbs|A;ኣይትለብስኦን
+'at_lebsutm # lbs|A;አት፟ለብሱትም
+'itlebsehu # lbs|A;ኢትለብሰኁ
+tt_lebsman_ # lbs|A;ትት፟ለብስማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytlebs'o # lbs|A;ዘይትለብስኦ
+yem_at_lebsut # lbs|A;የማ፟ት፟ለብሱት
+le'itlebsehu # lbs|A;ለኢትለብሰኁ
+'at_lebsman_ # lbs|A;አት፟ለብስማን፟
+## ;imf,2pf,3smo,aff,main
+tlebs'o # lbs|A;ትለብስኦ
+tlebsutal_ac_hu # lbs|A;ትለብሱታላ፟ች፟ሁ
+tlebsehu # lbs|A;ትለብሰኁ
+tlebsman_t # lbs|A;ትለብስማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_lebs'o # lbs|A;ዝት፟ለብስኦ
+yem_t_lebsut # lbs|A;የም፟ት፟ለብሱት
+letlebsehu # lbs|A;ለትለብሰኁ
+tlebsman_ # lbs|A;ትለብስማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytlebs'an # lbs|A;ኣይትለብስኣን
+'at_lebsWatm # lbs|A;አት፟ለብሷትም
+'itlebsehe # lbs|A;ኢትለብሰኀ
+tt_lebsman_a # lbs|A;ትት፟ለብስማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytlebs'a # lbs|A;ዘይትለብስኣ
+yem_at_lebsWat # lbs|A;የማ፟ት፟ለብሷት
+le'itlebsehe # lbs|A;ለኢትለብሰኀ
+'at_lebsman_a # lbs|A;አት፟ለብስማና፟
+## ;imf,2pf,3sfo,aff,main
+tlebs'a # lbs|A;ትለብስኣ
+tlebsWatal_ac_hu # lbs|A;ትለብሷታላ፟ች፟ሁ
+tlebsehe # lbs|A;ትለብሰኀ
+tlebsman_at # lbs|A;ትለብስማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_lebs'a # lbs|A;ዝት፟ለብስኣ
+yem_t_lebsWat # lbs|A;የም፟ት፟ለብሷት
+letlebsehe # lbs|A;ለትለብሰኀ
+tlebsman_a # lbs|A;ትለብስማና፟
+## ;prf,1s,3smo,neg,main
+'aymermerkuw_on # mrmr|E;ኣይመርመርኩዎ፟ን
+'almerem_erkutm # mrmr|E;አልመረመ፟ርኩትም
+'imermerkwo # mrmr|E;ኢመርመርክዎ
+'almremerkun_ # mrmr|E;አልምረመርኩን፟
+## ;prf,1s,3smo,neg,rel
+zeymermerkuw_o # mrmr|E;ዘይመርመርኩዎ፟
+yalmerem_erkut # mrmr|E;ያልመረመ፟ርኩት
+le'imermerkwo # mrmr|E;ለኢመርመርክዎ
+yalmremerkun_ # mrmr|E;ያልምረመርኩን፟
+## ;prf,1s,3smo,aff,main
+mermerkuw_o # mrmr|E;መርመርኩዎ፟
+merem_erkut # mrmr|E;መረመ፟ርኩት
+mermerkwo # mrmr|E;መርመርክዎ
+mrem_erkun_t # mrmr|E;ምረመ፟ርኩን፟ት
+## ;prf,1s,3smo,aff,rel
+zmermerkuw_o # mrmr|E;ዝመርመርኩዎ፟
+yemerem_erkut # mrmr|E;የመረመ፟ርኩት
+lemermerkwo # mrmr|E;ለመርመርክዎ
+yemrem_erkun_ # mrmr|E;የምረመ፟ርኩን፟
+## ;prf,1s,3sfo,neg,main
+'aymermerkuw_an # mrmr|E;ኣይመርመርኩዋ፟ን
+'almerem_erkWatm # mrmr|E;አልመረመ፟ርኳትም
+'imermerkwe # mrmr|E;ኢመርመርክወ
+'almremerkun_a # mrmr|E;አልምረመርኩና፟
+## ;prf,1s,3sfo,neg,rel
+zeymermerkuw_a # mrmr|E;ዘይመርመርኩዋ፟
+yalmerem_erkWat # mrmr|E;ያልመረመ፟ርኳት
+le'imermerkwe # mrmr|E;ለኢመርመርክወ
+yalmremerkun_a # mrmr|E;ያልምረመርኩና፟
+## ;prf,1s,3sfo,aff,main
+mermerkuw_a # mrmr|E;መርመርኩዋ፟
+merem_erkWat # mrmr|E;መረመ፟ርኳት
+mermerkwe # mrmr|E;መርመርክወ
+mrem_erkun_at # mrmr|E;ምረመ፟ርኩና፟ት
+## ;prf,1s,3sfo,aff,rel
+zmermerkuw_a # mrmr|E;ዝመርመርኩዋ፟
+yemerem_erkWat # mrmr|E;የመረመ፟ርኳት
+lemermerkwe # mrmr|E;ለመርመርክወ
+yemrem_erkun_a # mrmr|E;የምረመ፟ርኩና፟
+## ;prf,3sm,3smo,neg,main
+'aymermeron # mrmr|E;ኣይመርመሮን
+'almerem_erewm # mrmr|E;አልመረመ፟ረውም
+'imermereyu # mrmr|E;ኢመርመረዩ
+'almremeren_ # mrmr|E;አልምረመረን፟
+## ;prf,3sm,3smo,neg,rel
+zeymermero # mrmr|E;ዘይመርመሮ
+yalmerem_erew # mrmr|E;ያልመረመ፟ረው
+le'imermereyu # mrmr|E;ለኢመርመረዩ
+yalmremeren_ # mrmr|E;ያልምረመረን፟
+## ;prf,3sm,3smo,aff,main
+mermero # mrmr|E;መርመሮ
+merem_erew # mrmr|E;መረመ፟ረው
+mermereyu # mrmr|E;መርመረዩ
+mrem_eren_t # mrmr|E;ምረመ፟ረን፟ት
+## ;prf,3sm,3smo,aff,rel
+zmermero # mrmr|E;ዝመርመሮ
+yemerem_erew # mrmr|E;የመረመ፟ረው
+lemermereyu # mrmr|E;ለመርመረዩ
+yemrem_eren_ # mrmr|E;የምረመ፟ረን፟
+## ;prf,3sm,3sfo,neg,main
+'aymermeran # mrmr|E;ኣይመርመራን
+'almerem_eratm # mrmr|E;አልመረመ፟ራትም
+'imermereye # mrmr|E;ኢመርመረየ
+'almremeren_a # mrmr|E;አልምረመረና፟
+## ;prf,3sm,3sfo,neg,rel
+zeymermera # mrmr|E;ዘይመርመራ
+yalmerem_erat # mrmr|E;ያልመረመ፟ራት
+le'imermereye # mrmr|E;ለኢመርመረየ
+yalmremeren_a # mrmr|E;ያልምረመረና፟
+## ;prf,3sm,3sfo,aff,main
+mermera # mrmr|E;መርመራ
+merem_erat # mrmr|E;መረመ፟ራት
+mermereye # mrmr|E;መርመረየ
+mrem_eren_at # mrmr|E;ምረመ፟ረና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zmermera # mrmr|E;ዝመርመራ
+yemerem_erat # mrmr|E;የመረመ፟ራት
+lemermereye # mrmr|E;ለመርመረየ
+yemrem_eren_a # mrmr|E;የምረመ፟ረና፟
+## ;prf,2pf,3smo,neg,main
+'aymermerkn'on # mrmr|E;ኣይመርመርክንኦን
+'almerem_erac_hutm # mrmr|E;አልመረመ፟ራች፟ሁትም
+'imermerknehu # mrmr|E;ኢመርመርክነኁ
+'almremerkman_ # mrmr|E;አልምረመርክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeymermerkn'o # mrmr|E;ዘይመርመርክንኦ
+yalmerem_erac_hut # mrmr|E;ያልመረመ፟ራች፟ሁት
+le'imermerknehu # mrmr|E;ለኢመርመርክነኁ
+yalmremerkman_ # mrmr|E;ያልምረመርክማን፟
+## ;prf,2pf,3smo,aff,main
+mermerkn'o # mrmr|E;መርመርክንኦ
+merem_erac_hut # mrmr|E;መረመ፟ራች፟ሁት
+mermerknehu # mrmr|E;መርመርክነኁ
+mrem_erkman_t # mrmr|E;ምረመ፟ርክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zmermerkn'o # mrmr|E;ዝመርመርክንኦ
+yemerem_erac_hut # mrmr|E;የመረመ፟ራች፟ሁት
+lemermerknehu # mrmr|E;ለመርመርክነኁ
+yemrem_erkman_ # mrmr|E;የምረመ፟ርክማን፟
+## ;prf,2pf,3sfo,neg,main
+'aymermerkn'an # mrmr|E;ኣይመርመርክንኣን
+'almerem_erac_hWatm # mrmr|E;አልመረመ፟ራች፟ኋትም
+'imermerknehe # mrmr|E;ኢመርመርክነኀ
+'almremerkman_a # mrmr|E;አልምረመርክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeymermerkn'a # mrmr|E;ዘይመርመርክንኣ
+yalmerem_erac_hWat # mrmr|E;ያልመረመ፟ራች፟ኋት
+le'imermerknehe # mrmr|E;ለኢመርመርክነኀ
+yalmremerkman_a # mrmr|E;ያልምረመርክማና፟
+## ;prf,2pf,3sfo,aff,main
+mermerkn'a # mrmr|E;መርመርክንኣ
+merem_erac_hWat # mrmr|E;መረመ፟ራች፟ኋት
+mermerknehe # mrmr|E;መርመርክነኀ
+mrem_erkman_at # mrmr|E;ምረመ፟ርክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zmermerkn'a # mrmr|E;ዝመርመርክንኣ
+yemerem_erac_hWat # mrmr|E;የመረመ፟ራች፟ኋት
+lemermerknehe # mrmr|E;ለመርመርክነኀ
+yemrem_erkman_a # mrmr|E;የምረመ፟ርክማና፟
+## ;imf,1s,3smo,neg,main
+'aymrmron # mrmr|E;ኣይምርምሮን
+'almerem_rewm # mrmr|E;አልመረም፟ረውም
+'i'mermr_o # mrmr|E;ኢእመርምሮ፟
+temrem_r_ # mrmr|E;ተምረም፟ር፟
+## ;imf,1s,3smo,neg,rel
+zeymrmro # mrmr|E;ዘይምርምሮ
+yem_almerem_rew # mrmr|E;የማ፟ልመረም፟ረው
+le'i'mermr_o # mrmr|E;ለኢእመርምሮ፟
+'an_mrem_r_ # mrmr|E;አን፟ምረም፟ር፟
+## ;imf,1s,3smo,aff,main
+'mrmro # mrmr|E;እምርምሮ
+'merem_rewal_ehu # mrmr|E;እመረም፟ረዋለ፟ሁ
+'mermr_o # mrmr|E;እመርምሮ፟
+'emrem_r_t # mrmr|E;ኧምረም፟ር፟ት
+## ;imf,1s,3smo,aff,rel
+zmrmro # mrmr|E;ዝምርምሮ
+yem_merem_rew # mrmr|E;የም፟መረም፟ረው
+le'mermr_o # mrmr|E;ለእመርምሮ፟
+'emrem_r_ # mrmr|E;ኧምረም፟ር፟
+## ;imf,1s,3sfo,neg,main
+'aymrmran # mrmr|E;ኣይምርምራን
+'almerem_ratm # mrmr|E;አልመረም፟ራትም
+'i'mermr_e # mrmr|E;ኢእመርምረ፟
+temrem_r_a # mrmr|E;ተምረም፟ራ፟
+## ;imf,1s,3sfo,neg,rel
+zeymrmra # mrmr|E;ዘይምርምራ
+yem_almerem_rat # mrmr|E;የማ፟ልመረም፟ራት
+le'i'mermr_e # mrmr|E;ለኢእመርምረ፟
+'an_mrem_r_a # mrmr|E;አን፟ምረም፟ራ፟
+## ;imf,1s,3sfo,aff,main
+'mrmra # mrmr|E;እምርምራ
+'merem_ratal_ehu # mrmr|E;እመረም፟ራታለ፟ሁ
+'mermr_e # mrmr|E;እመርምረ፟
+'emrem_r_at # mrmr|E;ኧምረም፟ራ፟ት
+## ;imf,1s,3sfo,aff,rel
+zmrmra # mrmr|E;ዝምርምራ
+yem_merem_rat # mrmr|E;የም፟መረም፟ራት
+le'mermr_e # mrmr|E;ለእመርምረ፟
+'emrem_r_a # mrmr|E;ኧምረም፟ራ፟
+## ;imf,3sm,3smo,neg,main
+'ay_mrmron # mrmr|E;ኣይ፟ምርምሮን
+'aymerem_rewm # mrmr|E;አይመረም፟ረውም
+'ilmermr_o # mrmr|E;ኢልመርምሮ፟
+timrem_r_ # mrmr|E;ቲምረም፟ር፟
+## ;imf,3sm,3smo,neg,rel
+zey_mrmro # mrmr|E;ዘይ፟ምርምሮ
+yem_aymerem_rew # mrmr|E;የማ፟ይመረም፟ረው
+le'ilmermr_o # mrmr|E;ለኢልመርምሮ፟
+'aymrem_r_ # mrmr|E;አይምረም፟ር፟
+## ;imf,3sm,3smo,aff,main
+ymrmro # mrmr|E;ይምርምሮ
+ymerem_rewal # mrmr|E;ይመረም፟ረዋል
+lmermr_o # mrmr|E;ልመርምሮ፟
+ymrem_r_t # mrmr|E;ይምረም፟ር፟ት
+## ;imf,3sm,3smo,aff,rel
+zimrmro # mrmr|E;ዚምርምሮ
+yem_imerem_rew # mrmr|E;የሚ፟መረም፟ረው
+lelmermr_o # mrmr|E;ለልመርምሮ፟
+ymrem_r_ # mrmr|E;ይምረም፟ር፟
+## ;imf,3sm,3sfo,neg,main
+'ay_mrmran # mrmr|E;ኣይ፟ምርምራን
+'aymerem_ratm # mrmr|E;አይመረም፟ራትም
+'ilmermr_e # mrmr|E;ኢልመርምረ፟
+timrem_r_a # mrmr|E;ቲምረም፟ራ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_mrmra # mrmr|E;ዘይ፟ምርምራ
+yem_aymerem_rat # mrmr|E;የማ፟ይመረም፟ራት
+le'ilmermr_e # mrmr|E;ለኢልመርምረ፟
+'aymrem_r_a # mrmr|E;አይምረም፟ራ፟
+## ;imf,3sm,3sfo,aff,main
+ymrmra # mrmr|E;ይምርምራ
+ymerem_ratal # mrmr|E;ይመረም፟ራታል
+lmermr_e # mrmr|E;ልመርምረ፟
+ymrem_r_at # mrmr|E;ይምረም፟ራ፟ት
+## ;imf,3sm,3sfo,aff,rel
+zimrmra # mrmr|E;ዚምርምራ
+yem_imerem_rat # mrmr|E;የሚ፟መረም፟ራት
+lelmermr_e # mrmr|E;ለልመርምረ፟
+ymrem_r_a # mrmr|E;ይምረም፟ራ፟
+## ;imf,2pf,3smo,neg,main
+'aytmrmr'on # mrmr|E;ኣይትምርምርኦን
+'at_merem_rutm # mrmr|E;አት፟መረም፟ሩትም
+'itmermrehu # mrmr|E;ኢትመርምረኁ
+tt_mrem_rman_ # mrmr|E;ትት፟ምረም፟ርማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytmrmr'o # mrmr|E;ዘይትምርምርኦ
+yem_at_merem_rut # mrmr|E;የማ፟ት፟መረም፟ሩት
+le'itmermrehu # mrmr|E;ለኢትመርምረኁ
+'at_mrem_rman_ # mrmr|E;አት፟ምረም፟ርማን፟
+## ;imf,2pf,3smo,aff,main
+tmrmr'o # mrmr|E;ትምርምርኦ
+tmerem_rutal_ac_hu # mrmr|E;ትመረም፟ሩታላ፟ች፟ሁ
+tmermrehu # mrmr|E;ትመርምረኁ
+tmrem_rman_t # mrmr|E;ትምረም፟ርማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_mrmr'o # mrmr|E;ዝት፟ምርምርኦ
+yem_t_merem_rut # mrmr|E;የም፟ት፟መረም፟ሩት
+letmermrehu # mrmr|E;ለትመርምረኁ
+tmrem_rman_ # mrmr|E;ትምረም፟ርማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytmrmr'an # mrmr|E;ኣይትምርምርኣን
+'at_merem_rWatm # mrmr|E;አት፟መረም፟ሯትም
+'itmermrehe # mrmr|E;ኢትመርምረኀ
+tt_mrem_rman_a # mrmr|E;ትት፟ምረም፟ርማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytmrmr'a # mrmr|E;ዘይትምርምርኣ
+yem_at_merem_rWat # mrmr|E;የማ፟ት፟መረም፟ሯት
+le'itmermrehe # mrmr|E;ለኢትመርምረኀ
+'at_mrem_rman_a # mrmr|E;አት፟ምረም፟ርማና፟
+## ;imf,2pf,3sfo,aff,main
+tmrmr'a # mrmr|E;ትምርምርኣ
+tmerem_rWatal_ac_hu # mrmr|E;ትመረም፟ሯታላ፟ች፟ሁ
+tmermrehe # mrmr|E;ትመርምረኀ
+tmrem_rman_at # mrmr|E;ትምረም፟ርማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_mrmr'a # mrmr|E;ዝት፟ምርምርኣ
+yem_t_merem_rWat # mrmr|E;የም፟ት፟መረም፟ሯት
+letmermrehe # mrmr|E;ለትመርምረኀ
+tmrem_rman_a # mrmr|E;ትምረም፟ርማና፟
+## ;prf,1s,3smo,neg,main
+'aykefelkuw_on # kfl|A;ኣይከፈልኩዎ፟ን
+'alkef_elkutm # kfl|A;አልከፈ፟ልኩትም
+'ikefelkwo # kfl|A;ኢከፈልክዎ
+'alkefelkun_ # kfl|A;አልከፈልኩን፟
+## ;prf,1s,3smo,neg,rel
+zeykefelkuw_o # kfl|A;ዘይከፈልኩዎ፟
+yalkef_elkut # kfl|A;ያልከፈ፟ልኩት
+le'ikefelkwo # kfl|A;ለኢከፈልክዎ
+yalkefelkun_ # kfl|A;ያልከፈልኩን፟
+## ;prf,1s,3smo,aff,main
+kefelkuw_o # kfl|A;ከፈልኩዎ፟
+kef_elkut # kfl|A;ከፈ፟ልኩት
+kefelkwo # kfl|A;ከፈልክዎ
+kef_elkun_t # kfl|A;ከፈ፟ልኩን፟ት
+## ;prf,1s,3smo,aff,rel
+zKefelkuw_o # kfl|A;ዝኸፈልኩዎ፟
+yekef_elkut # kfl|A;የከፈ፟ልኩት
+lekefelkwo # kfl|A;ለከፈልክዎ
+yekef_elkun_ # kfl|A;የከፈ፟ልኩን፟
+## ;prf,1s,3sfo,neg,main
+'aykefelkuw_an # kfl|A;ኣይከፈልኩዋ፟ን
+'alkef_elkWatm # kfl|A;አልከፈ፟ልኳትም
+'ikefelkwe # kfl|A;ኢከፈልክወ
+'alkefelkun_a # kfl|A;አልከፈልኩና፟
+## ;prf,1s,3sfo,neg,rel
+zeykefelkuw_a # kfl|A;ዘይከፈልኩዋ፟
+yalkef_elkWat # kfl|A;ያልከፈ፟ልኳት
+le'ikefelkwe # kfl|A;ለኢከፈልክወ
+yalkefelkun_a # kfl|A;ያልከፈልኩና፟
+## ;prf,1s,3sfo,aff,main
+kefelkuw_a # kfl|A;ከፈልኩዋ፟
+kef_elkWat # kfl|A;ከፈ፟ልኳት
+kefelkwe # kfl|A;ከፈልክወ
+kef_elkun_at # kfl|A;ከፈ፟ልኩና፟ት
+## ;prf,1s,3sfo,aff,rel
+zKefelkuw_a # kfl|A;ዝኸፈልኩዋ፟
+yekef_elkWat # kfl|A;የከፈ፟ልኳት
+lekefelkwe # kfl|A;ለከፈልክወ
+yekef_elkun_a # kfl|A;የከፈ፟ልኩና፟
+## ;prf,3sm,3smo,neg,main
+'aykefelon # kfl|A;ኣይከፈሎን
+'alkef_elewm # kfl|A;አልከፈ፟ለውም
+'ikefleyu # kfl|A;ኢከፍለዩ
+'alkefelen_ # kfl|A;አልከፈለን፟
+## ;prf,3sm,3smo,neg,rel
+zeykefelo # kfl|A;ዘይከፈሎ
+yalkef_elew # kfl|A;ያልከፈ፟ለው
+le'ikefleyu # kfl|A;ለኢከፍለዩ
+yalkefelen_ # kfl|A;ያልከፈለን፟
+## ;prf,3sm,3smo,aff,main
+kefelo # kfl|A;ከፈሎ
+kef_elew # kfl|A;ከፈ፟ለው
+kefleyu # kfl|A;ከፍለዩ
+kef_elen_t # kfl|A;ከፈ፟ለን፟ት
+## ;prf,3sm,3smo,aff,rel
+zKefelo # kfl|A;ዝኸፈሎ
+yekef_elew # kfl|A;የከፈ፟ለው
+lekefleyu # kfl|A;ለከፍለዩ
+yekef_elen_ # kfl|A;የከፈ፟ለን፟
+## ;prf,3sm,3sfo,neg,main
+'aykefelan # kfl|A;ኣይከፈላን
+'alkef_elatm # kfl|A;አልከፈ፟ላትም
+'ikefleye # kfl|A;ኢከፍለየ
+'alkefelen_a # kfl|A;አልከፈለና፟
+## ;prf,3sm,3sfo,neg,rel
+zeykefela # kfl|A;ዘይከፈላ
+yalkef_elat # kfl|A;ያልከፈ፟ላት
+le'ikefleye # kfl|A;ለኢከፍለየ
+yalkefelen_a # kfl|A;ያልከፈለና፟
+## ;prf,3sm,3sfo,aff,main
+kefela # kfl|A;ከፈላ
+kef_elat # kfl|A;ከፈ፟ላት
+kefleye # kfl|A;ከፍለየ
+kef_elen_at # kfl|A;ከፈ፟ለና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zKefela # kfl|A;ዝኸፈላ
+yekef_elat # kfl|A;የከፈ፟ላት
+lekefleye # kfl|A;ለከፍለየ
+yekef_elen_a # kfl|A;የከፈ፟ለና፟
+## ;prf,2pf,3smo,neg,main
+'aykefelkn'on # kfl|A;ኣይከፈልክንኦን
+'alkef_elac_hutm # kfl|A;አልከፈ፟ላች፟ሁትም
+'ikefelknehu # kfl|A;ኢከፈልክነኁ
+'alkefelkman_ # kfl|A;አልከፈልክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeykefelkn'o # kfl|A;ዘይከፈልክንኦ
+yalkef_elac_hut # kfl|A;ያልከፈ፟ላች፟ሁት
+le'ikefelknehu # kfl|A;ለኢከፈልክነኁ
+yalkefelkman_ # kfl|A;ያልከፈልክማን፟
+## ;prf,2pf,3smo,aff,main
+kefelkn'o # kfl|A;ከፈልክንኦ
+kef_elac_hut # kfl|A;ከፈ፟ላች፟ሁት
+kefelknehu # kfl|A;ከፈልክነኁ
+kef_elkman_t # kfl|A;ከፈ፟ልክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zKefelkn'o # kfl|A;ዝኸፈልክንኦ
+yekef_elac_hut # kfl|A;የከፈ፟ላች፟ሁት
+lekefelknehu # kfl|A;ለከፈልክነኁ
+yekef_elkman_ # kfl|A;የከፈ፟ልክማን፟
+## ;prf,2pf,3sfo,neg,main
+'aykefelkn'an # kfl|A;ኣይከፈልክንኣን
+'alkef_elac_hWatm # kfl|A;አልከፈ፟ላች፟ኋትም
+'ikefelknehe # kfl|A;ኢከፈልክነኀ
+'alkefelkman_a # kfl|A;አልከፈልክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeykefelkn'a # kfl|A;ዘይከፈልክንኣ
+yalkef_elac_hWat # kfl|A;ያልከፈ፟ላች፟ኋት
+le'ikefelknehe # kfl|A;ለኢከፈልክነኀ
+yalkefelkman_a # kfl|A;ያልከፈልክማና፟
+## ;prf,2pf,3sfo,aff,main
+kefelkn'a # kfl|A;ከፈልክንኣ
+kef_elac_hWat # kfl|A;ከፈ፟ላች፟ኋት
+kefelknehe # kfl|A;ከፈልክነኀ
+kef_elkman_at # kfl|A;ከፈ፟ልክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zKefelkn'a # kfl|A;ዝኸፈልክንኣ
+yekef_elac_hWat # kfl|A;የከፈ፟ላች፟ኋት
+lekefelknehe # kfl|A;ለከፈልክነኀ
+yekef_elkman_a # kfl|A;የከፈ፟ልክማና፟
+## ;imf,1s,3smo,neg,main
+'aykeflon # kfl|A;ኣይከፍሎን
+'alkeflewm # kfl|A;አልከፍለውም
+'i'kef_l_o # kfl|A;ኢእከፍ፟ሎ፟
+tekefl_ # kfl|A;ተከፍል፟
+## ;imf,1s,3smo,neg,rel
+zeykeflo # kfl|A;ዘይከፍሎ
+yem_alkeflew # kfl|A;የማ፟ልከፍለው
+le'i'kef_l_o # kfl|A;ለኢእከፍ፟ሎ፟
+'an_kefl_ # kfl|A;አን፟ከፍል፟
+## ;imf,1s,3smo,aff,main
+'Keflo # kfl|A;እኸፍሎ
+'keflewal_ehu # kfl|A;እከፍለዋለ፟ሁ
+'kef_l_o # kfl|A;እከፍ፟ሎ፟
+'ekefl_t # kfl|A;ኧከፍል፟ት
+## ;imf,1s,3smo,aff,rel
+zKeflo # kfl|A;ዝኸፍሎ
+yem_keflew # kfl|A;የም፟ከፍለው
+le'kef_l_o # kfl|A;ለእከፍ፟ሎ፟
+'ekefl_ # kfl|A;ኧከፍል፟
+## ;imf,1s,3sfo,neg,main
+'aykeflan # kfl|A;ኣይከፍላን
+'alkeflatm # kfl|A;አልከፍላትም
+'i'kef_l_e # kfl|A;ኢእከፍ፟ለ፟
+tekefl_a # kfl|A;ተከፍላ፟
+## ;imf,1s,3sfo,neg,rel
+zeykefla # kfl|A;ዘይከፍላ
+yem_alkeflat # kfl|A;የማ፟ልከፍላት
+le'i'kef_l_e # kfl|A;ለኢእከፍ፟ለ፟
+'an_kefl_a # kfl|A;አን፟ከፍላ፟
+## ;imf,1s,3sfo,aff,main
+'Kefla # kfl|A;እኸፍላ
+'keflatal_ehu # kfl|A;እከፍላታለ፟ሁ
+'kef_l_e # kfl|A;እከፍ፟ለ፟
+'ekefl_at # kfl|A;ኧከፍላ፟ት
+## ;imf,1s,3sfo,aff,rel
+zKefla # kfl|A;ዝኸፍላ
+yem_keflat # kfl|A;የም፟ከፍላት
+le'kef_l_e # kfl|A;ለእከፍ፟ለ፟
+'ekefl_a # kfl|A;ኧከፍላ፟
+## ;imf,3sm,3smo,neg,main
+'ay_Keflon # kfl|A;ኣይ፟ኸፍሎን
+'aykeflewm # kfl|A;አይከፍለውም
+'ilkef_l_o # kfl|A;ኢልከፍ፟ሎ፟
+tikefl_ # kfl|A;ቲከፍል፟
+## ;imf,3sm,3smo,neg,rel
+zey_Keflo # kfl|A;ዘይ፟ኸፍሎ
+yem_aykeflew # kfl|A;የማ፟ይከፍለው
+le'ilkef_l_o # kfl|A;ለኢልከፍ፟ሎ፟
+'aykefl_ # kfl|A;አይከፍል፟
+## ;imf,3sm,3smo,aff,main
+yKeflo # kfl|A;ይኸፍሎ
+ykeflewal # kfl|A;ይከፍለዋል
+lkef_l_o # kfl|A;ልከፍ፟ሎ፟
+ykefl_t # kfl|A;ይከፍል፟ት
+## ;imf,3sm,3smo,aff,rel
+ziKeflo # kfl|A;ዚኸፍሎ
+yem_ikeflew # kfl|A;የሚ፟ከፍለው
+lelkef_l_o # kfl|A;ለልከፍ፟ሎ፟
+ykefl_ # kfl|A;ይከፍል፟
+## ;imf,3sm,3sfo,neg,main
+'ay_Keflan # kfl|A;ኣይ፟ኸፍላን
+'aykeflatm # kfl|A;አይከፍላትም
+'ilkef_l_e # kfl|A;ኢልከፍ፟ለ፟
+tikefl_a # kfl|A;ቲከፍላ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_Kefla # kfl|A;ዘይ፟ኸፍላ
+yem_aykeflat # kfl|A;የማ፟ይከፍላት
+le'ilkef_l_e # kfl|A;ለኢልከፍ፟ለ፟
+'aykefl_a # kfl|A;አይከፍላ፟
+## ;imf,3sm,3sfo,aff,main
+yKefla # kfl|A;ይኸፍላ
+ykeflatal # kfl|A;ይከፍላታል
+lkef_l_e # kfl|A;ልከፍ፟ለ፟
+ykefl_at # kfl|A;ይከፍላ፟ት
+## ;imf,3sm,3sfo,aff,rel
+ziKefla # kfl|A;ዚኸፍላ
+yem_ikeflat # kfl|A;የሚ፟ከፍላት
+lelkef_l_e # kfl|A;ለልከፍ፟ለ፟
+ykefl_a # kfl|A;ይከፍላ፟
+## ;imf,2pf,3smo,neg,main
+'aytKefl'on # kfl|A;ኣይትኸፍልኦን
+'at_keflutm # kfl|A;አት፟ከፍሉትም
+'itkeflehu # kfl|A;ኢትከፍለኁ
+tt_keflman_ # kfl|A;ትት፟ከፍልማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytKefl'o # kfl|A;ዘይትኸፍልኦ
+yem_at_keflut # kfl|A;የማ፟ት፟ከፍሉት
+le'itkeflehu # kfl|A;ለኢትከፍለኁ
+'at_keflman_ # kfl|A;አት፟ከፍልማን፟
+## ;imf,2pf,3smo,aff,main
+tKefl'o # kfl|A;ትኸፍልኦ
+tkeflutal_ac_hu # kfl|A;ትከፍሉታላ፟ች፟ሁ
+tkeflehu # kfl|A;ትከፍለኁ
+tkeflman_t # kfl|A;ትከፍልማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_Kefl'o # kfl|A;ዝት፟ኸፍልኦ
+yem_t_keflut # kfl|A;የም፟ት፟ከፍሉት
+letkeflehu # kfl|A;ለትከፍለኁ
+tkeflman_ # kfl|A;ትከፍልማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytKefl'an # kfl|A;ኣይትኸፍልኣን
+'at_keflWatm # kfl|A;አት፟ከፍሏትም
+'itkeflehe # kfl|A;ኢትከፍለኀ
+tt_keflman_a # kfl|A;ትት፟ከፍልማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytKefl'a # kfl|A;ዘይትኸፍልኣ
+yem_at_keflWat # kfl|A;የማ፟ት፟ከፍሏት
+le'itkeflehe # kfl|A;ለኢትከፍለኀ
+'at_keflman_a # kfl|A;አት፟ከፍልማና፟
+## ;imf,2pf,3sfo,aff,main
+tKefl'a # kfl|A;ትኸፍልኣ
+tkeflWatal_ac_hu # kfl|A;ትከፍሏታላ፟ች፟ሁ
+tkeflehe # kfl|A;ትከፍለኀ
+tkeflman_at # kfl|A;ትከፍልማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_Kefl'a # kfl|A;ዝት፟ኸፍልኣ
+yem_t_keflWat # kfl|A;የም፟ት፟ከፍሏት
+letkeflehe # kfl|A;ለትከፍለኀ
+tkeflman_a # kfl|A;ትከፍልማና፟
+## ;prf,1s,3smo,neg,main
+'aymeselkuw_on # msl|A;ኣይመሰልኩዎ፟ን
+'almes_elkutm # msl|A;አልመሰ፟ልኩትም
+'imeselkwo # msl|A;ኢመሰልክዎ
+'almeselkun_ # msl|A;አልመሰልኩን፟
+## ;prf,1s,3smo,neg,rel
+zeymeselkuw_o # msl|A;ዘይመሰልኩዎ፟
+yalmes_elkut # msl|A;ያልመሰ፟ልኩት
+le'imeselkwo # msl|A;ለኢመሰልክዎ
+yalmeselkun_ # msl|A;ያልመሰልኩን፟
+## ;prf,1s,3smo,aff,main
+meselkuw_o # msl|A;መሰልኩዎ፟
+mes_elkut # msl|A;መሰ፟ልኩት
+meselkwo # msl|A;መሰልክዎ
+mes_elkun_t # msl|A;መሰ፟ልኩን፟ት
+## ;prf,1s,3smo,aff,rel
+zmeselkuw_o # msl|A;ዝመሰልኩዎ፟
+yemes_elkut # msl|A;የመሰ፟ልኩት
+lemeselkwo # msl|A;ለመሰልክዎ
+yemes_elkun_ # msl|A;የመሰ፟ልኩን፟
+## ;prf,1s,3sfo,neg,main
+'aymeselkuw_an # msl|A;ኣይመሰልኩዋ፟ን
+'almes_elkWatm # msl|A;አልመሰ፟ልኳትም
+'imeselkwe # msl|A;ኢመሰልክወ
+'almeselkun_a # msl|A;አልመሰልኩና፟
+## ;prf,1s,3sfo,neg,rel
+zeymeselkuw_a # msl|A;ዘይመሰልኩዋ፟
+yalmes_elkWat # msl|A;ያልመሰ፟ልኳት
+le'imeselkwe # msl|A;ለኢመሰልክወ
+yalmeselkun_a # msl|A;ያልመሰልኩና፟
+## ;prf,1s,3sfo,aff,main
+meselkuw_a # msl|A;መሰልኩዋ፟
+mes_elkWat # msl|A;መሰ፟ልኳት
+meselkwe # msl|A;መሰልክወ
+mes_elkun_at # msl|A;መሰ፟ልኩና፟ት
+## ;prf,1s,3sfo,aff,rel
+zmeselkuw_a # msl|A;ዝመሰልኩዋ፟
+yemes_elkWat # msl|A;የመሰ፟ልኳት
+lemeselkwe # msl|A;ለመሰልክወ
+yemes_elkun_a # msl|A;የመሰ፟ልኩና፟
+## ;prf,3sm,3smo,neg,main
+'aymeselon # msl|A;ኣይመሰሎን
+'almes_elewm # msl|A;አልመሰ፟ለውም
+'imesleyu # msl|A;ኢመስለዩ
+'almeselen_ # msl|A;አልመሰለን፟
+## ;prf,3sm,3smo,neg,rel
+zeymeselo # msl|A;ዘይመሰሎ
+yalmes_elew # msl|A;ያልመሰ፟ለው
+le'imesleyu # msl|A;ለኢመስለዩ
+yalmeselen_ # msl|A;ያልመሰለን፟
+## ;prf,3sm,3smo,aff,main
+meselo # msl|A;መሰሎ
+mes_elew # msl|A;መሰ፟ለው
+mesleyu # msl|A;መስለዩ
+mes_elen_t # msl|A;መሰ፟ለን፟ት
+## ;prf,3sm,3smo,aff,rel
+zmeselo # msl|A;ዝመሰሎ
+yemes_elew # msl|A;የመሰ፟ለው
+lemesleyu # msl|A;ለመስለዩ
+yemes_elen_ # msl|A;የመሰ፟ለን፟
+## ;prf,3sm,3sfo,neg,main
+'aymeselan # msl|A;ኣይመሰላን
+'almes_elatm # msl|A;አልመሰ፟ላትም
+'imesleye # msl|A;ኢመስለየ
+'almeselen_a # msl|A;አልመሰለና፟
+## ;prf,3sm,3sfo,neg,rel
+zeymesela # msl|A;ዘይመሰላ
+yalmes_elat # msl|A;ያልመሰ፟ላት
+le'imesleye # msl|A;ለኢመስለየ
+yalmeselen_a # msl|A;ያልመሰለና፟
+## ;prf,3sm,3sfo,aff,main
+mesela # msl|A;መሰላ
+mes_elat # msl|A;መሰ፟ላት
+mesleye # msl|A;መስለየ
+mes_elen_at # msl|A;መሰ፟ለና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zmesela # msl|A;ዝመሰላ
+yemes_elat # msl|A;የመሰ፟ላት
+lemesleye # msl|A;ለመስለየ
+yemes_elen_a # msl|A;የመሰ፟ለና፟
+## ;prf,2pf,3smo,neg,main
+'aymeselkn'on # msl|A;ኣይመሰልክንኦን
+'almes_elac_hutm # msl|A;አልመሰ፟ላች፟ሁትም
+'imeselknehu # msl|A;ኢመሰልክነኁ
+'almeselkman_ # msl|A;አልመሰልክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeymeselkn'o # msl|A;ዘይመሰልክንኦ
+yalmes_elac_hut # msl|A;ያልመሰ፟ላች፟ሁት
+le'imeselknehu # msl|A;ለኢመሰልክነኁ
+yalmeselkman_ # msl|A;ያልመሰልክማን፟
+## ;prf,2pf,3smo,aff,main
+meselkn'o # msl|A;መሰልክንኦ
+mes_elac_hut # msl|A;መሰ፟ላች፟ሁት
+meselknehu # msl|A;መሰልክነኁ
+mes_elkman_t # msl|A;መሰ፟ልክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zmeselkn'o # msl|A;ዝመሰልክንኦ
+yemes_elac_hut # msl|A;የመሰ፟ላች፟ሁት
+lemeselknehu # msl|A;ለመሰልክነኁ
+yemes_elkman_ # msl|A;የመሰ፟ልክማን፟
+## ;prf,2pf,3sfo,neg,main
+'aymeselkn'an # msl|A;ኣይመሰልክንኣን
+'almes_elac_hWatm # msl|A;አልመሰ፟ላች፟ኋትም
+'imeselknehe # msl|A;ኢመሰልክነኀ
+'almeselkman_a # msl|A;አልመሰልክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeymeselkn'a # msl|A;ዘይመሰልክንኣ
+yalmes_elac_hWat # msl|A;ያልመሰ፟ላች፟ኋት
+le'imeselknehe # msl|A;ለኢመሰልክነኀ
+yalmeselkman_a # msl|A;ያልመሰልክማና፟
+## ;prf,2pf,3sfo,aff,main
+meselkn'a # msl|A;መሰልክንኣ
+mes_elac_hWat # msl|A;መሰ፟ላች፟ኋት
+meselknehe # msl|A;መሰልክነኀ
+mes_elkman_at # msl|A;መሰ፟ልክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zmeselkn'a # msl|A;ዝመሰልክንኣ
+yemes_elac_hWat # msl|A;የመሰ፟ላች፟ኋት
+lemeselknehe # msl|A;ለመሰልክነኀ
+yemes_elkman_a # msl|A;የመሰ፟ልክማና፟
+## ;imf,1s,3smo,neg,main
+'aymeslon # msl|A;ኣይመስሎን
+'almeslewm # msl|A;አልመስለውም
+'i'mes_l_o # msl|A;ኢእመስ፟ሎ፟
+temesl_ # msl|A;ተመስል፟
+## ;imf,1s,3smo,neg,rel
+zeymeslo # msl|A;ዘይመስሎ
+yem_almeslew # msl|A;የማ፟ልመስለው
+le'i'mes_l_o # msl|A;ለኢእመስ፟ሎ፟
+'an_mesl_ # msl|A;አን፟መስል፟
+## ;imf,1s,3smo,aff,main
+'meslo # msl|A;እመስሎ
+'meslewal_ehu # msl|A;እመስለዋለ፟ሁ
+'mes_l_o # msl|A;እመስ፟ሎ፟
+'emesl_t # msl|A;ኧመስል፟ት
+## ;imf,1s,3smo,aff,rel
+zmeslo # msl|A;ዝመስሎ
+yem_meslew # msl|A;የም፟መስለው
+le'mes_l_o # msl|A;ለእመስ፟ሎ፟
+'emesl_ # msl|A;ኧመስል፟
+## ;imf,1s,3sfo,neg,main
+'aymeslan # msl|A;ኣይመስላን
+'almeslatm # msl|A;አልመስላትም
+'i'mes_l_e # msl|A;ኢእመስ፟ለ፟
+temesl_a # msl|A;ተመስላ፟
+## ;imf,1s,3sfo,neg,rel
+zeymesla # msl|A;ዘይመስላ
+yem_almeslat # msl|A;የማ፟ልመስላት
+le'i'mes_l_e # msl|A;ለኢእመስ፟ለ፟
+'an_mesl_a # msl|A;አን፟መስላ፟
+## ;imf,1s,3sfo,aff,main
+'mesla # msl|A;እመስላ
+'meslatal_ehu # msl|A;እመስላታለ፟ሁ
+'mes_l_e # msl|A;እመስ፟ለ፟
+'emesl_at # msl|A;ኧመስላ፟ት
+## ;imf,1s,3sfo,aff,rel
+zmesla # msl|A;ዝመስላ
+yem_meslat # msl|A;የም፟መስላት
+le'mes_l_e # msl|A;ለእመስ፟ለ፟
+'emesl_a # msl|A;ኧመስላ፟
+## ;imf,3sm,3smo,neg,main
+'ay_meslon # msl|A;ኣይ፟መስሎን
+'aymeslewm # msl|A;አይመስለውም
+'ilmes_l_o # msl|A;ኢልመስ፟ሎ፟
+timesl_ # msl|A;ቲመስል፟
+## ;imf,3sm,3smo,neg,rel
+zey_meslo # msl|A;ዘይ፟መስሎ
+yem_aymeslew # msl|A;የማ፟ይመስለው
+le'ilmes_l_o # msl|A;ለኢልመስ፟ሎ፟
+'aymesl_ # msl|A;አይመስል፟
+## ;imf,3sm,3smo,aff,main
+ymeslo # msl|A;ይመስሎ
+ymeslewal # msl|A;ይመስለዋል
+lmes_l_o # msl|A;ልመስ፟ሎ፟
+ymesl_t # msl|A;ይመስል፟ት
+## ;imf,3sm,3smo,aff,rel
+zimeslo # msl|A;ዚመስሎ
+yem_imeslew # msl|A;የሚ፟መስለው
+lelmes_l_o # msl|A;ለልመስ፟ሎ፟
+ymesl_ # msl|A;ይመስል፟
+## ;imf,3sm,3sfo,neg,main
+'ay_meslan # msl|A;ኣይ፟መስላን
+'aymeslatm # msl|A;አይመስላትም
+'ilmes_l_e # msl|A;ኢልመስ፟ለ፟
+timesl_a # msl|A;ቲመስላ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_mesla # msl|A;ዘይ፟መስላ
+yem_aymeslat # msl|A;የማ፟ይመስላት
+le'ilmes_l_e # msl|A;ለኢልመስ፟ለ፟
+'aymesl_a # msl|A;አይመስላ፟
+## ;imf,3sm,3sfo,aff,main
+ymesla # msl|A;ይመስላ
+ymeslatal # msl|A;ይመስላታል
+lmes_l_e # msl|A;ልመስ፟ለ፟
+ymesl_at # msl|A;ይመስላ፟ት
+## ;imf,3sm,3sfo,aff,rel
+zimesla # msl|A;ዚመስላ
+yem_imeslat # msl|A;የሚ፟መስላት
+lelmes_l_e # msl|A;ለልመስ፟ለ፟
+ymesl_a # msl|A;ይመስላ፟
+## ;imf,2pf,3smo,neg,main
+'aytmesl'on # msl|A;ኣይትመስልኦን
+'at_meslutm # msl|A;አት፟መስሉትም
+'itmeslehu # msl|A;ኢትመስለኁ
+tt_meslman_ # msl|A;ትት፟መስልማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytmesl'o # msl|A;ዘይትመስልኦ
+yem_at_meslut # msl|A;የማ፟ት፟መስሉት
+le'itmeslehu # msl|A;ለኢትመስለኁ
+'at_meslman_ # msl|A;አት፟መስልማን፟
+## ;imf,2pf,3smo,aff,main
+tmesl'o # msl|A;ትመስልኦ
+tmeslutal_ac_hu # msl|A;ትመስሉታላ፟ች፟ሁ
+tmeslehu # msl|A;ትመስለኁ
+tmeslman_t # msl|A;ትመስልማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_mesl'o # msl|A;ዝት፟መስልኦ
+yem_t_meslut # msl|A;የም፟ት፟መስሉት
+letmeslehu # msl|A;ለትመስለኁ
+tmeslman_ # msl|A;ትመስልማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytmesl'an # msl|A;ኣይትመስልኣን
+'at_meslWatm # msl|A;አት፟መስሏትም
+'itmeslehe # msl|A;ኢትመስለኀ
+tt_meslman_a # msl|A;ትት፟መስልማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytmesl'a # msl|A;ዘይትመስልኣ
+yem_at_meslWat # msl|A;የማ፟ት፟መስሏት
+le'itmeslehe # msl|A;ለኢትመስለኀ
+'at_meslman_a # msl|A;አት፟መስልማና፟
+## ;imf,2pf,3sfo,aff,main
+tmesl'a # msl|A;ትመስልኣ
+tmeslWatal_ac_hu # msl|A;ትመስሏታላ፟ች፟ሁ
+tmeslehe # msl|A;ትመስለኀ
+tmeslman_at # msl|A;ትመስልማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_mesl'a # msl|A;ዝት፟መስልኣ
+yem_t_meslWat # msl|A;የም፟ት፟መስሏት
+letmeslehe # msl|A;ለትመስለኀ
+tmeslman_a # msl|A;ትመስልማና፟
+## ;prf,1s,3smo,neg,main
+'aysereQkuw_on # srq|A;ኣይሰረቕኩዎ፟ን
+'alser_ek_utm # srq|A;አልሰረ፟ኩ፟ትም
+'isereqkwo # srq|A;ኢሰረቅክዎ
+'alsereqkun_ # srq|A;አልሰረቅኩን፟
+## ;prf,1s,3smo,neg,rel
+zeysereQkuw_o # srq|A;ዘይሰረቕኩዎ፟
+yalser_ek_ut # srq|A;ያልሰረ፟ኩ፟ት
+le'isereqkwo # srq|A;ለኢሰረቅክዎ
+yalsereqkun_ # srq|A;ያልሰረቅኩን፟
+## ;prf,1s,3smo,aff,main
+sereQkuw_o # srq|A;ሰረቕኩዎ፟
+ser_ek_ut # srq|A;ሰረ፟ኩ፟ት
+sereqkwo # srq|A;ሰረቅክዎ
+ser_eqkun_t # srq|A;ሰረ፟ቅኩን፟ት
+## ;prf,1s,3smo,aff,rel
+zsereQkuw_o # srq|A;ዝሰረቕኩዎ፟
+yeser_ek_ut # srq|A;የሰረ፟ኩ፟ት
+lesereqkwo # srq|A;ለሰረቅክዎ
+yeser_eqkun_ # srq|A;የሰረ፟ቅኩን፟
+## ;prf,1s,3sfo,neg,main
+'aysereQkuw_an # srq|A;ኣይሰረቕኩዋ፟ን
+'alser_ekW_atm # srq|A;አልሰረ፟ኳ፟ትም
+'isereqkwe # srq|A;ኢሰረቅክወ
+'alsereqkun_a # srq|A;አልሰረቅኩና፟
+## ;prf,1s,3sfo,neg,rel
+zeysereQkuw_a # srq|A;ዘይሰረቕኩዋ፟
+yalser_ekW_at # srq|A;ያልሰረ፟ኳ፟ት
+le'isereqkwe # srq|A;ለኢሰረቅክወ
+yalsereqkun_a # srq|A;ያልሰረቅኩና፟
+## ;prf,1s,3sfo,aff,main
+sereQkuw_a # srq|A;ሰረቕኩዋ፟
+ser_ekW_at # srq|A;ሰረ፟ኳ፟ት
+sereqkwe # srq|A;ሰረቅክወ
+ser_eqkun_at # srq|A;ሰረ፟ቅኩና፟ት
+## ;prf,1s,3sfo,aff,rel
+zsereQkuw_a # srq|A;ዝሰረቕኩዋ፟
+yeser_ekW_at # srq|A;የሰረ፟ኳ፟ት
+lesereqkwe # srq|A;ለሰረቅክወ
+yeser_eqkun_a # srq|A;የሰረ፟ቅኩና፟
+## ;prf,3sm,3smo,neg,main
+'aysereQon # srq|A;ኣይሰረቖን
+'alser_eqewm # srq|A;አልሰረ፟ቀውም
+'iserqeyu # srq|A;ኢሰርቀዩ
+'alsereqen_ # srq|A;አልሰረቀን፟
+## ;prf,3sm,3smo,neg,rel
+zeysereQo # srq|A;ዘይሰረቖ
+yalser_eqew # srq|A;ያልሰረ፟ቀው
+le'iserqeyu # srq|A;ለኢሰርቀዩ
+yalsereqen_ # srq|A;ያልሰረቀን፟
+## ;prf,3sm,3smo,aff,main
+sereQo # srq|A;ሰረቖ
+ser_eqew # srq|A;ሰረ፟ቀው
+serqeyu # srq|A;ሰርቀዩ
+ser_eqen_t # srq|A;ሰረ፟ቀን፟ት
+## ;prf,3sm,3smo,aff,rel
+zsereQo # srq|A;ዝሰረቖ
+yeser_eqew # srq|A;የሰረ፟ቀው
+leserqeyu # srq|A;ለሰርቀዩ
+yeser_eqen_ # srq|A;የሰረ፟ቀን፟
+## ;prf,3sm,3sfo,neg,main
+'aysereQan # srq|A;ኣይሰረቓን
+'alser_eqatm # srq|A;አልሰረ፟ቃትም
+'iserqeye # srq|A;ኢሰርቀየ
+'alsereqen_a # srq|A;አልሰረቀና፟
+## ;prf,3sm,3sfo,neg,rel
+zeysereQa # srq|A;ዘይሰረቓ
+yalser_eqat # srq|A;ያልሰረ፟ቃት
+le'iserqeye # srq|A;ለኢሰርቀየ
+yalsereqen_a # srq|A;ያልሰረቀና፟
+## ;prf,3sm,3sfo,aff,main
+sereQa # srq|A;ሰረቓ
+ser_eqat # srq|A;ሰረ፟ቃት
+serqeye # srq|A;ሰርቀየ
+ser_eqen_at # srq|A;ሰረ፟ቀና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zsereQa # srq|A;ዝሰረቓ
+yeser_eqat # srq|A;የሰረ፟ቃት
+leserqeye # srq|A;ለሰርቀየ
+yeser_eqen_a # srq|A;የሰረ፟ቀና፟
+## ;prf,2pf,3smo,neg,main
+'aysereQkn'on # srq|A;ኣይሰረቕክንኦን
+'alser_eqac_hutm # srq|A;አልሰረ፟ቃች፟ሁትም
+'isereqknehu # srq|A;ኢሰረቅክነኁ
+'alsereqkman_ # srq|A;አልሰረቅክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeysereQkn'o # srq|A;ዘይሰረቕክንኦ
+yalser_eqac_hut # srq|A;ያልሰረ፟ቃች፟ሁት
+le'isereqknehu # srq|A;ለኢሰረቅክነኁ
+yalsereqkman_ # srq|A;ያልሰረቅክማን፟
+## ;prf,2pf,3smo,aff,main
+sereQkn'o # srq|A;ሰረቕክንኦ
+ser_eqac_hut # srq|A;ሰረ፟ቃች፟ሁት
+sereqknehu # srq|A;ሰረቅክነኁ
+ser_eqkman_t # srq|A;ሰረ፟ቅክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zsereQkn'o # srq|A;ዝሰረቕክንኦ
+yeser_eqac_hut # srq|A;የሰረ፟ቃች፟ሁት
+lesereqknehu # srq|A;ለሰረቅክነኁ
+yeser_eqkman_ # srq|A;የሰረ፟ቅክማን፟
+## ;prf,2pf,3sfo,neg,main
+'aysereQkn'an # srq|A;ኣይሰረቕክንኣን
+'alser_eqac_hWatm # srq|A;አልሰረ፟ቃች፟ኋትም
+'isereqknehe # srq|A;ኢሰረቅክነኀ
+'alsereqkman_a # srq|A;አልሰረቅክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeysereQkn'a # srq|A;ዘይሰረቕክንኣ
+yalser_eqac_hWat # srq|A;ያልሰረ፟ቃች፟ኋት
+le'isereqknehe # srq|A;ለኢሰረቅክነኀ
+yalsereqkman_a # srq|A;ያልሰረቅክማና፟
+## ;prf,2pf,3sfo,aff,main
+sereQkn'a # srq|A;ሰረቕክንኣ
+ser_eqac_hWat # srq|A;ሰረ፟ቃች፟ኋት
+sereqknehe # srq|A;ሰረቅክነኀ
+ser_eqkman_at # srq|A;ሰረ፟ቅክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zsereQkn'a # srq|A;ዝሰረቕክንኣ
+yeser_eqac_hWat # srq|A;የሰረ፟ቃች፟ኋት
+lesereqknehe # srq|A;ለሰረቅክነኀ
+yeser_eqkman_a # srq|A;የሰረ፟ቅክማና፟
+## ;imf,1s,3smo,neg,main
+'ayserqon # srq|A;ኣይሰርቆን
+'alserqewm # srq|A;አልሰርቀውም
+'i'ser_q_o # srq|A;ኢእሰር፟ቆ፟
+teserq_ # srq|A;ተሰርቅ፟
+## ;imf,1s,3smo,neg,rel
+zeyserqo # srq|A;ዘይሰርቆ
+yem_alserqew # srq|A;የማ፟ልሰርቀው
+le'i'ser_q_o # srq|A;ለኢእሰር፟ቆ፟
+'an_serq_ # srq|A;አን፟ሰርቅ፟
+## ;imf,1s,3smo,aff,main
+'serqo # srq|A;እሰርቆ
+'serqewal_ehu # srq|A;እሰርቀዋለ፟ሁ
+'ser_q_o # srq|A;እሰር፟ቆ፟
+'eserq_t # srq|A;ኧሰርቅ፟ት
+## ;imf,1s,3smo,aff,rel
+zserqo # srq|A;ዝሰርቆ
+yem_serqew # srq|A;የም፟ሰርቀው
+le'ser_q_o # srq|A;ለእሰር፟ቆ፟
+'eserq_ # srq|A;ኧሰርቅ፟
+## ;imf,1s,3sfo,neg,main
+'ayserqan # srq|A;ኣይሰርቃን
+'alserqatm # srq|A;አልሰርቃትም
+'i'ser_q_e # srq|A;ኢእሰር፟ቀ፟
+teserq_a # srq|A;ተሰርቃ፟
+## ;imf,1s,3sfo,neg,rel
+zeyserqa # srq|A;ዘይሰርቃ
+yem_alserqat # srq|A;የማ፟ልሰርቃት
+le'i'ser_q_e # srq|A;ለኢእሰር፟ቀ፟
+'an_serq_a # srq|A;አን፟ሰርቃ፟
+## ;imf,1s,3sfo,aff,main
+'serqa # srq|A;እሰርቃ
+'serqatal_ehu # srq|A;እሰርቃታለ፟ሁ
+'ser_q_e # srq|A;እሰር፟ቀ፟
+'eserq_at # srq|A;ኧሰርቃ፟ት
+## ;imf,1s,3sfo,aff,rel
+zserqa # srq|A;ዝሰርቃ
+yem_serqat # srq|A;የም፟ሰርቃት
+le'ser_q_e # srq|A;ለእሰር፟ቀ፟
+'eserq_a # srq|A;ኧሰርቃ፟
+## ;imf,3sm,3smo,neg,main
+'ay_serqon # srq|A;ኣይ፟ሰርቆን
+'ayserqewm # srq|A;አይሰርቀውም
+'ilser_q_o # srq|A;ኢልሰር፟ቆ፟
+tiserq_ # srq|A;ቲሰርቅ፟
+## ;imf,3sm,3smo,neg,rel
+zey_serqo # srq|A;ዘይ፟ሰርቆ
+yem_ayserqew # srq|A;የማ፟ይሰርቀው
+le'ilser_q_o # srq|A;ለኢልሰር፟ቆ፟
+'ayserq_ # srq|A;አይሰርቅ፟
+## ;imf,3sm,3smo,aff,main
+yserqo # srq|A;ይሰርቆ
+yserqewal # srq|A;ይሰርቀዋል
+lser_q_o # srq|A;ልሰር፟ቆ፟
+yserq_t # srq|A;ይሰርቅ፟ት
+## ;imf,3sm,3smo,aff,rel
+ziserqo # srq|A;ዚሰርቆ
+yem_iserqew # srq|A;የሚ፟ሰርቀው
+lelser_q_o # srq|A;ለልሰር፟ቆ፟
+yserq_ # srq|A;ይሰርቅ፟
+## ;imf,3sm,3sfo,neg,main
+'ay_serqan # srq|A;ኣይ፟ሰርቃን
+'ayserqatm # srq|A;አይሰርቃትም
+'ilser_q_e # srq|A;ኢልሰር፟ቀ፟
+tiserq_a # srq|A;ቲሰርቃ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_serqa # srq|A;ዘይ፟ሰርቃ
+yem_ayserqat # srq|A;የማ፟ይሰርቃት
+le'ilser_q_e # srq|A;ለኢልሰር፟ቀ፟
+'ayserq_a # srq|A;አይሰርቃ፟
+## ;imf,3sm,3sfo,aff,main
+yserqa # srq|A;ይሰርቃ
+yserqatal # srq|A;ይሰርቃታል
+lser_q_e # srq|A;ልሰር፟ቀ፟
+yserq_at # srq|A;ይሰርቃ፟ት
+## ;imf,3sm,3sfo,aff,rel
+ziserqa # srq|A;ዚሰርቃ
+yem_iserqat # srq|A;የሚ፟ሰርቃት
+lelser_q_e # srq|A;ለልሰር፟ቀ፟
+yserq_a # srq|A;ይሰርቃ፟
+## ;imf,2pf,3smo,neg,main
+'aytserq'on # srq|A;ኣይትሰርቅኦን
+'at_serqutm # srq|A;አት፟ሰርቁትም
+'itserqehu # srq|A;ኢትሰርቀኁ
+tt_serqman_ # srq|A;ትት፟ሰርቅማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytserq'o # srq|A;ዘይትሰርቅኦ
+yem_at_serqut # srq|A;የማ፟ት፟ሰርቁት
+le'itserqehu # srq|A;ለኢትሰርቀኁ
+'at_serqman_ # srq|A;አት፟ሰርቅማን፟
+## ;imf,2pf,3smo,aff,main
+tserq'o # srq|A;ትሰርቅኦ
+tserqutal_ac_hu # srq|A;ትሰርቁታላ፟ች፟ሁ
+tserqehu # srq|A;ትሰርቀኁ
+tserqman_t # srq|A;ትሰርቅማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_serq'o # srq|A;ዝት፟ሰርቅኦ
+yem_t_serqut # srq|A;የም፟ት፟ሰርቁት
+letserqehu # srq|A;ለትሰርቀኁ
+tserqman_ # srq|A;ትሰርቅማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytserq'an # srq|A;ኣይትሰርቅኣን
+'at_serqWatm # srq|A;አት፟ሰርቋትም
+'itserqehe # srq|A;ኢትሰርቀኀ
+tt_serqman_a # srq|A;ትት፟ሰርቅማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytserq'a # srq|A;ዘይትሰርቅኣ
+yem_at_serqWat # srq|A;የማ፟ት፟ሰርቋት
+le'itserqehe # srq|A;ለኢትሰርቀኀ
+'at_serqman_a # srq|A;አት፟ሰርቅማና፟
+## ;imf,2pf,3sfo,aff,main
+tserq'a # srq|A;ትሰርቅኣ
+tserqWatal_ac_hu # srq|A;ትሰርቋታላ፟ች፟ሁ
+tserqehe # srq|A;ትሰርቀኀ
+tserqman_at # srq|A;ትሰርቅማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_serq'a # srq|A;ዝት፟ሰርቅኣ
+yem_t_serqWat # srq|A;የም፟ት፟ሰርቋት
+letserqehe # srq|A;ለትሰርቀኀ
+tserqman_a # srq|A;ትሰርቅማና፟
+## ;prf,1s,3smo,neg,main
+'aybela`kuw_on # bl`|A;ኣይበላዕኩዎ፟ን
+'albel_ahutm # bl'|A;አልበላ፟ሁትም
+'ibel`ekwo # bl`|A;ኢበልዐክዎ
+'albelahWn_ # blh|A;አልበላኍን፟
+## ;prf,1s,3smo,neg,rel
+zeybela`kuw_o # bl`|A;ዘይበላዕኩዎ፟
+yalbel_ahut # bl'|A;ያልበላ፟ሁት
+le'ibel`ekwo # bl`|A;ለኢበልዐክዎ
+yalbelahWn_ # blh|A;ያልበላኍን፟
+## ;prf,1s,3smo,aff,main
+bela`kuw_o # bl`|A;በላዕኩዎ፟
+bel_ahut # bl'|A;በላ፟ሁት
+bel`ekwo # bl`|A;በልዐክዎ
+bel_ahWn_t # blh|A;በላ፟ኍን፟ት
+## ;prf,1s,3smo,aff,rel
+zbela`kuw_o # bl`|A;ዝበላዕኩዎ፟
+yebel_ahut # bl'|A;የበላ፟ሁት
+lebel`ekwo # bl`|A;ለበልዐክዎ
+yebel_ahWn_ # blh|A;የበላ፟ኍን፟
+## ;prf,1s,3sfo,neg,main
+'aybela`kuw_an # bl`|A;ኣይበላዕኩዋ፟ን
+'albel_ahWatm # bl'|A;አልበላ፟ኋትም
+'ibel`ekwe # bl`|A;ኢበልዐክወ
+'albelahWn_a # blh|A;አልበላኍና፟
+## ;prf,1s,3sfo,neg,rel
+zeybela`kuw_a # bl`|A;ዘይበላዕኩዋ፟
+yalbel_ahWat # bl'|A;ያልበላ፟ኋት
+le'ibel`ekwe # bl`|A;ለኢበልዐክወ
+yalbelahWn_a # blh|A;ያልበላኍና፟
+## ;prf,1s,3sfo,aff,main
+bela`kuw_a # bl`|A;በላዕኩዋ፟
+bel_ahWat # bl'|A;በላ፟ኋት
+bel`ekwe # bl`|A;በልዐክወ
+bel_ahWn_at # blh|A;በላ፟ኍና፟ት
+## ;prf,1s,3sfo,aff,rel
+zbela`kuw_a # bl`|A;ዝበላዕኩዋ፟
+yebel_ahWat # bl'|A;የበላ፟ኋት
+lebel`ekwe # bl`|A;ለበልዐክወ
+yebel_ahWn_a # blh|A;የበላ፟ኍና፟
+## ;prf,3sm,3smo,neg,main
+'aybel`on # bl`|A;ኣይበልዖን
+'albel_awm # bl'|A;አልበላ፟ውም
+'ibel`eyu # bl`|A;ኢበልዐዩ
+'albelan_ # blh|A;አልበላን፟
+## ;prf,3sm,3smo,neg,rel
+zeybel`o # bl`|A;ዘይበልዖ
+yalbel_aw # bl'|A;ያልበላ፟ው
+le'ibel`eyu # bl`|A;ለኢበልዐዩ
+yalbelan_ # blh|A;ያልበላን፟
+## ;prf,3sm,3smo,aff,main
+bel`o # bl`|A;በልዖ
+bel_aw # bl'|A;በላ፟ው
+bel`eyu # bl`|A;በልዐዩ
+bel_an_t # blh|A;በላ፟ን፟ት
+## ;prf,3sm,3smo,aff,rel
+zbel`o # bl`|A;ዝበልዖ
+yebel_aw # bl'|A;የበላ፟ው
+lebel`eyu # bl`|A;ለበልዐዩ
+yebel_an_ # blh|A;የበላ፟ን፟
+## ;prf,3sm,3sfo,neg,main
+'aybel`an # bl`|A;ኣይበልዓን
+'albel_atm # bl'|A;አልበላ፟ትም
+'ibel`eye # bl`|A;ኢበልዐየ
+'albelan_a # blh|A;አልበላና፟
+## ;prf,3sm,3sfo,neg,rel
+zeybel`a # bl`|A;ዘይበልዓ
+yalbel_at # bl'|A;ያልበላ፟ት
+le'ibel`eye # bl`|A;ለኢበልዐየ
+yalbelan_a # blh|A;ያልበላና፟
+## ;prf,3sm,3sfo,aff,main
+bel`a # bl`|A;በልዓ
+bel_at # bl'|A;በላ፟ት
+bel`eye # bl`|A;በልዐየ
+bel_an_at # blh|A;በላ፟ና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zbel`a # bl`|A;ዝበልዓ
+yebel_at # bl'|A;የበላ፟ት
+lebel`eye # bl`|A;ለበልዐየ
+yebel_an_a # blh|A;የበላ፟ና፟
+## ;prf,2pf,3smo,neg,main
+'aybela`kn'on # bl`|A;ኣይበላዕክንኦን
+'albel_ac_hutm # bl'|A;አልበላ፟ች፟ሁትም
+'ibel`eknehu # bl`|A;ኢበልዐክነኁ
+'albelakman_ # blh|A;አልበላክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeybela`kn'o # bl`|A;ዘይበላዕክንኦ
+yalbel_ac_hut # bl'|A;ያልበላ፟ች፟ሁት
+le'ibel`eknehu # bl`|A;ለኢበልዐክነኁ
+yalbelakman_ # blh|A;ያልበላክማን፟
+## ;prf,2pf,3smo,aff,main
+bela`kn'o # bl`|A;በላዕክንኦ
+bel_ac_hut # bl'|A;በላ፟ች፟ሁት
+bel`eknehu # bl`|A;በልዐክነኁ
+bel_akman_t # blh|A;በላ፟ክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zbela`kn'o # bl`|A;ዝበላዕክንኦ
+yebel_ac_hut # bl'|A;የበላ፟ች፟ሁት
+lebel`eknehu # bl`|A;ለበልዐክነኁ
+yebel_akman_ # blh|A;የበላ፟ክማን፟
+## ;prf,2pf,3sfo,neg,main
+'aybela`kn'an # bl`|A;ኣይበላዕክንኣን
+'albel_ac_hWatm # bl'|A;አልበላ፟ች፟ኋትም
+'ibel`eknehe # bl`|A;ኢበልዐክነኀ
+'albelakman_a # blh|A;አልበላክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeybela`kn'a # bl`|A;ዘይበላዕክንኣ
+yalbel_ac_hWat # bl'|A;ያልበላ፟ች፟ኋት
+le'ibel`eknehe # bl`|A;ለኢበልዐክነኀ
+yalbelakman_a # blh|A;ያልበላክማና፟
+## ;prf,2pf,3sfo,aff,main
+bela`kn'a # bl`|A;በላዕክንኣ
+bel_ac_hWat # bl'|A;በላ፟ች፟ኋት
+bel`eknehe # bl`|A;በልዐክነኀ
+bel_akman_at # blh|A;በላ፟ክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zbela`kn'a # bl`|A;ዝበላዕክንኣ
+yebel_ac_hWat # bl'|A;የበላ፟ች፟ኋት
+lebel`eknehe # bl`|A;ለበልዐክነኀ
+yebel_akman_a # blh|A;የበላ፟ክማና፟
+## ;imf,1s,3smo,neg,main
+'aybel`on # bl`|A;ኣይበልዖን
+'albelawm # bl'|A;አልበላውም
+'i'bel_`o # bl`|A;ኢእበል፟ዖ
+tebelan_ # blh|A;ተበላን፟
+## ;imf,1s,3smo,neg,rel
+zeybel`o # bl`|A;ዘይበልዖ
+yem_albelaw # bl'|A;የማ፟ልበላው
+le'i'bel_`o # bl`|A;ለኢእበል፟ዖ
+'an_belan_ # blh|A;አን፟በላን፟
+## ;imf,1s,3smo,aff,main
+'bel`o # bl`|A;እበልዖ
+'belawal_ehu # bl'|A;እበላዋለ፟ሁ
+'bel_`o # bl`|A;እበል፟ዖ
+'ebelan_t # blh|A;ኧበላን፟ት
+## ;imf,1s,3smo,aff,rel
+zbel`o # bl`|A;ዝበልዖ
+yem_belaw # bl'|A;የም፟በላው
+le'bel_`o # bl`|A;ለእበል፟ዖ
+'ebelan_ # blh|A;ኧበላን፟
+## ;imf,1s,3sfo,neg,main
+'aybel`an # bl`|A;ኣይበልዓን
+'albelatm # bl'|A;አልበላትም
+'i'bel_`e # bl`|A;ኢእበል፟ዐ
+tebelan_a # blh|A;ተበላና፟
+## ;imf,1s,3sfo,neg,rel
+zeybel`a # bl`|A;ዘይበልዓ
+yem_albelat # bl'|A;የማ፟ልበላት
+le'i'bel_`e # bl`|A;ለኢእበል፟ዐ
+'an_belan_a # blh|A;አን፟በላና፟
+## ;imf,1s,3sfo,aff,main
+'bel`a # bl`|A;እበልዓ
+'belatal_ehu # bl'|A;እበላታለ፟ሁ
+'bel_`e # bl`|A;እበል፟ዐ
+'ebelan_at # blh|A;ኧበላና፟ት
+## ;imf,1s,3sfo,aff,rel
+zbel`a # bl`|A;ዝበልዓ
+yem_belat # bl'|A;የም፟በላት
+le'bel_`e # bl`|A;ለእበል፟ዐ
+'ebelan_a # blh|A;ኧበላና፟
+## ;imf,3sm,3smo,neg,main
+'ay_bel`on # bl`|A;ኣይ፟በልዖን
+'aybelawm # bl'|A;አይበላውም
+'ilbel_`o # bl`|A;ኢልበል፟ዖ
+tibelan_ # blh|A;ቲበላን፟
+## ;imf,3sm,3smo,neg,rel
+zey_bel`o # bl`|A;ዘይ፟በልዖ
+yem_aybelaw # bl'|A;የማ፟ይበላው
+le'ilbel_`o # bl`|A;ለኢልበል፟ዖ
+'aybelan_ # blh|A;አይበላን፟
+## ;imf,3sm,3smo,aff,main
+ybel`o # bl`|A;ይበልዖ
+ybelawal # bl'|A;ይበላዋል
+lbel_`o # bl`|A;ልበል፟ዖ
+ybelan_t # blh|A;ይበላን፟ት
+## ;imf,3sm,3smo,aff,rel
+zibel`o # bl`|A;ዚበልዖ
+yem_ibelaw # bl'|A;የሚ፟በላው
+lelbel_`o # bl`|A;ለልበል፟ዖ
+ybelan_ # blh|A;ይበላን፟
+## ;imf,3sm,3sfo,neg,main
+'ay_bel`an # bl`|A;ኣይ፟በልዓን
+'aybelatm # bl'|A;አይበላትም
+'ilbel_`e # bl`|A;ኢልበል፟ዐ
+tibelan_a # blh|A;ቲበላና፟
+## ;imf,3sm,3sfo,neg,rel
+zey_bel`a # bl`|A;ዘይ፟በልዓ
+yem_aybelat # bl'|A;የማ፟ይበላት
+le'ilbel_`e # bl`|A;ለኢልበል፟ዐ
+'aybelan_a # blh|A;አይበላና፟
+## ;imf,3sm,3sfo,aff,main
+ybel`a # bl`|A;ይበልዓ
+ybelatal # bl'|A;ይበላታል
+lbel_`e # bl`|A;ልበል፟ዐ
+ybelan_at # blh|A;ይበላና፟ት
+## ;imf,3sm,3sfo,aff,rel
+zibel`a # bl`|A;ዚበልዓ
+yem_ibelat # bl'|A;የሚ፟በላት
+lelbel_`e # bl`|A;ለልበል፟ዐ
+ybelan_a # blh|A;ይበላና፟
+## ;imf,2pf,3smo,neg,main
+'aytbel`'on # bl`|A;ኣይትበልዕኦን
+'at_belutm # bl'|A;አት፟በሉትም
+'itbel_`ehu # bl`|A;ኢትበል፟ዐኁ
+tt_belaman_ # blh|A;ትት፟በላማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytbel`'o # bl`|A;ዘይትበልዕኦ
+yem_at_belut # bl'|A;የማ፟ት፟በሉት
+le'itbel_`ehu # bl`|A;ለኢትበል፟ዐኁ
+'at_belaman_ # blh|A;አት፟በላማን፟
+## ;imf,2pf,3smo,aff,main
+tbel`'o # bl`|A;ትበልዕኦ
+tbelutal_ac_hu # bl'|A;ትበሉታላ፟ች፟ሁ
+tbel_`ehu # bl`|A;ትበል፟ዐኁ
+tbelaman_t # blh|A;ትበላማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_bel`'o # bl`|A;ዝት፟በልዕኦ
+yem_t_belut # bl'|A;የም፟ት፟በሉት
+letbel_`ehu # bl`|A;ለትበል፟ዐኁ
+tbelaman_ # blh|A;ትበላማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytbel`'an # bl`|A;ኣይትበልዕኣን
+'at_belWatm # bl'|A;አት፟በሏትም
+'itbel_`ehe # bl`|A;ኢትበል፟ዐኀ
+tt_belaman_a # blh|A;ትት፟በላማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytbel`'a # bl`|A;ዘይትበልዕኣ
+yem_at_belWat # bl'|A;የማ፟ት፟በሏት
+le'itbel_`ehe # bl`|A;ለኢትበል፟ዐኀ
+'at_belaman_a # blh|A;አት፟በላማና፟
+## ;imf,2pf,3sfo,aff,main
+tbel`'a # bl`|A;ትበልዕኣ
+tbelWatal_ac_hu # bl'|A;ትበሏታላ፟ች፟ሁ
+tbel_`ehe # bl`|A;ትበል፟ዐኀ
+tbelaman_at # blh|A;ትበላማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_bel`'a # bl`|A;ዝት፟በልዕኣ
+yem_t_belWat # bl'|A;የም፟ት፟በሏት
+letbel_`ehe # bl`|A;ለትበል፟ዐኀ
+tbelaman_a # blh|A;ትበላማና፟
+## tr;prf,1s,3smo,neg,main
+'ayebla`kuw_on # bl`|A;ኣየብላዕኩዎ፟ን
+'alabel_ahutm # bl'|A;አላበላ፟ሁትም
+'ibel`ekwo # bl`|A;ኢበልዐክዎ
+'albelahWn_ # blh|A;አልበላኍን፟
+## tr;prf,1s,3smo,neg,rel
+zeyebla`kuw_o # bl`|A;ዘየብላዕኩዎ፟
+yalabel_ahut # bl'|A;ያላበላ፟ሁት
+le'ibel`ekwo # bl`|A;ለኢበልዐክዎ
+yalbelahWn_ # blh|A;ያልበላኍን፟
+## tr;prf,1s,3smo,aff,main
+'abla`kuw_o # bl`|A;ኣብላዕኩዎ፟
+'abel_ahut # bl'|A;አበላ፟ሁት
+bel`ekwo # bl`|A;በልዐክዎ
+bel_ahWn_t # blh|A;በላ፟ኍን፟ት
+## tr;prf,1s,3smo,aff,rel
+zebla`kuw_o # bl`|A;ዘብላዕኩዎ፟
+yabel_ahut # bl'|A;ያበላ፟ሁት
+lebel`ekwo # bl`|A;ለበልዐክዎ
+yebel_ahWn_ # blh|A;የበላ፟ኍን፟
+## tr;prf,1s,3sfo,neg,main
+'ayebla`kuw_an # bl`|A;ኣየብላዕኩዋ፟ን
+'alabel_ahWatm # bl'|A;አላበላ፟ኋትም
+'ibel`ekwe # bl`|A;ኢበልዐክወ
+'albelahWn_a # blh|A;አልበላኍና፟
+## tr;prf,1s,3sfo,neg,rel
+zeyebla`kuw_a # bl`|A;ዘየብላዕኩዋ፟
+yalabel_ahWat # bl'|A;ያላበላ፟ኋት
+le'ibel`ekwe # bl`|A;ለኢበልዐክወ
+yalbelahWn_a # blh|A;ያልበላኍና፟
+## tr;prf,1s,3sfo,aff,main
+'abla`kuw_a # bl`|A;ኣብላዕኩዋ፟
+'abel_ahWat # bl'|A;አበላ፟ኋት
+bel`ekwe # bl`|A;በልዐክወ
+bel_ahWn_at # blh|A;በላ፟ኍና፟ት
+## tr;prf,1s,3sfo,aff,rel
+zebla`kuw_a # bl`|A;ዘብላዕኩዋ፟
+yabel_ahWat # bl'|A;ያበላ፟ኋት
+lebel`ekwe # bl`|A;ለበልዐክወ
+yebel_ahWn_a # blh|A;የበላ፟ኍና፟
+## tr;prf,3sm,3smo,neg,main
+'ayebl`on # bl`|A;ኣየብልዖን
+'alabel_awm # bl'|A;አላበላ፟ውም
+'ibel`eyu # bl`|A;ኢበልዐዩ
+'albelan_ # blh|A;አልበላን፟
+## tr;prf,3sm,3smo,neg,rel
+zeyebl`o # bl`|A;ዘየብልዖ
+yalabel_aw # bl'|A;ያላበላ፟ው
+le'ibel`eyu # bl`|A;ለኢበልዐዩ
+yalbelan_ # blh|A;ያልበላን፟
+## tr;prf,3sm,3smo,aff,main
+'abl`o # bl`|A;ኣብልዖ
+'abel_aw # bl'|A;አበላ፟ው
+bel`eyu # bl`|A;በልዐዩ
+bel_an_t # blh|A;በላ፟ን፟ት
+## tr;prf,3sm,3smo,aff,rel
+zebl`o # bl`|A;ዘብልዖ
+yabel_aw # bl'|A;ያበላ፟ው
+lebel`eyu # bl`|A;ለበልዐዩ
+yebel_an_ # blh|A;የበላ፟ን፟
+## tr;prf,3sm,3sfo,neg,main
+'ayebl`an # bl`|A;ኣየብልዓን
+'alabel_atm # bl'|A;አላበላ፟ትም
+'ibel`eye # bl`|A;ኢበልዐየ
+'albelan_a # blh|A;አልበላና፟
+## tr;prf,3sm,3sfo,neg,rel
+zeyebl`a # bl`|A;ዘየብልዓ
+yalabel_at # bl'|A;ያላበላ፟ት
+le'ibel`eye # bl`|A;ለኢበልዐየ
+yalbelan_a # blh|A;ያልበላና፟
+## tr;prf,3sm,3sfo,aff,main
+'abl`a # bl`|A;ኣብልዓ
+'abel_at # bl'|A;አበላ፟ት
+bel`eye # bl`|A;በልዐየ
+bel_an_at # blh|A;በላ፟ና፟ት
+## tr;prf,3sm,3sfo,aff,rel
+zebl`a # bl`|A;ዘብልዓ
+yabel_at # bl'|A;ያበላ፟ት
+lebel`eye # bl`|A;ለበልዐየ
+yebel_an_a # blh|A;የበላ፟ና፟
+## tr;prf,2pf,3smo,neg,main
+'ayebla`kn'on # bl`|A;ኣየብላዕክንኦን
+'alabel_ac_hutm # bl'|A;አላበላ፟ች፟ሁትም
+'ibel`eknehu # bl`|A;ኢበልዐክነኁ
+'albelakman_ # blh|A;አልበላክማን፟
+## tr;prf,2pf,3smo,neg,rel
+zeyebla`kn'o # bl`|A;ዘየብላዕክንኦ
+yalabel_ac_hut # bl'|A;ያላበላ፟ች፟ሁት
+le'ibel`eknehu # bl`|A;ለኢበልዐክነኁ
+yalbelakman_ # blh|A;ያልበላክማን፟
+## tr;prf,2pf,3smo,aff,main
+'abla`kn'o # bl`|A;ኣብላዕክንኦ
+'abel_ac_hut # bl'|A;አበላ፟ች፟ሁት
+bel`eknehu # bl`|A;በልዐክነኁ
+bel_akman_t # blh|A;በላ፟ክማን፟ት
+## tr;prf,2pf,3smo,aff,rel
+zebla`kn'o # bl`|A;ዘብላዕክንኦ
+yabel_ac_hut # bl'|A;ያበላ፟ች፟ሁት
+lebel`eknehu # bl`|A;ለበልዐክነኁ
+yebel_akman_ # blh|A;የበላ፟ክማን፟
+## tr;prf,2pf,3sfo,neg,main
+'ayebla`kn'an # bl`|A;ኣየብላዕክንኣን
+'alabel_ac_hWatm # bl'|A;አላበላ፟ች፟ኋትም
+'ibel`eknehe # bl`|A;ኢበልዐክነኀ
+'albelakman_a # blh|A;አልበላክማና፟
+## tr;prf,2pf,3sfo,neg,rel
+zeyebla`kn'a # bl`|A;ዘየብላዕክንኣ
+yalabel_ac_hWat # bl'|A;ያላበላ፟ች፟ኋት
+le'ibel`eknehe # bl`|A;ለኢበልዐክነኀ
+yalbelakman_a # blh|A;ያልበላክማና፟
+## tr;prf,2pf,3sfo,aff,main
+'abla`kn'a # bl`|A;ኣብላዕክንኣ
+'abel_ac_hWat # bl'|A;አበላ፟ች፟ኋት
+bel`eknehe # bl`|A;በልዐክነኀ
+bel_akman_at # blh|A;በላ፟ክማና፟ት
+## tr;prf,2pf,3sfo,aff,rel
+zebla`kn'a # bl`|A;ዘብላዕክንኣ
+yabel_ac_hWat # bl'|A;ያበላ፟ች፟ኋት
+lebel`eknehe # bl`|A;ለበልዐክነኀ
+yebel_akman_a # blh|A;የበላ፟ክማና፟
+## tr;imf,1s,3smo,neg,main
+'ayebl`on # bl`|A;ኣየብልዖን
+'alabelawm # bl'|A;አላበላውም
+'i'bel_`o # bl`|A;ኢእበል፟ዖ
+tebelan_ # blh|A;ተበላን፟
+## tr;imf,1s,3smo,neg,rel
+zeyebl`o # bl`|A;ዘየብልዖ
+yem_alabelaw # bl'|A;የማ፟ላበላው
+le'i'bel_`o # bl`|A;ለኢእበል፟ዖ
+'an_belan_ # blh|A;አን፟በላን፟
+## tr;imf,1s,3smo,aff,main
+'abl`o # bl`|A;ኣብልዖ
+'abelawal_ehu # bl'|A;አበላዋለ፟ሁ
+'bel_`o # bl`|A;እበል፟ዖ
+'ebelan_t # blh|A;ኧበላን፟ት
+## tr;imf,1s,3smo,aff,rel
+zebl`o # bl`|A;ዘብልዖ
+yem_abelaw # bl'|A;የማ፟በላው
+le'bel_`o # bl`|A;ለእበል፟ዖ
+'ebelan_ # blh|A;ኧበላን፟
+## tr;imf,1s,3sfo,neg,main
+'ayebl`an # bl`|A;ኣየብልዓን
+'alabelatm # bl'|A;አላበላትም
+'i'bel_`e # bl`|A;ኢእበል፟ዐ
+tebelan_a # blh|A;ተበላና፟
+## tr;imf,1s,3sfo,neg,rel
+zeyebl`a # bl`|A;ዘየብልዓ
+yem_alabelat # bl'|A;የማ፟ላበላት
+le'i'bel_`e # bl`|A;ለኢእበል፟ዐ
+'an_belan_a # blh|A;አን፟በላና፟
+## tr;imf,1s,3sfo,aff,main
+'abl`a # bl`|A;ኣብልዓ
+'abelatal_ehu # bl'|A;አበላታለ፟ሁ
+'bel_`e # bl`|A;እበል፟ዐ
+'ebelan_at # blh|A;ኧበላና፟ት
+## tr;imf,1s,3sfo,aff,rel
+zebl`a # bl`|A;ዘብልዓ
+yem_abelat # bl'|A;የማ፟በላት
+le'bel_`e # bl`|A;ለእበል፟ዐ
+'ebelan_a # blh|A;ኧበላና፟
+## tr;imf,3sm,3smo,neg,main
+'ay_ebl`on # bl`|A;ኣየ፟ብልዖን
+'ayabelawm # bl'|A;አያበላውም
+'ilbel_`o # bl`|A;ኢልበል፟ዖ
+tibelan_ # blh|A;ቲበላን፟
+## tr;imf,3sm,3smo,neg,rel
+zey_ebl`o # bl`|A;ዘየ፟ብልዖ
+yem_ayabelaw # bl'|A;የማ፟ያበላው
+le'ilbel_`o # bl`|A;ለኢልበል፟ዖ
+'aybelan_ # blh|A;አይበላን፟
+## tr;imf,3sm,3smo,aff,main
+yebl`o # bl`|A;የብልዖ
+yabelawal # bl'|A;ያበላዋል
+lbel_`o # bl`|A;ልበል፟ዖ
+ybelan_t # blh|A;ይበላን፟ት
+## tr;imf,3sm,3smo,aff,rel
+zebl`o # bl`|A;ዘብልዖ
+yem_iyabelaw # bl'|A;የሚ፟ያበላው
+lelbel_`o # bl`|A;ለልበል፟ዖ
+ybelan_ # blh|A;ይበላን፟
+## tr;imf,3sm,3sfo,neg,main
+'ay_ebl`an # bl`|A;ኣየ፟ብልዓን
+'ayabelatm # bl'|A;አያበላትም
+'ilbel_`e # bl`|A;ኢልበል፟ዐ
+tibelan_a # blh|A;ቲበላና፟
+## tr;imf,3sm,3sfo,neg,rel
+zey_ebl`a # bl`|A;ዘየ፟ብልዓ
+yem_ayabelat # bl'|A;የማ፟ያበላት
+le'ilbel_`e # bl`|A;ለኢልበል፟ዐ
+'aybelan_a # blh|A;አይበላና፟
+## tr;imf,3sm,3sfo,aff,main
+yebl`a # bl`|A;የብልዓ
+yabelatal # bl'|A;ያበላታል
+lbel_`e # bl`|A;ልበል፟ዐ
+ybelan_at # blh|A;ይበላና፟ት
+## tr;imf,3sm,3sfo,aff,rel
+zebl`a # bl`|A;ዘብልዓ
+yem_iyabelat # bl'|A;የሚ፟ያበላት
+lelbel_`e # bl`|A;ለልበል፟ዐ
+ybelan_a # blh|A;ይበላና፟
+## tr;imf,2pf,3smo,neg,main
+'aytebl`'on # bl`|A;ኣይተብልዕኦን
+'at_abelutm # bl'|A;አታ፟በሉትም
+'itbel_`ehu # bl`|A;ኢትበል፟ዐኁ
+tt_belaman_ # blh|A;ትት፟በላማን፟
+## tr;imf,2pf,3smo,neg,rel
+zeytebl`'o # bl`|A;ዘይተብልዕኦ
+yem_at_abelut # bl'|A;የማ፟ታ፟በሉት
+le'itbel_`ehu # bl`|A;ለኢትበል፟ዐኁ
+'at_belaman_ # blh|A;አት፟በላማን፟
+## tr;imf,2pf,3smo,aff,main
+tebl`'o # bl`|A;ተብልዕኦ
+tabelutal_ac_hu # bl'|A;ታበሉታላ፟ች፟ሁ
+tbel_`ehu # bl`|A;ትበል፟ዐኁ
+tbelaman_t # blh|A;ትበላማን፟ት
+## tr;imf,2pf,3smo,aff,rel
+zt_ebl`'o # bl`|A;ዝተ፟ብልዕኦ
+yem_t_abelut # bl'|A;የም፟ታ፟በሉት
+letbel_`ehu # bl`|A;ለትበል፟ዐኁ
+tbelaman_ # blh|A;ትበላማን፟
+## tr;imf,2pf,3sfo,neg,main
+'aytebl`'an # bl`|A;ኣይተብልዕኣን
+'at_abelWatm # bl'|A;አታ፟በሏትም
+'itbel_`ehe # bl`|A;ኢትበል፟ዐኀ
+tt_belaman_a # blh|A;ትት፟በላማና፟
+## tr;imf,2pf,3sfo,neg,rel
+zeytebl`'a # bl`|A;ዘይተብልዕኣ
+yem_at_abelWat # bl'|A;የማ፟ታ፟በሏት
+le'itbel_`ehe # bl`|A;ለኢትበል፟ዐኀ
+'at_belaman_a # blh|A;አት፟በላማና፟
+## tr;imf,2pf,3sfo,aff,main
+tebl`'a # bl`|A;ተብልዕኣ
+tabelWatal_ac_hu # bl'|A;ታበሏታላ፟ች፟ሁ
+tbel_`ehe # bl`|A;ትበል፟ዐኀ
+tbelaman_at # blh|A;ትበላማና፟ት
+## tr;imf,2pf,3sfo,aff,rel
+zt_ebl`'a # bl`|A;ዝተ፟ብልዕኣ
+yem_t_abelWat # bl'|A;የም፟ታ፟በሏት
+letbel_`ehe # bl`|A;ለትበል፟ዐኀ
+tbelaman_a # blh|A;ትበላማና፟
+## ;prf,1s,3smo,neg,main
+'ayse`amkuw_on # s`m|A;ኣይሰዓምኩዎ፟ን
+'alsamkutm # s'm|A;አልሳምኩትም
+'ise`emkwo # s`m|A;ኢሰዐምክዎ
+'alsamkun_ # shm|A;አልሳምኩን፟
+## ;prf,1s,3smo,neg,rel
+zeyse`amkuw_o # s`m|A;ዘይሰዓምኩዎ፟
+yalsamkut # s'm|A;ያልሳምኩት
+le'ise`emkwo # s`m|A;ለኢሰዐምክዎ
+yalsamkun_ # shm|A;ያልሳምኩን፟
+## ;prf,1s,3smo,aff,main
+se`amkuw_o # s`m|A;ሰዓምኩዎ፟
+samkut # s'm|A;ሳምኩት
+se`emkwo # s`m|A;ሰዐምክዎ
+samkun_t # shm|A;ሳምኩን፟ት
+## ;prf,1s,3smo,aff,rel
+zse`amkuw_o # s`m|A;ዝሰዓምኩዎ፟
+yesamkut # s'm|A;የሳምኩት
+lese`emkwo # s`m|A;ለሰዐምክዎ
+yesamkun_ # shm|A;የሳምኩን፟
+## ;prf,1s,3sfo,neg,main
+'ayse`amkuw_an # s`m|A;ኣይሰዓምኩዋ፟ን
+'alsamkWatm # s'm|A;አልሳምኳትም
+'ise`emkwe # s`m|A;ኢሰዐምክወ
+'alsamkun_a # shm|A;አልሳምኩና፟
+## ;prf,1s,3sfo,neg,rel
+zeyse`amkuw_a # s`m|A;ዘይሰዓምኩዋ፟
+yalsamkWat # s'm|A;ያልሳምኳት
+le'ise`emkwe # s`m|A;ለኢሰዐምክወ
+yalsamkun_a # shm|A;ያልሳምኩና፟
+## ;prf,1s,3sfo,aff,main
+se`amkuw_a # s`m|A;ሰዓምኩዋ፟
+samkWat # s'm|A;ሳምኳት
+se`emkwe # s`m|A;ሰዐምክወ
+samkun_at # shm|A;ሳምኩና፟ት
+## ;prf,1s,3sfo,aff,rel
+zse`amkuw_a # s`m|A;ዝሰዓምኩዋ፟
+yesamkWat # s'm|A;የሳምኳት
+lese`emkwe # s`m|A;ለሰዐምክወ
+yesamkun_a # shm|A;የሳምኩና፟
+## ;prf,3sm,3smo,neg,main
+'ayse`amon # s`m|A;ኣይሰዓሞን
+'alsamewm # s'm|A;አልሳመውም
+'ise`emeyu # s`m|A;ኢሰዐመዩ
+'alsamen_ # shm|A;አልሳመን፟
+## ;prf,3sm,3smo,neg,rel
+zeyse`amo # s`m|A;ዘይሰዓሞ
+yalsamew # s'm|A;ያልሳመው
+le'ise`emeyu # s`m|A;ለኢሰዐመዩ
+yalsamen_ # shm|A;ያልሳመን፟
+## ;prf,3sm,3smo,aff,main
+se`amo # s`m|A;ሰዓሞ
+samew # s'm|A;ሳመው
+se`emeyu # s`m|A;ሰዐመዩ
+samen_t # shm|A;ሳመን፟ት
+## ;prf,3sm,3smo,aff,rel
+zse`amo # s`m|A;ዝሰዓሞ
+yesamew # s'm|A;የሳመው
+lese`emeyu # s`m|A;ለሰዐመዩ
+yesamen_ # shm|A;የሳመን፟
+## ;prf,3sm,3sfo,neg,main
+'ayse`aman # s`m|A;ኣይሰዓማን
+'alsamatm # s'm|A;አልሳማትም
+'ise`emeye # s`m|A;ኢሰዐመየ
+'alsamen_a # shm|A;አልሳመና፟
+## ;prf,3sm,3sfo,neg,rel
+zeyse`ama # s`m|A;ዘይሰዓማ
+yalsamat # s'm|A;ያልሳማት
+le'ise`emeye # s`m|A;ለኢሰዐመየ
+yalsamen_a # shm|A;ያልሳመና፟
+## ;prf,3sm,3sfo,aff,main
+se`ama # s`m|A;ሰዓማ
+samat # s'm|A;ሳማት
+se`emeye # s`m|A;ሰዐመየ
+samen_at # shm|A;ሳመና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zse`ama # s`m|A;ዝሰዓማ
+yesamat # s'm|A;የሳማት
+lese`emeye # s`m|A;ለሰዐመየ
+yesamen_a # shm|A;የሳመና፟
+## ;prf,2pf,3smo,neg,main
+'ayse`amkn'on # s`m|A;ኣይሰዓምክንኦን
+'alsamac_hutm # s'm|A;አልሳማች፟ሁትም
+'ise`emknehu # s`m|A;ኢሰዐምክነኁ
+'alsamkman_ # shm|A;አልሳምክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeyse`amkn'o # s`m|A;ዘይሰዓምክንኦ
+yalsamac_hut # s'm|A;ያልሳማች፟ሁት
+le'ise`emknehu # s`m|A;ለኢሰዐምክነኁ
+yalsamkman_ # shm|A;ያልሳምክማን፟
+## ;prf,2pf,3smo,aff,main
+se`amkn'o # s`m|A;ሰዓምክንኦ
+samac_hut # s'm|A;ሳማች፟ሁት
+se`emknehu # s`m|A;ሰዐምክነኁ
+samkman_t # shm|A;ሳምክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zse`amkn'o # s`m|A;ዝሰዓምክንኦ
+yesamac_hut # s'm|A;የሳማች፟ሁት
+lese`emknehu # s`m|A;ለሰዐምክነኁ
+yesamkman_ # shm|A;የሳምክማን፟
+## ;prf,2pf,3sfo,neg,main
+'ayse`amkn'an # s`m|A;ኣይሰዓምክንኣን
+'alsamac_hWatm # s'm|A;አልሳማች፟ኋትም
+'ise`emknehe # s`m|A;ኢሰዐምክነኀ
+'alsamkman_a # shm|A;አልሳምክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeyse`amkn'a # s`m|A;ዘይሰዓምክንኣ
+yalsamac_hWat # s'm|A;ያልሳማች፟ኋት
+le'ise`emknehe # s`m|A;ለኢሰዐምክነኀ
+yalsamkman_a # shm|A;ያልሳምክማና፟
+## ;prf,2pf,3sfo,aff,main
+se`amkn'a # s`m|A;ሰዓምክንኣ
+samac_hWat # s'm|A;ሳማች፟ኋት
+se`emknehe # s`m|A;ሰዐምክነኀ
+samkman_at # shm|A;ሳምክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zse`amkn'a # s`m|A;ዝሰዓምክንኣ
+yesamac_hWat # s'm|A;የሳማች፟ኋት
+lese`emknehe # s`m|A;ለሰዐምክነኀ
+yesamkman_a # shm|A;የሳምክማና፟
+## ;imf,1s,3smo,neg,main
+'ays`mon # s`m|A;ኣይስዕሞን
+'alsmewm # s'm|A;አልስመውም
+'i's`m_o # s`m|A;ኢእስዕሞ፟
+tesem_ # shm|A;ተሰም፟
+## ;imf,1s,3smo,neg,rel
+zeys`mo # s`m|A;ዘይስዕሞ
+yem_alsmew # s'm|A;የማ፟ልስመው
+le'i's`m_o # s`m|A;ለኢእስዕሞ፟
+'an_sem_ # shm|A;አን፟ሰም፟
+## ;imf,1s,3smo,aff,main
+'s`mo # s`m|A;እስዕሞ
+'smewal_ehu # s'm|A;እስመዋለ፟ሁ
+'s`m_o # s`m|A;እስዕሞ፟
+'esem_t # shm|A;ኧሰም፟ት
+## ;imf,1s,3smo,aff,rel
+zs`mo # s`m|A;ዝስዕሞ
+yem_smew # s'm|A;የም፟ስመው
+le's`m_o # s`m|A;ለእስዕሞ፟
+'esem_ # shm|A;ኧሰም፟
+## ;imf,1s,3sfo,neg,main
+'ays`man # s`m|A;ኣይስዕማን
+'alsmatm # s'm|A;አልስማትም
+'i's`m_e # s`m|A;ኢእስዕመ፟
+tesem_a # shm|A;ተሰማ፟
+## ;imf,1s,3sfo,neg,rel
+zeys`ma # s`m|A;ዘይስዕማ
+yem_alsmat # s'm|A;የማ፟ልስማት
+le'i's`m_e # s`m|A;ለኢእስዕመ፟
+'an_sem_a # shm|A;አን፟ሰማ፟
+## ;imf,1s,3sfo,aff,main
+'s`ma # s`m|A;እስዕማ
+'smatal_ehu # s'm|A;እስማታለ፟ሁ
+'s`m_e # s`m|A;እስዕመ፟
+'esem_at # shm|A;ኧሰማ፟ት
+## ;imf,1s,3sfo,aff,rel
+zs`ma # s`m|A;ዝስዕማ
+yem_smat # s'm|A;የም፟ስማት
+le's`m_e # s`m|A;ለእስዕመ፟
+'esem_a # shm|A;ኧሰማ፟
+## ;imf,3sm,3smo,neg,main
+'ay_s`mon # s`m|A;ኣይ፟ስዕሞን
+'aysmewm # s'm|A;አይስመውም
+'ils`m_o # s`m|A;ኢልስዕሞ፟
+tisem_ # shm|A;ቲሰም፟
+## ;imf,3sm,3smo,neg,rel
+zey_s`mo # s`m|A;ዘይ፟ስዕሞ
+yem_aysmew # s'm|A;የማ፟ይስመው
+le'ils`m_o # s`m|A;ለኢልስዕሞ፟
+'aysem_ # shm|A;አይሰም፟
+## ;imf,3sm,3smo,aff,main
+ys`mo # s`m|A;ይስዕሞ
+ysmewal # s'm|A;ይስመዋል
+ls`m_o # s`m|A;ልስዕሞ፟
+ysem_t # shm|A;ይሰም፟ት
+## ;imf,3sm,3smo,aff,rel
+zis`mo # s`m|A;ዚስዕሞ
+yem_ismew # s'm|A;የሚ፟ስመው
+lels`m_o # s`m|A;ለልስዕሞ፟
+ysem_ # shm|A;ይሰም፟
+## ;imf,3sm,3sfo,neg,main
+'ay_s`man # s`m|A;ኣይ፟ስዕማን
+'aysmatm # s'm|A;አይስማትም
+'ils`m_e # s`m|A;ኢልስዕመ፟
+tisem_a # shm|A;ቲሰማ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_s`ma # s`m|A;ዘይ፟ስዕማ
+yem_aysmat # s'm|A;የማ፟ይስማት
+le'ils`m_e # s`m|A;ለኢልስዕመ፟
+'aysem_a # shm|A;አይሰማ፟
+## ;imf,3sm,3sfo,aff,main
+ys`ma # s`m|A;ይስዕማ
+ysmatal # s'm|A;ይስማታል
+ls`m_e # s`m|A;ልስዕመ፟
+ysem_at # shm|A;ይሰማ፟ት
+## ;imf,3sm,3sfo,aff,rel
+zis`ma # s`m|A;ዚስዕማ
+yem_ismat # s'm|A;የሚ፟ስማት
+lels`m_e # s`m|A;ለልስዕመ፟
+ysem_a # shm|A;ይሰማ፟
+## ;imf,2pf,3smo,neg,main
+'ayts`m'on # s`m|A;ኣይትስዕምኦን
+'at_smutm # s'm|A;አት፟ስሙትም
+'its`mehu # s`m|A;ኢትስዕመኁ
+tt_sem_an_ # shm|A;ትት፟ሰማ፟ን፟
+## ;imf,2pf,3smo,neg,rel
+zeyts`m'o # s`m|A;ዘይትስዕምኦ
+yem_at_smut # s'm|A;የማ፟ት፟ስሙት
+le'its`mehu # s`m|A;ለኢትስዕመኁ
+'at_sem_an_ # shm|A;አት፟ሰማ፟ን፟
+## ;imf,2pf,3smo,aff,main
+ts`m'o # s`m|A;ትስዕምኦ
+tsmutal_ac_hu # s'm|A;ትስሙታላ፟ች፟ሁ
+ts`mehu # s`m|A;ትስዕመኁ
+tsem_an_t # shm|A;ትሰማ፟ን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_s`m'o # s`m|A;ዝት፟ስዕምኦ
+yem_t_smut # s'm|A;የም፟ት፟ስሙት
+lets`mehu # s`m|A;ለትስዕመኁ
+tsem_an_ # shm|A;ትሰማ፟ን፟
+## ;imf,2pf,3sfo,neg,main
+'ayts`m'an # s`m|A;ኣይትስዕምኣን
+'at_smWatm # s'm|A;አት፟ስሟትም
+'its`mehe # s`m|A;ኢትስዕመኀ
+tt_sem_an_a # shm|A;ትት፟ሰማ፟ና፟
+## ;imf,2pf,3sfo,neg,rel
+zeyts`m'a # s`m|A;ዘይትስዕምኣ
+yem_at_smWat # s'm|A;የማ፟ት፟ስሟት
+le'its`mehe # s`m|A;ለኢትስዕመኀ
+'at_sem_an_a # shm|A;አት፟ሰማ፟ና፟
+## ;imf,2pf,3sfo,aff,main
+ts`m'a # s`m|A;ትስዕምኣ
+tsmWatal_ac_hu # s'm|A;ትስሟታላ፟ች፟ሁ
+ts`mehe # s`m|A;ትስዕመኀ
+tsem_an_at # shm|A;ትሰማ፟ና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_s`m'a # s`m|A;ዝት፟ስዕምኣ
+yem_t_smWat # s'm|A;የም፟ት፟ስሟት
+lets`mehe # s`m|A;ለትስዕመኀ
+tsem_an_a # shm|A;ትሰማ፟ና፟
+## ;prf,1s,3smo,neg,main
+'aymeraHkuw_on # mrH|A;ኣይመራሕኩዎ፟ን
+'almer_ahutm # mr'|A;አልመራ፟ሁትም
+'imerHekwo # mrH|A;ኢመርሐክዎ
+'almerahWn_ # mrh|A;አልመራኍን፟
+## ;prf,1s,3smo,neg,rel
+zeymeraHkuw_o # mrH|A;ዘይመራሕኩዎ፟
+yalmer_ahut # mr'|A;ያልመራ፟ሁት
+le'imerHekwo # mrH|A;ለኢመርሐክዎ
+yalmerahWn_ # mrh|A;ያልመራኍን፟
+## ;prf,1s,3smo,aff,main
+meraHkuw_o # mrH|A;መራሕኩዎ፟
+mer_ahut # mr'|A;መራ፟ሁት
+merHekwo # mrH|A;መርሐክዎ
+mer_ahWn_t # mrh|A;መራ፟ኍን፟ት
+## ;prf,1s,3smo,aff,rel
+zmeraHkuw_o # mrH|A;ዝመራሕኩዎ፟
+yemer_ahut # mr'|A;የመራ፟ሁት
+lemerHekwo # mrH|A;ለመርሐክዎ
+yemer_ahWn_ # mrh|A;የመራ፟ኍን፟
+## ;prf,1s,3sfo,neg,main
+'aymeraHkuw_an # mrH|A;ኣይመራሕኩዋ፟ን
+'almer_ahWatm # mr'|A;አልመራ፟ኋትም
+'imerHekwe # mrH|A;ኢመርሐክወ
+'almerahWn_a # mrh|A;አልመራኍና፟
+## ;prf,1s,3sfo,neg,rel
+zeymeraHkuw_a # mrH|A;ዘይመራሕኩዋ፟
+yalmer_ahWat # mr'|A;ያልመራ፟ኋት
+le'imerHekwe # mrH|A;ለኢመርሐክወ
+yalmerahWn_a # mrh|A;ያልመራኍና፟
+## ;prf,1s,3sfo,aff,main
+meraHkuw_a # mrH|A;መራሕኩዋ፟
+mer_ahWat # mr'|A;መራ፟ኋት
+merHekwe # mrH|A;መርሐክወ
+mer_ahWn_at # mrh|A;መራ፟ኍና፟ት
+## ;prf,1s,3sfo,aff,rel
+zmeraHkuw_a # mrH|A;ዝመራሕኩዋ፟
+yemer_ahWat # mr'|A;የመራ፟ኋት
+lemerHekwe # mrH|A;ለመርሐክወ
+yemer_ahWn_a # mrh|A;የመራ፟ኍና፟
+## ;prf,3sm,3smo,neg,main
+'aymerHon # mrH|A;ኣይመርሖን
+'almer_awm # mr'|A;አልመራ፟ውም
+'imerHeyu # mrH|A;ኢመርሐዩ
+'almeran_ # mrh|A;አልመራን፟
+## ;prf,3sm,3smo,neg,rel
+zeymerHo # mrH|A;ዘይመርሖ
+yalmer_aw # mr'|A;ያልመራ፟ው
+le'imerHeyu # mrH|A;ለኢመርሐዩ
+yalmeran_ # mrh|A;ያልመራን፟
+## ;prf,3sm,3smo,aff,main
+merHo # mrH|A;መርሖ
+mer_aw # mr'|A;መራ፟ው
+merHeyu # mrH|A;መርሐዩ
+mer_an_t # mrh|A;መራ፟ን፟ት
+## ;prf,3sm,3smo,aff,rel
+zmerHo # mrH|A;ዝመርሖ
+yemer_aw # mr'|A;የመራ፟ው
+lemerHeyu # mrH|A;ለመርሐዩ
+yemer_an_ # mrh|A;የመራ፟ን፟
+## ;prf,3sm,3sfo,neg,main
+'aymerHan # mrH|A;ኣይመርሓን
+'almer_atm # mr'|A;አልመራ፟ትም
+'imerHeye # mrH|A;ኢመርሐየ
+'almeran_a # mrh|A;አልመራና፟
+## ;prf,3sm,3sfo,neg,rel
+zeymerHa # mrH|A;ዘይመርሓ
+yalmer_at # mr'|A;ያልመራ፟ት
+le'imerHeye # mrH|A;ለኢመርሐየ
+yalmeran_a # mrh|A;ያልመራና፟
+## ;prf,3sm,3sfo,aff,main
+merHa # mrH|A;መርሓ
+mer_at # mr'|A;መራ፟ት
+merHeye # mrH|A;መርሐየ
+mer_an_at # mrh|A;መራ፟ና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zmerHa # mrH|A;ዝመርሓ
+yemer_at # mr'|A;የመራ፟ት
+lemerHeye # mrH|A;ለመርሐየ
+yemer_an_a # mrh|A;የመራ፟ና፟
+## ;prf,2pf,3smo,neg,main
+'aymeraHkn'on # mrH|A;ኣይመራሕክንኦን
+'almer_ac_hutm # mr'|A;አልመራ፟ች፟ሁትም
+'imerHeknehu # mrH|A;ኢመርሐክነኁ
+'almerakman_ # mrh|A;አልመራክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeymeraHkn'o # mrH|A;ዘይመራሕክንኦ
+yalmer_ac_hut # mr'|A;ያልመራ፟ች፟ሁት
+le'imerHeknehu # mrH|A;ለኢመርሐክነኁ
+yalmerakman_ # mrh|A;ያልመራክማን፟
+## ;prf,2pf,3smo,aff,main
+meraHkn'o # mrH|A;መራሕክንኦ
+mer_ac_hut # mr'|A;መራ፟ች፟ሁት
+merHeknehu # mrH|A;መርሐክነኁ
+mer_akman_t # mrh|A;መራ፟ክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zmeraHkn'o # mrH|A;ዝመራሕክንኦ
+yemer_ac_hut # mr'|A;የመራ፟ች፟ሁት
+lemerHeknehu # mrH|A;ለመርሐክነኁ
+yemer_akman_ # mrh|A;የመራ፟ክማን፟
+## ;prf,2pf,3sfo,neg,main
+'aymeraHkn'an # mrH|A;ኣይመራሕክንኣን
+'almer_ac_hWatm # mr'|A;አልመራ፟ች፟ኋትም
+'imerHeknehe # mrH|A;ኢመርሐክነኀ
+'almerakman_a # mrh|A;አልመራክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeymeraHkn'a # mrH|A;ዘይመራሕክንኣ
+yalmer_ac_hWat # mr'|A;ያልመራ፟ች፟ኋት
+le'imerHeknehe # mrH|A;ለኢመርሐክነኀ
+yalmerakman_a # mrh|A;ያልመራክማና፟
+## ;prf,2pf,3sfo,aff,main
+meraHkn'a # mrH|A;መራሕክንኣ
+mer_ac_hWat # mr'|A;መራ፟ች፟ኋት
+merHeknehe # mrH|A;መርሐክነኀ
+mer_akman_at # mrh|A;መራ፟ክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zmeraHkn'a # mrH|A;ዝመራሕክንኣ
+yemer_ac_hWat # mr'|A;የመራ፟ች፟ኋት
+lemerHeknehe # mrH|A;ለመርሐክነኀ
+yemer_akman_a # mrh|A;የመራ፟ክማና፟
+## ;imf,1s,3smo,neg,main
+'aymerHon # mrH|A;ኣይመርሖን
+'almerawm # mr'|A;አልመራውም
+'i'mer_Ho # mrH|A;ኢእመር፟ሖ
+temeran_ # mrh|A;ተመራን፟
+## ;imf,1s,3smo,neg,rel
+zeymerHo # mrH|A;ዘይመርሖ
+yem_almeraw # mr'|A;የማ፟ልመራው
+le'i'mer_Ho # mrH|A;ለኢእመር፟ሖ
+'an_meran_ # mrh|A;አን፟መራን፟
+## ;imf,1s,3smo,aff,main
+'merHo # mrH|A;እመርሖ
+'merawal_ehu # mr'|A;እመራዋለ፟ሁ
+'mer_Ho # mrH|A;እመር፟ሖ
+'emeran_t # mrh|A;ኧመራን፟ት
+## ;imf,1s,3smo,aff,rel
+zmerHo # mrH|A;ዝመርሖ
+yem_meraw # mr'|A;የም፟መራው
+le'mer_Ho # mrH|A;ለእመር፟ሖ
+'emeran_ # mrh|A;ኧመራን፟
+## ;imf,1s,3sfo,neg,main
+'aymerHan # mrH|A;ኣይመርሓን
+'almeratm # mr'|A;አልመራትም
+'i'mer_He # mrH|A;ኢእመር፟ሐ
+temeran_a # mrh|A;ተመራና፟
+## ;imf,1s,3sfo,neg,rel
+zeymerHa # mrH|A;ዘይመርሓ
+yem_almerat # mr'|A;የማ፟ልመራት
+le'i'mer_He # mrH|A;ለኢእመር፟ሐ
+'an_meran_a # mrh|A;አን፟መራና፟
+## ;imf,1s,3sfo,aff,main
+'merHa # mrH|A;እመርሓ
+'meratal_ehu # mr'|A;እመራታለ፟ሁ
+'mer_He # mrH|A;እመር፟ሐ
+'emeran_at # mrh|A;ኧመራና፟ት
+## ;imf,1s,3sfo,aff,rel
+zmerHa # mrH|A;ዝመርሓ
+yem_merat # mr'|A;የም፟መራት
+le'mer_He # mrH|A;ለእመር፟ሐ
+'emeran_a # mrh|A;ኧመራና፟
+## ;imf,3sm,3smo,neg,main
+'ay_merHon # mrH|A;ኣይ፟መርሖን
+'aymerawm # mr'|A;አይመራውም
+'ilmer_Ho # mrH|A;ኢልመር፟ሖ
+timeran_ # mrh|A;ቲመራን፟
+## ;imf,3sm,3smo,neg,rel
+zey_merHo # mrH|A;ዘይ፟መርሖ
+yem_aymeraw # mr'|A;የማ፟ይመራው
+le'ilmer_Ho # mrH|A;ለኢልመር፟ሖ
+'aymeran_ # mrh|A;አይመራን፟
+## ;imf,3sm,3smo,aff,main
+ymerHo # mrH|A;ይመርሖ
+ymerawal # mr'|A;ይመራዋል
+lmer_Ho # mrH|A;ልመር፟ሖ
+ymeran_t # mrh|A;ይመራን፟ት
+## ;imf,3sm,3smo,aff,rel
+zimerHo # mrH|A;ዚመርሖ
+yem_imeraw # mr'|A;የሚ፟መራው
+lelmer_Ho # mrH|A;ለልመር፟ሖ
+ymeran_ # mrh|A;ይመራን፟
+## ;imf,3sm,3sfo,neg,main
+'ay_merHan # mrH|A;ኣይ፟መርሓን
+'aymeratm # mr'|A;አይመራትም
+'ilmer_He # mrH|A;ኢልመር፟ሐ
+timeran_a # mrh|A;ቲመራና፟
+## ;imf,3sm,3sfo,neg,rel
+zey_merHa # mrH|A;ዘይ፟መርሓ
+yem_aymerat # mr'|A;የማ፟ይመራት
+le'ilmer_He # mrH|A;ለኢልመር፟ሐ
+'aymeran_a # mrh|A;አይመራና፟
+## ;imf,3sm,3sfo,aff,main
+ymerHa # mrH|A;ይመርሓ
+ymeratal # mr'|A;ይመራታል
+lmer_He # mrH|A;ልመር፟ሐ
+ymeran_at # mrh|A;ይመራና፟ት
+## ;imf,3sm,3sfo,aff,rel
+zimerHa # mrH|A;ዚመርሓ
+yem_imerat # mr'|A;የሚ፟መራት
+lelmer_He # mrH|A;ለልመር፟ሐ
+ymeran_a # mrh|A;ይመራና፟
+## ;imf,2pf,3smo,neg,main
+'aytmerH'on # mrH|A;ኣይትመርሕኦን
+'at_merutm # mr'|A;አት፟መሩትም
+'itmer_Hehu # mrH|A;ኢትመር፟ሐኁ
+tt_meraman_ # mrh|A;ትት፟መራማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytmerH'o # mrH|A;ዘይትመርሕኦ
+yem_at_merut # mr'|A;የማ፟ት፟መሩት
+le'itmer_Hehu # mrH|A;ለኢትመር፟ሐኁ
+'at_meraman_ # mrh|A;አት፟መራማን፟
+## ;imf,2pf,3smo,aff,main
+tmerH'o # mrH|A;ትመርሕኦ
+tmerutal_ac_hu # mr'|A;ትመሩታላ፟ች፟ሁ
+tmer_Hehu # mrH|A;ትመር፟ሐኁ
+tmeraman_t # mrh|A;ትመራማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_merH'o # mrH|A;ዝት፟መርሕኦ
+yem_t_merut # mr'|A;የም፟ት፟መሩት
+letmer_Hehu # mrH|A;ለትመር፟ሐኁ
+tmeraman_ # mrh|A;ትመራማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytmerH'an # mrH|A;ኣይትመርሕኣን
+'at_merWatm # mr'|A;አት፟መሯትም
+'itmer_Hehe # mrH|A;ኢትመር፟ሐኀ
+tt_meraman_a # mrh|A;ትት፟መራማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytmerH'a # mrH|A;ዘይትመርሕኣ
+yem_at_merWat # mr'|A;የማ፟ት፟መሯት
+le'itmer_Hehe # mrH|A;ለኢትመር፟ሐኀ
+'at_meraman_a # mrh|A;አት፟መራማና፟
+## ;imf,2pf,3sfo,aff,main
+tmerH'a # mrH|A;ትመርሕኣ
+tmerWatal_ac_hu # mr'|A;ትመሯታላ፟ች፟ሁ
+tmer_Hehe # mrH|A;ትመር፟ሐኀ
+tmeraman_at # mrh|A;ትመራማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_merH'a # mrH|A;ዝት፟መርሕኣ
+yem_t_merWat # mr'|A;የም፟ት፟መሯት
+letmer_Hehe # mrH|A;ለትመር፟ሐኀ
+tmeraman_a # mrh|A;ትመራማና፟
+## ;prf,1s,3smo,neg,main
+'ayleHaskuw_on # lHs|A;ኣይለሓስኩዎ፟ን
+'al_askutm # l's|A;አላ፟ስኩትም
+'ileHeskwo # lHs|A;ኢለሐስክዎ
+'allaskun_ # lhs|A;አልላስኩን፟
+## ;prf,1s,3smo,neg,rel
+zeyleHaskuw_o # lHs|A;ዘይለሓስኩዎ፟
+yal_askut # l's|A;ያላ፟ስኩት
+le'ileHeskwo # lHs|A;ለኢለሐስክዎ
+yallaskun_ # lhs|A;ያልላስኩን፟
+## ;prf,1s,3smo,aff,main
+leHaskuw_o # lHs|A;ለሓስኩዎ፟
+laskut # l's|A;ላስኩት
+leHeskwo # lHs|A;ለሐስክዎ
+laskun_t # lhs|A;ላስኩን፟ት
+## ;prf,1s,3smo,aff,rel
+zleHaskuw_o # lHs|A;ዝለሓስኩዎ፟
+yelaskut # l's|A;የላስኩት
+leleHeskwo # lHs|A;ለለሐስክዎ
+yelaskun_ # lhs|A;የላስኩን፟
+## ;prf,1s,3sfo,neg,main
+'ayleHaskuw_an # lHs|A;ኣይለሓስኩዋ፟ን
+'al_askWatm # l's|A;አላ፟ስኳትም
+'ileHeskwe # lHs|A;ኢለሐስክወ
+'allaskun_a # lhs|A;አልላስኩና፟
+## ;prf,1s,3sfo,neg,rel
+zeyleHaskuw_a # lHs|A;ዘይለሓስኩዋ፟
+yal_askWat # l's|A;ያላ፟ስኳት
+le'ileHeskwe # lHs|A;ለኢለሐስክወ
+yallaskun_a # lhs|A;ያልላስኩና፟
+## ;prf,1s,3sfo,aff,main
+leHaskuw_a # lHs|A;ለሓስኩዋ፟
+laskWat # l's|A;ላስኳት
+leHeskwe # lHs|A;ለሐስክወ
+laskun_at # lhs|A;ላስኩና፟ት
+## ;prf,1s,3sfo,aff,rel
+zleHaskuw_a # lHs|A;ዝለሓስኩዋ፟
+yelaskWat # l's|A;የላስኳት
+leleHeskwe # lHs|A;ለለሐስክወ
+yelaskun_a # lhs|A;የላስኩና፟
+## ;prf,3sm,3smo,neg,main
+'ayleHason # lHs|A;ኣይለሓሶን
+'al_asewm # l's|A;አላ፟ሰውም
+'ileHeseyu # lHs|A;ኢለሐሰዩ
+'allasen_ # lhs|A;አልላሰን፟
+## ;prf,3sm,3smo,neg,rel
+zeyleHaso # lHs|A;ዘይለሓሶ
+yal_asew # l's|A;ያላ፟ሰው
+le'ileHeseyu # lHs|A;ለኢለሐሰዩ
+yallasen_ # lhs|A;ያልላሰን፟
+## ;prf,3sm,3smo,aff,main
+leHaso # lHs|A;ለሓሶ
+lasew # l's|A;ላሰው
+leHeseyu # lHs|A;ለሐሰዩ
+lasen_t # lhs|A;ላሰን፟ት
+## ;prf,3sm,3smo,aff,rel
+zleHaso # lHs|A;ዝለሓሶ
+yelasew # l's|A;የላሰው
+leleHeseyu # lHs|A;ለለሐሰዩ
+yelasen_ # lhs|A;የላሰን፟
+## ;prf,3sm,3sfo,neg,main
+'ayleHasan # lHs|A;ኣይለሓሳን
+'al_asatm # l's|A;አላ፟ሳትም
+'ileHeseye # lHs|A;ኢለሐሰየ
+'allasen_a # lhs|A;አልላሰና፟
+## ;prf,3sm,3sfo,neg,rel
+zeyleHasa # lHs|A;ዘይለሓሳ
+yal_asat # l's|A;ያላ፟ሳት
+le'ileHeseye # lHs|A;ለኢለሐሰየ
+yallasen_a # lhs|A;ያልላሰና፟
+## ;prf,3sm,3sfo,aff,main
+leHasa # lHs|A;ለሓሳ
+lasat # l's|A;ላሳት
+leHeseye # lHs|A;ለሐሰየ
+lasen_at # lhs|A;ላሰና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zleHasa # lHs|A;ዝለሓሳ
+yelasat # l's|A;የላሳት
+leleHeseye # lHs|A;ለለሐሰየ
+yelasen_a # lhs|A;የላሰና፟
+## ;prf,2pf,3smo,neg,main
+'ayleHaskn'on # lHs|A;ኣይለሓስክንኦን
+'al_asac_hutm # l's|A;አላ፟ሳች፟ሁትም
+'ileHesknehu # lHs|A;ኢለሐስክነኁ
+'allaskman_ # lhs|A;አልላስክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeyleHaskn'o # lHs|A;ዘይለሓስክንኦ
+yal_asac_hut # l's|A;ያላ፟ሳች፟ሁት
+le'ileHesknehu # lHs|A;ለኢለሐስክነኁ
+yallaskman_ # lhs|A;ያልላስክማን፟
+## ;prf,2pf,3smo,aff,main
+leHaskn'o # lHs|A;ለሓስክንኦ
+lasac_hut # l's|A;ላሳች፟ሁት
+leHesknehu # lHs|A;ለሐስክነኁ
+laskman_t # lhs|A;ላስክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zleHaskn'o # lHs|A;ዝለሓስክንኦ
+yelasac_hut # l's|A;የላሳች፟ሁት
+leleHesknehu # lHs|A;ለለሐስክነኁ
+yelaskman_ # lhs|A;የላስክማን፟
+## ;prf,2pf,3sfo,neg,main
+'ayleHaskn'an # lHs|A;ኣይለሓስክንኣን
+'al_asac_hWatm # l's|A;አላ፟ሳች፟ኋትም
+'ileHesknehe # lHs|A;ኢለሐስክነኀ
+'allaskman_a # lhs|A;አልላስክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeyleHaskn'a # lHs|A;ዘይለሓስክንኣ
+yal_asac_hWat # l's|A;ያላ፟ሳች፟ኋት
+le'ileHesknehe # lHs|A;ለኢለሐስክነኀ
+yallaskman_a # lhs|A;ያልላስክማና፟
+## ;prf,2pf,3sfo,aff,main
+leHaskn'a # lHs|A;ለሓስክንኣ
+lasac_hWat # l's|A;ላሳች፟ኋት
+leHesknehe # lHs|A;ለሐስክነኀ
+laskman_at # lhs|A;ላስክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zleHaskn'a # lHs|A;ዝለሓስክንኣ
+yelasac_hWat # l's|A;የላሳች፟ኋት
+leleHesknehe # lHs|A;ለለሐስክነኀ
+yelaskman_a # lhs|A;የላስክማና፟
+## ;imf,1s,3smo,neg,main
+'aylHson # lHs|A;ኣይልሕሶን
+'al_sewm # l's|A;አል፟ሰውም
+'i'lHs_o # lHs|A;ኢእልሕሶ፟
+teles_ # lhs|A;ተለስ፟
+## ;imf,1s,3smo,neg,rel
+zeylHso # lHs|A;ዘይልሕሶ
+yem_al_sew # l's|A;የማ፟ል፟ሰው
+le'i'lHs_o # lHs|A;ለኢእልሕሶ፟
+'an_les_ # lhs|A;አን፟ለስ፟
+## ;imf,1s,3smo,aff,main
+'lHso # lHs|A;እልሕሶ
+'lsewal_ehu # l's|A;እልሰዋለ፟ሁ
+'lHs_o # lHs|A;እልሕሶ፟
+'eles_t # lhs|A;ኧለስ፟ት
+## ;imf,1s,3smo,aff,rel
+zlHso # lHs|A;ዝልሕሶ
+yem_lsew # l's|A;የም፟ልሰው
+le'lHs_o # lHs|A;ለእልሕሶ፟
+'eles_ # lhs|A;ኧለስ፟
+## ;imf,1s,3sfo,neg,main
+'aylHsan # lHs|A;ኣይልሕሳን
+'al_satm # l's|A;አል፟ሳትም
+'i'lHs_e # lHs|A;ኢእልሕሰ፟
+teles_a # lhs|A;ተለሳ፟
+## ;imf,1s,3sfo,neg,rel
+zeylHsa # lHs|A;ዘይልሕሳ
+yem_al_sat # l's|A;የማ፟ል፟ሳት
+le'i'lHs_e # lHs|A;ለኢእልሕሰ፟
+'an_les_a # lhs|A;አን፟ለሳ፟
+## ;imf,1s,3sfo,aff,main
+'lHsa # lHs|A;እልሕሳ
+'lsatal_ehu # l's|A;እልሳታለ፟ሁ
+'lHs_e # lHs|A;እልሕሰ፟
+'eles_at # lhs|A;ኧለሳ፟ት
+## ;imf,1s,3sfo,aff,rel
+zlHsa # lHs|A;ዝልሕሳ
+yem_lsat # l's|A;የም፟ልሳት
+le'lHs_e # lHs|A;ለእልሕሰ፟
+'eles_a # lhs|A;ኧለሳ፟
+## ;imf,3sm,3smo,neg,main
+'ay_lHson # lHs|A;ኣይ፟ልሕሶን
+'aylsewm # l's|A;አይልሰውም
+'illHs_o # lHs|A;ኢልልሕሶ፟
+tiles_ # lhs|A;ቲለስ፟
+## ;imf,3sm,3smo,neg,rel
+zey_lHso # lHs|A;ዘይ፟ልሕሶ
+yem_aylsew # l's|A;የማ፟ይልሰው
+le'illHs_o # lHs|A;ለኢልልሕሶ፟
+'ayles_ # lhs|A;አይለስ፟
+## ;imf,3sm,3smo,aff,main
+ylHso # lHs|A;ይልሕሶ
+ylsewal # l's|A;ይልሰዋል
+llHs_o # lHs|A;ልልሕሶ፟
+yles_t # lhs|A;ይለስ፟ት
+## ;imf,3sm,3smo,aff,rel
+zilHso # lHs|A;ዚልሕሶ
+yem_ilsew # l's|A;የሚ፟ልሰው
+lellHs_o # lHs|A;ለልልሕሶ፟
+yles_ # lhs|A;ይለስ፟
+## ;imf,3sm,3sfo,neg,main
+'ay_lHsan # lHs|A;ኣይ፟ልሕሳን
+'aylsatm # l's|A;አይልሳትም
+'illHs_e # lHs|A;ኢልልሕሰ፟
+tiles_a # lhs|A;ቲለሳ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_lHsa # lHs|A;ዘይ፟ልሕሳ
+yem_aylsat # l's|A;የማ፟ይልሳት
+le'illHs_e # lHs|A;ለኢልልሕሰ፟
+'ayles_a # lhs|A;አይለሳ፟
+## ;imf,3sm,3sfo,aff,main
+ylHsa # lHs|A;ይልሕሳ
+ylsatal # l's|A;ይልሳታል
+llHs_e # lHs|A;ልልሕሰ፟
+yles_at # lhs|A;ይለሳ፟ት
+## ;imf,3sm,3sfo,aff,rel
+zilHsa # lHs|A;ዚልሕሳ
+yem_ilsat # l's|A;የሚ፟ልሳት
+lellHs_e # lHs|A;ለልልሕሰ፟
+yles_a # lhs|A;ይለሳ፟
+## ;imf,2pf,3smo,neg,main
+'aytlHs'on # lHs|A;ኣይትልሕስኦን
+'at_lsutm # l's|A;አት፟ልሱትም
+'itlHsehu # lHs|A;ኢትልሕሰኁ
+tt_lesman_ # lhs|A;ትት፟ለስማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytlHs'o # lHs|A;ዘይትልሕስኦ
+yem_at_lsut # l's|A;የማ፟ት፟ልሱት
+le'itlHsehu # lHs|A;ለኢትልሕሰኁ
+'at_lesman_ # lhs|A;አት፟ለስማን፟
+## ;imf,2pf,3smo,aff,main
+tlHs'o # lHs|A;ትልሕስኦ
+tlsutal_ac_hu # l's|A;ትልሱታላ፟ች፟ሁ
+tlHsehu # lHs|A;ትልሕሰኁ
+tlesman_t # lhs|A;ትለስማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_lHs'o # lHs|A;ዝት፟ልሕስኦ
+yem_t_lsut # l's|A;የም፟ት፟ልሱት
+letlHsehu # lHs|A;ለትልሕሰኁ
+tlesman_ # lhs|A;ትለስማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytlHs'an # lHs|A;ኣይትልሕስኣን
+'at_lsWatm # l's|A;አት፟ልሷትም
+'itlHsehe # lHs|A;ኢትልሕሰኀ
+tt_lesman_a # lhs|A;ትት፟ለስማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytlHs'a # lHs|A;ዘይትልሕስኣ
+yem_at_lsWat # l's|A;የማ፟ት፟ልሷት
+le'itlHsehe # lHs|A;ለኢትልሕሰኀ
+'at_lesman_a # lhs|A;አት፟ለስማና፟
+## ;imf,2pf,3sfo,aff,main
+tlHs'a # lHs|A;ትልሕስኣ
+tlsWatal_ac_hu # l's|A;ትልሷታላ፟ች፟ሁ
+tlHsehe # lHs|A;ትልሕሰኀ
+tlesman_at # lhs|A;ትለስማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_lHs'a # lHs|A;ዝት፟ልሕስኣ
+yem_t_lsWat # l's|A;የም፟ት፟ልሷት
+letlHsehe # lHs|A;ለትልሕሰኀ
+tlesman_a # lhs|A;ትለስማና፟
+## ;prf,1s,3smo,neg,main
+'aykeHaskuw_on # kHs|A;ኣይከሓስኩዎ፟ን
+'alkaskutm # k's|A;አልካስኩትም
+'ikeHeskwo # kHs|A;ኢከሐስክዎ
+'alkaskun_ # khs|A;አልካስኩን፟
+## ;prf,1s,3smo,neg,rel
+zeykeHaskuw_o # kHs|A;ዘይከሓስኩዎ፟
+yalkaskut # k's|A;ያልካስኩት
+le'ikeHeskwo # kHs|A;ለኢከሐስክዎ
+yalkaskun_ # khs|A;ያልካስኩን፟
+## ;prf,1s,3smo,aff,main
+keHaskuw_o # kHs|A;ከሓስኩዎ፟
+kaskut # k's|A;ካስኩት
+keHeskwo # kHs|A;ከሐስክዎ
+kaskun_t # khs|A;ካስኩን፟ት
+## ;prf,1s,3smo,aff,rel
+zKeHaskuw_o # kHs|A;ዝኸሓስኩዎ፟
+yekaskut # k's|A;የካስኩት
+lekeHeskwo # kHs|A;ለከሐስክዎ
+yekaskun_ # khs|A;የካስኩን፟
+## ;prf,1s,3sfo,neg,main
+'aykeHaskuw_an # kHs|A;ኣይከሓስኩዋ፟ን
+'alkaskWatm # k's|A;አልካስኳትም
+'ikeHeskwe # kHs|A;ኢከሐስክወ
+'alkaskun_a # khs|A;አልካስኩና፟
+## ;prf,1s,3sfo,neg,rel
+zeykeHaskuw_a # kHs|A;ዘይከሓስኩዋ፟
+yalkaskWat # k's|A;ያልካስኳት
+le'ikeHeskwe # kHs|A;ለኢከሐስክወ
+yalkaskun_a # khs|A;ያልካስኩና፟
+## ;prf,1s,3sfo,aff,main
+keHaskuw_a # kHs|A;ከሓስኩዋ፟
+kaskWat # k's|A;ካስኳት
+keHeskwe # kHs|A;ከሐስክወ
+kaskun_at # khs|A;ካስኩና፟ት
+## ;prf,1s,3sfo,aff,rel
+zKeHaskuw_a # kHs|A;ዝኸሓስኩዋ፟
+yekaskWat # k's|A;የካስኳት
+lekeHeskwe # kHs|A;ለከሐስክወ
+yekaskun_a # khs|A;የካስኩና፟
+## ;prf,3sm,3smo,neg,main
+'aykeHason # kHs|A;ኣይከሓሶን
+'alkasewm # k's|A;አልካሰውም
+'ikeHeseyu # kHs|A;ኢከሐሰዩ
+'alkasen_ # khs|A;አልካሰን፟
+## ;prf,3sm,3smo,neg,rel
+zeykeHaso # kHs|A;ዘይከሓሶ
+yalkasew # k's|A;ያልካሰው
+le'ikeHeseyu # kHs|A;ለኢከሐሰዩ
+yalkasen_ # khs|A;ያልካሰን፟
+## ;prf,3sm,3smo,aff,main
+keHaso # kHs|A;ከሓሶ
+kasew # k's|A;ካሰው
+keHeseyu # kHs|A;ከሐሰዩ
+kasen_t # khs|A;ካሰን፟ት
+## ;prf,3sm,3smo,aff,rel
+zKeHaso # kHs|A;ዝኸሓሶ
+yekasew # k's|A;የካሰው
+lekeHeseyu # kHs|A;ለከሐሰዩ
+yekasen_ # khs|A;የካሰን፟
+## ;prf,3sm,3sfo,neg,main
+'aykeHasan # kHs|A;ኣይከሓሳን
+'alkasatm # k's|A;አልካሳትም
+'ikeHeseye # kHs|A;ኢከሐሰየ
+'alkasen_a # khs|A;አልካሰና፟
+## ;prf,3sm,3sfo,neg,rel
+zeykeHasa # kHs|A;ዘይከሓሳ
+yalkasat # k's|A;ያልካሳት
+le'ikeHeseye # kHs|A;ለኢከሐሰየ
+yalkasen_a # khs|A;ያልካሰና፟
+## ;prf,3sm,3sfo,aff,main
+keHasa # kHs|A;ከሓሳ
+kasat # k's|A;ካሳት
+keHeseye # kHs|A;ከሐሰየ
+kasen_at # khs|A;ካሰና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zKeHasa # kHs|A;ዝኸሓሳ
+yekasat # k's|A;የካሳት
+lekeHeseye # kHs|A;ለከሐሰየ
+yekasen_a # khs|A;የካሰና፟
+## ;prf,2pf,3smo,neg,main
+'aykeHaskn'on # kHs|A;ኣይከሓስክንኦን
+'alkasac_hutm # k's|A;አልካሳች፟ሁትም
+'ikeHesknehu # kHs|A;ኢከሐስክነኁ
+'alkaskman_ # khs|A;አልካስክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeykeHaskn'o # kHs|A;ዘይከሓስክንኦ
+yalkasac_hut # k's|A;ያልካሳች፟ሁት
+le'ikeHesknehu # kHs|A;ለኢከሐስክነኁ
+yalkaskman_ # khs|A;ያልካስክማን፟
+## ;prf,2pf,3smo,aff,main
+keHaskn'o # kHs|A;ከሓስክንኦ
+kasac_hut # k's|A;ካሳች፟ሁት
+keHesknehu # kHs|A;ከሐስክነኁ
+kaskman_t # khs|A;ካስክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zKeHaskn'o # kHs|A;ዝኸሓስክንኦ
+yekasac_hut # k's|A;የካሳች፟ሁት
+lekeHesknehu # kHs|A;ለከሐስክነኁ
+yekaskman_ # khs|A;የካስክማን፟
+## ;prf,2pf,3sfo,neg,main
+'aykeHaskn'an # kHs|A;ኣይከሓስክንኣን
+'alkasac_hWatm # k's|A;አልካሳች፟ኋትም
+'ikeHesknehe # kHs|A;ኢከሐስክነኀ
+'alkaskman_a # khs|A;አልካስክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeykeHaskn'a # kHs|A;ዘይከሓስክንኣ
+yalkasac_hWat # k's|A;ያልካሳች፟ኋት
+le'ikeHesknehe # kHs|A;ለኢከሐስክነኀ
+yalkaskman_a # khs|A;ያልካስክማና፟
+## ;prf,2pf,3sfo,aff,main
+keHaskn'a # kHs|A;ከሓስክንኣ
+kasac_hWat # k's|A;ካሳች፟ኋት
+keHesknehe # kHs|A;ከሐስክነኀ
+kaskman_at # khs|A;ካስክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zKeHaskn'a # kHs|A;ዝኸሓስክንኣ
+yekasac_hWat # k's|A;የካሳች፟ኋት
+lekeHesknehe # kHs|A;ለከሐስክነኀ
+yekaskman_a # khs|A;የካስክማና፟
+## ;imf,1s,3smo,neg,main
+'aykHson # kHs|A;ኣይክሕሶን
+'alksewm # k's|A;አልክሰውም
+'i'kHs_o # kHs|A;ኢእክሕሶ፟
+tekes_ # khs|A;ተከስ፟
+## ;imf,1s,3smo,neg,rel
+zeykHso # kHs|A;ዘይክሕሶ
+yem_alksew # k's|A;የማ፟ልክሰው
+le'i'kHs_o # kHs|A;ለኢእክሕሶ፟
+'an_kes_ # khs|A;አን፟ከስ፟
+## ;imf,1s,3smo,aff,main
+'KHso # kHs|A;እኽሕሶ
+'ksewal_ehu # k's|A;እክሰዋለ፟ሁ
+'kHs_o # kHs|A;እክሕሶ፟
+'ekes_t # khs|A;ኧከስ፟ት
+## ;imf,1s,3smo,aff,rel
+zKHso # kHs|A;ዝኽሕሶ
+yem_ksew # k's|A;የም፟ክሰው
+le'kHs_o # kHs|A;ለእክሕሶ፟
+'ekes_ # khs|A;ኧከስ፟
+## ;imf,1s,3sfo,neg,main
+'aykHsan # kHs|A;ኣይክሕሳን
+'alksatm # k's|A;አልክሳትም
+'i'kHs_e # kHs|A;ኢእክሕሰ፟
+tekes_a # khs|A;ተከሳ፟
+## ;imf,1s,3sfo,neg,rel
+zeykHsa # kHs|A;ዘይክሕሳ
+yem_alksat # k's|A;የማ፟ልክሳት
+le'i'kHs_e # kHs|A;ለኢእክሕሰ፟
+'an_kes_a # khs|A;አን፟ከሳ፟
+## ;imf,1s,3sfo,aff,main
+'KHsa # kHs|A;እኽሕሳ
+'ksatal_ehu # k's|A;እክሳታለ፟ሁ
+'kHs_e # kHs|A;እክሕሰ፟
+'ekes_at # khs|A;ኧከሳ፟ት
+## ;imf,1s,3sfo,aff,rel
+zKHsa # kHs|A;ዝኽሕሳ
+yem_ksat # k's|A;የም፟ክሳት
+le'kHs_e # kHs|A;ለእክሕሰ፟
+'ekes_a # khs|A;ኧከሳ፟
+## ;imf,3sm,3smo,neg,main
+'ay_KHson # kHs|A;ኣይ፟ኽሕሶን
+'ayksewm # k's|A;አይክሰውም
+'ilkHs_o # kHs|A;ኢልክሕሶ፟
+tikes_ # khs|A;ቲከስ፟
+## ;imf,3sm,3smo,neg,rel
+zey_KHso # kHs|A;ዘይ፟ኽሕሶ
+yem_ayksew # k's|A;የማ፟ይክሰው
+le'ilkHs_o # kHs|A;ለኢልክሕሶ፟
+'aykes_ # khs|A;አይከስ፟
+## ;imf,3sm,3smo,aff,main
+yKHso # kHs|A;ይኽሕሶ
+yksewal # k's|A;ይክሰዋል
+lkHs_o # kHs|A;ልክሕሶ፟
+ykes_t # khs|A;ይከስ፟ት
+## ;imf,3sm,3smo,aff,rel
+ziKHso # kHs|A;ዚኽሕሶ
+yem_iksew # k's|A;የሚ፟ክሰው
+lelkHs_o # kHs|A;ለልክሕሶ፟
+ykes_ # khs|A;ይከስ፟
+## ;imf,3sm,3sfo,neg,main
+'ay_KHsan # kHs|A;ኣይ፟ኽሕሳን
+'ayksatm # k's|A;አይክሳትም
+'ilkHs_e # kHs|A;ኢልክሕሰ፟
+tikes_a # khs|A;ቲከሳ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_KHsa # kHs|A;ዘይ፟ኽሕሳ
+yem_ayksat # k's|A;የማ፟ይክሳት
+le'ilkHs_e # kHs|A;ለኢልክሕሰ፟
+'aykes_a # khs|A;አይከሳ፟
+## ;imf,3sm,3sfo,aff,main
+yKHsa # kHs|A;ይኽሕሳ
+yksatal # k's|A;ይክሳታል
+lkHs_e # kHs|A;ልክሕሰ፟
+ykes_at # khs|A;ይከሳ፟ት
+## ;imf,3sm,3sfo,aff,rel
+ziKHsa # kHs|A;ዚኽሕሳ
+yem_iksat # k's|A;የሚ፟ክሳት
+lelkHs_e # kHs|A;ለልክሕሰ፟
+ykes_a # khs|A;ይከሳ፟
+## ;imf,2pf,3smo,neg,main
+'aytKHs'on # kHs|A;ኣይትኽሕስኦን
+'at_ksutm # k's|A;አት፟ክሱትም
+'itkHsehu # kHs|A;ኢትክሕሰኁ
+tt_kesman_ # khs|A;ትት፟ከስማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytKHs'o # kHs|A;ዘይትኽሕስኦ
+yem_at_ksut # k's|A;የማ፟ት፟ክሱት
+le'itkHsehu # kHs|A;ለኢትክሕሰኁ
+'at_kesman_ # khs|A;አት፟ከስማን፟
+## ;imf,2pf,3smo,aff,main
+tKHs'o # kHs|A;ትኽሕስኦ
+tksutal_ac_hu # k's|A;ትክሱታላ፟ች፟ሁ
+tkHsehu # kHs|A;ትክሕሰኁ
+tkesman_t # khs|A;ትከስማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_KHs'o # kHs|A;ዝት፟ኽሕስኦ
+yem_t_ksut # k's|A;የም፟ት፟ክሱት
+letkHsehu # kHs|A;ለትክሕሰኁ
+tkesman_ # khs|A;ትከስማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytKHs'an # kHs|A;ኣይትኽሕስኣን
+'at_ksWatm # k's|A;አት፟ክሷትም
+'itkHsehe # kHs|A;ኢትክሕሰኀ
+tt_kesman_a # khs|A;ትት፟ከስማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytKHs'a # kHs|A;ዘይትኽሕስኣ
+yem_at_ksWat # k's|A;የማ፟ት፟ክሷት
+le'itkHsehe # kHs|A;ለኢትክሕሰኀ
+'at_kesman_a # khs|A;አት፟ከስማና፟
+## ;imf,2pf,3sfo,aff,main
+tKHs'a # kHs|A;ትኽሕስኣ
+tksWatal_ac_hu # k's|A;ትክሷታላ፟ች፟ሁ
+tkHsehe # kHs|A;ትክሕሰኀ
+tkesman_at # khs|A;ትከስማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_KHs'a # kHs|A;ዝት፟ኽሕስኣ
+yem_t_ksWat # k's|A;የም፟ት፟ክሷት
+letkHsehe # kHs|A;ለትክሕሰኀ
+tkesman_a # khs|A;ትከስማና፟
+## ;prf,1s,3smo,neg,main
+'ayHareskuw_on # Hrs|A;ኣይሓረስኩዎ፟ን
+'alar_eskutm # 'rs|A;አላረ፟ስኩትም
+'iHereskwo # Hrs|A;ኢሐረስክዎ
+'alereskun_ # hrs|A;አለረስኩን፟
+## ;prf,1s,3smo,neg,rel
+zeyHareskuw_o # Hrs|A;ዘይሓረስኩዎ፟
+yalar_eskut # 'rs|A;ያላረ፟ስኩት
+le'iHereskwo # Hrs|A;ለኢሐረስክዎ
+yalereskun_ # hrs|A;ያለረስኩን፟
+## ;prf,1s,3smo,aff,main
+Hareskuw_o # Hrs|A;ሓረስኩዎ፟
+'ar_eskut # 'rs|A;አረ፟ስኩት
+Hereskwo # Hrs|A;ሐረስክዎ
+'ar_eskun_t # hrs|A;አረ፟ስኩን፟ት
+## ;prf,1s,3smo,aff,rel
+zHareskuw_o # Hrs|A;ዝሓረስኩዎ፟
+yar_eskut # 'rs|A;ያረ፟ስኩት
+leHereskwo # Hrs|A;ለሐረስክዎ
+yar_eskun_ # hrs|A;ያረ፟ስኩን፟
+## ;prf,1s,3sfo,neg,main
+'ayHareskuw_an # Hrs|A;ኣይሓረስኩዋ፟ን
+'alar_eskWatm # 'rs|A;አላረ፟ስኳትም
+'iHereskwe # Hrs|A;ኢሐረስክወ
+'alereskun_a # hrs|A;አለረስኩና፟
+## ;prf,1s,3sfo,neg,rel
+zeyHareskuw_a # Hrs|A;ዘይሓረስኩዋ፟
+yalar_eskWat # 'rs|A;ያላረ፟ስኳት
+le'iHereskwe # Hrs|A;ለኢሐረስክወ
+yalereskun_a # hrs|A;ያለረስኩና፟
+## ;prf,1s,3sfo,aff,main
+Hareskuw_a # Hrs|A;ሓረስኩዋ፟
+'ar_eskWat # 'rs|A;አረ፟ስኳት
+Hereskwe # Hrs|A;ሐረስክወ
+'ar_eskun_at # hrs|A;አረ፟ስኩና፟ት
+## ;prf,1s,3sfo,aff,rel
+zHareskuw_a # Hrs|A;ዝሓረስኩዋ፟
+yar_eskWat # 'rs|A;ያረ፟ስኳት
+leHereskwe # Hrs|A;ለሐረስክወ
+yar_eskun_a # hrs|A;ያረ፟ስኩና፟
+## ;prf,3sm,3smo,neg,main
+'ayHareson # Hrs|A;ኣይሓረሶን
+'alar_esewm # 'rs|A;አላረ፟ሰውም
+'iHerseyu # Hrs|A;ኢሐርሰዩ
+'aleresen_ # hrs|A;አለረሰን፟
+## ;prf,3sm,3smo,neg,rel
+zeyHareso # Hrs|A;ዘይሓረሶ
+yalar_esew # 'rs|A;ያላረ፟ሰው
+le'iHerseyu # Hrs|A;ለኢሐርሰዩ
+yaleresen_ # hrs|A;ያለረሰን፟
+## ;prf,3sm,3smo,aff,main
+Hareso # Hrs|A;ሓረሶ
+'ar_esew # 'rs|A;አረ፟ሰው
+Herseyu # Hrs|A;ሐርሰዩ
+'ar_esen_t # hrs|A;አረ፟ሰን፟ት
+## ;prf,3sm,3smo,aff,rel
+zHareso # Hrs|A;ዝሓረሶ
+yar_esew # 'rs|A;ያረ፟ሰው
+leHerseyu # Hrs|A;ለሐርሰዩ
+yar_esen_ # hrs|A;ያረ፟ሰን፟
+## ;prf,3sm,3sfo,neg,main
+'ayHaresan # Hrs|A;ኣይሓረሳን
+'alar_esatm # 'rs|A;አላረ፟ሳትም
+'iHerseye # Hrs|A;ኢሐርሰየ
+'aleresen_a # hrs|A;አለረሰና፟
+## ;prf,3sm,3sfo,neg,rel
+zeyHaresa # Hrs|A;ዘይሓረሳ
+yalar_esat # 'rs|A;ያላረ፟ሳት
+le'iHerseye # Hrs|A;ለኢሐርሰየ
+yaleresen_a # hrs|A;ያለረሰና፟
+## ;prf,3sm,3sfo,aff,main
+Haresa # Hrs|A;ሓረሳ
+'ar_esat # 'rs|A;አረ፟ሳት
+Herseye # Hrs|A;ሐርሰየ
+'ar_esen_at # hrs|A;አረ፟ሰና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zHaresa # Hrs|A;ዝሓረሳ
+yar_esat # 'rs|A;ያረ፟ሳት
+leHerseye # Hrs|A;ለሐርሰየ
+yar_esen_a # hrs|A;ያረ፟ሰና፟
+## ;prf,2pf,3smo,neg,main
+'ayHareskn'on # Hrs|A;ኣይሓረስክንኦን
+'alar_esac_hutm # 'rs|A;አላረ፟ሳች፟ሁትም
+'iHeresknehu # Hrs|A;ኢሐረስክነኁ
+'alereskman_ # hrs|A;አለረስክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeyHareskn'o # Hrs|A;ዘይሓረስክንኦ
+yalar_esac_hut # 'rs|A;ያላረ፟ሳች፟ሁት
+le'iHeresknehu # Hrs|A;ለኢሐረስክነኁ
+yalereskman_ # hrs|A;ያለረስክማን፟
+## ;prf,2pf,3smo,aff,main
+Hareskn'o # Hrs|A;ሓረስክንኦ
+'ar_esac_hut # 'rs|A;አረ፟ሳች፟ሁት
+Heresknehu # Hrs|A;ሐረስክነኁ
+'ar_eskman_t # hrs|A;አረ፟ስክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zHareskn'o # Hrs|A;ዝሓረስክንኦ
+yar_esac_hut # 'rs|A;ያረ፟ሳች፟ሁት
+leHeresknehu # Hrs|A;ለሐረስክነኁ
+yar_eskman_ # hrs|A;ያረ፟ስክማን፟
+## ;prf,2pf,3sfo,neg,main
+'ayHareskn'an # Hrs|A;ኣይሓረስክንኣን
+'alar_esac_hWatm # 'rs|A;አላረ፟ሳች፟ኋትም
+'iHeresknehe # Hrs|A;ኢሐረስክነኀ
+'alereskman_a # hrs|A;አለረስክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeyHareskn'a # Hrs|A;ዘይሓረስክንኣ
+yalar_esac_hWat # 'rs|A;ያላረ፟ሳች፟ኋት
+le'iHeresknehe # Hrs|A;ለኢሐረስክነኀ
+yalereskman_a # hrs|A;ያለረስክማና፟
+## ;prf,2pf,3sfo,aff,main
+Hareskn'a # Hrs|A;ሓረስክንኣ
+'ar_esac_hWat # 'rs|A;አረ፟ሳች፟ኋት
+Heresknehe # Hrs|A;ሐረስክነኀ
+'ar_eskman_at # hrs|A;አረ፟ስክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zHareskn'a # Hrs|A;ዝሓረስክንኣ
+yar_esac_hWat # 'rs|A;ያረ፟ሳች፟ኋት
+leHeresknehe # Hrs|A;ለሐረስክነኀ
+yar_eskman_a # hrs|A;ያረ፟ስክማና፟
+## ;imf,1s,3smo,neg,main
+'ayHarson # Hrs|A;ኣይሓርሶን
+'alarsewm # 'rs|A;አላርሰውም
+'iHer_s_o # Hrs|A;ኢሐር፟ሶ፟
+tars_ # hrs|A;ታርስ፟
+## ;imf,1s,3smo,neg,rel
+zeyHarso # Hrs|A;ዘይሓርሶ
+yem_alarsew # 'rs|A;የማ፟ላርሰው
+le'iHer_s_o # Hrs|A;ለኢሐር፟ሶ፟
+'an_ars_ # hrs|A;አና፟ርስ፟
+## ;imf,1s,3smo,aff,main
+'Harso # Hrs|A;እሓርሶ
+'arsewal_ehu # 'rs|A;አርሰዋለ፟ሁ
+Her_s_o # Hrs|A;ሐር፟ሶ፟
+'ars_t # hrs|A;አርስ፟ት
+## ;imf,1s,3smo,aff,rel
+zHarso # Hrs|A;ዝሓርሶ
+yem_arsew # 'rs|A;የማ፟ርሰው
+leHer_s_o # Hrs|A;ለሐር፟ሶ፟
+'ars_ # hrs|A;አርስ፟
+## ;imf,1s,3sfo,neg,main
+'ayHarsan # Hrs|A;ኣይሓርሳን
+'alarsatm # 'rs|A;አላርሳትም
+'iHer_s_e # Hrs|A;ኢሐር፟ሰ፟
+tars_a # hrs|A;ታርሳ፟
+## ;imf,1s,3sfo,neg,rel
+zeyHarsa # Hrs|A;ዘይሓርሳ
+yem_alarsat # 'rs|A;የማ፟ላርሳት
+le'iHer_s_e # Hrs|A;ለኢሐር፟ሰ፟
+'an_ars_a # hrs|A;አና፟ርሳ፟
+## ;imf,1s,3sfo,aff,main
+'Harsa # Hrs|A;እሓርሳ
+'arsatal_ehu # 'rs|A;አርሳታለ፟ሁ
+Her_s_e # Hrs|A;ሐር፟ሰ፟
+'ars_at # hrs|A;አርሳ፟ት
+## ;imf,1s,3sfo,aff,rel
+zHarsa # Hrs|A;ዝሓርሳ
+yem_arsat # 'rs|A;የማ፟ርሳት
+leHer_s_e # Hrs|A;ለሐር፟ሰ፟
+'ars_a # hrs|A;አርሳ፟
+## ;imf,3sm,3smo,neg,main
+'ay_Harson # Hrs|A;ኣይ፟ሓርሶን
+'ayarsewm # 'rs|A;አያርሰውም
+'ilHer_s_o # Hrs|A;ኢልሐር፟ሶ፟
+tiyars_ # hrs|A;ቲያርስ፟
+## ;imf,3sm,3smo,neg,rel
+zey_Harso # Hrs|A;ዘይ፟ሓርሶ
+yem_ayarsew # 'rs|A;የማ፟ያርሰው
+le'ilHer_s_o # Hrs|A;ለኢልሐር፟ሶ፟
+'ayars_ # hrs|A;አያርስ፟
+## ;imf,3sm,3smo,aff,main
+yHarso # Hrs|A;ይሓርሶ
+yarsewal # 'rs|A;ያርሰዋል
+leHer_s_o # Hrs|A;ለሐር፟ሶ፟
+yars_t # hrs|A;ያርስ፟ት
+## ;imf,3sm,3smo,aff,rel
+ziHarso # Hrs|A;ዚሓርሶ
+yem_iyarsew # 'rs|A;የሚ፟ያርሰው
+lelHer_s_o # Hrs|A;ለልሐር፟ሶ፟
+yars_ # hrs|A;ያርስ፟
+## ;imf,3sm,3sfo,neg,main
+'ay_Harsan # Hrs|A;ኣይ፟ሓርሳን
+'ayarsatm # 'rs|A;አያርሳትም
+'ilHer_s_e # Hrs|A;ኢልሐር፟ሰ፟
+tiyars_a # hrs|A;ቲያርሳ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_Harsa # Hrs|A;ዘይ፟ሓርሳ
+yem_ayarsat # 'rs|A;የማ፟ያርሳት
+le'ilHer_s_e # Hrs|A;ለኢልሐር፟ሰ፟
+'ayars_a # hrs|A;አያርሳ፟
+## ;imf,3sm,3sfo,aff,main
+yHarsa # Hrs|A;ይሓርሳ
+yarsatal # 'rs|A;ያርሳታል
+leHer_s_e # Hrs|A;ለሐር፟ሰ፟
+yars_at # hrs|A;ያርሳ፟ት
+## ;imf,3sm,3sfo,aff,rel
+ziHarsa # Hrs|A;ዚሓርሳ
+yem_iyarsat # 'rs|A;የሚ፟ያርሳት
+lelHer_s_e # Hrs|A;ለልሐር፟ሰ፟
+yars_a # hrs|A;ያርሳ፟
+## ;imf,2pf,3smo,neg,main
+'aytHars'on # Hrs|A;ኣይትሓርስኦን
+'at_arsutm # 'rs|A;አታ፟ርሱትም
+'itHersehu # Hrs|A;ኢትሐርሰኁ
+tt_arsman_ # hrs|A;ትታ፟ርስማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytHars'o # Hrs|A;ዘይትሓርስኦ
+yem_at_arsut # 'rs|A;የማ፟ታ፟ርሱት
+le'itHersehu # Hrs|A;ለኢትሐርሰኁ
+'at_arsman_ # hrs|A;አታ፟ርስማን፟
+## ;imf,2pf,3smo,aff,main
+tHars'o # Hrs|A;ትሓርስኦ
+tarsutal_ac_hu # 'rs|A;ታርሱታላ፟ች፟ሁ
+teHersehu # Hrs|A;ተሐርሰኁ
+tarsman_t # hrs|A;ታርስማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_Hars'o # Hrs|A;ዝት፟ሓርስኦ
+yem_t_arsut # 'rs|A;የም፟ታ፟ርሱት
+letHersehu # Hrs|A;ለትሐርሰኁ
+tarsman_ # hrs|A;ታርስማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytHars'an # Hrs|A;ኣይትሓርስኣን
+'at_arsWatm # 'rs|A;አታ፟ርሷትም
+'itHersehe # Hrs|A;ኢትሐርሰኀ
+tt_arsman_a # hrs|A;ትታ፟ርስማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytHars'a # Hrs|A;ዘይትሓርስኣ
+yem_at_arsWat # 'rs|A;የማ፟ታ፟ርሷት
+le'itHersehe # Hrs|A;ለኢትሐርሰኀ
+'at_arsman_a # hrs|A;አታ፟ርስማና፟
+## ;imf,2pf,3sfo,aff,main
+tHars'a # Hrs|A;ትሓርስኣ
+tarsWatal_ac_hu # 'rs|A;ታርሷታላ፟ች፟ሁ
+teHersehe # Hrs|A;ተሐርሰኀ
+tarsman_at # hrs|A;ታርስማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_Hars'a # Hrs|A;ዝት፟ሓርስኣ
+yem_t_arsWat # 'rs|A;የም፟ታ፟ርሷት
+letHersehe # Hrs|A;ለትሐርሰኀ
+tarsman_a # hrs|A;ታርስማና፟
+## ;prf,1s,3smo,neg,main
+'ayseHabkuw_on # sHb|A;ኣይሰሓብኩዎ፟ን
+'alsabkutm # s'b|A;አልሳብኩትም
+'iseHebkwo # sHb|A;ኢሰሐብክዎ
+'alxabkun_ # xhb|A;አልሻብኩን፟
+## ;prf,1s,3smo,neg,rel
+zeyseHabkuw_o # sHb|A;ዘይሰሓብኩዎ፟
+yalsabkut # s'b|A;ያልሳብኩት
+le'iseHebkwo # sHb|A;ለኢሰሐብክዎ
+yalxabkun_ # xhb|A;ያልሻብኩን፟
+## ;prf,1s,3smo,aff,main
+seHabkuw_o # sHb|A;ሰሓብኩዎ፟
+sabkut # s'b|A;ሳብኩት
+seHebkwo # sHb|A;ሰሐብክዎ
+xabkun_t # xhb|A;ሻብኩን፟ት
+## ;prf,1s,3smo,aff,rel
+zseHabkuw_o # sHb|A;ዝሰሓብኩዎ፟
+yesabkut # s'b|A;የሳብኩት
+leseHebkwo # sHb|A;ለሰሐብክዎ
+yexabkun_ # xhb|A;የሻብኩን፟
+## ;prf,1s,3sfo,neg,main
+'ayseHabkuw_an # sHb|A;ኣይሰሓብኩዋ፟ን
+'alsabkWatm # s'b|A;አልሳብኳትም
+'iseHebkwe # sHb|A;ኢሰሐብክወ
+'alxabkun_a # xhb|A;አልሻብኩና፟
+## ;prf,1s,3sfo,neg,rel
+zeyseHabkuw_a # sHb|A;ዘይሰሓብኩዋ፟
+yalsabkWat # s'b|A;ያልሳብኳት
+le'iseHebkwe # sHb|A;ለኢሰሐብክወ
+yalxabkun_a # xhb|A;ያልሻብኩና፟
+## ;prf,1s,3sfo,aff,main
+seHabkuw_a # sHb|A;ሰሓብኩዋ፟
+sabkWat # s'b|A;ሳብኳት
+seHebkwe # sHb|A;ሰሐብክወ
+xabkun_at # xhb|A;ሻብኩና፟ት
+## ;prf,1s,3sfo,aff,rel
+zseHabkuw_a # sHb|A;ዝሰሓብኩዋ፟
+yesabkWat # s'b|A;የሳብኳት
+leseHebkwe # sHb|A;ለሰሐብክወ
+yexabkun_a # xhb|A;የሻብኩና፟
+## ;prf,3sm,3smo,neg,main
+'ayseHabon # sHb|A;ኣይሰሓቦን
+'alsabewm # s'b|A;አልሳበውም
+'iseHebeyu # sHb|A;ኢሰሐበዩ
+'alxaben_ # xhb|A;አልሻበን፟
+## ;prf,3sm,3smo,neg,rel
+zeyseHabo # sHb|A;ዘይሰሓቦ
+yalsabew # s'b|A;ያልሳበው
+le'iseHebeyu # sHb|A;ለኢሰሐበዩ
+yalxaben_ # xhb|A;ያልሻበን፟
+## ;prf,3sm,3smo,aff,main
+seHabo # sHb|A;ሰሓቦ
+sabew # s'b|A;ሳበው
+seHebeyu # sHb|A;ሰሐበዩ
+xaben_t # xhb|A;ሻበን፟ት
+## ;prf,3sm,3smo,aff,rel
+zseHabo # sHb|A;ዝሰሓቦ
+yesabew # s'b|A;የሳበው
+leseHebeyu # sHb|A;ለሰሐበዩ
+yexaben_ # xhb|A;የሻበን፟
+## ;prf,3sm,3sfo,neg,main
+'ayseHaban # sHb|A;ኣይሰሓባን
+'alsabatm # s'b|A;አልሳባትም
+'iseHebeye # sHb|A;ኢሰሐበየ
+'alxaben_a # xhb|A;አልሻበና፟
+## ;prf,3sm,3sfo,neg,rel
+zeyseHaba # sHb|A;ዘይሰሓባ
+yalsabat # s'b|A;ያልሳባት
+le'iseHebeye # sHb|A;ለኢሰሐበየ
+yalxaben_a # xhb|A;ያልሻበና፟
+## ;prf,3sm,3sfo,aff,main
+seHaba # sHb|A;ሰሓባ
+sabat # s'b|A;ሳባት
+seHebeye # sHb|A;ሰሐበየ
+xaben_at # xhb|A;ሻበና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zseHaba # sHb|A;ዝሰሓባ
+yesabat # s'b|A;የሳባት
+leseHebeye # sHb|A;ለሰሐበየ
+yexaben_a # xhb|A;የሻበና፟
+## ;prf,2pf,3smo,neg,main
+'ayseHabkn'on # sHb|A;ኣይሰሓብክንኦን
+'alsabac_hutm # s'b|A;አልሳባች፟ሁትም
+'iseHebknehu # sHb|A;ኢሰሐብክነኁ
+'alxabkman_ # xhb|A;አልሻብክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeyseHabkn'o # sHb|A;ዘይሰሓብክንኦ
+yalsabac_hut # s'b|A;ያልሳባች፟ሁት
+le'iseHebknehu # sHb|A;ለኢሰሐብክነኁ
+yalxabkman_ # xhb|A;ያልሻብክማን፟
+## ;prf,2pf,3smo,aff,main
+seHabkn'o # sHb|A;ሰሓብክንኦ
+sabac_hut # s'b|A;ሳባች፟ሁት
+seHebknehu # sHb|A;ሰሐብክነኁ
+xabkman_t # xhb|A;ሻብክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zseHabkn'o # sHb|A;ዝሰሓብክንኦ
+yesabac_hut # s'b|A;የሳባች፟ሁት
+leseHebknehu # sHb|A;ለሰሐብክነኁ
+yexabkman_ # xhb|A;የሻብክማን፟
+## ;prf,2pf,3sfo,neg,main
+'ayseHabkn'an # sHb|A;ኣይሰሓብክንኣን
+'alsabac_hWatm # s'b|A;አልሳባች፟ኋትም
+'iseHebknehe # sHb|A;ኢሰሐብክነኀ
+'alxabkman_a # xhb|A;አልሻብክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeyseHabkn'a # sHb|A;ዘይሰሓብክንኣ
+yalsabac_hWat # s'b|A;ያልሳባች፟ኋት
+le'iseHebknehe # sHb|A;ለኢሰሐብክነኀ
+yalxabkman_a # xhb|A;ያልሻብክማና፟
+## ;prf,2pf,3sfo,aff,main
+seHabkn'a # sHb|A;ሰሓብክንኣ
+sabac_hWat # s'b|A;ሳባች፟ኋት
+seHebknehe # sHb|A;ሰሐብክነኀ
+xabkman_at # xhb|A;ሻብክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zseHabkn'a # sHb|A;ዝሰሓብክንኣ
+yesabac_hWat # s'b|A;የሳባች፟ኋት
+leseHebknehe # sHb|A;ለሰሐብክነኀ
+yexabkman_a # xhb|A;የሻብክማና፟
+## ;imf,1s,3smo,neg,main
+'aysHbon # sHb|A;ኣይስሕቦን
+'alsbewm # s'b|A;አልስበውም
+'i'sHb_o # sHb|A;ኢእስሕቦ፟
+texeb_ # xhb|A;ተሸብ፟
+## ;imf,1s,3smo,neg,rel
+zeysHbo # sHb|A;ዘይስሕቦ
+yem_alsbew # s'b|A;የማ፟ልስበው
+le'i'sHb_o # sHb|A;ለኢእስሕቦ፟
+'an_xeb_ # xhb|A;አን፟ሸብ፟
+## ;imf,1s,3smo,aff,main
+'sHbo # sHb|A;እስሕቦ
+'sbewal_ehu # s'b|A;እስበዋለ፟ሁ
+'sHb_o # sHb|A;እስሕቦ፟
+'exeb_t # xhb|A;ኧሸብ፟ት
+## ;imf,1s,3smo,aff,rel
+zsHbo # sHb|A;ዝስሕቦ
+yem_sbew # s'b|A;የም፟ስበው
+le'sHb_o # sHb|A;ለእስሕቦ፟
+'exeb_ # xhb|A;ኧሸብ፟
+## ;imf,1s,3sfo,neg,main
+'aysHban # sHb|A;ኣይስሕባን
+'alsbatm # s'b|A;አልስባትም
+'i'sHb_e # sHb|A;ኢእስሕበ፟
+texeb_a # xhb|A;ተሸባ፟
+## ;imf,1s,3sfo,neg,rel
+zeysHba # sHb|A;ዘይስሕባ
+yem_alsbat # s'b|A;የማ፟ልስባት
+le'i'sHb_e # sHb|A;ለኢእስሕበ፟
+'an_xeb_a # xhb|A;አን፟ሸባ፟
+## ;imf,1s,3sfo,aff,main
+'sHba # sHb|A;እስሕባ
+'sbatal_ehu # s'b|A;እስባታለ፟ሁ
+'sHb_e # sHb|A;እስሕበ፟
+'exeb_at # xhb|A;ኧሸባ፟ት
+## ;imf,1s,3sfo,aff,rel
+zsHba # sHb|A;ዝስሕባ
+yem_sbat # s'b|A;የም፟ስባት
+le'sHb_e # sHb|A;ለእስሕበ፟
+'exeb_a # xhb|A;ኧሸባ፟
+## ;imf,3sm,3smo,neg,main
+'ay_sHbon # sHb|A;ኣይ፟ስሕቦን
+'aysbewm # s'b|A;አይስበውም
+'ilsHb_o # sHb|A;ኢልስሕቦ፟
+tixeb_ # xhb|A;ቲሸብ፟
+## ;imf,3sm,3smo,neg,rel
+zey_sHbo # sHb|A;ዘይ፟ስሕቦ
+yem_aysbew # s'b|A;የማ፟ይስበው
+le'ilsHb_o # sHb|A;ለኢልስሕቦ፟
+'ayxeb_ # xhb|A;አይሸብ፟
+## ;imf,3sm,3smo,aff,main
+ysHbo # sHb|A;ይስሕቦ
+ysbewal # s'b|A;ይስበዋል
+lsHb_o # sHb|A;ልስሕቦ፟
+yxeb_t # xhb|A;ይሸብ፟ት
+## ;imf,3sm,3smo,aff,rel
+zisHbo # sHb|A;ዚስሕቦ
+yem_isbew # s'b|A;የሚ፟ስበው
+lelsHb_o # sHb|A;ለልስሕቦ፟
+yxeb_ # xhb|A;ይሸብ፟
+## ;imf,3sm,3sfo,neg,main
+'ay_sHban # sHb|A;ኣይ፟ስሕባን
+'aysbatm # s'b|A;አይስባትም
+'ilsHb_e # sHb|A;ኢልስሕበ፟
+tixeb_a # xhb|A;ቲሸባ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_sHba # sHb|A;ዘይ፟ስሕባ
+yem_aysbat # s'b|A;የማ፟ይስባት
+le'ilsHb_e # sHb|A;ለኢልስሕበ፟
+'ayxeb_a # xhb|A;አይሸባ፟
+## ;imf,3sm,3sfo,aff,main
+ysHba # sHb|A;ይስሕባ
+ysbatal # s'b|A;ይስባታል
+lsHb_e # sHb|A;ልስሕበ፟
+yxeb_at # xhb|A;ይሸባ፟ት
+## ;imf,3sm,3sfo,aff,rel
+zisHba # sHb|A;ዚስሕባ
+yem_isbat # s'b|A;የሚ፟ስባት
+lelsHb_e # sHb|A;ለልስሕበ፟
+yxeb_a # xhb|A;ይሸባ፟
+## ;imf,2pf,3smo,neg,main
+'aytsHb'on # sHb|A;ኣይትስሕብኦን
+'at_sbutm # s'b|A;አት፟ስቡትም
+'itsHbehu # sHb|A;ኢትስሕበኁ
+tt_xebman_ # xhb|A;ትት፟ሸብማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytsHb'o # sHb|A;ዘይትስሕብኦ
+yem_at_sbut # s'b|A;የማ፟ት፟ስቡት
+le'itsHbehu # sHb|A;ለኢትስሕበኁ
+'at_xebman_ # xhb|A;አት፟ሸብማን፟
+## ;imf,2pf,3smo,aff,main
+tsHb'o # sHb|A;ትስሕብኦ
+tsbutal_ac_hu # s'b|A;ትስቡታላ፟ች፟ሁ
+tsHbehu # sHb|A;ትስሕበኁ
+txebman_t # xhb|A;ትሸብማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_sHb'o # sHb|A;ዝት፟ስሕብኦ
+yem_t_sbut # s'b|A;የም፟ት፟ስቡት
+letsHbehu # sHb|A;ለትስሕበኁ
+txebman_ # xhb|A;ትሸብማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytsHb'an # sHb|A;ኣይትስሕብኣን
+'at_sbWatm # s'b|A;አት፟ስቧትም
+'itsHbehe # sHb|A;ኢትስሕበኀ
+tt_xebman_a # xhb|A;ትት፟ሸብማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytsHb'a # sHb|A;ዘይትስሕብኣ
+yem_at_sbWat # s'b|A;የማ፟ት፟ስቧት
+le'itsHbehe # sHb|A;ለኢትስሕበኀ
+'at_xebman_a # xhb|A;አት፟ሸብማና፟
+## ;imf,2pf,3sfo,aff,main
+tsHb'a # sHb|A;ትስሕብኣ
+tsbWatal_ac_hu # s'b|A;ትስቧታላ፟ች፟ሁ
+tsHbehe # sHb|A;ትስሕበኀ
+txebman_at # xhb|A;ትሸብማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_sHb'a # sHb|A;ዝት፟ስሕብኣ
+yem_t_sbWat # s'b|A;የም፟ት፟ስቧት
+letsHbehe # sHb|A;ለትስሕበኀ
+txebman_a # xhb|A;ትሸብማና፟
+## ;prf,1s,3smo,neg,main
+'ayle'ak_uw_on # l'k|A;ኣይለኣኩ፟ዎ፟ን
+'al_ak_utm # l'k|A;አላ፟ኩ፟ትም
+'ile'ekkwo # l'k|A;ኢለአክክዎ
+'allak_un_ # lhk|A;አልላኩ፟ን፟
+## ;prf,1s,3smo,neg,rel
+zeyle'ak_uw_o # l'k|A;ዘይለኣኩ፟ዎ፟
+yal_ak_ut # l'k|A;ያላ፟ኩ፟ት
+le'ile'ekkwo # l'k|A;ለኢለአክክዎ
+yallak_un_ # lhk|A;ያልላኩ፟ን፟
+## ;prf,1s,3smo,aff,main
+le'ak_uw_o # l'k|A;ለኣኩ፟ዎ፟
+lak_ut # l'k|A;ላኩ፟ት
+le'ekkwo # l'k|A;ለአክክዎ
+lak_un_t # lhk|A;ላኩ፟ን፟ት
+## ;prf,1s,3smo,aff,rel
+zle'ak_uw_o # l'k|A;ዝለኣኩ፟ዎ፟
+yelak_ut # l'k|A;የላኩ፟ት
+lele'ekkwo # l'k|A;ለለአክክዎ
+yelak_un_ # lhk|A;የላኩ፟ን፟
+## ;prf,1s,3sfo,neg,main
+'ayle'ak_uw_an # l'k|A;ኣይለኣኩ፟ዋ፟ን
+'al_akW_atm # l'k|A;አላ፟ኳ፟ትም
+'ile'ekkwe # l'k|A;ኢለአክክወ
+'allak_un_a # lhk|A;አልላኩ፟ና፟
+## ;prf,1s,3sfo,neg,rel
+zeyle'ak_uw_a # l'k|A;ዘይለኣኩ፟ዋ፟
+yal_akW_at # l'k|A;ያላ፟ኳ፟ት
+le'ile'ekkwe # l'k|A;ለኢለአክክወ
+yallak_un_a # lhk|A;ያልላኩ፟ና፟
+## ;prf,1s,3sfo,aff,main
+le'ak_uw_a # l'k|A;ለኣኩ፟ዋ፟
+lakW_at # l'k|A;ላኳ፟ት
+le'ekkwe # l'k|A;ለአክክወ
+lak_un_at # lhk|A;ላኩ፟ና፟ት
+## ;prf,1s,3sfo,aff,rel
+zle'ak_uw_a # l'k|A;ዝለኣኩ፟ዋ፟
+yelakW_at # l'k|A;የላኳ፟ት
+lele'ekkwe # l'k|A;ለለአክክወ
+yelak_un_a # lhk|A;የላኩ፟ና፟
+## ;prf,3sm,3smo,neg,main
+'ayle'aKon # l'k|A;ኣይለኣኾን
+'al_akewm # l'k|A;አላ፟ከውም
+'ile'ekeyu # l'k|A;ኢለአከዩ
+'allaken_ # lhk|A;አልላከን፟
+## ;prf,3sm,3smo,neg,rel
+zeyle'aKo # l'k|A;ዘይለኣኾ
+yal_akew # l'k|A;ያላ፟ከው
+le'ile'ekeyu # l'k|A;ለኢለአከዩ
+yallaken_ # lhk|A;ያልላከን፟
+## ;prf,3sm,3smo,aff,main
+le'aKo # l'k|A;ለኣኾ
+lakew # l'k|A;ላከው
+le'ekeyu # l'k|A;ለአከዩ
+laken_t # lhk|A;ላከን፟ት
+## ;prf,3sm,3smo,aff,rel
+zle'aKo # l'k|A;ዝለኣኾ
+yelakew # l'k|A;የላከው
+lele'ekeyu # l'k|A;ለለአከዩ
+yelaken_ # lhk|A;የላከን፟
+## ;prf,3sm,3sfo,neg,main
+'ayle'aKan # l'k|A;ኣይለኣኻን
+'al_akatm # l'k|A;አላ፟ካትም
+'ile'ekeye # l'k|A;ኢለአከየ
+'allaken_a # lhk|A;አልላከና፟
+## ;prf,3sm,3sfo,neg,rel
+zeyle'aKa # l'k|A;ዘይለኣኻ
+yal_akat # l'k|A;ያላ፟ካት
+le'ile'ekeye # l'k|A;ለኢለአከየ
+yallaken_a # lhk|A;ያልላከና፟
+## ;prf,3sm,3sfo,aff,main
+le'aKa # l'k|A;ለኣኻ
+lakat # l'k|A;ላካት
+le'ekeye # l'k|A;ለአከየ
+laken_at # lhk|A;ላከና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zle'aKa # l'k|A;ዝለኣኻ
+yelakat # l'k|A;የላካት
+lele'ekeye # l'k|A;ለለአከየ
+yelaken_a # lhk|A;የላከና፟
+## ;prf,2pf,3smo,neg,main
+'ayle'ak_n'on # l'k|A;ኣይለኣክ፟ንኦን
+'al_akac_hutm # l'k|A;አላ፟ካች፟ሁትም
+'ile'ekknehu # l'k|A;ኢለአክክነኁ
+'allak_man_ # lhk|A;አልላክ፟ማን፟
+## ;prf,2pf,3smo,neg,rel
+zeyle'ak_n'o # l'k|A;ዘይለኣክ፟ንኦ
+yal_akac_hut # l'k|A;ያላ፟ካች፟ሁት
+le'ile'ekknehu # l'k|A;ለኢለአክክነኁ
+yallak_man_ # lhk|A;ያልላክ፟ማን፟
+## ;prf,2pf,3smo,aff,main
+le'ak_n'o # l'k|A;ለኣክ፟ንኦ
+lakac_hut # l'k|A;ላካች፟ሁት
+le'ekknehu # l'k|A;ለአክክነኁ
+lak_man_t # lhk|A;ላክ፟ማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zle'ak_n'o # l'k|A;ዝለኣክ፟ንኦ
+yelakac_hut # l'k|A;የላካች፟ሁት
+lele'ekknehu # l'k|A;ለለአክክነኁ
+yelak_man_ # lhk|A;የላክ፟ማን፟
+## ;prf,2pf,3sfo,neg,main
+'ayle'ak_n'an # l'k|A;ኣይለኣክ፟ንኣን
+'al_akac_hWatm # l'k|A;አላ፟ካች፟ኋትም
+'ile'ekknehe # l'k|A;ኢለአክክነኀ
+'allak_man_a # lhk|A;አልላክ፟ማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeyle'ak_n'a # l'k|A;ዘይለኣክ፟ንኣ
+yal_akac_hWat # l'k|A;ያላ፟ካች፟ኋት
+le'ile'ekknehe # l'k|A;ለኢለአክክነኀ
+yallak_man_a # lhk|A;ያልላክ፟ማና፟
+## ;prf,2pf,3sfo,aff,main
+le'ak_n'a # l'k|A;ለኣክ፟ንኣ
+lakac_hWat # l'k|A;ላካች፟ኋት
+le'ekknehe # l'k|A;ለአክክነኀ
+lak_man_at # lhk|A;ላክ፟ማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zle'ak_n'a # l'k|A;ዝለኣክ፟ንኣ
+yelakac_hWat # l'k|A;የላካች፟ኋት
+lele'ekknehe # l'k|A;ለለአክክነኀ
+yelak_man_a # lhk|A;የላክ፟ማና፟
+## ;imf,1s,3smo,neg,main
+'ayl'Kon # l'k|A;ኣይልእኾን
+'al_kewm # l'k|A;አል፟ከውም
+'i'l'k_o # l'k|A;ኢእልእኮ፟
+telek_ # lhk|A;ተለክ፟
+## ;imf,1s,3smo,neg,rel
+zeyl'Ko # l'k|A;ዘይልእኾ
+yem_al_kew # l'k|A;የማ፟ል፟ከው
+le'i'l'k_o # l'k|A;ለኢእልእኮ፟
+'an_lek_ # lhk|A;አን፟ለክ፟
+## ;imf,1s,3smo,aff,main
+'l'Ko # l'k|A;እልእኾ
+'lkewal_ehu # l'k|A;እልከዋለ፟ሁ
+'l'k_o # l'k|A;እልእኮ፟
+'elek_t # lhk|A;ኧለክ፟ት
+## ;imf,1s,3smo,aff,rel
+zl'Ko # l'k|A;ዝልእኾ
+yem_lkew # l'k|A;የም፟ልከው
+le'l'k_o # l'k|A;ለእልእኮ፟
+'elek_ # lhk|A;ኧለክ፟
+## ;imf,1s,3sfo,neg,main
+'ayl'Kan # l'k|A;ኣይልእኻን
+'al_katm # l'k|A;አል፟ካትም
+'i'l'k_e # l'k|A;ኢእልእከ፟
+telek_a # lhk|A;ተለካ፟
+## ;imf,1s,3sfo,neg,rel
+zeyl'Ka # l'k|A;ዘይልእኻ
+yem_al_kat # l'k|A;የማ፟ል፟ካት
+le'i'l'k_e # l'k|A;ለኢእልእከ፟
+'an_lek_a # lhk|A;አን፟ለካ፟
+## ;imf,1s,3sfo,aff,main
+'l'Ka # l'k|A;እልእኻ
+'lkatal_ehu # l'k|A;እልካታለ፟ሁ
+'l'k_e # l'k|A;እልእከ፟
+'elek_at # lhk|A;ኧለካ፟ት
+## ;imf,1s,3sfo,aff,rel
+zl'Ka # l'k|A;ዝልእኻ
+yem_lkat # l'k|A;የም፟ልካት
+le'l'k_e # l'k|A;ለእልእከ፟
+'elek_a # lhk|A;ኧለካ፟
+## ;imf,3sm,3smo,neg,main
+'ay_l'Kon # l'k|A;ኣይ፟ልእኾን
+'aylkewm # l'k|A;አይልከውም
+'ill'k_o # l'k|A;ኢልልእኮ፟
+tilek_ # lhk|A;ቲለክ፟
+## ;imf,3sm,3smo,neg,rel
+zey_l'Ko # l'k|A;ዘይ፟ልእኾ
+yem_aylkew # l'k|A;የማ፟ይልከው
+le'ill'k_o # l'k|A;ለኢልልእኮ፟
+'aylek_ # lhk|A;አይለክ፟
+## ;imf,3sm,3smo,aff,main
+yl'Ko # l'k|A;ይልእኾ
+ylkewal # l'k|A;ይልከዋል
+ll'k_o # l'k|A;ልልእኮ፟
+ylek_t # lhk|A;ይለክ፟ት
+## ;imf,3sm,3smo,aff,rel
+zil'Ko # l'k|A;ዚልእኾ
+yem_ilkew # l'k|A;የሚ፟ልከው
+lell'k_o # l'k|A;ለልልእኮ፟
+ylek_ # lhk|A;ይለክ፟
+## ;imf,3sm,3sfo,neg,main
+'ay_l'Kan # l'k|A;ኣይ፟ልእኻን
+'aylkatm # l'k|A;አይልካትም
+'ill'k_e # l'k|A;ኢልልእከ፟
+tilek_a # lhk|A;ቲለካ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_l'Ka # l'k|A;ዘይ፟ልእኻ
+yem_aylkat # l'k|A;የማ፟ይልካት
+le'ill'k_e # l'k|A;ለኢልልእከ፟
+'aylek_a # lhk|A;አይለካ፟
+## ;imf,3sm,3sfo,aff,main
+yl'Ka # l'k|A;ይልእኻ
+ylkatal # l'k|A;ይልካታል
+ll'k_e # l'k|A;ልልእከ፟
+ylek_at # lhk|A;ይለካ፟ት
+## ;imf,3sm,3sfo,aff,rel
+zil'Ka # l'k|A;ዚልእኻ
+yem_ilkat # l'k|A;የሚ፟ልካት
+lell'k_e # l'k|A;ለልልእከ፟
+ylek_a # lhk|A;ይለካ፟
+## ;imf,2pf,3smo,neg,main
+'aytl'K'on # l'k|A;ኣይትልእኽኦን
+'at_lkutm # l'k|A;አት፟ልኩትም
+'itl'kehu # l'k|A;ኢትልእከኁ
+tt_lekman_ # lhk|A;ትት፟ለክማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytl'K'o # l'k|A;ዘይትልእኽኦ
+yem_at_lkut # l'k|A;የማ፟ት፟ልኩት
+le'itl'kehu # l'k|A;ለኢትልእከኁ
+'at_lekman_ # lhk|A;አት፟ለክማን፟
+## ;imf,2pf,3smo,aff,main
+tl'K'o # l'k|A;ትልእኽኦ
+tlkutal_ac_hu # l'k|A;ትልኩታላ፟ች፟ሁ
+tl'kehu # l'k|A;ትልእከኁ
+tlekman_t # lhk|A;ትለክማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_l'K'o # l'k|A;ዝት፟ልእኽኦ
+yem_t_lkut # l'k|A;የም፟ት፟ልኩት
+letl'kehu # l'k|A;ለትልእከኁ
+tlekman_ # lhk|A;ትለክማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytl'K'an # l'k|A;ኣይትልእኽኣን
+'at_lkWatm # l'k|A;አት፟ልኳትም
+'itl'kehe # l'k|A;ኢትልእከኀ
+tt_lekman_a # lhk|A;ትት፟ለክማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytl'K'a # l'k|A;ዘይትልእኽኣ
+yem_at_lkWat # l'k|A;የማ፟ት፟ልኳት
+le'itl'kehe # l'k|A;ለኢትልእከኀ
+'at_lekman_a # lhk|A;አት፟ለክማና፟
+## ;imf,2pf,3sfo,aff,main
+tl'K'a # l'k|A;ትልእኽኣ
+tlkWatal_ac_hu # l'k|A;ትልኳታላ፟ች፟ሁ
+tl'kehe # l'k|A;ትልእከኀ
+tlekman_at # lhk|A;ትለክማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_l'K'a # l'k|A;ዝት፟ልእኽኣ
+yem_t_lkWat # l'k|A;የም፟ት፟ልኳት
+letl'kehe # l'k|A;ለትልእከኀ
+tlekman_a # lhk|A;ትለክማና፟
+## ;prf,1s,3smo,neg,main
+'ayHaredkuw_on # Hrd|A;ኣይሓረድኩዎ፟ን
+'alar_edkutm # 'rd|A;አላረ፟ድኩትም
+'iHeredkwo # Hrd|A;ኢሐረድክዎ
+'aleredkun_ # hrd|A;አለረድኩን፟
+## ;prf,1s,3smo,neg,rel
+zeyHaredkuw_o # Hrd|A;ዘይሓረድኩዎ፟
+yalar_edkut # 'rd|A;ያላረ፟ድኩት
+le'iHeredkwo # Hrd|A;ለኢሐረድክዎ
+yaleredkun_ # hrd|A;ያለረድኩን፟
+## ;prf,1s,3smo,aff,main
+Haredkuw_o # Hrd|A;ሓረድኩዎ፟
+'ar_edkut # 'rd|A;አረ፟ድኩት
+Heredkwo # Hrd|A;ሐረድክዎ
+'ar_edkun_t # hrd|A;አረ፟ድኩን፟ት
+## ;prf,1s,3smo,aff,rel
+zHaredkuw_o # Hrd|A;ዝሓረድኩዎ፟
+yar_edkut # 'rd|A;ያረ፟ድኩት
+leHeredkwo # Hrd|A;ለሐረድክዎ
+yar_edkun_ # hrd|A;ያረ፟ድኩን፟
+## ;prf,1s,3sfo,neg,main
+'ayHaredkuw_an # Hrd|A;ኣይሓረድኩዋ፟ን
+'alar_edkWatm # 'rd|A;አላረ፟ድኳትም
+'iHeredkwe # Hrd|A;ኢሐረድክወ
+'aleredkun_a # hrd|A;አለረድኩና፟
+## ;prf,1s,3sfo,neg,rel
+zeyHaredkuw_a # Hrd|A;ዘይሓረድኩዋ፟
+yalar_edkWat # 'rd|A;ያላረ፟ድኳት
+le'iHeredkwe # Hrd|A;ለኢሐረድክወ
+yaleredkun_a # hrd|A;ያለረድኩና፟
+## ;prf,1s,3sfo,aff,main
+Haredkuw_a # Hrd|A;ሓረድኩዋ፟
+'ar_edkWat # 'rd|A;አረ፟ድኳት
+Heredkwe # Hrd|A;ሐረድክወ
+'ar_edkun_at # hrd|A;አረ፟ድኩና፟ት
+## ;prf,1s,3sfo,aff,rel
+zHaredkuw_a # Hrd|A;ዝሓረድኩዋ፟
+yar_edkWat # 'rd|A;ያረ፟ድኳት
+leHeredkwe # Hrd|A;ለሐረድክወ
+yar_edkun_a # hrd|A;ያረ፟ድኩና፟
+## ;prf,3sm,3smo,neg,main
+'ayHaredon # Hrd|A;ኣይሓረዶን
+'alar_edewm # 'rd|A;አላረ፟ደውም
+'iHerdeyu # Hrd|A;ኢሐርደዩ
+'alereden_ # hrd|A;አለረደን፟
+## ;prf,3sm,3smo,neg,rel
+zeyHaredo # Hrd|A;ዘይሓረዶ
+yalar_edew # 'rd|A;ያላረ፟ደው
+le'iHerdeyu # Hrd|A;ለኢሐርደዩ
+yalereden_ # hrd|A;ያለረደን፟
+## ;prf,3sm,3smo,aff,main
+Haredo # Hrd|A;ሓረዶ
+'ar_edew # 'rd|A;አረ፟ደው
+Herdeyu # Hrd|A;ሐርደዩ
+'ar_eden_t # hrd|A;አረ፟ደን፟ት
+## ;prf,3sm,3smo,aff,rel
+zHaredo # Hrd|A;ዝሓረዶ
+yar_edew # 'rd|A;ያረ፟ደው
+leHerdeyu # Hrd|A;ለሐርደዩ
+yar_eden_ # hrd|A;ያረ፟ደን፟
+## ;prf,3sm,3sfo,neg,main
+'ayHaredan # Hrd|A;ኣይሓረዳን
+'alar_edatm # 'rd|A;አላረ፟ዳትም
+'iHerdeye # Hrd|A;ኢሐርደየ
+'alereden_a # hrd|A;አለረደና፟
+## ;prf,3sm,3sfo,neg,rel
+zeyHareda # Hrd|A;ዘይሓረዳ
+yalar_edat # 'rd|A;ያላረ፟ዳት
+le'iHerdeye # Hrd|A;ለኢሐርደየ
+yalereden_a # hrd|A;ያለረደና፟
+## ;prf,3sm,3sfo,aff,main
+Hareda # Hrd|A;ሓረዳ
+'ar_edat # 'rd|A;አረ፟ዳት
+Herdeye # Hrd|A;ሐርደየ
+'ar_eden_at # hrd|A;አረ፟ደና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zHareda # Hrd|A;ዝሓረዳ
+yar_edat # 'rd|A;ያረ፟ዳት
+leHerdeye # Hrd|A;ለሐርደየ
+yar_eden_a # hrd|A;ያረ፟ደና፟
+## ;prf,2pf,3smo,neg,main
+'ayHaredkn'on # Hrd|A;ኣይሓረድክንኦን
+'alar_edac_hutm # 'rd|A;አላረ፟ዳች፟ሁትም
+'iHeredknehu # Hrd|A;ኢሐረድክነኁ
+'aleredkman_ # hrd|A;አለረድክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeyHaredkn'o # Hrd|A;ዘይሓረድክንኦ
+yalar_edac_hut # 'rd|A;ያላረ፟ዳች፟ሁት
+le'iHeredknehu # Hrd|A;ለኢሐረድክነኁ
+yaleredkman_ # hrd|A;ያለረድክማን፟
+## ;prf,2pf,3smo,aff,main
+Haredkn'o # Hrd|A;ሓረድክንኦ
+'ar_edac_hut # 'rd|A;አረ፟ዳች፟ሁት
+Heredknehu # Hrd|A;ሐረድክነኁ
+'ar_edkman_t # hrd|A;አረ፟ድክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zHaredkn'o # Hrd|A;ዝሓረድክንኦ
+yar_edac_hut # 'rd|A;ያረ፟ዳች፟ሁት
+leHeredknehu # Hrd|A;ለሐረድክነኁ
+yar_edkman_ # hrd|A;ያረ፟ድክማን፟
+## ;prf,2pf,3sfo,neg,main
+'ayHaredkn'an # Hrd|A;ኣይሓረድክንኣን
+'alar_edac_hWatm # 'rd|A;አላረ፟ዳች፟ኋትም
+'iHeredknehe # Hrd|A;ኢሐረድክነኀ
+'aleredkman_a # hrd|A;አለረድክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeyHaredkn'a # Hrd|A;ዘይሓረድክንኣ
+yalar_edac_hWat # 'rd|A;ያላረ፟ዳች፟ኋት
+le'iHeredknehe # Hrd|A;ለኢሐረድክነኀ
+yaleredkman_a # hrd|A;ያለረድክማና፟
+## ;prf,2pf,3sfo,aff,main
+Haredkn'a # Hrd|A;ሓረድክንኣ
+'ar_edac_hWat # 'rd|A;አረ፟ዳች፟ኋት
+Heredknehe # Hrd|A;ሐረድክነኀ
+'ar_edkman_at # hrd|A;አረ፟ድክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zHaredkn'a # Hrd|A;ዝሓረድክንኣ
+yar_edac_hWat # 'rd|A;ያረ፟ዳች፟ኋት
+leHeredknehe # Hrd|A;ለሐረድክነኀ
+yar_edkman_a # hrd|A;ያረ፟ድክማና፟
+## ;imf,1s,3smo,neg,main
+'ayHardon # Hrd|A;ኣይሓርዶን
+'alardewm # 'rd|A;አላርደውም
+'iHer_d_o # Hrd|A;ኢሐር፟ዶ፟
+tard_ # hrd|A;ታርድ፟
+## ;imf,1s,3smo,neg,rel
+zeyHardo # Hrd|A;ዘይሓርዶ
+yem_alardew # 'rd|A;የማ፟ላርደው
+le'iHer_d_o # Hrd|A;ለኢሐር፟ዶ፟
+'an_ard_ # hrd|A;አና፟ርድ፟
+## ;imf,1s,3smo,aff,main
+'Hardo # Hrd|A;እሓርዶ
+'ardewal_ehu # 'rd|A;አርደዋለ፟ሁ
+Her_d_o # Hrd|A;ሐር፟ዶ፟
+'ard_t # hrd|A;አርድ፟ት
+## ;imf,1s,3smo,aff,rel
+zHardo # Hrd|A;ዝሓርዶ
+yem_ardew # 'rd|A;የማ፟ርደው
+leHer_d_o # Hrd|A;ለሐር፟ዶ፟
+'ard_ # hrd|A;አርድ፟
+## ;imf,1s,3sfo,neg,main
+'ayHardan # Hrd|A;ኣይሓርዳን
+'alardatm # 'rd|A;አላርዳትም
+'iHer_d_e # Hrd|A;ኢሐር፟ደ፟
+tard_a # hrd|A;ታርዳ፟
+## ;imf,1s,3sfo,neg,rel
+zeyHarda # Hrd|A;ዘይሓርዳ
+yem_alardat # 'rd|A;የማ፟ላርዳት
+le'iHer_d_e # Hrd|A;ለኢሐር፟ደ፟
+'an_ard_a # hrd|A;አና፟ርዳ፟
+## ;imf,1s,3sfo,aff,main
+'Harda # Hrd|A;እሓርዳ
+'ardatal_ehu # 'rd|A;አርዳታለ፟ሁ
+Her_d_e # Hrd|A;ሐር፟ደ፟
+'ard_at # hrd|A;አርዳ፟ት
+## ;imf,1s,3sfo,aff,rel
+zHarda # Hrd|A;ዝሓርዳ
+yem_ardat # 'rd|A;የማ፟ርዳት
+leHer_d_e # Hrd|A;ለሐር፟ደ፟
+'ard_a # hrd|A;አርዳ፟
+## ;imf,3sm,3smo,neg,main
+'ay_Hardon # Hrd|A;ኣይ፟ሓርዶን
+'ayardewm # 'rd|A;አያርደውም
+'ilHer_d_o # Hrd|A;ኢልሐር፟ዶ፟
+tiyard_ # hrd|A;ቲያርድ፟
+## ;imf,3sm,3smo,neg,rel
+zey_Hardo # Hrd|A;ዘይ፟ሓርዶ
+yem_ayardew # 'rd|A;የማ፟ያርደው
+le'ilHer_d_o # Hrd|A;ለኢልሐር፟ዶ፟
+'ayard_ # hrd|A;አያርድ፟
+## ;imf,3sm,3smo,aff,main
+yHardo # Hrd|A;ይሓርዶ
+yardewal # 'rd|A;ያርደዋል
+leHer_d_o # Hrd|A;ለሐር፟ዶ፟
+yard_t # hrd|A;ያርድ፟ት
+## ;imf,3sm,3smo,aff,rel
+ziHardo # Hrd|A;ዚሓርዶ
+yem_iyardew # 'rd|A;የሚ፟ያርደው
+lelHer_d_o # Hrd|A;ለልሐር፟ዶ፟
+yard_ # hrd|A;ያርድ፟
+## ;imf,3sm,3sfo,neg,main
+'ay_Hardan # Hrd|A;ኣይ፟ሓርዳን
+'ayardatm # 'rd|A;አያርዳትም
+'ilHer_d_e # Hrd|A;ኢልሐር፟ደ፟
+tiyard_a # hrd|A;ቲያርዳ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_Harda # Hrd|A;ዘይ፟ሓርዳ
+yem_ayardat # 'rd|A;የማ፟ያርዳት
+le'ilHer_d_e # Hrd|A;ለኢልሐር፟ደ፟
+'ayard_a # hrd|A;አያርዳ፟
+## ;imf,3sm,3sfo,aff,main
+yHarda # Hrd|A;ይሓርዳ
+yardatal # 'rd|A;ያርዳታል
+leHer_d_e # Hrd|A;ለሐር፟ደ፟
+yard_at # hrd|A;ያርዳ፟ት
+## ;imf,3sm,3sfo,aff,rel
+ziHarda # Hrd|A;ዚሓርዳ
+yem_iyardat # 'rd|A;የሚ፟ያርዳት
+lelHer_d_e # Hrd|A;ለልሐር፟ደ፟
+yard_a # hrd|A;ያርዳ፟
+## ;imf,2pf,3smo,neg,main
+'aytHard'on # Hrd|A;ኣይትሓርድኦን
+'at_ardutm # 'rd|A;አታ፟ርዱትም
+'itHerdehu # Hrd|A;ኢትሐርደኁ
+tt_ardman_ # hrd|A;ትታ፟ርድማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytHard'o # Hrd|A;ዘይትሓርድኦ
+yem_at_ardut # 'rd|A;የማ፟ታ፟ርዱት
+le'itHerdehu # Hrd|A;ለኢትሐርደኁ
+'at_ardman_ # hrd|A;አታ፟ርድማን፟
+## ;imf,2pf,3smo,aff,main
+tHard'o # Hrd|A;ትሓርድኦ
+tardutal_ac_hu # 'rd|A;ታርዱታላ፟ች፟ሁ
+teHerdehu # Hrd|A;ተሐርደኁ
+tardman_t # hrd|A;ታርድማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_Hard'o # Hrd|A;ዝት፟ሓርድኦ
+yem_t_ardut # 'rd|A;የም፟ታ፟ርዱት
+letHerdehu # Hrd|A;ለትሐርደኁ
+tardman_ # hrd|A;ታርድማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytHard'an # Hrd|A;ኣይትሓርድኣን
+'at_ardWatm # 'rd|A;አታ፟ርዷትም
+'itHerdehe # Hrd|A;ኢትሐርደኀ
+tt_ardman_a # hrd|A;ትታ፟ርድማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytHard'a # Hrd|A;ዘይትሓርድኣ
+yem_at_ardWat # 'rd|A;የማ፟ታ፟ርዷት
+le'itHerdehe # Hrd|A;ለኢትሐርደኀ
+'at_ardman_a # hrd|A;አታ፟ርድማና፟
+## ;imf,2pf,3sfo,aff,main
+tHard'a # Hrd|A;ትሓርድኣ
+tardWatal_ac_hu # 'rd|A;ታርዷታላ፟ች፟ሁ
+teHerdehe # Hrd|A;ተሐርደኀ
+tardman_at # hrd|A;ታርድማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_Hard'a # Hrd|A;ዝት፟ሓርድኣ
+yem_t_ardWat # 'rd|A;የም፟ታ፟ርዷት
+letHerdehe # Hrd|A;ለትሐርደኀ
+tardman_a # hrd|A;ታርድማና፟
+## ;prf,1s,3smo,neg,main
+'ayHaSebkuw_on # HSb|A;ኣይሓጸብኩዎ፟ን
+'alaT_ebkutm # 'Tb|A;አላጠ፟ብኩትም
+'iHeSebkwo # HSb|A;ኢሐጸብክዎ
+'aleTebkun_ # hTb|A;አለጠብኩን፟
+## ;prf,1s,3smo,neg,rel
+zeyHaSebkuw_o # HSb|A;ዘይሓጸብኩዎ፟
+yalaT_ebkut # 'Tb|A;ያላጠ፟ብኩት
+le'iHeSebkwo # HSb|A;ለኢሐጸብክዎ
+yaleTebkun_ # hTb|A;ያለጠብኩን፟
+## ;prf,1s,3smo,aff,main
+HaSebkuw_o # HSb|A;ሓጸብኩዎ፟
+'aT_ebkut # 'Tb|A;አጠ፟ብኩት
+HeSebkwo # HSb|A;ሐጸብክዎ
+'aT_ebkun_t # hTb|A;አጠ፟ብኩን፟ት
+## ;prf,1s,3smo,aff,rel
+zHaSebkuw_o # HSb|A;ዝሓጸብኩዎ፟
+yaT_ebkut # 'Tb|A;ያጠ፟ብኩት
+leHeSebkwo # HSb|A;ለሐጸብክዎ
+yaT_ebkun_ # hTb|A;ያጠ፟ብኩን፟
+## ;prf,1s,3sfo,neg,main
+'ayHaSebkuw_an # HSb|A;ኣይሓጸብኩዋ፟ን
+'alaT_ebkWatm # 'Tb|A;አላጠ፟ብኳትም
+'iHeSebkwe # HSb|A;ኢሐጸብክወ
+'aleTebkun_a # hTb|A;አለጠብኩና፟
+## ;prf,1s,3sfo,neg,rel
+zeyHaSebkuw_a # HSb|A;ዘይሓጸብኩዋ፟
+yalaT_ebkWat # 'Tb|A;ያላጠ፟ብኳት
+le'iHeSebkwe # HSb|A;ለኢሐጸብክወ
+yaleTebkun_a # hTb|A;ያለጠብኩና፟
+## ;prf,1s,3sfo,aff,main
+HaSebkuw_a # HSb|A;ሓጸብኩዋ፟
+'aT_ebkWat # 'Tb|A;አጠ፟ብኳት
+HeSebkwe # HSb|A;ሐጸብክወ
+'aT_ebkun_at # hTb|A;አጠ፟ብኩና፟ት
+## ;prf,1s,3sfo,aff,rel
+zHaSebkuw_a # HSb|A;ዝሓጸብኩዋ፟
+yaT_ebkWat # 'Tb|A;ያጠ፟ብኳት
+leHeSebkwe # HSb|A;ለሐጸብክወ
+yaT_ebkun_a # hTb|A;ያጠ፟ብኩና፟
+## ;prf,3sm,3smo,neg,main
+'ayHaSebon # HSb|A;ኣይሓጸቦን
+'alaT_ebewm # 'Tb|A;አላጠ፟በውም
+'iHeSbeyu # HSb|A;ኢሐጽበዩ
+'aleTeben_ # hTb|A;አለጠበን፟
+## ;prf,3sm,3smo,neg,rel
+zeyHaSebo # HSb|A;ዘይሓጸቦ
+yalaT_ebew # 'Tb|A;ያላጠ፟በው
+le'iHeSbeyu # HSb|A;ለኢሐጽበዩ
+yaleTeben_ # hTb|A;ያለጠበን፟
+## ;prf,3sm,3smo,aff,main
+HaSebo # HSb|A;ሓጸቦ
+'aT_ebew # 'Tb|A;አጠ፟በው
+HeSbeyu # HSb|A;ሐጽበዩ
+'aT_eben_t # hTb|A;አጠ፟በን፟ት
+## ;prf,3sm,3smo,aff,rel
+zHaSebo # HSb|A;ዝሓጸቦ
+yaT_ebew # 'Tb|A;ያጠ፟በው
+leHeSbeyu # HSb|A;ለሐጽበዩ
+yaT_eben_ # hTb|A;ያጠ፟በን፟
+## ;prf,3sm,3sfo,neg,main
+'ayHaSeban # HSb|A;ኣይሓጸባን
+'alaT_ebatm # 'Tb|A;አላጠ፟ባትም
+'iHeSbeye # HSb|A;ኢሐጽበየ
+'aleTeben_a # hTb|A;አለጠበና፟
+## ;prf,3sm,3sfo,neg,rel
+zeyHaSeba # HSb|A;ዘይሓጸባ
+yalaT_ebat # 'Tb|A;ያላጠ፟ባት
+le'iHeSbeye # HSb|A;ለኢሐጽበየ
+yaleTeben_a # hTb|A;ያለጠበና፟
+## ;prf,3sm,3sfo,aff,main
+HaSeba # HSb|A;ሓጸባ
+'aT_ebat # 'Tb|A;አጠ፟ባት
+HeSbeye # HSb|A;ሐጽበየ
+'aT_eben_at # hTb|A;አጠ፟በና፟ት
+## ;prf,3sm,3sfo,aff,rel
+zHaSeba # HSb|A;ዝሓጸባ
+yaT_ebat # 'Tb|A;ያጠ፟ባት
+leHeSbeye # HSb|A;ለሐጽበየ
+yaT_eben_a # hTb|A;ያጠ፟በና፟
+## ;prf,2pf,3smo,neg,main
+'ayHaSebkn'on # HSb|A;ኣይሓጸብክንኦን
+'alaT_ebac_hutm # 'Tb|A;አላጠ፟ባች፟ሁትም
+'iHeSebknehu # HSb|A;ኢሐጸብክነኁ
+'aleTebkman_ # hTb|A;አለጠብክማን፟
+## ;prf,2pf,3smo,neg,rel
+zeyHaSebkn'o # HSb|A;ዘይሓጸብክንኦ
+yalaT_ebac_hut # 'Tb|A;ያላጠ፟ባች፟ሁት
+le'iHeSebknehu # HSb|A;ለኢሐጸብክነኁ
+yaleTebkman_ # hTb|A;ያለጠብክማን፟
+## ;prf,2pf,3smo,aff,main
+HaSebkn'o # HSb|A;ሓጸብክንኦ
+'aT_ebac_hut # 'Tb|A;አጠ፟ባች፟ሁት
+HeSebknehu # HSb|A;ሐጸብክነኁ
+'aT_ebkman_t # hTb|A;አጠ፟ብክማን፟ት
+## ;prf,2pf,3smo,aff,rel
+zHaSebkn'o # HSb|A;ዝሓጸብክንኦ
+yaT_ebac_hut # 'Tb|A;ያጠ፟ባች፟ሁት
+leHeSebknehu # HSb|A;ለሐጸብክነኁ
+yaT_ebkman_ # hTb|A;ያጠ፟ብክማን፟
+## ;prf,2pf,3sfo,neg,main
+'ayHaSebkn'an # HSb|A;ኣይሓጸብክንኣን
+'alaT_ebac_hWatm # 'Tb|A;አላጠ፟ባች፟ኋትም
+'iHeSebknehe # HSb|A;ኢሐጸብክነኀ
+'aleTebkman_a # hTb|A;አለጠብክማና፟
+## ;prf,2pf,3sfo,neg,rel
+zeyHaSebkn'a # HSb|A;ዘይሓጸብክንኣ
+yalaT_ebac_hWat # 'Tb|A;ያላጠ፟ባች፟ኋት
+le'iHeSebknehe # HSb|A;ለኢሐጸብክነኀ
+yaleTebkman_a # hTb|A;ያለጠብክማና፟
+## ;prf,2pf,3sfo,aff,main
+HaSebkn'a # HSb|A;ሓጸብክንኣ
+'aT_ebac_hWat # 'Tb|A;አጠ፟ባች፟ኋት
+HeSebknehe # HSb|A;ሐጸብክነኀ
+'aT_ebkman_at # hTb|A;አጠ፟ብክማና፟ት
+## ;prf,2pf,3sfo,aff,rel
+zHaSebkn'a # HSb|A;ዝሓጸብክንኣ
+yaT_ebac_hWat # 'Tb|A;ያጠ፟ባች፟ኋት
+leHeSebknehe # HSb|A;ለሐጸብክነኀ
+yaT_ebkman_a # hTb|A;ያጠ፟ብክማና፟
+## ;imf,1s,3smo,neg,main
+'ayHaSbon # HSb|A;ኣይሓጽቦን
+'alaTbewm # 'Tb|A;አላጥበውም
+'iHeS_b_o # HSb|A;ኢሐጽ፟ቦ፟
+taTb_ # hTb|A;ታጥብ፟
+## ;imf,1s,3smo,neg,rel
+zeyHaSbo # HSb|A;ዘይሓጽቦ
+yem_alaTbew # 'Tb|A;የማ፟ላጥበው
+le'iHeS_b_o # HSb|A;ለኢሐጽ፟ቦ፟
+'an_aTb_ # hTb|A;አና፟ጥብ፟
+## ;imf,1s,3smo,aff,main
+'HaSbo # HSb|A;እሓጽቦ
+'aTbewal_ehu # 'Tb|A;አጥበዋለ፟ሁ
+HeS_b_o # HSb|A;ሐጽ፟ቦ፟
+'aTb_t # hTb|A;አጥብ፟ት
+## ;imf,1s,3smo,aff,rel
+zHaSbo # HSb|A;ዝሓጽቦ
+yem_aTbew # 'Tb|A;የማ፟ጥበው
+leHeS_b_o # HSb|A;ለሐጽ፟ቦ፟
+'aTb_ # hTb|A;አጥብ፟
+## ;imf,1s,3sfo,neg,main
+'ayHaSban # HSb|A;ኣይሓጽባን
+'alaTbatm # 'Tb|A;አላጥባትም
+'iHeS_b_e # HSb|A;ኢሐጽ፟በ፟
+taTb_a # hTb|A;ታጥባ፟
+## ;imf,1s,3sfo,neg,rel
+zeyHaSba # HSb|A;ዘይሓጽባ
+yem_alaTbat # 'Tb|A;የማ፟ላጥባት
+le'iHeS_b_e # HSb|A;ለኢሐጽ፟በ፟
+'an_aTb_a # hTb|A;አና፟ጥባ፟
+## ;imf,1s,3sfo,aff,main
+'HaSba # HSb|A;እሓጽባ
+'aTbatal_ehu # 'Tb|A;አጥባታለ፟ሁ
+HeS_b_e # HSb|A;ሐጽ፟በ፟
+'aTb_at # hTb|A;አጥባ፟ት
+## ;imf,1s,3sfo,aff,rel
+zHaSba # HSb|A;ዝሓጽባ
+yem_aTbat # 'Tb|A;የማ፟ጥባት
+leHeS_b_e # HSb|A;ለሐጽ፟በ፟
+'aTb_a # hTb|A;አጥባ፟
+## ;imf,3sm,3smo,neg,main
+'ay_HaSbon # HSb|A;ኣይ፟ሓጽቦን
+'ayaTbewm # 'Tb|A;አያጥበውም
+'ilHeS_b_o # HSb|A;ኢልሐጽ፟ቦ፟
+tiyaTb_ # hTb|A;ቲያጥብ፟
+## ;imf,3sm,3smo,neg,rel
+zey_HaSbo # HSb|A;ዘይ፟ሓጽቦ
+yem_ayaTbew # 'Tb|A;የማ፟ያጥበው
+le'ilHeS_b_o # HSb|A;ለኢልሐጽ፟ቦ፟
+'ayaTb_ # hTb|A;አያጥብ፟
+## ;imf,3sm,3smo,aff,main
+yHaSbo # HSb|A;ይሓጽቦ
+yaTbewal # 'Tb|A;ያጥበዋል
+leHeS_b_o # HSb|A;ለሐጽ፟ቦ፟
+yaTb_t # hTb|A;ያጥብ፟ት
+## ;imf,3sm,3smo,aff,rel
+ziHaSbo # HSb|A;ዚሓጽቦ
+yem_iyaTbew # 'Tb|A;የሚ፟ያጥበው
+lelHeS_b_o # HSb|A;ለልሐጽ፟ቦ፟
+yaTb_ # hTb|A;ያጥብ፟
+## ;imf,3sm,3sfo,neg,main
+'ay_HaSban # HSb|A;ኣይ፟ሓጽባን
+'ayaTbatm # 'Tb|A;አያጥባትም
+'ilHeS_b_e # HSb|A;ኢልሐጽ፟በ፟
+tiyaTb_a # hTb|A;ቲያጥባ፟
+## ;imf,3sm,3sfo,neg,rel
+zey_HaSba # HSb|A;ዘይ፟ሓጽባ
+yem_ayaTbat # 'Tb|A;የማ፟ያጥባት
+le'ilHeS_b_e # HSb|A;ለኢልሐጽ፟በ፟
+'ayaTb_a # hTb|A;አያጥባ፟
+## ;imf,3sm,3sfo,aff,main
+yHaSba # HSb|A;ይሓጽባ
+yaTbatal # 'Tb|A;ያጥባታል
+leHeS_b_e # HSb|A;ለሐጽ፟በ፟
+yaTb_at # hTb|A;ያጥባ፟ት
+## ;imf,3sm,3sfo,aff,rel
+ziHaSba # HSb|A;ዚሓጽባ
+yem_iyaTbat # 'Tb|A;የሚ፟ያጥባት
+lelHeS_b_e # HSb|A;ለልሐጽ፟በ፟
+yaTb_a # hTb|A;ያጥባ፟
+## ;imf,2pf,3smo,neg,main
+'aytHaSb'on # HSb|A;ኣይትሓጽብኦን
+'at_aTbutm # 'Tb|A;አታ፟ጥቡትም
+'itHeSbehu # HSb|A;ኢትሐጽበኁ
+tt_aTbman_ # hTb|A;ትታ፟ጥብማን፟
+## ;imf,2pf,3smo,neg,rel
+zeytHaSb'o # HSb|A;ዘይትሓጽብኦ
+yem_at_aTbut # 'Tb|A;የማ፟ታ፟ጥቡት
+le'itHeSbehu # HSb|A;ለኢትሐጽበኁ
+'at_aTbman_ # hTb|A;አታ፟ጥብማን፟
+## ;imf,2pf,3smo,aff,main
+tHaSb'o # HSb|A;ትሓጽብኦ
+taTbutal_ac_hu # 'Tb|A;ታጥቡታላ፟ች፟ሁ
+teHeSbehu # HSb|A;ተሐጽበኁ
+taTbman_t # hTb|A;ታጥብማን፟ት
+## ;imf,2pf,3smo,aff,rel
+zt_HaSb'o # HSb|A;ዝት፟ሓጽብኦ
+yem_t_aTbut # 'Tb|A;የም፟ታ፟ጥቡት
+letHeSbehu # HSb|A;ለትሐጽበኁ
+taTbman_ # hTb|A;ታጥብማን፟
+## ;imf,2pf,3sfo,neg,main
+'aytHaSb'an # HSb|A;ኣይትሓጽብኣን
+'at_aTbWatm # 'Tb|A;አታ፟ጥቧትም
+'itHeSbehe # HSb|A;ኢትሐጽበኀ
+tt_aTbman_a # hTb|A;ትታ፟ጥብማና፟
+## ;imf,2pf,3sfo,neg,rel
+zeytHaSb'a # HSb|A;ዘይትሓጽብኣ
+yem_at_aTbWat # 'Tb|A;የማ፟ታ፟ጥቧት
+le'itHeSbehe # HSb|A;ለኢትሐጽበኀ
+'at_aTbman_a # hTb|A;አታ፟ጥብማና፟
+## ;imf,2pf,3sfo,aff,main
+tHaSb'a # HSb|A;ትሓጽብኣ
+taTbWatal_ac_hu # 'Tb|A;ታጥቧታላ፟ች፟ሁ
+teHeSbehe # HSb|A;ተሐጽበኀ
+taTbman_at # hTb|A;ታጥብማና፟ት
+## ;imf,2pf,3sfo,aff,rel
+zt_HaSb'a # HSb|A;ዝት፟ሓጽብኣ
+yem_t_aTbWat # 'Tb|A;የም፟ታ፟ጥቧት
+letHeSbehe # HSb|A;ለትሐጽበኀ
+taTbman_a # hTb|A;ታጥብማና፟
+## ps;prf,1s,3smo,neg,main
+'aytemen_eKuw_on # mny|B;ኣይተመነ፟ኹዎ፟ን
+'altemeN_ehutm # mN*|B;አልተመኘ፟ሁትም
+'itmen_Ekwo # mny|B;ኢትመኔ፟ክዎ
+'altmen_ehWn_ # mny|B;አልትመነ፟ኍን፟
+## ps;prf,1s,3smo,neg,rel
+zeytemen_eKuw_o # mny|B;ዘይተመነ፟ኹዎ፟
+yaltemeN_ehut # mN*|B;ያልተመኘ፟ሁት
+le'itmen_Ekwo # mny|B;ለኢትመኔ፟ክዎ
+yaltmen_ehWn_ # mny|B;ያልትመነ፟ኍን፟
+## ps;prf,1s,3smo,aff,main
+temen_eKuw_o # mny|B;ተመነ፟ኹዎ፟
+temeN_ehut # mN*|B;ተመኘ፟ሁት
+tmen_Ekwo # mny|B;ትመኔ፟ክዎ
+temin_ehWn_t # mny|B;ተሚነ፟ኍን፟ት
+## ps;prf,1s,3smo,aff,rel
+zt_emen_eKuw_o # mny|B;ዝተ፟መነ፟ኹዎ፟
+yetemeN_ehut # mN*|B;የተመኘ፟ሁት
+letmen_Ekwo # mny|B;ለትመኔ፟ክዎ
+yetmin_ehWn_ # mny|B;የትሚነ፟ኍን፟
+## ps;prf,1s,3sfo,neg,main
+'aytemen_eKuw_an # mny|B;ኣይተመነ፟ኹዋ፟ን
+'altemeN_ehWatm # mN*|B;አልተመኘ፟ኋትም
+'itmen_Ekwe # mny|B;ኢትመኔ፟ክወ
+'altmen_ehWn_a # mny|B;አልትመነ፟ኍና፟
+## ps;prf,1s,3sfo,neg,rel
+zeytemen_eKuw_a # mny|B;ዘይተመነ፟ኹዋ፟
+yaltemeN_ehWat # mN*|B;ያልተመኘ፟ኋት
+le'itmen_Ekwe # mny|B;ለኢትመኔ፟ክወ
+yaltmen_ehWn_a # mny|B;ያልትመነ፟ኍና፟
+## ps;prf,1s,3sfo,aff,main
+temen_eKuw_a # mny|B;ተመነ፟ኹዋ፟
+temeN_ehWat # mN*|B;ተመኘ፟ኋት
+tmen_Ekwe # mny|B;ትመኔ፟ክወ
+temin_ehWn_at # mny|B;ተሚነ፟ኍና፟ት
+## ps;prf,1s,3sfo,aff,rel
+zt_emen_eKuw_a # mny|B;ዝተ፟መነ፟ኹዋ፟
+yetemeN_ehWat # mN*|B;የተመኘ፟ኋት
+letmen_Ekwe # mny|B;ለትመኔ፟ክወ
+yetmin_ehWn_a # mny|B;የትሚነ፟ኍና፟
+## ps;prf,3sm,3smo,neg,main
+'aytemen_eyon # mny|B;ኣይተመነ፟ዮን
+'altemeN_ewm # mN*|B;አልተመኘ፟ውም
+'itmen_eyu # mny|B;ኢትመነ፟ዩ
+'altmen_en_ # mny|B;አልትመነ፟ን፟
+## ps;prf,3sm,3smo,neg,rel
+zeytemen_eyo # mny|B;ዘይተመነ፟ዮ
+yaltemeN_ew # mN*|B;ያልተመኘ፟ው
+le'itmen_eyu # mny|B;ለኢትመነ፟ዩ
+yaltmen_en_ # mny|B;ያልትመነ፟ን፟
+## ps;prf,3sm,3smo,aff,main
+temen_eyo # mny|B;ተመነ፟ዮ
+temeN_ew # mN*|B;ተመኘ፟ው
+tmen_eyu # mny|B;ትመነ፟ዩ
+temin_en_t # mny|B;ተሚነ፟ን፟ት
+## ps;prf,3sm,3smo,aff,rel
+zt_emen_eyo # mny|B;ዝተ፟መነ፟ዮ
+yetemeN_ew # mN*|B;የተመኘ፟ው
+letmen_eyu # mny|B;ለትመነ፟ዩ
+yetmin_en_ # mny|B;የትሚነ፟ን፟
+## ps;prf,3sm,3sfo,neg,main
+'aytemen_eyan # mny|B;ኣይተመነ፟ያን
+'altemeN_atm # mN*|B;አልተመኛ፟ትም
+'itmen_eye # mny|B;ኢትመነ፟የ
+'altmen_en_a # mny|B;አልትመነ፟ና፟
+## ps;prf,3sm,3sfo,neg,rel
+zeytemen_eya # mny|B;ዘይተመነ፟ያ
+yaltemeN_at # mN*|B;ያልተመኛ፟ት
+le'itmen_eye # mny|B;ለኢትመነ፟የ
+yaltmen_en_a # mny|B;ያልትመነ፟ና፟
+## ps;prf,3sm,3sfo,aff,main
+temen_eya # mny|B;ተመነ፟ያ
+temeN_at # mN*|B;ተመኛ፟ት
+tmen_eye # mny|B;ትመነ፟የ
+temin_en_at # mny|B;ተሚነ፟ና፟ት
+## ps;prf,3sm,3sfo,aff,rel
+zt_emen_eya # mny|B;ዝተ፟መነ፟ያ
+yetemeN_at # mN*|B;የተመኛ፟ት
+letmen_eye # mny|B;ለትመነ፟የ
+yetmin_en_a # mny|B;የትሚነ፟ና፟
+## ps;prf,2pf,3smo,neg,main
+'aytemen_eKn'on # mny|B;ኣይተመነ፟ኽንኦን
+'altemeN_ac_hutm # mN*|B;አልተመኛ፟ች፟ሁትም
+'itmen_Eknehu # mny|B;ኢትመኔ፟ክነኁ
+'altmen_ekman_ # mny|B;አልትመነ፟ክማን፟
+## ps;prf,2pf,3smo,neg,rel
+zeytemen_eKn'o # mny|B;ዘይተመነ፟ኽንኦ
+yaltemeN_ac_hut # mN*|B;ያልተመኛ፟ች፟ሁት
+le'itmen_Eknehu # mny|B;ለኢትመኔ፟ክነኁ
+yaltmen_ekman_ # mny|B;ያልትመነ፟ክማን፟
+## ps;prf,2pf,3smo,aff,main
+temen_eKn'o # mny|B;ተመነ፟ኽንኦ
+temeN_ac_hut # mN*|B;ተመኛ፟ች፟ሁት
+tmen_Eknehu # mny|B;ትመኔ፟ክነኁ
+temin_ekman_t # mny|B;ተሚነ፟ክማን፟ት
+## ps;prf,2pf,3smo,aff,rel
+zt_emen_eKn'o # mny|B;ዝተ፟መነ፟ኽንኦ
+yetemeN_ac_hut # mN*|B;የተመኛ፟ች፟ሁት
+letmen_Eknehu # mny|B;ለትመኔ፟ክነኁ
+yetmin_ekman_ # mny|B;የትሚነ፟ክማን፟
+## ps;prf,2pf,3sfo,neg,main
+'aytemen_eKn'an # mny|B;ኣይተመነ፟ኽንኣን
+'altemeN_ac_hWatm # mN*|B;አልተመኛ፟ች፟ኋትም
+'itmen_Eknehe # mny|B;ኢትመኔ፟ክነኀ
+'altmen_ekman_a # mny|B;አልትመነ፟ክማና፟
+## ps;prf,2pf,3sfo,neg,rel
+zeytemen_eKn'a # mny|B;ዘይተመነ፟ኽንኣ
+yaltemeN_ac_hWat # mN*|B;ያልተመኛ፟ች፟ኋት
+le'itmen_Eknehe # mny|B;ለኢትመኔ፟ክነኀ
+yaltmen_ekman_a # mny|B;ያልትመነ፟ክማና፟
+## ps;prf,2pf,3sfo,aff,main
+temen_eKn'a # mny|B;ተመነ፟ኽንኣ
+temeN_ac_hWat # mN*|B;ተመኛ፟ች፟ኋት
+tmen_Eknehe # mny|B;ትመኔ፟ክነኀ
+temin_ekman_at # mny|B;ተሚነ፟ክማና፟ት
+## ps;prf,2pf,3sfo,aff,rel
+zt_emen_eKn'a # mny|B;ዝተ፟መነ፟ኽንኣ
+yetemeN_ac_hWat # mN*|B;የተመኛ፟ች፟ኋት
+letmen_Eknehe # mny|B;ለትመኔ፟ክነኀ
+yetmin_ekman_a # mny|B;የትሚነ፟ክማና፟
+## ps;imf,1s,3smo,neg,main
+'aymn_eyon # mny|B;ኣይምነ፟ዮን
+'alm_eN_ewm # mN*|B;አልመ፟ኘ፟ውም
+'i'tmen_eyo # mny|B;ኢእትመነ፟ዮ
+tetmin_n_ # mny|B;ተትሚን፟ን፟
+## ps;imf,1s,3smo,neg,rel
+zeymn_eyo # mny|B;ዘይምነ፟ዮ
+yem_alm_eN_ew # mN*|B;የማ፟ልመ፟ኘ፟ው
+le'i'tmen_eyo # mny|B;ለኢእትመነ፟ዮ
+'an_tmin_n_ # mny|B;አን፟ትሚን፟ን፟
+## ps;imf,1s,3smo,aff,main
+'mn_eyo # mny|B;እምነ፟ዮ
+'m_eN_ewal_ehu # mN*|B;እመ፟ኘ፟ዋለ፟ሁ
+'tmen_eyo # mny|B;እትመነ፟ዮ
+'etmin_n_t # mny|B;ኧትሚን፟ን፟ት
+## ps;imf,1s,3smo,aff,rel
+zmn_eyo # mny|B;ዝምነ፟ዮ
+yem_m_eN_ew # mN*|B;የም፟መ፟ኘ፟ው
+le'tmen_eyo # mny|B;ለእትመነ፟ዮ
+'etmin_n_ # mny|B;ኧትሚን፟ን፟
+## ps;imf,1s,3sfo,neg,main
+'aymn_eyan # mny|B;ኣይምነ፟ያን
+'alm_eN_atm # mN*|B;አልመ፟ኛ፟ትም
+'i'tmen_eye # mny|B;ኢእትመነ፟የ
+tetmin_n_a # mny|B;ተትሚን፟ና፟
+## ps;imf,1s,3sfo,neg,rel
+zeymn_eya # mny|B;ዘይምነ፟ያ
+yem_alm_eN_at # mN*|B;የማ፟ልመ፟ኛ፟ት
+le'i'tmen_eye # mny|B;ለኢእትመነ፟የ
+'an_tmin_n_a # mny|B;አን፟ትሚን፟ና፟
+## ps;imf,1s,3sfo,aff,main
+'mn_eya # mny|B;እምነ፟ያ
+'m_eN_atal_ehu # mN*|B;እመ፟ኛ፟ታለ፟ሁ
+'tmen_eye # mny|B;እትመነ፟የ
+'etmin_n_at # mny|B;ኧትሚን፟ና፟ት
+## ps;imf,1s,3sfo,aff,rel
+zmn_eya # mny|B;ዝምነ፟ያ
+yem_m_eN_at # mN*|B;የም፟መ፟ኛ፟ት
+le'tmen_eye # mny|B;ለእትመነ፟የ
+'etmin_n_a # mny|B;ኧትሚን፟ና፟
+## ps;imf,3sm,3smo,neg,main
+'ay_mn_eyon # mny|B;ኣይ፟ምነ፟ዮን
+'aym_eN_ewm # mN*|B;አይመ፟ኘ፟ውም
+'iltmen_eyo # mny|B;ኢልትመነ፟ዮ
+titmin_n_ # mny|B;ቲትሚን፟ን፟
+## ps;imf,3sm,3smo,neg,rel
+zey_mn_eyo # mny|B;ዘይ፟ምነ፟ዮ
+yem_aym_eN_ew # mN*|B;የማ፟ይመ፟ኘ፟ው
+le'iltmen_eyo # mny|B;ለኢልትመነ፟ዮ
+'aytmin_n_ # mny|B;አይትሚን፟ን፟
+## ps;imf,3sm,3smo,aff,main
+ymn_eyo # mny|B;ይምነ፟ዮ
+ym_eN_ewal # mN*|B;ይመ፟ኘ፟ዋል
+ltmen_eyo # mny|B;ልትመነ፟ዮ
+ytmin_n_t # mny|B;ይትሚን፟ን፟ት
+## ps;imf,3sm,3smo,aff,rel
+zimn_eyo # mny|B;ዚምነ፟ዮ
+yem_im_eN_ew # mN*|B;የሚ፟መ፟ኘ፟ው
+leltmen_eyo # mny|B;ለልትመነ፟ዮ
+ytmin_n_ # mny|B;ይትሚን፟ን፟
+## ps;imf,3sm,3sfo,neg,main
+'ay_mn_eyan # mny|B;ኣይ፟ምነ፟ያን
+'aym_eN_atm # mN*|B;አይመ፟ኛ፟ትም
+'iltmen_eye # mny|B;ኢልትመነ፟የ
+titmin_n_a # mny|B;ቲትሚን፟ና፟
+## ps;imf,3sm,3sfo,neg,rel
+zey_mn_eya # mny|B;ዘይ፟ምነ፟ያ
+yem_aym_eN_at # mN*|B;የማ፟ይመ፟ኛ፟ት
+le'iltmen_eye # mny|B;ለኢልትመነ፟የ
+'aytmin_n_a # mny|B;አይትሚን፟ና፟
+## ps;imf,3sm,3sfo,aff,main
+ymn_eya # mny|B;ይምነ፟ያ
+ym_eN_atal # mN*|B;ይመ፟ኛ፟ታል
+ltmen_eye # mny|B;ልትመነ፟የ
+ytmin_n_at # mny|B;ይትሚን፟ና፟ት
+## ps;imf,3sm,3sfo,aff,rel
+zimn_eya # mny|B;ዚምነ፟ያ
+yem_im_eN_at # mN*|B;የሚ፟መ፟ኛ፟ት
+leltmen_eye # mny|B;ለልትመነ፟የ
+ytmin_n_a # mny|B;ይትሚን፟ና፟
+## ps;imf,2pf,3smo,neg,main
+'aytmn_e'on # mny|B;ኣይትምነ፟ኦን
+'at_m_eN_utm # mN*|B;አት፟መ፟ኙ፟ትም
+'ittmen_Ehu # mny|B;ኢትትመኔ፟ኁ
+tt_tmin_man_ # mny|B;ትት፟ትሚን፟ማን፟
+## ps;imf,2pf,3smo,neg,rel
+zeytmn_e'o # mny|B;ዘይትምነ፟ኦ
+yem_at_m_eN_ut # mN*|B;የማ፟ት፟መ፟ኙ፟ት
+le'ittmen_Ehu # mny|B;ለኢትትመኔ፟ኁ
+'at_tmin_man_ # mny|B;አት፟ትሚን፟ማን፟
+## ps;imf,2pf,3smo,aff,main
+tmn_e'o # mny|B;ትምነ፟ኦ
+tm_eN_utal_ac_hu # mN*|B;ትመ፟ኙ፟ታላ፟ች፟ሁ
+ttmen_Ehu # mny|B;ትትመኔ፟ኁ
+ttmin_man_t # mny|B;ትትሚን፟ማን፟ት
+## ps;imf,2pf,3smo,aff,rel
+zt_mn_e'o # mny|B;ዝት፟ምነ፟ኦ
+yem_t_m_eN_ut # mN*|B;የም፟ት፟መ፟ኙ፟ት
+lettmen_Ehu # mny|B;ለትትመኔ፟ኁ
+ttmin_man_ # mny|B;ትትሚን፟ማን፟
+## ps;imf,2pf,3sfo,neg,main
+'aytmn_e'an # mny|B;ኣይትምነ፟ኣን
+'at_m_eNW_atm # mN*|B;አት፟መ፟ኟ፟ትም
+'ittmen_Ehe # mny|B;ኢትትመኔ፟ኀ
+tt_tmin_man_a # mny|B;ትት፟ትሚን፟ማና፟
+## ps;imf,2pf,3sfo,neg,rel
+zeytmn_e'a # mny|B;ዘይትምነ፟ኣ
+yem_at_m_eNW_at # mN*|B;የማ፟ት፟መ፟ኟ፟ት
+le'ittmen_Ehe # mny|B;ለኢትትመኔ፟ኀ
+'at_tmin_man_a # mny|B;አት፟ትሚን፟ማና፟
+## ps;imf,2pf,3sfo,aff,main
+tmn_e'a # mny|B;ትምነ፟ኣ
+tm_eNW_atal_ac_hu # mN*|B;ትመ፟ኟ፟ታላ፟ች፟ሁ
+ttmen_Ehe # mny|B;ትትመኔ፟ኀ
+ttmin_man_at # mny|B;ትትሚን፟ማና፟ት
+## ps;imf,2pf,3sfo,aff,rel
+zt_mn_e'a # mny|B;ዝት፟ምነ፟ኣ
+yem_t_m_eNW_at # mN*|B;የም፟ት፟መ፟ኟ፟ት
+lettmen_Ehe # mny|B;ለትትመኔ፟ኀ
+ttmin_man_a # mny|B;ትትሚን፟ማና፟

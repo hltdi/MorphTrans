@@ -25,6 +25,7 @@ Author: Michael Gasser <gasser@indiana.edu>
 """
 
 from .word import *
+from .utils import *
 import os, re, numpy
 
 #from .align import *
@@ -46,17 +47,36 @@ class Data:
     # segmentation units for ES languages, used in segment()
     # ES[0] is a list of phones consisting of single characters
     # ES[1] is a dict for characters that may be combined (or not) to make phones
-    ES = [["a", "e", "E", "i", "I", "o", "u", "@", "A", "w", "y", "'", "`", ":"],
-          {"b": ["b", "bW"], "c": ["c", "cW"], "C": ["C", "CW"],
-           "d": ["d", "dW"], "f": ["f", "fW"], "g": ["g", "gW", "gY"],
-           "h": ["h", "hW", "hY"], "H": ["H", "HW", "HY"], "j": ["j", "jW"],
-           "k": ["k", "kW", "kY"], "K": ["K", "KW", "KY"], "l": ["l", "lW"],
-           "m": ["m", "mW"], "n": ["n", "nW"], "p": ["p", "pW"], "P": ["P", "PW"],
-           "N": ["N", "NW"], "q": ["q", "qW", "qY"], "Q": ["Q", "QW"],
-           "r": ["r", "rW"], "s": ["s", "sW"], "S": ["S", "SW"],
-           "t": ["t", "tW"], "T": ["T", "TW"], "v": ["v", "vW"],
-           "x": ["x", "xW"], "z": ["z", "zW"], "Z": ["Z", "ZW"],
-           "^": ["^s", "^S", "^h", "^hW", "^sW", "^SW"]}]
+    ES = [["a", "e", "E", "i", "I", "o", "u", "@", "A", "'", "`", ":", "_"],
+          {"b": ["b", "bW", "b_", "bW_"],
+           "c": ["c", "cW", "c_", "cW_"],
+           "C": ["C", "CW", "C_", "CW_"],
+           "d": ["d", "dW", "d_", "dW_"],
+           "f": ["f", "fW", "f_", "fW_"],
+           "g": ["g", "gW", "gY", "g_", "gW_"],
+           "h": ["h", "hW", "hY"], "H": ["H", "HW", "HY"],
+           "j": ["j", "jW", "j_", "jW_"],
+           "k": ["k", "kW", "kY", "k_", "kW_"],
+           "K": ["K", "KW", "KY"],
+           "l": ["l", "lW", "l_", "lW_"],
+           "m": ["m", "mW", "m_", "mW_"],
+           "n": ["n", "nW", "n_", "nW_"],
+           "p": ["p", "pW", "p_", "pW_"],
+           "P": ["P", "PW", "P_", "PW_"],
+           "N": ["N", "NW", "N_", "NW_"],
+           "q": ["q", "qW", "qY", "q_", "qW_"], "Q": ["Q", "QW"],
+           "r": ["r", "rW", "r_", "rW_"],
+           "s": ["s", "sW", "s_", "sW_"],
+           "S": ["S", "SW", "S_", "SW_"],
+           "t": ["t", "tW", "t_", "tW_"],
+           "T": ["T", "TW", "T_", "TW_"],
+           "w": ["w", "w_"], "y": ["y", "y_"],
+           "v": ["v", "vW", "v_"],
+           "x": ["x", "xW", "x_", "xW_"],
+           "z": ["z", "zW", "z_", "zW_"],
+           "Z": ["Z", "ZW", "Z_", "ZW_"],
+           "^": ["^s", "^S", "^s_", "^S_", "^h", "^hW",\
+                 "^sW", "^SW", "^sW_", "^SW_"]}]
 
     def __init__(self, filename, problem=None):
         self.tgroups, self.info = Data.read(filename, problem, segment=True)
@@ -103,11 +123,12 @@ class Data:
         each with its own index Dataset, returning these.
         """
         wordsets = []
+        dsid = get_file_id(datafiles[0])
         for datafile in datafiles:
             d = Data(datafile)
             wordsets.extend(d.get_words(languages))
         # base dataset
-        ds = Dataset(wordsets, languages, shuffle=shuffle,
+        ds = Dataset(wordsets, languages, shuffle=shuffle, id=dsid,
                      indices=False, test=test, validate=validate)
         return ds
 
@@ -178,7 +199,7 @@ class Data:
     @staticmethod
     def geezify(filename):
         """
-        Convert a filename with romanized words to one with geez.
+        Convert a file with romanized words to one with geez.
         filename is missing the .tr extension.
         """
         inpath = os.path.join(DATA_DIR, filename + ".tr")
@@ -206,6 +227,73 @@ class Data:
                         print("{} # {}".format(geez.strip(), cmt), file=outfile)
 #                    if segment:
 #                        tgd = [Data.segment(word, Data.ES) for word in tgd]
+
+    @staticmethod
+    def geminate(filename):
+        """
+        Convert a file with gemination indicated by ':' to one with
+        repeated consonants.
+        """
+        inpath = os.path.join(DATA_DIR, filename + ".tr")
+        outpath = os.path.join(DATA_DIR, filename + "G.tr")
+        with open(inpath, encoding='utf8') as infile:
+            with open(outpath, 'w', encoding='utf8') as outfile:
+                contents = infile.read().split(Data.tgroup_sep)
+                preamble = contents[0]
+                tgroups = contents[1:]
+
+                # Write preamble to outfile
+                print(preamble, file=outfile)
+
+                # Read and write data
+                for tgroup in tgroups:
+                    tgroup = tgroup.split('\n')
+                    # Each tgroup starts with a comment line
+                    print("## {}".format(tgroup[0].strip()), file=outfile)
+                    for tg in tgroup[1:]:
+                        if not tg:
+                            continue
+                        rom, cmt = tg.split('#')
+                        rom = Data.geminate_word(rom.strip())
+                        print("{} # {}".format(rom, cmt.strip()), file=outfile)
+
+    def geminate_dataset(filename):
+        """
+        Convert a dataset file with gemination indicated by ':' to one with
+        repeated consonants.
+        """
+        inpath = os.path.join(DATA_DIR, filename + ".tr")
+        outpath = os.path.join(DATA_DIR, filename + "G.tr")
+        with open(inpath, encoding='utf8') as infile:
+            with open(outpath, 'w', encoding='utf8') as outfile:
+                for line in infile:
+                    if '#' in line or '*' in line or '[' in line:
+                        print(line, file=outfile, end='')
+                    else:
+                        # a line with characters
+                        word = line.replace('\n', '')
+                        word = Data.geminate_word(word)
+                        print(word, file=outfile)
+
+    @staticmethod
+    def geminate_word(string):
+        """
+        Replace gemination character with consonant.
+        """
+        if ':' in string:
+            chars = []
+            last = ''
+            for char in string:
+                if char == ':':
+                    chars.append(last)
+                else:
+                    chars.append(char)
+                    if char in ["W", "Y"]:
+                        last += char
+                    elif char != ' ':
+                        last = char
+            return ''.join(chars)
+        return string
 
     @staticmethod
     def create_char_list():
@@ -274,20 +362,23 @@ class Dataset(list):
     test_frac = 0.1
     # proprtion of data to use for validation set
     validation_frac = 0.1
-    # constants for different datasets
+    # constants for different dataset categories
     TRAINING = 0
-    TEST = 2
     VALIDATION = 1
+    TEST = 2
+    IDs = ['t', 'v', '?']
 
-    def __init__(self, words, languages, cat=-1, shuffle=True,
+    def __init__(self, words, languages, cat=-1, id='',
+                 shuffle=True,
                  parent=None, chars=None, indices=False,
                  test=False, validate=False,
-                 constraints=None, searchers=None):
+                 constraints=None, searchers=None, alignments=None):
         list.__init__(self, words)
         # a list of language abbreviations, such as amG
         self.languages = languages
         # TRAINING, TEST, or VALIDATION
         self.cat = cat
+        self.id = id
         # shuffle dataset
         if shuffle:
             self.shuffle(True)
@@ -320,13 +411,23 @@ class Dataset(list):
         # these are the goal states of searchers after running
         self.alignments = alignments
 
+    ### Names
+
     def __repr__(self):
         tp = "c" if self.chars else "i"
-        lgs = "_".join(self.languages)
-        if self.cat >= 0:
-            return "{};{};{}".format(tp, self.cat, lgs)
+        lgs = "".join(self.languages)
+        catchar = Dataset.catchar(self.cat)
+        return "{};{};{};{}".format(self.id, tp, catchar, lgs)
+
+    @staticmethod
+    def catchar(catid):
+        """
+        A character representing the Dataset category.
+        """
+        if catid < 0:
+            return 'd'
         else:
-            return "{};{}".format(tp, lgs)
+            return Dataset.IDs[catid]
 
     def shuffle(self, reproduce=True):
         """
@@ -403,7 +504,7 @@ class Dataset(list):
         Create a new sub-dataset from this one with a particular
         category (TRAINING, TEST, VALIDATION).
         """
-        return Dataset(data, self.languages, cat=cat,
+        return Dataset(data, self.languages, cat=cat, id=self.id,
                        shuffle=False, chars=self.chars,
                        indices=False, parent=self)
 
@@ -485,7 +586,12 @@ class Dataset(list):
         return cons
 
     @staticmethod
-    def record_constraints(spos, tpos, cpos, verbosity=1):
+    def create_constraints(spos, tpos, cpos, verbosity=1):
+        """
+        Given source and target positions and constraint
+        positions, create the absolute and interval constraint
+        lists.
+        """
         abs_c = []
         int_c = []
         i_start = None
@@ -532,32 +638,34 @@ class Dataset(list):
         filename = filename or self.__repr__() + "A.tr"
         path = os.path.join(DATA_DIR, filename)
         constraints = []
-        with open(path, encoding='utf8') as file:
-            # skip the empty tgroup before the first ##
-            tgroups = file.read().split(Data.tgroup_sep)[1:]
-            for tgi, tgroup in enumerate(tgroups):
-                sword, tword = self[tgi]
-                if verbosity:
-                    print("{} ->{}".format(''.join(sword), ''.join(tword)))
-                words = tgroup.strip().split("\n")
-                # Assume there are three of these:
-                # source, target, constraints
-                s, t, c = words
-                # initialize constraint list
-                s_pos = Dataset.wstring2positions(s)
-                t_pos = Dataset.wstring2positions(t)
-                c_pos = Dataset.cstring2positions(c)
-                cons = Dataset.record_constraints(s_pos, t_pos, c_pos,
-                                                  verbosity=verbosity)
-                if not cons:
-                    print("CONSTRAINTS FAILED FOR {}->{}".format(sword, tword))
-                    abs_c = int_c = None
-                else:
-                    abs_c, int_c = cons
-                if verbosity:
-                    print(" abs constraints: {}".format(abs_c))
-                    print(" int constraints: {}".format(int_c))
-                constraints.append((abs_c, int_c))
-        self.constraints = constraints
-#                positions = Dataset.segs2positions(segs, constraint)
-#                print(" positions {}".format(positions))
+        print("Reading constraints for {} from {}".format(self, path))
+        try:
+            with open(path, encoding='utf8') as file:
+                # skip the empty tgroup before the first ##
+                tgroups = file.read().split(Data.tgroup_sep)[1:]
+                for tgi, tgroup in enumerate(tgroups):
+                    sword, tword = self[tgi]
+                    if verbosity:
+                        print("{} ->{}".format(''.join(sword), ''.join(tword)))
+                    words = tgroup.strip().split("\n")
+                    # Assume there are three of these:
+                    # source, target, constraints
+                    s, t, c = words
+                    # initialize constraint list
+                    s_pos = Dataset.wstring2positions(s)
+                    t_pos = Dataset.wstring2positions(t)
+                    c_pos = Dataset.cstring2positions(c)
+                    cons = Dataset.create_constraints(s_pos, t_pos, c_pos,
+                                                      verbosity=verbosity)
+                    if not cons:
+                        print("CONSTRAINTS FAILED FOR {}->{}".format(sword, tword))
+                        abs_c = int_c = None
+                    else:
+                        abs_c, int_c = cons
+                    if verbosity:
+                        print(" abs constraints: {}".format(abs_c))
+                        print(" int constraints: {}".format(int_c))
+                    constraints.append((abs_c, int_c))
+            self.constraints = constraints
+        except IOError:
+            print("No constraint file for {}".format(self))

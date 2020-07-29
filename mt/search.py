@@ -22,24 +22,16 @@ Author: Michael Gasser <gasser@indiana.edu>
    Created.
 """
 
-import queue
-
-# class State:
-#
-#     def __init__(self, obj=0, parent=None, cost=0):
-#         self.parent = parent
-#         self.cost = cost
-#         self.obj = obj
-#
-#     def __repr__(self):
-#         return "{}:{}".format(self.position, self.cost)
+#import queue
+import heapq
 
 class Searcher:
     """
     Simple unconstrained search using the queue module.
     """
 
-    cutoff = 100
+    cutoff = 750
+    qmax = 100
 
     def __init__(self, name='', goal_test=None,
                  extend=None, make_start=None):
@@ -56,7 +48,8 @@ class Searcher:
 
     def make_queue(self):
         """Create the queue."""
-        return queue.SimpleQueue()
+#        return queue.SimpleQueue()
+        return []
 
     def empty_queue(self):
         """Is the queue empty?"""
@@ -64,13 +57,30 @@ class Searcher:
 
     def add_state(self, state):
         """Add a new state to the queue."""
-        self.queue.put(state)
+        heapq.heappush(self.queue, state)
+#        self.queue.put(state)
+
+    def add_states(self, states):
+        """
+        Add new states (already sorted) to the queue.
+        """
+        for state in states:
+            self.add_state(state)
+
+    def truncate(self, qmax=0):
+        """
+        Shorten the queue to qmax
+        """
+        qmax = qmax or Searcher.qmax
+        if self.qsize() > qmax:
+            self.queue[qmax:] = []
 
     def qsize(self):
         """Number of states in the queue."""
-        return self.queue.qsize()
+#        return self.queue.qsize()
+        return len(self.queue)
 
-    def run(self, cutoff=0, verbosity=0):
+    def run(self, cutoff=0, truncate=True, verbosity=0):
         """
         Run search, stopping after cutoff iterations if no goal
         is found.
@@ -82,10 +92,14 @@ class Searcher:
         success = False
         while (not success and iter < cutoff and not self.empty_queue()):
             if verbosity:
-                print("Iteration {}".format(iter))
+                print("Iteration {}, q length {}".format(iter, self.qsize()))
             success = self.expand(verbosity=verbosity)
+            if truncate:
+                self.truncate()
             iter += 1
         # Final (goal) state
+        if not success:
+            print("{} failed!".format(self))
         return success
 
     def expand(self, verbosity=0):
@@ -97,7 +111,8 @@ class Searcher:
             if verbosity:
                 print("No more states")
             return False
-        next_state = self.queue.get()
+#        next_state = self.queue.get()
+        next_state = heapq.heappop(self.queue)
         if verbosity:
             print(" Next {}".format(next_state))
         if self.goal_test(next_state):
@@ -126,14 +141,16 @@ class BestFirst(Searcher):
 
     def make_queue(self):
         """Create a PriorityQueue."""
-        return queue.PriorityQueue()
+        return []
+#        return queue.PriorityQueue()
 
     def add_state(self, state):
         """
         Add a state to the queue, along with its
         value (cost+distance to goal); low values go to the front.
         """
-        self.queue.put((self.evaluate(state), state))
+#        self.queue.put((self.evaluate(state), state))
+        heapq.heappush(self.queue, (self.evaluate(state), state))
 
     def expand(self, verbosity=0):
         """
@@ -145,19 +162,17 @@ class BestFirst(Searcher):
             if verbosity:
                 print("No more states")
             return False
-        if verbosity:
-            print("Queue length {}".format(self.qsize()))
         # This line is different from Searcher
-        next_value, next_state = self.queue.get()
+#        next_value, next_state = self.queue.get()
+        next_value, next_state = heapq.heappop(self.queue)
         if verbosity:
-            print(" Next state\n{}\n VALUE {}".format(next_state, next_value))
+            print("{}\nVALUE {}".format(next_state, next_value))
         if self.goal_test(next_state):
             if verbosity:
                 print(" Goal state")
-            return next_value, next_state
+            return next_state, next_value
         new_states = self.extend(next_state)
         for ns in new_states:
-#            print(" Adding new state\n{}".format(ns))
             self.add_state(ns)
         return False
 
