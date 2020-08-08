@@ -30,7 +30,7 @@ class Searcher:
     Simple unconstrained search using the queue module.
     """
 
-    cutoff = 750
+    cutoff = 2000
     qmax = 100
 
     def __init__(self, name='', goal_test=None,

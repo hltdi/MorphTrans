@@ -1,0 +1,1227 @@
+comments = created 2020.8.5
+languages = ti_,am_
+
+## ps,rc;prf,1s,0o,neg,main
+'aydeloKun # dlw|A;ኣይደሎኹን
+'altezegaj_ehum # zgj*|F;አልተዘጋጀሁም
+## ps,rc;prf,1s,0o,neg,rel
+zeydeloKu # dlw|A;ዘይደሎኹ
+yaltezegaj_ehu # zgj*|F;ያልተዘጋጀሁ
+## ps,rc;prf,1s,0o,aff,main
+deloKu # dlw|A;ደሎኹ
+tezegaj_ehu # zgj*|F;ተዘጋጀሁ
+## ps,rc;prf,1s,0o,aff,rel
+zdeloKu # dlw|A;ዝደሎኹ
+yetezegaj_ehu # zgj*|F;የተዘጋጀሁ
+## ps,rc;prf,3sm,0o,neg,main
+'aydelewen # dlw|A;ኣይደለወን
+'altezegaj_em # zgj*|F;አልተዘጋጀም
+## ps,rc;prf,3sm,0o,neg,rel
+zeydelewe # dlw|A;ዘይደለወ
+yaltezegaj_e # zgj*|F;ያልተዘጋጀ
+## ps,rc;prf,3sm,0o,aff,main
+delewe # dlw|A;ደለወ
+tezegaj_e # zgj*|F;ተዘጋጀ
+## ps,rc;prf,3sm,0o,aff,rel
+zdelewe # dlw|A;ዝደለወ
+yetezegaj_e # zgj*|F;የተዘጋጀ
+## ps,rc;prf,2pf,0o,neg,main
+'aydeloKnn # dlw|A;ኣይደሎኽንን
+'altezegaj_ac_hum # zgj*|F;አልተዘጋጃችሁም
+## ps,rc;prf,2pf,0o,neg,rel
+zeydeloKn # dlw|A;ዘይደሎኽን
+yaltezegaj_ac_hu # zgj*|F;ያልተዘጋጃችሁ
+## ps,rc;prf,2pf,0o,aff,main
+deloKn # dlw|A;ደሎኽን
+tezegaj_ac_hu # zgj*|F;ተዘጋጃችሁ
+## ps,rc;prf,2pf,0o,aff,rel
+zdeloKn # dlw|A;ዝደሎኽን
+yetezegaj_ac_hu # zgj*|F;የተዘጋጃችሁ
+## ps,rc;imf,1s,0o,neg,main
+'aydel_wn # dlw|A;ኣይደልውን
+'alz_egaj_m # zgj*|F;አልዘጋጅም
+## ps,rc;imf,1s,0o,neg,rel
+zeydel_u # dlw|A;ዘይደሉ
+yem_alz_egaj_ # zgj*|F;የማልዘጋጅ
+## ps,rc;imf,1s,0o,aff,main
+'del_u # dlw|A;እደሉ
+'z_egaj_al_ehu # zgj*|F;እዘጋጃለሁ
+## ps,rc;imf,1s,0o,aff,rel
+zdel_u # dlw|A;ዝደሉ
+yem_z_egaj_ # zgj*|F;የምዘጋጅ
+## ps,rc;imf,3sm,0o,neg,main
+'ay_del_wn # dlw|A;ኣይደልውን
+'ayz_egaj_m # zgj*|F;አይዘጋጅም
+## ps,rc;imf,3sm,0o,neg,rel
+zey_del_u # dlw|A;ዘይደሉ
+yem_ayz_egaj_ # zgj*|F;የማይዘጋጅ
+## ps,rc;imf,3sm,0o,aff,main
+ydel_u # dlw|A;ይደሉ
+yz_egaj_al # zgj*|F;ይዘጋጃል
+## ps,rc;imf,3sm,0o,aff,rel
+zidel_u # dlw|A;ዚደሉ
+yem_iz_egaj_ # zgj*|F;የሚዘጋጅ
+## ps,rc;imf,2pf,0o,neg,main
+'aytdelwan # dlw|A;ኣይትደልዋን
+'at_z_egaj_um # zgj*|F;አትዘጋጁም
+## ps,rc;imf,2pf,0o,neg,rel
+zeytdelwa # dlw|A;ዘይትደልዋ
+yem_at_z_egaj_u # zgj*|F;የማትዘጋጁ
+## ps,rc;imf,2pf,0o,aff,main
+tdelwa # dlw|A;ትደልዋ
+tz_egaj_al_ac_hu # zgj*|F;ትዘጋጃላችሁ
+## ps,rc;imf,2pf,0o,aff,rel
+zt_delwa # dlw|A;ዝትደልዋ
+yem_t_z_egaj_u # zgj*|F;የምትዘጋጁ
+## ;prf,1s,0o,neg,main
+'aybeSaHkun # bSH|A;ኣይበጻሕኩን
+'alder_eskum # drs|A;አልደረስኩም
+## ;prf,1s,0o,neg,rel
+zeybeSaHku # bSH|A;ዘይበጻሕኩ
+yalder_esku # drs|A;ያልደረስኩ
+## ;prf,1s,0o,aff,main
+beSaHku # bSH|A;በጻሕኩ
+der_esku # drs|A;ደረስኩ
+## ;prf,1s,0o,aff,rel
+zbeSaHku # bSH|A;ዝበጻሕኩ
+yeder_esku # drs|A;የደረስኩ
+## ;prf,3sm,0o,neg,main
+'aybeSH@n # bSH|A;ኣይበጽሐን
+'alder_esem # drs|A;አልደረሰም
+## ;prf,3sm,0o,neg,rel
+zeybeSH@ # bSH|A;ዘይበጽሐ
+yalder_ese # drs|A;ያልደረሰ
+## ;prf,3sm,0o,aff,main
+beSH@ # bSH|A;በጽሐ
+der_ese # drs|A;ደረሰ
+## ;prf,3sm,0o,aff,rel
+zbeSH@ # bSH|A;ዝበጽሐ
+yeder_ese # drs|A;የደረሰ
+## ;prf,2pf,0o,neg,main
+'aybeSaHknn # bSH|A;ኣይበጻሕክንን
+'alder_esac_hum # drs|A;አልደረሳችሁም
+## ;prf,2pf,0o,neg,rel
+zeybeSaHkn # bSH|A;ዘይበጻሕክን
+yalder_esac_hu # drs|A;ያልደረሳችሁ
+## ;prf,2pf,0o,aff,main
+beSaHkn # bSH|A;በጻሕክን
+der_esac_hu # drs|A;ደረሳችሁ
+## ;prf,2pf,0o,aff,rel
+zbeSaHkn # bSH|A;ዝበጻሕክን
+yeder_esac_hu # drs|A;የደረሳችሁ
+## ;imf,1s,0o,neg,main
+'aybeS_Hn # bSH|A;ኣይበጽሕን
+'aldersm # drs|A;አልደርስም
+## ;imf,1s,0o,neg,rel
+zeybeS_H # bSH|A;ዘይበጽሕ
+yem_alders # drs|A;የማልደርስ
+## ;imf,1s,0o,aff,main
+'beS_H # bSH|A;እበጽሕ
+'dersal_ehu # drs|A;እደርሳለሁ
+## ;imf,1s,0o,aff,rel
+zbeS_H # bSH|A;ዝበጽሕ
+yem_ders # drs|A;የምደርስ
+## ;imf,3sm,0o,neg,main
+'ay_beS_Hn # bSH|A;ኣይበጽሕን
+'aydersm # drs|A;አይደርስም
+## ;imf,3sm,0o,neg,rel
+zey_beS_H # bSH|A;ዘይበጽሕ
+yem_ayders # drs|A;የማይደርስ
+## ;imf,3sm,0o,aff,main
+ybeS_H # bSH|A;ይበጽሕ
+ydersal # drs|A;ይደርሳል
+## ;imf,3sm,0o,aff,rel
+zibeS_H # bSH|A;ዚበጽሕ
+yem_iders # drs|A;የሚደርስ
+## ;imf,2pf,0o,neg,main
+'aytbeSHan # bSH|A;ኣይትበጽሓን
+'at_dersum # drs|A;አትደርሱም
+## ;imf,2pf,0o,neg,rel
+zeytbeSHa # bSH|A;ዘይትበጽሓ
+yem_at_dersu # drs|A;የማትደርሱ
+## ;imf,2pf,0o,aff,main
+tbeSHa # bSH|A;ትበጽሓ
+tdersal_ac_hu # drs|A;ትደርሳላችሁ
+## ;imf,2pf,0o,aff,rel
+zt_beSHa # bSH|A;ዝትበጽሓ
+yem_t_dersu # drs|A;የምትደርሱ
+## ;prf,1s,0o,neg,main
+'aydengWeKun # dngWy|E;ኣይደንጐኹን
+'alzegey_ehum # zgy*|E;አልዘገየሁም
+## ;prf,1s,0o,neg,rel
+zeydengWeKu # dngWy|E;ዘይደንጐኹ
+yalzegey_ehu # zgy*|E;ያልዘገየሁ
+## ;prf,1s,0o,aff,main
+dengWeKu # dngWy|E;ደንጐኹ
+zegey_ehu # zgy*|E;ዘገየሁ
+## ;prf,1s,0o,aff,rel
+zdengWeKu # dngWy|E;ዝደንጐኹ
+yezegey_ehu # zgy*|E;የዘገየሁ
+## ;prf,3sm,0o,neg,main
+'aydengWeyen # dngWy|E;ኣይደንጐየን
+'alzegey_em # zgy*|E;አልዘገየም
+## ;prf,3sm,0o,neg,rel
+zeydengWeye # dngWy|E;ዘይደንጐየ
+yalzegey_e # zgy*|E;ያልዘገየ
+## ;prf,3sm,0o,aff,main
+dengWeye # dngWy|E;ደንጐየ
+zegey_e # zgy*|E;ዘገየ
+## ;prf,3sm,0o,aff,rel
+zdengWeye # dngWy|E;ዝደንጐየ
+yezegey_e # zgy*|E;የዘገየ
+## ;prf,2pf,0o,neg,main
+'aydengWeKnn # dngWy|E;ኣይደንጐኽንን
+'alzegey_ac_hum # zgy*|E;አልዘገያችሁም
+## ;prf,2pf,0o,neg,rel
+zeydengWeKn # dngWy|E;ዘይደንጐኽን
+yalzegey_ac_hu # zgy*|E;ያልዘገያችሁ
+## ;prf,2pf,0o,aff,main
+dengWeKn # dngWy|E;ደንጐኽን
+zegey_ac_hu # zgy*|E;ዘገያችሁ
+## ;prf,2pf,0o,aff,rel
+zdengWeKn # dngWy|E;ዝደንጐኽን
+yezegey_ac_hu # zgy*|E;የዘገያችሁ
+## ;imf,1s,0o,neg,main
+'aydngWin # dngWy|E;ኣይድንጒን
+'alzegey_m # zgy*|E;አልዘገይም
+## ;imf,1s,0o,neg,rel
+zeydngWi # dngWy|E;ዘይድንጒ
+yem_alzegey_ # zgy*|E;የማልዘገይ
+## ;imf,1s,0o,aff,main
+'dngWi # dngWy|E;እድንጒ
+'zegey_al_ehu # zgy*|E;እዘገያለሁ
+## ;imf,1s,0o,aff,rel
+zdngWi # dngWy|E;ዝድንጒ
+yem_zegey_ # zgy*|E;የምዘገይ
+## ;imf,3sm,0o,neg,main
+'ay_dngWin # dngWy|E;ኣይድንጒን
+'ayzegey_m # zgy*|E;አይዘገይም
+## ;imf,3sm,0o,neg,rel
+zey_dngWi # dngWy|E;ዘይድንጒ
+yem_ayzegey_ # zgy*|E;የማይዘገይ
+## ;imf,3sm,0o,aff,main
+ydngWi # dngWy|E;ይድንጒ
+yzegey_al # zgy*|E;ይዘገያል
+## ;imf,3sm,0o,aff,rel
+zidngWi # dngWy|E;ዚድንጒ
+yem_izegey_ # zgy*|E;የሚዘገይ
+## ;imf,2pf,0o,neg,main
+'aytdngWyan # dngWy|E;ኣይትድንጕያን
+'at_zegey_um # zgy*|E;አትዘገዩም
+## ;imf,2pf,0o,neg,rel
+zeytdngWya # dngWy|E;ዘይትድንጕያ
+yem_at_zegey_u # zgy*|E;የማትዘገዩ
+## ;imf,2pf,0o,aff,main
+tdngWya # dngWy|E;ትድንጕያ
+tzegey_al_ac_hu # zgy*|E;ትዘገያላችሁ
+## ;imf,2pf,0o,aff,rel
+zt_dngWya # dngWy|E;ዝትድንጕያ
+yem_t_zegey_u # zgy*|E;የምትዘገዩ
+## ps;prf,1s,0o,neg,main
+'ayteHegW_eskun # HgWs|B;ኣይተሐጐስኩን
+'altedes_etkum # dst|B;አልተደሰትኩም
+## ps;prf,1s,0o,neg,rel
+zeyteHegW_esku # HgWs|B;ዘይተሐጐስኩ
+yaltedes_etku # dst|B;ያልተደሰትኩ
+## ps;prf,1s,0o,aff,main
+teHegW_esku # HgWs|B;ተሐጐስኩ
+tedes_etku # dst|B;ተደሰትኩ
+## ps;prf,1s,0o,aff,rel
+zt_eHegW_esku # HgWs|B;ዝተሐጐስኩ
+yetedes_etku # dst|B;የተደሰትኩ
+## ps;prf,3sm,0o,neg,main
+'ayteHegW_esen # HgWs|B;ኣይተሐጐሰን
+'altedes_etem # dst|B;አልተደሰተም
+## ps;prf,3sm,0o,neg,rel
+zeyteHegW_ese # HgWs|B;ዘይተሐጐሰ
+yaltedes_ete # dst|B;ያልተደሰተ
+## ps;prf,3sm,0o,aff,main
+teHegW_ese # HgWs|B;ተሐጐሰ
+tedes_ete # dst|B;ተደሰተ
+## ps;prf,3sm,0o,aff,rel
+zt_eHegW_ese # HgWs|B;ዝተሐጐሰ
+yetedes_ete # dst|B;የተደሰተ
+## ps;prf,2pf,0o,neg,main
+'ayteHegW_esknn # HgWs|B;ኣይተሐጐስክንን
+'altedes_etac_hum # dst|B;አልተደሰታችሁም
+## ps;prf,2pf,0o,neg,rel
+zeyteHegW_eskn # HgWs|B;ዘይተሐጐስክን
+yaltedes_etac_hu # dst|B;ያልተደሰታችሁ
+## ps;prf,2pf,0o,aff,main
+teHegW_eskn # HgWs|B;ተሐጐስክን
+tedes_etac_hu # dst|B;ተደሰታችሁ
+## ps;prf,2pf,0o,aff,rel
+zt_eHegW_eskn # HgWs|B;ዝተሐጐስክን
+yetedes_etac_hu # dst|B;የተደሰታችሁ
+## ps;imf,1s,0o,neg,main
+'ayHgW_esn # HgWs|B;ኣይሕጐስን
+'ald_es_etm # dst|B;አልደሰትም
+## ps;imf,1s,0o,neg,rel
+zeyHgW_es # HgWs|B;ዘይሕጐስ
+yem_ald_es_et # dst|B;የማልደሰት
+## ps;imf,1s,0o,aff,main
+'HgW_es # HgWs|B;እሕጐስ
+'d_es_etal_ehu # dst|B;እደሰታለሁ
+## ps;imf,1s,0o,aff,rel
+zHgW_es # HgWs|B;ዝሕጐስ
+yem_d_es_et # dst|B;የምደሰት
+## ps;imf,3sm,0o,neg,main
+'ay_HgW_esn # HgWs|B;ኣይሕጐስን
+'ayd_es_etm # dst|B;አይደሰትም
+## ps;imf,3sm,0o,neg,rel
+zey_HgW_es # HgWs|B;ዘይሕጐስ
+yem_ayd_es_et # dst|B;የማይደሰት
+## ps;imf,3sm,0o,aff,main
+yHgW_es # HgWs|B;ይሕጐስ
+yd_es_etal # dst|B;ይደሰታል
+## ps;imf,3sm,0o,aff,rel
+ziHgW_es # HgWs|B;ዚሕጐስ
+yem_id_es_et # dst|B;የሚደሰት
+## ps;imf,2pf,0o,neg,main
+'aytHgW_esan # HgWs|B;ኣይትሕጐሳን
+'at_d_es_etum # dst|B;አትደሰቱም
+## ps;imf,2pf,0o,neg,rel
+zeytHgW_esa # HgWs|B;ዘይትሕጐሳ
+yem_at_d_es_etu # dst|B;የማትደሰቱ
+## ps;imf,2pf,0o,aff,main
+tHgW_esa # HgWs|B;ትሕጐሳ
+td_es_etal_ac_hu # dst|B;ትደሰታላችሁ
+## ps;imf,2pf,0o,aff,rel
+zt_HgW_esa # HgWs|B;ዝትሕጐሳ
+yem_t_d_es_etu # dst|B;የምትደሰቱ
+## ;prf,1s,0o,neg,main
+'aybeKeKun # bky|A;ኣይበኸኹን
+'alaleq_eskum # lqs|A;አላለቀስኩም
+## ;prf,1s,0o,neg,rel
+zeybeKeKu # bky|A;ዘይበኸኹ
+yalaleq_esku # lqs|A;ያላለቀስኩ
+## ;prf,1s,0o,aff,main
+beKeKu # bky|A;በኸኹ
+'aleq_esku # lqs|A;አለቀስኩ
+## ;prf,1s,0o,aff,rel
+zbeKeKu # bky|A;ዝበኸኹ
+yaleq_esku # lqs|A;ያለቀስኩ
+## ;prf,3sm,0o,neg,main
+'aybeKeyen # bky|A;ኣይበኸየን
+'alaleq_esem # lqs|A;አላለቀሰም
+## ;prf,3sm,0o,neg,rel
+zeybeKeye # bky|A;ዘይበኸየ
+yalaleq_ese # lqs|A;ያላለቀሰ
+## ;prf,3sm,0o,aff,main
+beKeye # bky|A;በኸየ
+'aleq_ese # lqs|A;አለቀሰ
+## ;prf,3sm,0o,aff,rel
+zbeKeye # bky|A;ዝበኸየ
+yaleq_ese # lqs|A;ያለቀሰ
+## ;prf,2pf,0o,neg,main
+'aybeKeKnn # bky|A;ኣይበኸኽንን
+'alaleq_esac_hum # lqs|A;አላለቀሳችሁም
+## ;prf,2pf,0o,neg,rel
+zeybeKeKn # bky|A;ዘይበኸኽን
+yalaleq_esac_hu # lqs|A;ያላለቀሳችሁ
+## ;prf,2pf,0o,aff,main
+beKeKn # bky|A;በኸኽን
+'aleq_esac_hu # lqs|A;አለቀሳችሁ
+## ;prf,2pf,0o,aff,rel
+zbeKeKn # bky|A;ዝበኸኽን
+yaleq_esac_hu # lqs|A;ያለቀሳችሁ
+## ;imf,1s,0o,neg,main
+'aybek_in # bky|A;ኣይበኪን
+'alaleqsm # lqs|A;አላለቅስም
+## ;imf,1s,0o,neg,rel
+zeybek_i # bky|A;ዘይበኪ
+yem_alaleqs # lqs|A;የማላለቅስ
+## ;imf,1s,0o,aff,main
+'bek_i # bky|A;እበኪ
+'aleqsal_ehu # lqs|A;አለቅሳለሁ
+## ;imf,1s,0o,aff,rel
+zbek_i # bky|A;ዝበኪ
+yem_aleqs # lqs|A;የማለቅስ
+## ;imf,3sm,0o,neg,main
+'ay_bek_in # bky|A;ኣይበኪን
+'ayaleqsm # lqs|A;አያለቅስም
+## ;imf,3sm,0o,neg,rel
+zey_bek_i # bky|A;ዘይበኪ
+yem_ayaleqs # lqs|A;የማያለቅስ
+## ;imf,3sm,0o,aff,main
+ybek_i # bky|A;ይበኪ
+yaleqsal # lqs|A;ያለቅሳል
+## ;imf,3sm,0o,aff,rel
+zibek_i # bky|A;ዚበኪ
+yem_iyaleqs # lqs|A;የሚያለቅስ
+## ;imf,2pf,0o,neg,main
+'aytbeKyan # bky|A;ኣይትበኽያን
+'at_aleqsum # lqs|A;አታለቅሱም
+## ;imf,2pf,0o,neg,rel
+zeytbeKya # bky|A;ዘይትበኽያ
+yem_at_aleqsu # lqs|A;የማታለቅሱ
+## ;imf,2pf,0o,aff,main
+tbeKya # bky|A;ትበኽያ
+taleqsal_ac_hu # lqs|A;ታለቅሳላችሁ
+## ;imf,2pf,0o,aff,rel
+zt_beKya # bky|A;ዝትበኽያ
+yem_t_aleqsu # lqs|A;የምታለቅሱ
+## ;prf,1s,0o,neg,main
+'aysa`sa`kun # s`s`|E;ኣይሳዕሳዕኩን
+'alCef_erkum # Cfr|B;አልጨፈርኩም
+## ;prf,1s,0o,neg,rel
+zeysa`sa`ku # s`s`|E;ዘይሳዕሳዕኩ
+yalCef_erku # Cfr|B;ያልጨፈርኩ
+## ;prf,1s,0o,aff,main
+sa`sa`ku # s`s`|E;ሳዕሳዕኩ
+Cef_erku # Cfr|B;ጨፈርኩ
+## ;prf,1s,0o,aff,rel
+zsa`sa`ku # s`s`|E;ዝሳዕሳዕኩ
+yeCef_erku # Cfr|B;የጨፈርኩ
+## ;prf,3sm,0o,neg,main
+'aysa`s`@n # s`s`|E;ኣይሳዕስዐን
+'alCef_erem # Cfr|B;አልጨፈረም
+## ;prf,3sm,0o,neg,rel
+zeysa`s`@ # s`s`|E;ዘይሳዕስዐ
+yalCef_ere # Cfr|B;ያልጨፈረ
+## ;prf,3sm,0o,aff,main
+sa`s`@ # s`s`|E;ሳዕስዐ
+Cef_ere # Cfr|B;ጨፈረ
+## ;prf,3sm,0o,aff,rel
+zsa`s`@ # s`s`|E;ዝሳዕስዐ
+yeCef_ere # Cfr|B;የጨፈረ
+## ;prf,2pf,0o,neg,main
+'aysa`sa`knn # s`s`|E;ኣይሳዕሳዕክንን
+'alCef_erac_hum # Cfr|B;አልጨፈራችሁም
+## ;prf,2pf,0o,neg,rel
+zeysa`sa`kn # s`s`|E;ዘይሳዕሳዕክን
+yalCef_erac_hu # Cfr|B;ያልጨፈራችሁ
+## ;prf,2pf,0o,aff,main
+sa`sa`kn # s`s`|E;ሳዕሳዕክን
+Cef_erac_hu # Cfr|B;ጨፈራችሁ
+## ;prf,2pf,0o,aff,rel
+zsa`sa`kn # s`s`|E;ዝሳዕሳዕክን
+yeCef_erac_hu # Cfr|B;የጨፈራችሁ
+## ;imf,1s,0o,neg,main
+'ays`s`n # s`s`|E;ኣይስዕስዕን
+'alCef_rm # Cfr|B;አልጨፍርም
+## ;imf,1s,0o,neg,rel
+zeys`s` # s`s`|E;ዘይስዕስዕ
+yem_alCef_r # Cfr|B;የማልጨፍር
+## ;imf,1s,0o,aff,main
+'s`s` # s`s`|E;እስዕስዕ
+'Cef_ral_ehu # Cfr|B;እጨፍራለሁ
+## ;imf,1s,0o,aff,rel
+zs`s` # s`s`|E;ዝስዕስዕ
+yem_Cef_r # Cfr|B;የምጨፍር
+## ;imf,3sm,0o,neg,main
+'ay_s`s`n # s`s`|E;ኣይስዕስዕን
+'ayCef_rm # Cfr|B;አይጨፍርም
+## ;imf,3sm,0o,neg,rel
+zey_s`s` # s`s`|E;ዘይስዕስዕ
+yem_ayCef_r # Cfr|B;የማይጨፍር
+## ;imf,3sm,0o,aff,main
+ys`s` # s`s`|E;ይስዕስዕ
+yCef_ral # Cfr|B;ይጨፍራል
+## ;imf,3sm,0o,aff,rel
+zis`s` # s`s`|E;ዚስዕስዕ
+yem_iCef_r # Cfr|B;የሚጨፍር
+## ;imf,2pf,0o,neg,main
+'ayts`s`an # s`s`|E;ኣይትስዕስዓን
+'at_Cef_rum # Cfr|B;አትጨፍሩም
+## ;imf,2pf,0o,neg,rel
+zeyts`s`a # s`s`|E;ዘይትስዕስዓ
+yem_at_Cef_ru # Cfr|B;የማትጨፍሩ
+## ;imf,2pf,0o,aff,main
+ts`s`a # s`s`|E;ትስዕስዓ
+tCef_ral_ac_hu # Cfr|B;ትጨፍራላችሁ
+## ;imf,2pf,0o,aff,rel
+zt_s`s`a # s`s`|E;ዝትስዕስዓ
+yem_t_Cef_ru # Cfr|B;የምትጨፍሩ
+## ;prf,1s,0o,neg,main
+'ay'etoKun # 'tw|A;ኣይአቶኹን
+'algeb_ahum # gb'|A;አልገባሁም
+## ;prf,1s,0o,neg,rel
+zey'etoKu # 'tw|A;ዘይአቶኹ
+yalgeb_ahu # gb'|A;ያልገባሁ
+## ;prf,1s,0o,aff,main
+'atoKu # 'tw|A;ኣቶኹ
+geb_ahu # gb'|A;ገባሁ
+## ;prf,1s,0o,aff,rel
+z'etoKu # 'tw|A;ዝአቶኹ
+yegeb_ahu # gb'|A;የገባሁ
+## ;prf,3sm,0o,neg,main
+'ay'etewen # 'tw|A;ኣይአተወን
+'algeb_am # gb'|A;አልገባም
+## ;prf,3sm,0o,neg,rel
+zey'etewe # 'tw|A;ዘይአተወ
+yalgeb_a # gb'|A;ያልገባ
+## ;prf,3sm,0o,aff,main
+'atewe # 'tw|A;ኣተወ
+geb_a # gb'|A;ገባ
+## ;prf,3sm,0o,aff,rel
+z'etewe # 'tw|A;ዝአተወ
+yegeb_a # gb'|A;የገባ
+## ;prf,2pf,0o,neg,main
+'ay'etoKnn # 'tw|A;ኣይአቶኽንን
+'algeb_ac_hum # gb'|A;አልገባችሁም
+## ;prf,2pf,0o,neg,rel
+zey'etoKn # 'tw|A;ዘይአቶኽን
+yalgeb_ac_hu # gb'|A;ያልገባችሁ
+## ;prf,2pf,0o,aff,main
+'atoKn # 'tw|A;ኣቶኽን
+geb_ac_hu # gb'|A;ገባችሁ
+## ;prf,2pf,0o,aff,rel
+z'etoKn # 'tw|A;ዝአቶኽን
+yegeb_ac_hu # gb'|A;የገባችሁ
+## ;imf,1s,0o,neg,main
+'ay'et_wn # 'tw|A;ኣይአትውን
+'algebam # gb'|A;አልገባም
+## ;imf,1s,0o,neg,rel
+zey'et_u # 'tw|A;ዘይአቱ
+yem_algeba # gb'|A;የማልገባ
+## ;imf,1s,0o,aff,main
+''et_u # 'tw|A;እአቱ
+'gebal_ehu # gb'|A;እገባለሁ
+## ;imf,1s,0o,aff,rel
+z'et_u # 'tw|A;ዝአቱ
+yem_geba # gb'|A;የምገባ
+## ;imf,3sm,0o,neg,main
+'ay_'et_wn # 'tw|A;ኣይአትውን
+'aygebam # gb'|A;አይገባም
+## ;imf,3sm,0o,neg,rel
+zey_'et_u # 'tw|A;ዘይአቱ
+yem_aygeba # gb'|A;የማይገባ
+## ;imf,3sm,0o,aff,main
+y'et_u # 'tw|A;ይአቱ
+ygebal # gb'|A;ይገባል
+## ;imf,3sm,0o,aff,rel
+zi'et_u # 'tw|A;ዚአቱ
+yem_igeba # gb'|A;የሚገባ
+## ;imf,2pf,0o,neg,main
+'ayt'etwan # 'tw|A;ኣይትአትዋን
+'at_gebum # gb'|A;አትገቡም
+## ;imf,2pf,0o,neg,rel
+zeyt'etwa # 'tw|A;ዘይትአትዋ
+yem_at_gebu # gb'|A;የማትገቡ
+## ;imf,2pf,0o,aff,main
+t'etwa # 'tw|A;ትአትዋ
+tgebal_ac_hu # gb'|A;ትገባላችሁ
+## ;imf,2pf,0o,aff,rel
+zt_'etwa # 'tw|A;ዝትአትዋ
+yem_t_gebu # gb'|A;የምትገቡ
+## ;prf,1s,0o,neg,main
+'ayfexelkun # fxl|A;ኣይፈሸልኩን
+'altesankum # s'n|A;አልተሳንኩም
+## ;prf,1s,0o,neg,rel
+zeyfexelku # fxl|A;ዘይፈሸልኩ
+yaltesanku # s'n|A;ያልተሳንኩ
+## ;prf,1s,0o,aff,main
+fexelku # fxl|A;ፈሸልኩ
+tesanku # s'n|A;ተሳንኩ
+## ;prf,1s,0o,aff,rel
+zfexelku # fxl|A;ዝፈሸልኩ
+yetesanku # s'n|A;የተሳንኩ
+## ;prf,3sm,0o,neg,main
+'ayfexelen # fxl|A;ኣይፈሸለን
+'altesanem # s'n|A;አልተሳነም
+## ;prf,3sm,0o,neg,rel
+zeyfexele # fxl|A;ዘይፈሸለ
+yaltesane # s'n|A;ያልተሳነ
+## ;prf,3sm,0o,aff,main
+fexele # fxl|A;ፈሸለ
+tesane # s'n|A;ተሳነ
+## ;prf,3sm,0o,aff,rel
+zfexele # fxl|A;ዝፈሸለ
+yetesane # s'n|A;የተሳነ
+## ;prf,2pf,0o,neg,main
+'ayfexelknn # fxl|A;ኣይፈሸልክንን
+'altesanac_hum # s'n|A;አልተሳናችሁም
+## ;prf,2pf,0o,neg,rel
+zeyfexelkn # fxl|A;ዘይፈሸልክን
+yaltesanac_hu # s'n|A;ያልተሳናችሁ
+## ;prf,2pf,0o,aff,main
+fexelkn # fxl|A;ፈሸልክን
+tesanac_hu # s'n|A;ተሳናችሁ
+## ;prf,2pf,0o,aff,rel
+zfexelkn # fxl|A;ዝፈሸልክን
+yetesanac_hu # s'n|A;የተሳናችሁ
+## ;imf,1s,0o,neg,main
+'ayfex_ln # fxl|A;ኣይፈሽልን
+'als_anm # s'n|A;አልሳንም
+## ;imf,1s,0o,neg,rel
+zeyfex_l # fxl|A;ዘይፈሽል
+yem_als_an # s'n|A;የማልሳን
+## ;imf,1s,0o,aff,main
+'fex_l # fxl|A;እፈሽል
+'s_anal_ehu # s'n|A;እሳናለሁ
+## ;imf,1s,0o,aff,rel
+zfex_l # fxl|A;ዝፈሽል
+yem_s_an # s'n|A;የምሳን
+## ;imf,3sm,0o,neg,main
+'ay_fex_ln # fxl|A;ኣይፈሽልን
+'ays_anm # s'n|A;አይሳንም
+## ;imf,3sm,0o,neg,rel
+zey_fex_l # fxl|A;ዘይፈሽል
+yem_ays_an # s'n|A;የማይሳን
+## ;imf,3sm,0o,aff,main
+yfex_l # fxl|A;ይፈሽል
+ys_anal # s'n|A;ይሳናል
+## ;imf,3sm,0o,aff,rel
+zifex_l # fxl|A;ዚፈሽል
+yem_is_an # s'n|A;የሚሳን
+## ;imf,2pf,0o,neg,main
+'aytfexlan # fxl|A;ኣይትፈሽላን
+'at_s_anum # s'n|A;አትሳኑም
+## ;imf,2pf,0o,neg,rel
+zeytfexla # fxl|A;ዘይትፈሽላ
+yem_at_s_anu # s'n|A;የማትሳኑ
+## ;imf,2pf,0o,aff,main
+tfexla # fxl|A;ትፈሽላ
+ts_anal_ac_hu # s'n|A;ትሳናላችሁ
+## ;imf,2pf,0o,aff,rel
+zt_fexla # fxl|A;ዝትፈሽላ
+yem_t_s_anu # s'n|A;የምትሳኑ
+## ;prf,1s,0o,neg,main
+'aydeq_eskun # dqs|B;ኣይደቀስኩን
+'alteN_ahum # tN'|B;አልተኛሁም
+## ;prf,1s,0o,neg,rel
+zeydeq_esku # dqs|B;ዘይደቀስኩ
+yalteN_ahu # tN'|B;ያልተኛሁ
+## ;prf,1s,0o,aff,main
+deq_esku # dqs|B;ደቀስኩ
+teN_ahu # tN'|B;ተኛሁ
+## ;prf,1s,0o,aff,rel
+zdeq_esku # dqs|B;ዝደቀስኩ
+yeteN_ahu # tN'|B;የተኛሁ
+## ;prf,3sm,0o,neg,main
+'aydeq_esen # dqs|B;ኣይደቀሰን
+'alteN_am # tN'|B;አልተኛም
+## ;prf,3sm,0o,neg,rel
+zeydeq_ese # dqs|B;ዘይደቀሰ
+yalteN_a # tN'|B;ያልተኛ
+## ;prf,3sm,0o,aff,main
+deq_ese # dqs|B;ደቀሰ
+teN_a # tN'|B;ተኛ
+## ;prf,3sm,0o,aff,rel
+zdeq_ese # dqs|B;ዝደቀሰ
+yeteN_a # tN'|B;የተኛ
+## ;prf,2pf,0o,neg,main
+'aydeq_esknn # dqs|B;ኣይደቀስክንን
+'alteN_ac_hum # tN'|B;አልተኛችሁም
+## ;prf,2pf,0o,neg,rel
+zeydeq_eskn # dqs|B;ዘይደቀስክን
+yalteN_ac_hu # tN'|B;ያልተኛችሁ
+## ;prf,2pf,0o,aff,main
+deq_eskn # dqs|B;ደቀስክን
+teN_ac_hu # tN'|B;ተኛችሁ
+## ;prf,2pf,0o,aff,rel
+zdeq_eskn # dqs|B;ዝደቀስክን
+yeteN_ac_hu # tN'|B;የተኛችሁ
+## ;imf,1s,0o,neg,main
+'aydq_sn # dqs|B;ኣይድቅስን
+'alteN_am # tN'|B;አልተኛም
+## ;imf,1s,0o,neg,rel
+zeydq_s # dqs|B;ዘይድቅስ
+yem_alteN_a # tN'|B;የማልተኛ
+## ;imf,1s,0o,aff,main
+'dq_s # dqs|B;እድቅስ
+'teN_al_ehu # tN'|B;እተኛለሁ
+## ;imf,1s,0o,aff,rel
+zdq_s # dqs|B;ዝድቅስ
+yem_teN_a # tN'|B;የምተኛ
+## ;imf,3sm,0o,neg,main
+'ay_dq_sn # dqs|B;ኣይድቅስን
+'ayteN_am # tN'|B;አይተኛም
+## ;imf,3sm,0o,neg,rel
+zey_dq_s # dqs|B;ዘይድቅስ
+yem_ayteN_a # tN'|B;የማይተኛ
+## ;imf,3sm,0o,aff,main
+ydq_s # dqs|B;ይድቅስ
+yteN_al # tN'|B;ይተኛል
+## ;imf,3sm,0o,aff,rel
+zidq_s # dqs|B;ዚድቅስ
+yem_iteN_a # tN'|B;የሚተኛ
+## ;imf,2pf,0o,neg,main
+'aytdq_san # dqs|B;ኣይትድቅሳን
+'at_teN_um # tN'|B;አትተኙም
+## ;imf,2pf,0o,neg,rel
+zeytdq_sa # dqs|B;ዘይትድቅሳ
+yem_at_teN_u # tN'|B;የማትተኙ
+## ;imf,2pf,0o,aff,main
+tdq_sa # dqs|B;ትድቅሳ
+tteN_al_ac_hu # tN'|B;ትተኛላችሁ
+## ;imf,2pf,0o,aff,rel
+zt_dq_sa # dqs|B;ዝትድቅሳ
+yem_t_teN_u # tN'|B;የምትተኙ
+## ;prf,1s,0o,neg,main
+'alxex_ehum # xx*|A;አልሸሸሁም
+'ayhedemkun # hdm|A;ኣይሀደምኩን
+## ;prf,1s,0o,neg,rel
+yalxex_ehu # xx*|A;ያልሸሸሁ
+zeyhedemku # hdm|A;ዘይሀደምኩ
+## ;prf,1s,0o,aff,main
+xex_ehu # xx*|A;ሸሸሁ
+hademku # hdm|A;ሃደምኩ
+## ;prf,1s,0o,aff,rel
+yexex_ehu # xx*|A;የሸሸሁ
+zhedemku # hdm|A;ዝሀደምኩ
+## ;prf,3sm,0o,neg,main
+'alxex_em # xx*|A;አልሸሸም
+'ayhedemen # hdm|A;ኣይሀደመን
+## ;prf,3sm,0o,neg,rel
+yalxex_e # xx*|A;ያልሸሸ
+zeyhedeme # hdm|A;ዘይሀደመ
+## ;prf,3sm,0o,aff,main
+xex_e # xx*|A;ሸሸ
+hademe # hdm|A;ሃደመ
+## ;prf,3sm,0o,aff,rel
+yexex_e # xx*|A;የሸሸ
+zhedeme # hdm|A;ዝሀደመ
+## ;prf,2pf,0o,neg,main
+'alxex_ac_hum # xx*|A;አልሸሻችሁም
+'ayhedemknn # hdm|A;ኣይሀደምክንን
+## ;prf,2pf,0o,neg,rel
+yalxex_ac_hu # xx*|A;ያልሸሻችሁ
+zeyhedemkn # hdm|A;ዘይሀደምክን
+## ;prf,2pf,0o,aff,main
+xex_ac_hu # xx*|A;ሸሻችሁ
+hademkn # hdm|A;ሃደምክን
+## ;prf,2pf,0o,aff,rel
+yexex_ac_hu # xx*|A;የሸሻችሁ
+zhedemkn # hdm|A;ዝሀደምክን
+## ;imf,1s,0o,neg,main
+'alxexm # xx*|A;አልሸሽም
+'ayhed_mn # hdm|A;ኣይሀድምን
+## ;imf,1s,0o,neg,rel
+yem_alxex # xx*|A;የማልሸሽ
+zeyhed_m # hdm|A;ዘይሀድም
+## ;imf,1s,0o,aff,main
+'xexal_ehu # xx*|A;እሸሻለሁ
+'hed_m # hdm|A;እሀድም
+## ;imf,1s,0o,aff,rel
+yem_xex # xx*|A;የምሸሽ
+zhed_m # hdm|A;ዝሀድም
+## ;imf,3sm,0o,neg,main
+'ayxexm # xx*|A;አይሸሽም
+'ay_hed_mn # hdm|A;ኣይሀድምን
+## ;imf,3sm,0o,neg,rel
+yem_ayxex # xx*|A;የማይሸሽ
+zey_hed_m # hdm|A;ዘይሀድም
+## ;imf,3sm,0o,aff,main
+yxexal # xx*|A;ይሸሻል
+yhed_m # hdm|A;ይሀድም
+## ;imf,3sm,0o,aff,rel
+yem_ixex # xx*|A;የሚሸሽ
+zihed_m # hdm|A;ዚሀድም
+## ;imf,2pf,0o,neg,main
+'at_xexum # xx*|A;አትሸሹም
+'aythedman # hdm|A;ኣይትሀድማን
+## ;imf,2pf,0o,neg,rel
+yem_at_xexu # xx*|A;የማትሸሹ
+zeythedma # hdm|A;ዘይትሀድማ
+## ;imf,2pf,0o,aff,main
+txexal_ac_hu # xx*|A;ትሸሻላችሁ
+thedma # hdm|A;ትሀድማ
+## ;imf,2pf,0o,aff,rel
+yem_t_xexu # xx*|A;የምትሸሹ
+zt_hedma # hdm|A;ዝትሀድማ
+## ;prf,1s,0o,neg,main
+'ay`ebeKun # `by|A;ኣይዐበኹን
+'alad_ek_um # 'dg|A;አላደኩም
+## ;prf,1s,0o,neg,rel
+zey`ebeKu # `by|A;ዘይዐበኹ
+yalad_ek_u # 'dg|A;ያላደኩ
+## ;prf,1s,0o,aff,main
+`abeKu # `by|A;ዓበኹ
+'ad_ek_u # 'dg|A;አደኩ
+## ;prf,1s,0o,aff,rel
+z`ebeKu # `by|A;ዝዐበኹ
+yad_ek_u # 'dg|A;ያደኩ
+## ;prf,3sm,0o,neg,main
+'ay`ebeyen # `by|A;ኣይዐበየን
+'alad_egem # 'dg|A;አላደገም
+## ;prf,3sm,0o,neg,rel
+zey`ebeye # `by|A;ዘይዐበየ
+yalad_ege # 'dg|A;ያላደገ
+## ;prf,3sm,0o,aff,main
+`abeye # `by|A;ዓበየ
+'ad_ege # 'dg|A;አደገ
+## ;prf,3sm,0o,aff,rel
+z`ebeye # `by|A;ዝዐበየ
+yad_ege # 'dg|A;ያደገ
+## ;prf,2pf,0o,neg,main
+'ay`ebeKnn # `by|A;ኣይዐበኽንን
+'alad_egac_hum # 'dg|A;አላደጋችሁም
+## ;prf,2pf,0o,neg,rel
+zey`ebeKn # `by|A;ዘይዐበኽን
+yalad_egac_hu # 'dg|A;ያላደጋችሁ
+## ;prf,2pf,0o,aff,main
+`abeKn # `by|A;ዓበኽን
+'ad_egac_hu # 'dg|A;አደጋችሁ
+## ;prf,2pf,0o,aff,rel
+z`ebeKn # `by|A;ዝዐበኽን
+yad_egac_hu # 'dg|A;ያደጋችሁ
+## ;imf,1s,0o,neg,main
+'ay`eb_in # `by|A;ኣይዐቢን
+'aladgm # 'dg|A;አላድግም
+## ;imf,1s,0o,neg,rel
+zey`eb_i # `by|A;ዘይዐቢ
+yem_aladg # 'dg|A;የማላድግ
+## ;imf,1s,0o,aff,main
+'`eb_i # `by|A;እዐቢ
+'adgal_ehu # 'dg|A;አድጋለሁ
+## ;imf,1s,0o,aff,rel
+z`eb_i # `by|A;ዝዐቢ
+yem_adg # 'dg|A;የማድግ
+## ;imf,3sm,0o,neg,main
+'ay_`eb_in # `by|A;ኣይዐቢን
+'ayadgm # 'dg|A;አያድግም
+## ;imf,3sm,0o,neg,rel
+zey_`eb_i # `by|A;ዘይዐቢ
+yem_ayadg # 'dg|A;የማያድግ
+## ;imf,3sm,0o,aff,main
+y`eb_i # `by|A;ይዐቢ
+yadgal # 'dg|A;ያድጋል
+## ;imf,3sm,0o,aff,rel
+zi`eb_i # `by|A;ዚዐቢ
+yem_iyadg # 'dg|A;የሚያድግ
+## ;imf,2pf,0o,neg,main
+'ayt`ebyan # `by|A;ኣይትዐብያን
+'at_adgum # 'dg|A;አታድጉም
+## ;imf,2pf,0o,neg,rel
+zeyt`ebya # `by|A;ዘይትዐብያ
+yem_at_adgu # 'dg|A;የማታድጉ
+## ;imf,2pf,0o,aff,main
+t`ebya # `by|A;ትዐብያ
+tadgal_ac_hu # 'dg|A;ታድጋላችሁ
+## ;imf,2pf,0o,aff,rel
+zt_`ebya # `by|A;ዝትዐብያ
+yem_t_adgu # 'dg|A;የምታድጉ
+## ;prf,1s,0o,neg,main
+'aygWeyeykun # gWyy|A;ኣይጐየይኩን
+'alroTkum # rwT|A;አልሮጥኩም
+## ;prf,1s,0o,neg,rel
+zeygWeyeyku # gWyy|A;ዘይጐየይኩ
+yalroTku # rwT|A;ያልሮጥኩ
+## ;prf,1s,0o,aff,main
+gWeyeyku # gWyy|A;ጐየይኩ
+roTku # rwT|A;ሮጥኩ
+## ;prf,1s,0o,aff,rel
+zgWeyeyku # gWyy|A;ዝጐየይኩ
+yeroTku # rwT|A;የሮጥኩ
+## ;prf,3sm,0o,neg,main
+'aygWeyeyen # gWyy|A;ኣይጐየየን
+'alroTem # rwT|A;አልሮጠም
+## ;prf,3sm,0o,neg,rel
+zeygWeyeye # gWyy|A;ዘይጐየየ
+yalroTe # rwT|A;ያልሮጠ
+## ;prf,3sm,0o,aff,main
+gWeyeye # gWyy|A;ጐየየ
+roTe # rwT|A;ሮጠ
+## ;prf,3sm,0o,aff,rel
+zgWeyeye # gWyy|A;ዝጐየየ
+yeroTe # rwT|A;የሮጠ
+## ;prf,2pf,0o,neg,main
+'aygWeyeyknn # gWyy|A;ኣይጐየይክንን
+'alroTac_hum # rwT|A;አልሮጣችሁም
+## ;prf,2pf,0o,neg,rel
+zeygWeyeykn # gWyy|A;ዘይጐየይክን
+yalroTac_hu # rwT|A;ያልሮጣችሁ
+## ;prf,2pf,0o,aff,main
+gWeyeykn # gWyy|A;ጐየይክን
+roTac_hu # rwT|A;ሮጣችሁ
+## ;prf,2pf,0o,aff,rel
+zgWeyeykn # gWyy|A;ዝጐየይክን
+yeroTac_hu # rwT|A;የሮጣችሁ
+## ;imf,1s,0o,neg,main
+'aygWey_in # gWyy|A;ኣይጐዪን
+'alroTm # rwT|A;አልሮጥም
+## ;imf,1s,0o,neg,rel
+zeygWey_i # gWyy|A;ዘይጐዪ
+yem_alroT # rwT|A;የማልሮጥ
+## ;imf,1s,0o,aff,main
+'gWey_i # gWyy|A;እጐዪ
+'roTal_ehu # rwT|A;እሮጣለሁ
+## ;imf,1s,0o,aff,rel
+zgWey_i # gWyy|A;ዝጐዪ
+yem_roT # rwT|A;የምሮጥ
+## ;imf,3sm,0o,neg,main
+'ay_gWey_in # gWyy|A;ኣይጐዪን
+'ayroTm # rwT|A;አይሮጥም
+## ;imf,3sm,0o,neg,rel
+zey_gWey_i # gWyy|A;ዘይጐዪ
+yem_ayroT # rwT|A;የማይሮጥ
+## ;imf,3sm,0o,aff,main
+ygWey_i # gWyy|A;ይጐዪ
+yroTal # rwT|A;ይሮጣል
+## ;imf,3sm,0o,aff,rel
+zigWey_i # gWyy|A;ዚጐዪ
+yem_iroT # rwT|A;የሚሮጥ
+## ;imf,2pf,0o,neg,main
+'aytgWey_an # gWyy|A;ኣይትጐያን
+'at_roTum # rwT|A;አትሮጡም
+## ;imf,2pf,0o,neg,rel
+zeytgWey_a # gWyy|A;ዘይትጐያ
+yem_at_roTu # rwT|A;የማትሮጡ
+## ;imf,2pf,0o,aff,main
+tgWey_a # gWyy|A;ትጐያ
+troTal_ac_hu # rwT|A;ትሮጣላችሁ
+## ;imf,2pf,0o,aff,rel
+zt_gWey_a # gWyy|A;ዝትጐያ
+yem_t_roTu # rwT|A;የምትሮጡ
+## ;prf,1s,0o,neg,main
+'ayderefkun # drf|A;ኣይደረፍኩን
+'alzef_enkum # zfn|A;አልዘፈንኩም
+## ;prf,1s,0o,neg,rel
+zeyderefku # drf|A;ዘይደረፍኩ
+yalzef_enku # zfn|A;ያልዘፈንኩ
+## ;prf,1s,0o,aff,main
+derefku # drf|A;ደረፍኩ
+zef_enku # zfn|A;ዘፈንኩ
+## ;prf,1s,0o,aff,rel
+zderefku # drf|A;ዝደረፍኩ
+yezef_enku # zfn|A;የዘፈንኩ
+## ;prf,3sm,0o,neg,main
+'ayderefen # drf|A;ኣይደረፈን
+'alzef_enem # zfn|A;አልዘፈነም
+## ;prf,3sm,0o,neg,rel
+zeyderefe # drf|A;ዘይደረፈ
+yalzef_ene # zfn|A;ያልዘፈነ
+## ;prf,3sm,0o,aff,main
+derefe # drf|A;ደረፈ
+zef_ene # zfn|A;ዘፈነ
+## ;prf,3sm,0o,aff,rel
+zderefe # drf|A;ዝደረፈ
+yezef_ene # zfn|A;የዘፈነ
+## ;prf,2pf,0o,neg,main
+'ayderefknn # drf|A;ኣይደረፍክንን
+'alzef_enac_hum # zfn|A;አልዘፈናችሁም
+## ;prf,2pf,0o,neg,rel
+zeyderefkn # drf|A;ዘይደረፍክን
+yalzef_enac_hu # zfn|A;ያልዘፈናችሁ
+## ;prf,2pf,0o,aff,main
+derefkn # drf|A;ደረፍክን
+zef_enac_hu # zfn|A;ዘፈናችሁ
+## ;prf,2pf,0o,aff,rel
+zderefkn # drf|A;ዝደረፍክን
+yezef_enac_hu # zfn|A;የዘፈናችሁ
+## ;imf,1s,0o,neg,main
+'ayder_fn # drf|A;ኣይደርፍን
+'alzefnm # zfn|A;አልዘፍንም
+## ;imf,1s,0o,neg,rel
+zeyder_f # drf|A;ዘይደርፍ
+yem_alzefn # zfn|A;የማልዘፍን
+## ;imf,1s,0o,aff,main
+'der_f # drf|A;እደርፍ
+'zefnal_ehu # zfn|A;እዘፍናለሁ
+## ;imf,1s,0o,aff,rel
+zder_f # drf|A;ዝደርፍ
+yem_zefn # zfn|A;የምዘፍን
+## ;imf,3sm,0o,neg,main
+'ay_der_fn # drf|A;ኣይደርፍን
+'ayzefnm # zfn|A;አይዘፍንም
+## ;imf,3sm,0o,neg,rel
+zey_der_f # drf|A;ዘይደርፍ
+yem_ayzefn # zfn|A;የማይዘፍን
+## ;imf,3sm,0o,aff,main
+yder_f # drf|A;ይደርፍ
+yzefnal # zfn|A;ይዘፍናል
+## ;imf,3sm,0o,aff,rel
+zider_f # drf|A;ዚደርፍ
+yem_izefn # zfn|A;የሚዘፍን
+## ;imf,2pf,0o,neg,main
+'aytderfan # drf|A;ኣይትደርፋን
+'at_zefnum # zfn|A;አትዘፍኑም
+## ;imf,2pf,0o,neg,rel
+zeytderfa # drf|A;ዘይትደርፋ
+yem_at_zefnu # zfn|A;የማትዘፍኑ
+## ;imf,2pf,0o,aff,main
+tderfa # drf|A;ትደርፋ
+tzefnal_ac_hu # zfn|A;ትዘፍናላችሁ
+## ;imf,2pf,0o,aff,rel
+zt_derfa # drf|A;ዝትደርፋ
+yem_t_zefnu # zfn|A;የምትዘፍኑ
+## ps,rc;prf,1s,0o,neg,main
+'ayzerebkun # zrb|A;ኣይዘረብኩን
+'alneg_erkum # ngr|A;አልነገርኩም
+## ps,rc;prf,1s,0o,neg,rel
+zeyzerebku # zrb|A;ዘይዘረብኩ
+yalneg_erku # ngr|A;ያልነገርኩ
+## ps,rc;prf,1s,0o,aff,main
+zerebku # zrb|A;ዘረብኩ
+neg_erku # ngr|A;ነገርኩ
+## ps,rc;prf,1s,0o,aff,rel
+zzerebku # zrb|A;ዝዘረብኩ
+yeneg_erku # ngr|A;የነገርኩ
+## ps,rc;prf,3sm,0o,neg,main
+'ayzereben # zrb|A;ኣይዘረበን
+'alneg_erem # ngr|A;አልነገረም
+## ps,rc;prf,3sm,0o,neg,rel
+zeyzerebe # zrb|A;ዘይዘረበ
+yalneg_ere # ngr|A;ያልነገረ
+## ps,rc;prf,3sm,0o,aff,main
+zerebe # zrb|A;ዘረበ
+neg_ere # ngr|A;ነገረ
+## ps,rc;prf,3sm,0o,aff,rel
+zzerebe # zrb|A;ዝዘረበ
+yeneg_ere # ngr|A;የነገረ
+## ps,rc;prf,2pf,0o,neg,main
+'ayzerebknn # zrb|A;ኣይዘረብክንን
+'alneg_erac_hum # ngr|A;አልነገራችሁም
+## ps,rc;prf,2pf,0o,neg,rel
+zeyzerebkn # zrb|A;ዘይዘረብክን
+yalneg_erac_hu # ngr|A;ያልነገራችሁ
+## ps,rc;prf,2pf,0o,aff,main
+zerebkn # zrb|A;ዘረብክን
+neg_erac_hu # ngr|A;ነገራችሁ
+## ps,rc;prf,2pf,0o,aff,rel
+zzerebkn # zrb|A;ዝዘረብክን
+yeneg_erac_hu # ngr|A;የነገራችሁ
+## ps,rc;imf,1s,0o,neg,main
+'ayzer_bn # zrb|A;ኣይዘርብን
+'alnegrm # ngr|A;አልነግርም
+## ps,rc;imf,1s,0o,neg,rel
+zeyzer_b # zrb|A;ዘይዘርብ
+yem_alnegr # ngr|A;የማልነግር
+## ps,rc;imf,1s,0o,aff,main
+'zer_b # zrb|A;እዘርብ
+'negral_ehu # ngr|A;እነግራለሁ
+## ps,rc;imf,1s,0o,aff,rel
+zzer_b # zrb|A;ዝዘርብ
+yem_negr # ngr|A;የምነግር
+## ps,rc;imf,3sm,0o,neg,main
+'ay_zer_bn # zrb|A;ኣይዘርብን
+'aynegrm # ngr|A;አይነግርም
+## ps,rc;imf,3sm,0o,neg,rel
+zey_zer_b # zrb|A;ዘይዘርብ
+yem_aynegr # ngr|A;የማይነግር
+## ps,rc;imf,3sm,0o,aff,main
+yzer_b # zrb|A;ይዘርብ
+ynegral # ngr|A;ይነግራል
+## ps,rc;imf,3sm,0o,aff,rel
+zizer_b # zrb|A;ዚዘርብ
+yem_inegr # ngr|A;የሚነግር
+## ps,rc;imf,2pf,0o,neg,main
+'aytzerban # zrb|A;ኣይትዘርባን
+'at_negrum # ngr|A;አትነግሩም
+## ps,rc;imf,2pf,0o,neg,rel
+zeytzerba # zrb|A;ዘይትዘርባ
+yem_at_negru # ngr|A;የማትነግሩ
+## ps,rc;imf,2pf,0o,aff,main
+tzerba # zrb|A;ትዘርባ
+tnegral_ac_hu # ngr|A;ትነግራላችሁ
+## ps,rc;imf,2pf,0o,aff,rel
+zt_zerba # zrb|A;ዝትዘርባ
+yem_t_negru # ngr|A;የምትነግሩ
+## ;prf,1s,0o,neg,main
+'ayHembeskun # Hmbs|E;ኣይሐምበስኩን
+'alwaN_ehum # wN*|C;አልዋኘሁም
+## ;prf,1s,0o,neg,rel
+zeyHembesku # Hmbs|E;ዘይሐምበስኩ
+yalwaN_ehu # wN*|C;ያልዋኘሁ
+## ;prf,1s,0o,aff,main
+Hambesku # Hmbs|E;ሓምበስኩ
+waN_ehu # wN*|C;ዋኘሁ
+## ;prf,1s,0o,aff,rel
+zHembesku # Hmbs|E;ዝሐምበስኩ
+yewaN_ehu # wN*|C;የዋኘሁ
+## ;prf,3sm,0o,neg,main
+'ayHembesen # Hmbs|E;ኣይሐምበሰን
+'alwaN_em # wN*|C;አልዋኘም
+## ;prf,3sm,0o,neg,rel
+zeyHembese # Hmbs|E;ዘይሐምበሰ
+yalwaN_e # wN*|C;ያልዋኘ
+## ;prf,3sm,0o,aff,main
+Hambese # Hmbs|E;ሓምበሰ
+waN_e # wN*|C;ዋኘ
+## ;prf,3sm,0o,aff,rel
+zHembese # Hmbs|E;ዝሐምበሰ
+yewaN_e # wN*|C;የዋኘ
+## ;prf,2pf,0o,neg,main
+'ayHembesknn # Hmbs|E;ኣይሐምበስክንን
+'alwaN_ac_hum # wN*|C;አልዋኛችሁም
+## ;prf,2pf,0o,neg,rel
+zeyHembeskn # Hmbs|E;ዘይሐምበስክን
+yalwaN_ac_hu # wN*|C;ያልዋኛችሁ
+## ;prf,2pf,0o,aff,main
+Hambeskn # Hmbs|E;ሓምበስክን
+waN_ac_hu # wN*|C;ዋኛችሁ
+## ;prf,2pf,0o,aff,rel
+zHembeskn # Hmbs|E;ዝሐምበስክን
+yewaN_ac_hu # wN*|C;የዋኛችሁ
+## ;imf,1s,0o,neg,main
+'ayHmbsn # Hmbs|E;ኣይሕምብስን
+'alwaN_m # wN*|C;አልዋኝም
+## ;imf,1s,0o,neg,rel
+zeyHmbs # Hmbs|E;ዘይሕምብስ
+yem_alwaN_ # wN*|C;የማልዋኝ
+## ;imf,1s,0o,aff,main
+'Hmbs # Hmbs|E;እሕምብስ
+'waN_al_ehu # wN*|C;እዋኛለሁ
+## ;imf,1s,0o,aff,rel
+zHmbs # Hmbs|E;ዝሕምብስ
+yem_waN_ # wN*|C;የምዋኝ
+## ;imf,3sm,0o,neg,main
+'ay_Hmbsn # Hmbs|E;ኣይሕምብስን
+'aywaN_m # wN*|C;አይዋኝም
+## ;imf,3sm,0o,neg,rel
+zey_Hmbs # Hmbs|E;ዘይሕምብስ
+yem_aywaN_ # wN*|C;የማይዋኝ
+## ;imf,3sm,0o,aff,main
+yHmbs # Hmbs|E;ይሕምብስ
+ywaN_al # wN*|C;ይዋኛል
+## ;imf,3sm,0o,aff,rel
+ziHmbs # Hmbs|E;ዚሕምብስ
+yem_iwaN_ # wN*|C;የሚዋኝ
+## ;imf,2pf,0o,neg,main
+'aytHmbsan # Hmbs|E;ኣይትሕምብሳን
+'at_waN_um # wN*|C;አትዋኙም
+## ;imf,2pf,0o,neg,rel
+zeytHmbsa # Hmbs|E;ዘይትሕምብሳ
+yem_at_waN_u # wN*|C;የማትዋኙ
+## ;imf,2pf,0o,aff,main
+tHmbsa # Hmbs|E;ትሕምብሳ
+twaN_al_ac_hu # wN*|C;ትዋኛላችሁ
+## ;imf,2pf,0o,aff,rel
+zt_Hmbsa # Hmbs|E;ዝትሕምብሳ
+yem_t_waN_u # wN*|C;የምትዋኙ
+## ps;prf,1s,0o,neg,main
+'ayteSeb_eKun # Sby|B;ኣይተጸበኹን
+'alqWey_ehum # qWy*|B;አልቈየሁም
+## ps;prf,1s,0o,neg,rel
+zeyteSeb_eKu # Sby|B;ዘይተጸበኹ
+yalqWey_ehu # qWy*|B;ያልቈየሁ
+## ps;prf,1s,0o,aff,main
+teSeb_eKu # Sby|B;ተጸበኹ
+qWey_ehu # qWy*|B;ቈየሁ
+## ps;prf,1s,0o,aff,rel
+zt_eSeb_eKu # Sby|B;ዝተጸበኹ
+yeqWey_ehu # qWy*|B;የቈየሁ
+## ps;prf,3sm,0o,neg,main
+'ayteSeb_eyen # Sby|B;ኣይተጸበየን
+'alqWey_em # qWy*|B;አልቈየም
+## ps;prf,3sm,0o,neg,rel
+zeyteSeb_eye # Sby|B;ዘይተጸበየ
+yalqWey_e # qWy*|B;ያልቈየ
+## ps;prf,3sm,0o,aff,main
+teSeb_eye # Sby|B;ተጸበየ
+qWey_e # qWy*|B;ቈየ
+## ps;prf,3sm,0o,aff,rel
+zt_eSeb_eye # Sby|B;ዝተጸበየ
+yeqWey_e # qWy*|B;የቈየ
+## ps;prf,2pf,0o,neg,main
+'ayteSeb_eKnn # Sby|B;ኣይተጸበኽንን
+'alqWey_ac_hum # qWy*|B;አልቈያችሁም
+## ps;prf,2pf,0o,neg,rel
+zeyteSeb_eKn # Sby|B;ዘይተጸበኽን
+yalqWey_ac_hu # qWy*|B;ያልቈያችሁ
+## ps;prf,2pf,0o,aff,main
+teSeb_eKn # Sby|B;ተጸበኽን
+qWey_ac_hu # qWy*|B;ቈያችሁ
+## ps;prf,2pf,0o,aff,rel
+zt_eSeb_eKn # Sby|B;ዝተጸበኽን
+yeqWey_ac_hu # qWy*|B;የቈያችሁ
+## ps;imf,1s,0o,neg,main
+'aySb_en # Sby|B;ኣይጽበን
+'alqWey_m # qWy*|B;አልቈይም
+## ps;imf,1s,0o,neg,rel
+zeySb_e # Sby|B;ዘይጽበ
+yem_alqWey_ # qWy*|B;የማልቈይ
+## ps;imf,1s,0o,aff,main
+'Sb_e # Sby|B;እጽበ
+'qWey_al_ehu # qWy*|B;እቈያለሁ
+## ps;imf,1s,0o,aff,rel
+zSb_e # Sby|B;ዝጽበ
+yem_qWey_ # qWy*|B;የምቈይ
+## ps;imf,3sm,0o,neg,main
+'ay_Sb_en # Sby|B;ኣይጽበን
+'ayqWey_m # qWy*|B;አይቈይም
+## ps;imf,3sm,0o,neg,rel
+zey_Sb_e # Sby|B;ዘይጽበ
+yem_ayqWey_ # qWy*|B;የማይቈይ
+## ps;imf,3sm,0o,aff,main
+ySb_e # Sby|B;ይጽበ
+yqWey_al # qWy*|B;ይቈያል
+## ps;imf,3sm,0o,aff,rel
+ziSb_e # Sby|B;ዚጽበ
+yem_iqWey_ # qWy*|B;የሚቈይ
+## ps;imf,2pf,0o,neg,main
+'aytSb_eyan # Sby|B;ኣይትጽበያን
+'at_qWey_um # qWy*|B;አትቈዩም
+## ps;imf,2pf,0o,neg,rel
+zeytSb_eya # Sby|B;ዘይትጽበያ
+yem_at_qWey_u # qWy*|B;የማትቈዩ
+## ps;imf,2pf,0o,aff,main
+tSb_eya # Sby|B;ትጽበያ
+tqWey_al_ac_hu # qWy*|B;ትቈያላችሁ
+## ps;imf,2pf,0o,aff,rel
+zt_Sb_eya # Sby|B;ዝትጽበያ
+yem_t_qWey_u # qWy*|B;የምትቈዩ
+## ;prf,1s,0o,neg,main
+'aysegW_emkun # sgWm|B;ኣይሰጐምኩን
+'alteram_edkum # rmd|C;አልተራመድኩም
+## ;prf,1s,0o,neg,rel
+zeysegW_emku # sgWm|B;ዘይሰጐምኩ
+yalteram_edku # rmd|C;ያልተራመድኩ
+## ;prf,1s,0o,aff,main
+segW_emku # sgWm|B;ሰጐምኩ
+teram_edku # rmd|C;ተራመድኩ
+## ;prf,1s,0o,aff,rel
+zsegW_emku # sgWm|B;ዝሰጐምኩ
+yeteram_edku # rmd|C;የተራመድኩ
+## ;prf,3sm,0o,neg,main
+'aysegW_emen # sgWm|B;ኣይሰጐመን
+'alteram_edem # rmd|C;አልተራመደም
+## ;prf,3sm,0o,neg,rel
+zeysegW_eme # sgWm|B;ዘይሰጐመ
+yalteram_ede # rmd|C;ያልተራመደ
+## ;prf,3sm,0o,aff,main
+segW_eme # sgWm|B;ሰጐመ
+teram_ede # rmd|C;ተራመደ
+## ;prf,3sm,0o,aff,rel
+zsegW_eme # sgWm|B;ዝሰጐመ
+yeteram_ede # rmd|C;የተራመደ
+## ;prf,2pf,0o,neg,main
+'aysegW_emknn # sgWm|B;ኣይሰጐምክንን
+'alteram_edac_hum # rmd|C;አልተራመዳችሁም
+## ;prf,2pf,0o,neg,rel
+zeysegW_emkn # sgWm|B;ዘይሰጐምክን
+yalteram_edac_hu # rmd|C;ያልተራመዳችሁ
+## ;prf,2pf,0o,aff,main
+segW_emkn # sgWm|B;ሰጐምክን
+teram_edac_hu # rmd|C;ተራመዳችሁ
+## ;prf,2pf,0o,aff,rel
+zsegW_emkn # sgWm|B;ዝሰጐምክን
+yeteram_edac_hu # rmd|C;የተራመዳችሁ
+## ;imf,1s,0o,neg,main
+'aysgW_mn # sgWm|B;ኣይስጕምን
+'alr_am_edm # rmd|C;አልራመድም
+## ;imf,1s,0o,neg,rel
+zeysgW_m # sgWm|B;ዘይስጕም
+yem_alr_am_ed # rmd|C;የማልራመድ
+## ;imf,1s,0o,aff,main
+'sgW_m # sgWm|B;እስጕም
+'r_am_edal_ehu # rmd|C;እራመዳለሁ
+## ;imf,1s,0o,aff,rel
+zsgW_m # sgWm|B;ዝስጕም
+yem_r_am_ed # rmd|C;የምራመድ
+## ;imf,3sm,0o,neg,main
+'ay_sgW_mn # sgWm|B;ኣይስጕምን
+'ayr_am_edm # rmd|C;አይራመድም
+## ;imf,3sm,0o,neg,rel
+zey_sgW_m # sgWm|B;ዘይስጕም
+yem_ayr_am_ed # rmd|C;የማይራመድ
+## ;imf,3sm,0o,aff,main
+ysgW_m # sgWm|B;ይስጕም
+yr_am_edal # rmd|C;ይራመዳል
+## ;imf,3sm,0o,aff,rel
+zisgW_m # sgWm|B;ዚስጕም
+yem_ir_am_ed # rmd|C;የሚራመድ
+## ;imf,2pf,0o,neg,main
+'aytsgW_man # sgWm|B;ኣይትስጕማን
+'at_r_am_edum # rmd|C;አትራመዱም
+## ;imf,2pf,0o,neg,rel
+zeytsgW_ma # sgWm|B;ዘይትስጕማ
+yem_at_r_am_edu # rmd|C;የማትራመዱ
+## ;imf,2pf,0o,aff,main
+tsgW_ma # sgWm|B;ትስጕማ
+tr_am_edal_ac_hu # rmd|C;ትራመዳላችሁ
+## ;imf,2pf,0o,aff,rel
+zt_sgW_ma # sgWm|B;ዝትስጕማ
+yem_t_r_am_edu # rmd|C;የምትራመዱ

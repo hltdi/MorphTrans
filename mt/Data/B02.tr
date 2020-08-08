@@ -1,0 +1,51 @@
+comments = created 2020.8.5
+languages = ti,am
+
+## ;prf,3sm,0o,neg,main
+ti:'ay'eKelen # 'kl|A;ኣይአኸለን
+am:'albeq_am # bq'|A;አልበቃም
+## ;prf,3sm,0o,neg,rel
+ti:zey'eKele # 'kl|A;ዘይአኸለ
+am:yalbeq_a # bq'|A;ያልበቃ
+## ;prf,3sm,0o,aff,main
+ti:'aKele # 'kl|A;ኣኸለ
+am:beq_a # bq'|A;በቃ
+## ;prf,3sm,0o,aff,rel
+ti:z'eKele # 'kl|A;ዝአኸለ
+am:yebeq_a # bq'|A;የበቃ
+## ;imf,3sm,0o,neg,main
+ti:'ay_'ek_ln # 'kl|A;ኣይአክልን
+am:'aybeqam # bq'|A;አይበቃም
+## ;imf,3sm,0o,neg,rel
+ti:zey_'ek_l # 'kl|A;ዘይአክል
+am:yem_aybeqa # bq'|A;የማይበቃ
+## ;imf,3sm,0o,aff,main
+ti:y'ek_l # 'kl|A;ይአክል
+am:ybeqal # bq'|A;ይበቃል
+## ;imf,3sm,0o,aff,rel
+ti:zi'ek_l # 'kl|A;ዚአክል
+am:yem_ibeqa # bq'|A;የሚበቃ
+## ;prf,3sm,0o,neg,main
+ti:'aymexmexen # mxmx|E;ኣይመሽመሸን
+am:'albeseb_esem # bsbs|E;አልበሰበሰም
+## ;prf,3sm,0o,neg,rel
+ti:zeymexmexe # mxmx|E;ዘይመሽመሸ
+am:yalbeseb_ese # bsbs|E;ያልበሰበሰ
+## ;prf,3sm,0o,aff,main
+ti:mexmexe # mxmx|E;መሽመሸ
+am:beseb_ese # bsbs|E;በሰበሰ
+## ;prf,3sm,0o,aff,rel
+ti:zmexmexe # mxmx|E;ዝመሽመሸ
+am:yebeseb_ese # bsbs|E;የበሰበሰ
+## ;imf,3sm,0o,neg,main
+ti:'ay_mxmxn # mxmx|E;ኣይምሽምሽን
+am:'aybeseb_sm # bsbs|E;አይበሰብስም
+## ;imf,3sm,0o,neg,rel
+ti:zey_mxmx # mxmx|E;ዘይምሽምሽ
+am:yem_aybeseb_s # bsbs|E;የማይበሰብስ
+## ;imf,3sm,0o,aff,main
+ti:ymxmx # mxmx|E;ይምሽምሽ
+am:ybeseb_sal # bsbs|E;ይበሰብሳል
+## ;imf,3sm,0o,aff,rel
+ti:zimxmx # mxmx|E;ዚምሽምሽ
+am:yem_ibeseb_s # bsbs|E;የሚበሰብስ

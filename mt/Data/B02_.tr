@@ -1,0 +1,51 @@
+comments = created 2020.8.5
+languages = ti_,am_
+
+## ;prf,3sm,0o,neg,main
+'ay'eKelen # 'kl|A;ኣይአኸለን
+'albeq_am # bq'|A;አልበቃም
+## ;prf,3sm,0o,neg,rel
+zey'eKele # 'kl|A;ዘይአኸለ
+yalbeq_a # bq'|A;ያልበቃ
+## ;prf,3sm,0o,aff,main
+'aKele # 'kl|A;ኣኸለ
+beq_a # bq'|A;በቃ
+## ;prf,3sm,0o,aff,rel
+z'eKele # 'kl|A;ዝአኸለ
+yebeq_a # bq'|A;የበቃ
+## ;imf,3sm,0o,neg,main
+'ay_'ek_ln # 'kl|A;ኣይአክልን
+'aybeqam # bq'|A;አይበቃም
+## ;imf,3sm,0o,neg,rel
+zey_'ek_l # 'kl|A;ዘይአክል
+yem_aybeqa # bq'|A;የማይበቃ
+## ;imf,3sm,0o,aff,main
+y'ek_l # 'kl|A;ይአክል
+ybeqal # bq'|A;ይበቃል
+## ;imf,3sm,0o,aff,rel
+zi'ek_l # 'kl|A;ዚአክል
+yem_ibeqa # bq'|A;የሚበቃ
+## ;prf,3sm,0o,neg,main
+'aymexmexen # mxmx|E;ኣይመሽመሸን
+'albeseb_esem # bsbs|E;አልበሰበሰም
+## ;prf,3sm,0o,neg,rel
+zeymexmexe # mxmx|E;ዘይመሽመሸ
+yalbeseb_ese # bsbs|E;ያልበሰበሰ
+## ;prf,3sm,0o,aff,main
+mexmexe # mxmx|E;መሽመሸ
+beseb_ese # bsbs|E;በሰበሰ
+## ;prf,3sm,0o,aff,rel
+zmexmexe # mxmx|E;ዝመሽመሸ
+yebeseb_ese # bsbs|E;የበሰበሰ
+## ;imf,3sm,0o,neg,main
+'ay_mxmxn # mxmx|E;ኣይምሽምሽን
+'aybeseb_sm # bsbs|E;አይበሰብስም
+## ;imf,3sm,0o,neg,rel
+zey_mxmx # mxmx|E;ዘይምሽምሽ
+yem_aybeseb_s # bsbs|E;የማይበሰብስ
+## ;imf,3sm,0o,aff,main
+ymxmx # mxmx|E;ይምሽምሽ
+ybeseb_sal # bsbs|E;ይበሰብሳል
+## ;imf,3sm,0o,aff,rel
+zimxmx # mxmx|E;ዚምሽምሽ
+yem_ibeseb_s # bsbs|E;የሚበሰብስ

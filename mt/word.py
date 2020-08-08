@@ -53,7 +53,7 @@ class TGroup(list):
 
     def __repr__(self):
         """Print name for the TGroup."""
-        return "<<{}...>>".format(self.source.name)
+        return "<<{}...>>".format(self.source)
 
     def get_source(self, index):
         return self[index]
@@ -538,4 +538,3 @@ class Word(list):
 
     def substitute(self, index, phone):
         self[index] = phone
-        

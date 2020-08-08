@@ -58,9 +58,10 @@ class Aligner:
     # Directory for storing parameter dumps
     dump_dir = os.path.join(os.path.dirname(__file__), 'Dumps')
 
-    def __init__(self, source, target, datafiles=None,
-                 test=True, validate=True,
-                 restore=False):
+    def __init__(self, source, target, datafiles=None, data=None,
+                 datasets=None,
+                 id='', test=True, validate=True, restore=False,
+                 add_train=None):
         self.source = source
         self.target = target
         # Source and target language characters
@@ -85,12 +86,60 @@ class Aligner:
         self.rjustcounts = []
         self.diffcounts = []
         self.tindex_combs = []
-        if datafiles:
+        # reversed aligner
+        self.reversed = None
+        # whether a training set is added
+        self.add_train = True if add_train else False
+        self.add_data = None
+        add_schars = None
+        add_tchars = None
+        add_training = None
+        if datasets and data:
+            # Needed when reversed Aligner with mixed roots
+            self.training, self.validation, self.test = datasets
+            self.data = data
+            self.id = id
+        elif data:
+            # Datasets provided when reversing existing Align
+            self.data = data
+            self.id = id
+        elif datafiles:
             self.data = Data.create_dataset(datafiles,
                                             [self.source, self.target],
                                             test=test, validate=validate)
+            self.id = get_file_id(datafiles[0])
+            if add_train:
+                add_data = Data.create_dataset(add_train,
+                                               [self.source, self.target],
+                                               test=test, validate=validate)
+                self.add_data = add_data
+                add_schars, add_tchars = add_data.chars
+                add_training, add_valid, add_test = add_data.subds
+        if self.data:
+            # Shuffle data so that it can be split into training, testing
+            # and validation subsets
+            if self.training:
+                # datasets already set
+                add_schars, add_tchars = self.training.chars
+            elif test or validate:
+                self.training, self.validation, self.test = self.data.subds
+            else:
+                self.training = self.data
+            if add_train:
+                print("Adding dataset")
+                self.training.merge(add_training)
+            self.trainingN = len(self.training)
+            # additional training dataset
             # get source and target characters in data
-            self.schars, self.tchars = self.data.chars
+            schars, tchars = self.data.chars
+            if add_schars and add_tchars:
+                schars = set(schars).union(add_schars)
+                schars = list(schars)
+                schars.sort()
+                tchars = set(tchars).union(add_tchars)
+                tchars = list(tchars)
+                tchars.sort()
+            self.schars, self.tchars = schars, tchars
             # Number of source and target characters
             self.ns = len(self.schars)
             self.nt = len(self.tchars)
@@ -105,14 +154,6 @@ class Aligner:
             self.lambdas = self.make_ljust_probs()
             # array to store normalization denominator in M-step
             self.tnorms = numpy.zeros(self.nt+1)
-            # Shuffle data so that it can be split into training, testing
-            # and validation subsets
-            # self.shuffle(self.data)
-            if test or validate:
-                self.training, self.validation, self.test = self.data.subds
-            else:
-                self.training = self.data
-            self.trainingN = len(self.training)
             self.counts = self.make_counts()
             # Target character deletion parameters and counts
             self.tdelt_counts = self.make_tdel_counts()
@@ -128,7 +169,6 @@ class Aligner:
             self.rjustcounts = self.make_just_counts()
             self.diffcounts = self.make_diff_counts()
             # Identifier for Aligner based on filenames
-            self.id = get_file_id(datafiles[0])
         else:
             # no data provided; set parameters on the basis
             # of list of all source and target characters
@@ -141,11 +181,11 @@ class Aligner:
             self.id = ''
 
     def __repr__(self):
-        return "↙↘:{}:{},{}".format(self.id, self.source, self.target)
+        return "{};{}{}".format(self.id, self.source, self.target)
 
     ### experiments
 
-    def prepare(self, validate=False):
+    def prepare(self, validate=False, evaluate=False):
         """
         Prepare for an experiment.
         """
@@ -164,6 +204,11 @@ class Aligner:
         # create searchers for each word pair
         if not dataset.searchers:
             self.make_searchers(dsid)
+        # if evaluate is True, align and evaluate without training
+        if evaluate:
+            self.align(dsid)
+            return self.evaluate(dsid)
+        return
 
     def run(self, validate=False, iter_cutoff=8, restore=None):
         """
@@ -178,13 +223,15 @@ class Aligner:
             # train if restore fails too
             self.EM(iter_cutoff=iter_cutoff)
         self.align(dscat)
+        result = self.evaluate(dscat)
+        return result
 
     def dump(self):
         """
         Dump the trained parameters to files.
         """
         time = time2str(get_time(), short=True, file=True)
-        filename = "{}_{}.npy".format(self.id, time)
+        filename = "{}-{}.npy".format(self.__repr__(), time)
         print("Dumping parameters to {}".format(filename))
         path = os.path.join(Aligner.dump_dir, filename)
         with open(path, 'wb') as file:
@@ -207,6 +254,60 @@ class Aligner:
         except IOError:
             print("Unable to read from {}".format(path))
             return False
+
+    ### Reversed aligner and alignment combination
+
+    def reverse(self):
+        """
+        Create an Aligner with source and target language
+        reversed and the same datasets reversed.
+        """
+        r_data = self.data.reverse()
+        datasets = None
+        if self.add_train:
+            r_training = self.training.reverse()
+            r_test = self.test.reverse()
+            r_validation = self.validation.reverse()
+            datasets=[r_training, r_validation, r_test]
+        aligner = \
+        Aligner(self.target, self.source,
+                data=r_data, id=self.id + 'r',
+                datasets=datasets,
+                test=self.test, validate=self.validation,
+                restore=False)
+        if self.add_train:
+            aligner.add_data = self.add_data.reverse()
+        self.reversed = aligner
+        return aligner
+
+    def merge_alignments(self, union=True, test=True, validate=False,
+                         verbosity=1):
+        """
+        For each alignment and corresponding reverse alignment,
+        create the intersection or union of the alignments.
+        """
+        rev = self.reversed
+        if not rev:
+            print("No reversed Aligner")
+            return
+        if validate:
+            dataset = self.validate
+            rev_ds = self.reversed.validate
+            dsid = Dataset.VALIDATION
+        else:
+            dataset = self.test
+            rev_ds = self.reversed.test
+            dsid = Dataset.TEST
+        algns = dataset.alignments
+        rev_algns = rev_ds.alignments
+        merged = []
+        merge = Alignment.union if union else Alignment.intersect
+        for algn, rev_algn in zip(algns, rev_algns):
+            mrg = merge(algn, rev_algn, verbosity=verbosity)
+            merged.append(mrg)
+        if union:
+            dataset.union_alignments = merged
+        return merged
 
     ### Datasets and words
 
@@ -417,12 +518,6 @@ class Aligner:
         # Normalize
         self.norm_cols()
 #        return array
-
-    # def init_probs(self):
-    #     """
-    #     Initialize the connection probabilities in the table.
-    #     """
-    #     array = self.probs
 
     def norm_cols(self):
         """
@@ -932,6 +1027,92 @@ class Aligner:
                   extend=lambda s: s.extend(verbosity=verbosity),
                   evaluate=lambda s: s.cost + s.distance)
 
+    def evaluate(self, dscat=-1, union=False):
+        """
+        Evaluate alignments in dataset.
+        """
+        data = self.get_data_by_cat(dscat)
+        print("Evaluating {}".format(data))
+        recall_ai = []
+        recall = [0, 0]
+        prec = [0, 0]
+        alignments = data.union_alignments if union else data.alignments
+        if not alignments:
+            print("No alignments so can't evaluate")
+            return
+        for i, alignment in enumerate(alignments):
+#            print("Evaluating alignment {}".format(i))
+            absv, intv, total = alignment.recall()
+            recall_ai.append((absv, intv))
+            recall[0] += total[0]
+            recall[1] += total[1]
+            prec1 = alignment.precision()
+            prec[0] += prec1[0]
+            prec[1] += prec1[1]
+        return recall, recall[0]/recall[1], prec, prec[0]/prec[1]
+
+    def schar_assocs(self, n=4, thresh=5, pthresh=0.01):
+        """
+        Find main associations of source chars from probs array.
+        """
+        chars = {}
+        self.data.set_nchars(add_ds=self.add_data)
+        nchars = self.data.nchars[0]
+        for sci, schar in enumerate(self.schars):
+            nchar = nchars[schar]
+            if nchar < thresh:
+                continue
+            probs = self.probs[sci,:]
+            max_tcis = Aligner.argmaxes(probs, n=n, thresh=pthresh)
+            max_tcs = [self.get_tchar(tci) for tci in max_tcis]
+            chars[schar] = max_tcs
+        return chars
+
+    def tchar_assocs(self, n=4, thresh=5, pthresh=0.01):
+        """
+        Find main associations of target chars from probs array.
+        """
+        chars = {}
+        self.data.set_nchars(add_ds=self.add_data)
+        nchars = self.data.nchars[1]
+        for tci, tchar in enumerate(self.tchars):
+            nchar = nchars[tchar]
+            if nchar < thresh:
+                continue
+            probs = self.probs[:,tci]
+            max_scis = Aligner.argmaxes(probs, n=n, thresh=pthresh)
+            max_scs = [self.get_schar(sci) for sci in max_scis]
+            chars[tchar] = max_scs
+        return chars
+
+    @staticmethod
+    def intersect_char_dicts(dict1, dict2):
+        """
+        Given two dicts of character associations, return
+        a dict with the intersection of the associations
+        in each.
+        """
+        dct = {}
+        for char, assocs in dict1.items():
+            if char in dict2:
+                assocs2 = dict2[char]
+                inters = set(assocs).intersection(assocs2)
+                if inters:
+                    dct[char] = inters
+        return dct
+
+    @staticmethod
+    def argmaxes(array, n=5, thresh=0):
+        """
+        Return the n indices from the array with the highest
+        values.
+        """
+        indices_values = list(enumerate(array))
+        if thresh > 0:
+            indices_values = [iv for iv in indices_values if iv[1] > thresh]
+        indices_values.sort(key=lambda iv: iv[1], reverse=True)
+        return [iv[0] for iv in indices_values[:n]]
+
 class Alignment(list):
     """
     Alignment between a source word and its translation in
@@ -975,6 +1156,9 @@ class Alignment(list):
             self.left = True if direction == 1 else False
         # constraints on valid alignments for this word pair
         self.constraints = constraints
+        # set these during evaluation
+        # [recall, precision]
+        self.evaluation = [0, 0]
 
     def __repr__(self):
         #return "{}→{}\n{}".format(
@@ -1250,6 +1434,106 @@ class Alignment(list):
         """
         return self.distance() + self.cost()
 
+    ### Combining alignments
+
+    def intersect(self, rev, construct=True, verbosity=1):
+        """
+        Create a new alignment, intersecting this one with
+        the reverse alignment created while training the
+        reversed aligner.
+        """
+        revalg = rev
+        alg = self
+        if self.left and not rev.left:
+            revalg = rev.right2left()
+        elif not self.left and rev.left:
+            alg = self.right2left()
+        revrev = revalg.reverse()
+        if verbosity:
+            print("Intersecting {} with {}".format(alg.show(), revalg.show()))
+        if verbosity:
+            print(" Revrev:     {}".format(revrev))
+        result = []
+        for ti, rti in zip(alg, revrev):
+            if ti == rti:
+                # only add an association if both alignments
+                # agree
+                result.append(ti)
+            else:
+                result.append(-1)
+        if construct:
+            result = self.copy(explicit=result)
+            # New alignments needs to be evaluated
+            result.cost = 0
+            if verbosity:
+                print(" Result:     {}".format(result.show()))
+        return result
+
+    def union(self, rev, construct=True, verbosity=1):
+        """
+        Create a new alignment, unioning this one with
+        the reverse alignment created while training the
+        reversed aligner.
+        """
+        revalg = rev
+        alg = self
+        cost = self.cost - len(self)
+        rcost = rev.cost - len(rev)
+        if self.left and not rev.left:
+            revalg = rev.right2left()
+        elif not self.left and rev.left:
+            alg = self.right2left()
+        revrev = revalg.reverse()
+        result = alg[:]
+        conflicts = []
+        conflict = []
+        if verbosity:
+            print("Unioning {} with {}".format(alg.show(), revalg.show()))
+            print(" Revrev: {}".format(revrev))
+        for index, (ti, rti) in enumerate(zip(alg, revrev)):
+            # find places where the two alignments differ
+            if ti == rti:
+                continue
+            if conflict and conflict[-1][0] == index - 1:
+                # continue current conflict
+                conflict.append((index, ti, rti))
+            else:
+                # gap since last conflicting position
+                # start a new conflict
+                if conflict:
+                    conflict = list(zip(*conflict))
+                    conflicts.append(conflict)
+                conflict = [(index, ti, rti)]
+        if conflict:
+            conflict = list(zip(*conflict))
+            conflicts.append(conflict)
+        # resolve conflicts
+        for conflict in conflicts:
+            indices, inds, rinds = conflict
+            # compare different segments
+            nass = len([i for i in inds if i >= 0])
+            nrass = len([i for i in rinds if i >= 0])
+            if nass > nrass:
+                continue
+            if nass < nrass or rcost < cost:
+                # replace original indices with reverse indices
+                # because there are more associations
+                # or reverse cost is lower
+                if verbosity:
+                    print(" Replacing {} with {}".format(inds, rinds))
+                for i, r in zip(indices, rinds):
+                    result[i] = r
+        if construct:
+            # create a new object even if there's
+            # no change?
+            result = alg.copy(explicit=result)
+            # new alignments needs to be evaluated
+            result.cost = 0
+        if result != alg:
+            if verbosity:
+                print(" Result: {}".format(result))
+        return result
+
     ### Evaluation of complete alignment, based on
     ### constraints
 
@@ -1283,13 +1567,61 @@ class Alignment(list):
                     tsa.append(-1)
         return tsa
 
+    def precision(self, verbosity=0):
+        """
+        Return a score for this alignment based on
+        constraints in the self.constraints list.
+        Correct alignments / all alignments.
+        """
+        totals = [0, 0]
+        if not self.left:
+            alignment = self.right2left()
+        else:
+            alignment = self
+        if self.constraints:
+            abs_c, int_c = self.constraints
+            for spos, tpos in enumerate(alignment):
+                if tpos < 0:
+                    # schar deleted, not an alignment, ignore
+                    continue
+                if verbosity:
+                    print("Checking {}->{}; ".format(spos, tpos), end='')
+                # count towards total alignments
+                totals[1] += 1
+                # check abs constraints for this alignment
+                for sc, tc in abs_c:
+                    if spos == sc:
+                        # source position falls under abs cons
+                        if tpos == tc:
+                            # correctly aligned
+                            if verbosity:
+                                print("correct according to abs cons")
+                            totals[0] += 1
+                        elif verbosity:
+                            print("wrong according to abs cons")
+                # check int constraints for this alignment
+                for (si0, ti0), (si1, ti1) in int_c:
+                    if si0 <= spos <= si1:
+                        # source position falls under int cons
+                        if ti0 <= tpos <= ti1:
+                            # correctly aligned
+                            if verbosity:
+                                print("correct according to int cons")
+                            totals[0] += 1
+                        elif verbosity:
+                            print("wrong according to int cons")
+        self.evaluation[1] = totals
+        return totals
+
     def recall(self, verbosity=0):
         """
         Return a score for this alignment based on
         constraints in the self.constraints list.
+        Correct alignments / all required alignments.
         """
         abs_scores = []
         int_scores = []
+        totals = [0, 0]
         if self.constraints:
             if not self.left:
                 alignment = self.right2left()
@@ -1307,61 +1639,60 @@ class Alignment(list):
                     if verbosity:
                         print(" {}->{};".format(sp, tp), end='')
                     sat = False
+#                    if sp >= len(alignment):
+#                        print("Problem with\n{} abs {} int {}".format(self, abs_c, int_c))
                     sa = alignment[sp]
                     total += 1
                     if sa == tp:
                         sat = True
                         score += 1
                     if verbosity:
-                        if sat:
-                            print("  satisfied")
-                        else:
-                            print("  not satisfied")
+                        if sat: print("  satisfied")
+                        else: print("  not satisfied")
                 if verbosity:
                     print(" raw: {}".format(score))
                 abs_scores.append((score, total))
-#                    abs_score = score / total
+                totals[0] += score
+                totals[1] += total
             if int_c:
-                a_rev = self.reverse()
+                a_rev = alignment.reverse()
                 if verbosity:
                     print("Interval constraints")
                 for beginning, end in int_c:
                     if verbosity:
                         print(" {}...{}->{}...{};".format(beginning[0], end[0], beginning[1], end[1]), end='')
-                    good = 0
+                    hits = 0
                     sp0, tp0 = beginning
                     sp1, tp1 = end
                     sln = sp1 - sp0 + 1
                     tln = tp1 - tp0 + 1
-                    # score number of characters in longer segment
+                    # score number of characters in shorter segment
                     # which are inside the interval
-                    if sln >= tln:
+                    if sln <= tln:
                         # check source characters
                         for sp in range(sp0, sp1+1):
-                            ta = self[sp]
-                            total += 1
+                            ta = alignment[sp]
                             if tp0 <= ta <= tp1:
-                                good += 1
-                            elif ta >= 0:
-                                good -= 1
-                        missed = tln - good
-                        score = max([0, sln - missed])
-                        int_scores.append((score, sln))
+                                # if verbosity:
+                                #     print("   {} is in int".format(ta))
+                                hits += 1
+                        int_scores.append((hits, sln))
+                        totals[0] += hits
+                        totals[1] += sln
                     else:
                         # check target characters
                         for tp in range(tp0, tp1+1):
                             sa = a_rev[tp]
                             if sp0 <= sa <= sp1:
-                                good += 1
-                            elif sa >= 0:
-                                good -= 1
-                        missed = sln - good
-                        score = max([0, tln - missed])
-                        int_scores.append((score, tln))
+                                hits += 1
+                        int_scores.append((hits, tln))
+                        totals[0] += hits
+                        totals[1] += tln
                     if verbosity:
-                        g, l = int_scores[-1]
-                        print("  {} chars out of {}".format(g, l))
-        return abs_scores, int_scores
+                        h, t = int_scores[-1]
+                        print("  {} chars out of {}".format(h, t))
+        self.evaluation[0] = totals
+        return abs_scores, int_scores, totals
 
     ### Displaying the alignment
 

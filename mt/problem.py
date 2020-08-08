@@ -141,17 +141,20 @@ class CRFProblem:
             # The data is read in from a file.
             datafile = datafile or '1.dt'
             self.data, self.info = Data.read(datafile, self)
+            for i, tg in enumerate(self.data):
+                self.data[i] = TGroup([Word(w) for w in tg['words']],
+                                      problem=self)
         # A dict of key, functions for each
         # of delete, insert, substitute, and nochange.
-        self.scoring = scoring or Problem.default_scoring
+        self.scoring = scoring or CRFProblem.default_scoring
         self.set_name(name)
 
     def set_name(self, name):
         if name:
             self.name = "Problem: {}".format(name)
         else:
-            self.name = "Problem: {}".format(Problem.id)
-            Problem.id += 1
+            self.name = "Problem: {}".format(CRFProblem.id)
+            CRFProblem.id += 1
 
     def __repr__(self):
         return self.name

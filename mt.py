@@ -24,20 +24,51 @@ Author: Michael Gasser <gasser@indiana.edu>
 
 import mt
 
-A = mt.Aligner('am', 'ti', datafiles=["A04.tr", "A24.tr", "A34.tr"])
-B = mt.Aligner('amG', 'tiG', datafiles=["A04ግ.tr", "A24ግ.tr", "A34ግ.tr"])
-C = mt.Aligner('am', 'ti', datafiles=["A04G.tr", "A24G.tr", "A34G.tr"])
-D = mt.Aligner('am_', 'ti_', datafiles=["A04_.tr", "A24_.tr", "A34_.tr"])
-a = A.make_alignment(data_i=1, explicit=[0, 1, 3, -1, 6, 7, 8, -1, 9],
-                     dscat=mt.Dataset.TEST)
+G = mt.Aligner('amG', 'tiG', datafiles=["A04ግ.tr", "A24ግ.tr", "A34ግ.tr"])
+R = mt.Aligner('am_', 'ti_', datafiles=["A04_.tr", "A24_.tr", "A34_.tr"])
+GtT = mt.Aligner('tiG', 'teG',
+                 datafiles=['A04ግ.tr', 'A24ግ.tr', 'A34ግ.tr'])
+RtT = mt.Aligner('ti_', 'te_',
+                 datafiles=['A04_.tr', 'A24_.tr', 'A34_.tr'])
 
-def runD():
-    D.run(restore="A_20200728204220.npy")
+#Rd = mt.Aligner('am_', 'ti_', datafiles=["A04_.tr", "A24_.tr", "A34_.tr"],
+#               add_train=["B02_.tr", "B22_.tr", "B32_.tr"])
 
-def test(aligner):
-    for di in [1, 3, 25, 40, 59, 60, 75, 80, 100]:
-        print(aligner.test.alignments[di])
-        print()
+def run_rom():
+    return R.run(restore="A;am_ti_-20200730163223.npy")
+
+def run_geez():
+    return G.run(restore="A;amGtiG-20200730163432.npy")
+
+def run_revrom():
+    return Rr.run(restore="Ar;ti_am_-20200731162238.npy")
+
+def run_revgeez():
+    return Gr.run(restore="Ar;tiGamG-20200801000029.npy")
+
+def run_tTgeez():
+    return GtT.run(restore="A;tiGteG-20200802035821.npy")
+
+def run_tTrevgeez():
+    return GtTr.run()
+
+def run_tTrom():
+    return RtT.run(restore="A;ti_te_-20200807043456.npy")
+
+def run_tTrevrom():
+    return RtTr.run(restore="Ar;te_ti_-20200807161602.npy")
+
+Rr = R.reverse()
+Gr = G.reverse()
+#RtTr = RtT.reverse()
+#GtTr = GtT.reverse()
+#Rdr = Rd.reverse()
+
+#def test(aligner):
+#    for di in [1, 3, 25, 40, 59, 60, 75, 80, 100]:
+#        print(aligner.test.alignments[di])
+#        print()
+        
 #a.constraints = [0, 1, ['a', 2, 3], 'a', ['b', 4, 6], 7, ['c', 8, 8], 'c', 9]
 #c1 = [((0, 0), (1, 1), (5, 7), (8, 9)),
 #      [( (2, 3), (3, 3) ), ( (4, 4), (4, 6) ), ( (6, 8), (7, 8) )]
@@ -48,8 +79,8 @@ def test(aligner):
 # b
 # ' a   l :     a k a t m
 # ' a y l   e ' a K a   n
-b = A.make_alignment(data_i=1, explicit=[0, -1, 1, 2, 3, -1, 6, 8, 9],
-                     dscat=mt.Dataset.TEST, direction=2)
+#b = A.make_alignment(data_i=1, explicit=[0, -1, 1, 2, 3, -1, 6, 8, 9],
+#                     dscat=mt.Dataset.TEST, direction=2)
 #b = A.make_alignment(data_i=1, explicit=[0, 1, 3, -1, -1, 7, 8, -1, 9],
 #                     dscat=mt.Aligner.TEST)
 #c = A.make_alignment(data_i=1, explicit=[0, 1, 3, -1, 6, 7, -1, 8, 9],

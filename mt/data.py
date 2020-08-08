@@ -26,7 +26,7 @@ Author: Michael Gasser <gasser@indiana.edu>
 
 from .word import *
 from .utils import *
-import os, re, numpy
+import os, re, numpy, copy
 
 #from .align import *
 
@@ -131,17 +131,6 @@ class Data:
         ds = Dataset(wordsets, languages, shuffle=shuffle, id=dsid,
                      indices=False, test=test, validate=validate)
         return ds
-
-    # @staticmethod
-    # def shuffle(dataset, seedgen=None):
-    #     """
-    #     Shuffle a dataset so that it can be split into subsets.
-    #     If seedgen is non-null,
-    #     use seedgen to create the same sets each time this is called.
-    #     """
-    #     if seedgen:
-    #         random.seed(seedgen)
-    #     random.shuffle(dataset)
 
     # New data format: 2020.6.16
     @staticmethod
@@ -366,12 +355,14 @@ class Dataset(list):
     TRAINING = 0
     VALIDATION = 1
     TEST = 2
-    IDs = ['t', 'v', '?']
+    IDs = ['l', 'v', 't']
 
     def __init__(self, words, languages, cat=-1, id='',
                  shuffle=True,
                  parent=None, chars=None, indices=False,
                  test=False, validate=False,
+                 # these are non-None only for reversed datasets
+                 subds=None, nchars=None, index_ds=None,
                  constraints=None, searchers=None, alignments=None):
         list.__init__(self, words)
         # a list of language abbreviations, such as amG
@@ -395,21 +386,36 @@ class Dataset(list):
             # the dataset contains indices rather than characters
             # create the associated index dataset
             self.chars = chars or self.get_all_chars()
-            i = self.create_indices()
-            self.indices = \
-               Dataset(i, languages, cat=cat, shuffle=False,
-                       indices=True, chars=None, parent=parent)
-            if test or validate:
+            if index_ds:
+                self.indices = index_ds
+            else:
+                i = self.create_indices()
+                self.indices = \
+                Dataset(i, languages, cat=cat, id=id, shuffle=False,
+                        indices=True, chars=None, parent=parent)
+            if subds:
+                # subdatasets provided only when reversing
+                # existing dataset
+                self.subds = subds
+            elif test or validate:
                 subds = self.split(test=test, validate=validate)
                 self.subds = subds
             else:
                 self.subds = []
+        # List of dicts, one for each language.
+        # keys: chars, values: count in database.
+        # Provided in constructor only when reversing
+        # existing database
+        self.nchars = nchars or None
         # these are read in from a file with read_constraints()
+        # or reversed from original dataset
         self.constraints = constraints
         # these are created in Aligner.make_searchers()
         self.searchers = searchers
         # these are the goal states of searchers after running
         self.alignments = alignments
+        # unions of alignments in this dataset and its reverse
+        self.union_alignments = None
 
     ### Names
 
@@ -418,6 +424,24 @@ class Dataset(list):
         lgs = "".join(self.languages)
         catchar = Dataset.catchar(self.cat)
         return "{};{};{};{}".format(self.id, tp, catchar, lgs)
+
+    def merge(self, dataset):
+        """
+        Add the elements in another dataset to this dataset.
+        """
+        self.extend(dataset)
+        new_chars = dataset.get_all_chars()
+        current = self.chars
+        chars = []
+        for old, new in zip(current, new_chars):
+            old = set(old)
+            merged = old.union(new)
+            merged = list(merged)
+            merged.sort()
+            chars.append(merged)
+        self.chars = chars
+        new_indices = dataset.create_indices()
+        self.indices.extend(new_indices)
 
     @staticmethod
     def catchar(catid):
@@ -470,6 +494,40 @@ class Dataset(list):
             cl.sort()
         return charlists
 
+    def set_nchars(self, sort=False, add_ds=None):
+        """
+        Get the numbers of each source and target character
+        in the dataset.
+        """
+        if self.nchars:
+            return
+        print("Setting nchars dicts for {}".format(self))
+        chardicts = [{} for l in self.languages]
+        for wordset in self:
+            for i, word in enumerate(wordset):
+                chardict = chardicts[i]
+                for char in word:
+                    if char in chardict:
+                        chardict[char] += 1
+                    else:
+                        chardict[char] = 1
+        if add_ds:
+            # Count characters in additional dataset
+            for wordset in add_ds:
+                for i, word in enumerate(wordset):
+                    chardict = chardicts[i]
+                    for char in word:
+                        if char in chardict:
+                            chardict[char] += 1
+                        else:
+                            chardict[char] = 1
+        if sort:
+            for i, cd in enumerate(chardicts):
+                cd = list(cd.items())
+                cd.sort(key=lambda c: c[1], reverse=True)
+                chardicts[i] = cd
+        self.nchars = chardicts
+
     def create_indices(self):
         """
         Create a dataset of indices corresponding to the characters
@@ -494,19 +552,24 @@ class Dataset(list):
         if validate:
             v_i = t_i + round(n * Dataset.validation_frac)
         data = self[:t_i], self[t_i:v_i], self[v_i:]
-        testset = self.create_subds(data[0], Dataset.TEST)
-        valset = self.create_subds(data[1], Dataset.VALIDATION)
+        testset = self.create_subds(data[0], Dataset.TEST, cons=test)
+        valset = self.create_subds(data[1], Dataset.VALIDATION,
+                                   cons=validate)
         trainset = self.create_subds(data[2], Dataset.TRAINING)
         return trainset, valset, testset
 
-    def create_subds(self, data, cat):
+    def create_subds(self, data, cat, cons=False):
         """
         Create a new sub-dataset from this one with a particular
         category (TRAINING, TEST, VALIDATION).
         """
-        return Dataset(data, self.languages, cat=cat, id=self.id,
-                       shuffle=False, chars=self.chars,
-                       indices=False, parent=self)
+        dataset = Dataset(data, self.languages, cat=cat, id=self.id,
+                          shuffle=False, chars=self.chars,
+                          indices=False, parent=self)
+        if cons:
+            # attempt to read in the constraints for this dataset
+            dataset.read_constraints()
+        return dataset
 
     def write(self, filename=None):
         """
@@ -521,8 +584,10 @@ class Dataset(list):
                 for word in words:
                     print("{}".format(' '.join(word)), file=file)
 
+    ### Reading and creating constraints
+
     @staticmethod
-    def combine_chars(string):
+    def combine_chars(string, verbosity=0):
         """
         Given a string of spaces and characters, return a list
         that combines successive spaces and successive non-spaces.
@@ -531,6 +596,8 @@ class Dataset(list):
         segs = []
         last = ''
         for char in stringlist:
+#            if verbosity:
+#                print("char {}, last {}, segs {}".format(char, last, segs))
             if char == ' ':
                 if last and ' ' in last:
                     last += ' '
@@ -546,7 +613,7 @@ class Dataset(list):
                 last += char
             else:
                 last = char
-        segs += last
+        segs.append(last)
         return segs
 
     @staticmethod
@@ -638,9 +705,9 @@ class Dataset(list):
         filename = filename or self.__repr__() + "A.tr"
         path = os.path.join(DATA_DIR, filename)
         constraints = []
-        print("Reading constraints for {} from {}".format(self, path))
         try:
             with open(path, encoding='utf8') as file:
+                print("Reading constraints for {} from {}".format(self, path))
                 # skip the empty tgroup before the first ##
                 tgroups = file.read().split(Data.tgroup_sep)[1:]
                 for tgi, tgroup in enumerate(tgroups):
@@ -650,6 +717,8 @@ class Dataset(list):
                     words = tgroup.strip().split("\n")
                     # Assume there are three of these:
                     # source, target, constraints
+                    if len(words) != 3:
+                        print("Problem with {}".format(words))
                     s, t, c = words
                     # initialize constraint list
                     s_pos = Dataset.wstring2positions(s)
@@ -668,4 +737,109 @@ class Dataset(list):
                     constraints.append((abs_c, int_c))
             self.constraints = constraints
         except IOError:
-            print("No constraint file for {}".format(self))
+#            print("No constraint file for {}".format(self))
+            pass
+
+    ### Reversing a dataset
+    def reverse(self, slan_index=1):
+        """
+        Create a dataset with the first language replaced by
+        the language with index slan_index.
+        """
+        print("Reversing {}".format(self))
+        lg = self.languages[:]
+        lg[0], lg[slan_index] = lg[slan_index], lg[0]
+        id = self.id + 'r'
+        items = self.reverse_items(slan_index=slan_index)
+        if self.indices:
+            # This is a char dataset
+            # First create the reversed indices dataset
+            index_ds = self.indices.reverse(slan_index=slan_index)
+            cons = self.reverse_constraints()
+            chars = self.chars[:]
+            chars[0], chars[slan_index] = chars[slan_index], chars[0]
+            if self.nchars:
+                # This may or may not have been set
+                nchars = self.nchars[:]
+                nchars[0], nchars[slan_index] = nchars[slan_index], nchars[0]
+            else:
+                nchars = None
+            # Create the subdatasets if any
+            if self.subds:
+                train, val, test = self.subds
+                r_train = train.reverse(slan_index)
+                r_val = val.reverse(slan_index)
+                r_test = test.reverse(slan_index)
+                subds = [r_train, r_val, r_test]
+            else:
+                subds=None
+            dataset = \
+            Dataset(items, lg, cat=self.cat, id=id,
+                    shuffle=False, parent=self.parent, indices=False,
+                    chars=chars, nchars=nchars, subds=subds,
+                    index_ds=index_ds, constraints=cons)
+        else:
+            # This is an indices dataset
+            dataset = \
+            Dataset(items, lg, cat=self.cat, id=id,
+                    shuffle=False, parent=self.parent, indices=True)
+        # create subds if any
+        return dataset
+
+    def reverse_items(self, slan_index=1):
+        """
+        Create a top-level indices dataset with languages reversed.
+        """
+        items = []
+        for l in self:
+            # a list of lists of indices or chars, one for each language
+            newl = copy.deepcopy(l)
+            newl[0], newl[slan_index] = newl[slan_index], newl[0]
+            items.append(newl)
+        return items
+
+    def reverse_constraints(self):
+        """
+        Return a list of constraints, with source and target
+        indices swapped.
+        """
+        if self.constraints:
+            print("Reversing constraints for {}".format(self))
+            rev_c = []
+            for cons in self.constraints:
+                abs_c, int_c = cons
+                rev_a = []
+                rev_i = []
+                for sp, tp in abs_c:
+                    rev_a.append((tp, sp))
+                for beginning, end in int_c:
+                    sp0, tp0 = beginning
+                    sp1, tp1 = end
+                    rev_beg = tp0, sp0
+                    rev_end = tp1, sp1
+                    rev_i.append((rev_beg, rev_end))
+                rev_c.append((rev_a, rev_i))
+            return rev_c
+        # print("No constraints to reverse!")
+        return None
+
+    # character overlap
+    def char_overlap(self):
+        """
+        The proportion of characters in language1 that
+        overlap with those in language2.
+        """
+        overlap = 0
+        total = 0
+        for wordset in self:
+            word0 = wordset[0]
+            wset0 = set(word0)
+            word1 = wordset[1]
+            wset1 = set(word1)
+            o1 = wset0.intersection(wset1)
+            if o1:
+                for char in o1:
+                    count = min([word0.count(char), word1.count(char)])
+                    overlap += count
+            total += len(word0)
+        return overlap / total

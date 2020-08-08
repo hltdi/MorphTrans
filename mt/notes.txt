@@ -1,0 +1,191 @@
+2020.7.31
+GEEZ
+##  b e f o r e   t r a i n i n g
+>>> G.prepare(evaluate=True)
+Preparing run
+Creating searchers for A;c;t;amGtiG
+Aligning A;c;t;amGtiG
+Evaluating A;c;t;amGtiG
+([327, 807], 0.4052044609665427, [327, 378], 0.8650793650793651)
+##  a f t e r   t r a i n i n g
+# am -> ti
+>>> run_geez()
+Attempting to restore parameters from A;amGtiG-20200730163432.npy
+Preparing run
+Creating searchers for A;c;t;amGtiG
+Aligning A;c;t;amGtiG
+Evaluating A;c;t;amGtiG
+([731, 807], 0.9058240396530359, [731, 762], 0.9593175853018373)
+# ti -> am
+>>> run_revgeez()
+Attempting to restore parameters from Ar;tiGamG-20200801000029.npy
+Preparing run
+Creating searchers for Ar;c;t;tiGamG
+Aligning Ar;c;t;tiGamG
+Evaluating Ar;c;t;tiGamG
+([747, 807], 0.9256505576208178, [747, 765], 0.9764705882352941)
+# union
+>>> m = G.merge_alignments(verbosity=0)
+>>> G.evaluate(mt.Dataset.TEST, True)
+Evaluating A;c;t;amGtiG
+([775, 807], 0.9603469640644362, [775, 794], 0.9760705289672544)
+
+ROMANIZED
+##  b e f o r e   t r a i n i n g
+>>> R.prepare(evaluate=True)
+Preparing run
+Creating searchers for A;c;t;am_ti_
+Aligning A;c;t;am_ti_
+Evaluating A;c;t;am_ti_
+([602, 1036], 0.581081081081081, [602, 926], 0.6501079913606912)
+##  a f t e r   t r a i n i n g
+# am -> ti
+>>> run_rom()
+Attempting to restore parameters from A;am_ti_-20200730163223.npy
+Preparing run
+Creating searchers for A;c;t;am_ti_
+Aligning A;c;t;am_ti_
+Evaluating A;c;t;am_ti_
+([958, 1036], 0.9247104247104247, [958, 1179], 0.8125530110262935)
+# ti -> am
+>>> run_revrom()
+Attempting to restore parameters from Ar;ti_am_-20200731162238.npy
+Preparing run
+Creating searchers for Ar;c;t;ti_am_
+Aligning Ar;c;t;ti_am_
+Evaluating Ar;c;t;ti_am_
+([925, 1036], 0.8928571428571429, [925, 1123], 0.8236865538735529)
+# union
+>>> m = R.merge_alignments(verbosity=0)
+>>> R.evaluate(mt.Dataset.TEST, True)
+Evaluating A;c;t;am_ti_
+([974, 1036], 0.9401544401544402, [975, 1188], 0.8207070707070707)
+
+2020.8.5
+WITH DIFFERING ROOTS
+##  a f t e r   t r a i n i n g
+>>> Rd.run()
+ITERATION 8
+Changes: -12.167603799027793
+Aligning A;c;t;am_ti_
+Evaluating A;c;t;am_ti_
+([908, 1036], 0.8764478764478765, [908, 1180], 0.7694915254237288)
+>>> Rdr.run()
+ITERATION 8
+Changes: -11.184614705030475
+Aligning Ar;c;t;ti_am_
+Evaluating Ar;c;t;ti_am_
+([888, 1036], 0.8571428571428571, [888, 1155], 0.7688311688311689)
+# union
+>>> m = Rd.merge_alignments(verbosity=0)
+>>> Rd.evaluate(mt.Dataset.TEST, True)
+Evaluating A;c;t;am_ti_
+([926, 1036], 0.8938223938223938, [932, 1210], 0.7702479338842976)
+
+2020.8.1
+TI->TE
+GEEZ
+##  b e f o r e   t r a i n i n g
+>>> GtT.prepare(evaluate=True)
+Aligning A;c;t;tiGteG
+Evaluating A;c;t;tiGteG
+([387, 800], 0.48375, [387, 446], 0.8677130044843049)
+##  a f t e r   t r a i n i n g
+>>> GtT.run()
+Changes: -13.194723959715844
+Aligning A;c;t;tiGteG
+Evaluating A;c;t;tiGteG
+([778, 800], 0.9725, [778, 795], 0.9786163522012579)
+
+2020.8.6
+ROMANIZED
+##  b e f o r e   t r a i n i n g
+>>> RtT.prepare(evaluate=True)
+Preparing run
+Creating searchers for A;c;t;ti_te_
+Aligning A;c;t;ti_te_
+Evaluating A;c;t;ti_te_
+([693, 1052], 0.658745247148289, [693, 897], 0.7725752508361204)
+##  a f t e r   t r a i n i n g
+>>> RtT.run()
+ITERATION 8
+Changes: -11.973681627990437
+Aligning A;c;t;ti_te_
+Evaluating A;c;t;ti_te_
+([1027, 1052], 0.9762357414448669, [1027, 1189], 0.8637510513036165)
+# union
+>>> m = RtT.merge_alignments(verbosity=0)
+>>> RtT.evaluate(mt.Dataset.TEST, True)
+Evaluating A;c;t;ti_te_
+([1040, 1052], 0.9885931558935361, [1040, 1215], 0.8559670781893004)
+
+TE->TI
+2020.8.7
+GEEZ
+>>> GtTr.prepare(evaluate=True)
+Aligning Ar;c;t;teGtiG
+Evaluating Ar;c;t;teGtiG
+([412, 800], 0.515, [412, 468], 0.8803418803418803)
+>>> GtTr.run()
+Changes: -13.13133848426186
+Aligning Ar;c;t;teGtiG
+Evaluating Ar;c;t;teGtiG
+([779, 800], 0.97375, [779, 797], 0.9774153074027604)
+
+ROMANIZED
+>>> RtTr.prepare(evaluate=True)
+Aligning Ar;c;t;te_ti_
+Evaluating Ar;c;t;te_ti_
+([795, 1052], 0.7557034220532319, [795, 997], 0.7973921765295887)
+>>> RtTr.run()
+Changes: -12.248237962231961
+Aligning Ar;c;t;te_ti_
+Evaluating Ar;c;t;te_ti_
+([1032, 1052], 0.9809885931558935, [1032, 1203], 0.85785536159601)
+
+am->ti character correspondences (merged)
+' {"'"}
+N_ {'n_'}
+T {'S'}
+T_ {'S', 'S_', 'T'}
+a {'H', 'a'}
+b {'b'}
+bW {'b'}
+b_ {'h', 'b_', 'b'}
+c_ {'k', "'", 'n'}
+d {'d'}
+d_ {'d_'}
+e {'e'}
+f {'f_', 'f'}
+f_ {'f'}
+g {'g'}
+g_ {'g'}
+h {'k', 'n', 'o'}
+hW {'k', 'n'}
+i {'i'}
+k {'k', 'K', 'k_'}
+kW {'u', 'w_'}
+kW_ {'Q', 'w_'}
+k_ {'Q', 'K', 'k_'}
+l {'h', 'l', 'y'}
+lW {'`'}
+l_ {'l_', 'l', '`'}
+m {'m', 'n'}
+mW {'`'}
+m_ {'z'}
+n {'T', 'n'}
+n_ {'g', 'n_'}
+o {'t', 'w_'}
+q {'Q', 'q'}
+r {'r'}
+rW {'r'}
+r_ {'H', 'r_', 'r'}
+s {'s'}
+sW {'H'}
+s_ {'s', 's_'}
+t {'t', 'w_'}
+t_ {'t_', 't'}
+u {'u', 'o'}
+w {'o'}
+y {'t_', 'z', 'y', 'y_'}
+

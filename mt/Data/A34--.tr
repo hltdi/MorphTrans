@@ -2643,12 +2643,12 @@ tbelaman_a # blh|A;ትበላማና
 ## tr;prf,1s,3smo,neg,main
 'ayebla`kuw_on # bl`|A;ኣየብላዕኩዎን
 'alabel_ahutm # bl'|A;አላበላሁትም
-'i'ebl`ekwo # bl`|A;ኢአብልዐክዎ
+'iebl`ekwo # bl`|A;ኢeብልዐክዎ
 'alabelahWn_ # blh|A;አላበላኍን
 ## tr;prf,1s,3smo,neg,rel
 zeyebla`kuw_o # bl`|A;ዘየብላዕኩዎ
 yalabel_ahut # bl'|A;ያላበላሁት
-le'i'ebl`ekwo # bl`|A;ለኢአብልዐክዎ
+le'iebl`ekwo # bl`|A;ለኢeብልዐክዎ
 yalabelahWn_ # blh|A;ያላበላኍን
 ## tr;prf,1s,3smo,aff,main
 'abla`kuw_o # bl`|A;ኣብላዕኩዎ
@@ -2658,17 +2658,17 @@ yalabelahWn_ # blh|A;ያላበላኍን
 ## tr;prf,1s,3smo,aff,rel
 zebla`kuw_o # bl`|A;ዘብላዕኩዎ
 yabel_ahut # bl'|A;ያበላሁት
-le'ebl`ekwo # bl`|A;ለአብልዐክዎ
+leebl`ekwo # bl`|A;ለአብልዐክዎ
 yabel_ahWn_ # blh|A;ያበላኍን
 ## tr;prf,1s,3sfo,neg,main
 'ayebla`kuw_an # bl`|A;ኣየብላዕኩዋን
 'alabel_ahWatm # bl'|A;አላበላኋትም
-'i'ebl`ekwe # bl`|A;ኢአብልዐክወ
+'iebl`ekwe # bl`|A;ኢeብልዐክወ
 'alabelahWn_a # blh|A;አላበላኍና
 ## tr;prf,1s,3sfo,neg,rel
 zeyebla`kuw_a # bl`|A;ዘየብላዕኩዋ
 yalabel_ahWat # bl'|A;ያላበላኋት
-le'i'ebl`ekwe # bl`|A;ለኢአብልዐክወ
+le'iebl`ekwe # bl`|A;ለኢeብልዐክወ
 yalabelahWn_a # blh|A;ያላበላኍና
 ## tr;prf,1s,3sfo,aff,main
 'abla`kuw_a # bl`|A;ኣብላዕኩዋ
@@ -2678,17 +2678,17 @@ yalabelahWn_a # blh|A;ያላበላኍና
 ## tr;prf,1s,3sfo,aff,rel
 zebla`kuw_a # bl`|A;ዘብላዕኩዋ
 yabel_ahWat # bl'|A;ያበላኋት
-le'ebl`ekwe # bl`|A;ለአብልዐክወ
+leebl`ekwe # bl`|A;ለአብልዐክወ
 yabel_ahWn_a # blh|A;ያበላኍና
 ## tr;prf,3sm,3smo,neg,main
 'ayebl`on # bl`|A;ኣየብልዖን
 'alabel_awm # bl'|A;አላበላውም
-'i'ebl`eyu # bl`|A;ኢአብልዐዩ
+'iebl`eyu # bl`|A;ኢeብልዐዩ
 'alabelan_ # blh|A;አላበላን
 ## tr;prf,3sm,3smo,neg,rel
 zeyebl`o # bl`|A;ዘየብልዖ
 yalabel_aw # bl'|A;ያላበላው
-le'i'ebl`eyu # bl`|A;ለኢአብልዐዩ
+le'iebl`eyu # bl`|A;ለኢeብልዐዩ
 yalabelan_ # blh|A;ያላበላን
 ## tr;prf,3sm,3smo,aff,main
 'abl`o # bl`|A;ኣብልዖ
@@ -2698,17 +2698,17 @@ yalabelan_ # blh|A;ያላበላን
 ## tr;prf,3sm,3smo,aff,rel
 zebl`o # bl`|A;ዘብልዖ
 yabel_aw # bl'|A;ያበላው
-le'ebl`eyu # bl`|A;ለአብልዐዩ
+leebl`eyu # bl`|A;ለአብልዐዩ
 yabel_an_ # blh|A;ያበላን
 ## tr;prf,3sm,3sfo,neg,main
 'ayebl`an # bl`|A;ኣየብልዓን
 'alabel_atm # bl'|A;አላበላትም
-'i'ebl`eye # bl`|A;ኢአብልዐየ
+'iebl`eye # bl`|A;ኢeብልዐየ
 'alabelan_a # blh|A;አላበላና
 ## tr;prf,3sm,3sfo,neg,rel
 zeyebl`a # bl`|A;ዘየብልዓ
 yalabel_at # bl'|A;ያላበላት
-le'i'ebl`eye # bl`|A;ለኢአብልዐየ
+le'iebl`eye # bl`|A;ለኢeብልዐየ
 yalabelan_a # blh|A;ያላበላና
 ## tr;prf,3sm,3sfo,aff,main
 'abl`a # bl`|A;ኣብልዓ
@@ -2718,17 +2718,17 @@ yalabelan_a # blh|A;ያላበላና
 ## tr;prf,3sm,3sfo,aff,rel
 zebl`a # bl`|A;ዘብልዓ
 yabel_at # bl'|A;ያበላት
-le'ebl`eye # bl`|A;ለአብልዐየ
+leebl`eye # bl`|A;ለአብልዐየ
 yabel_an_a # blh|A;ያበላና
 ## tr;prf,2pf,3smo,neg,main
 'ayebla`kn'on # bl`|A;ኣየብላዕክንኦን
 'alabel_ac_hutm # bl'|A;አላበላችሁትም
-'i'ebl`eknehu # bl`|A;ኢአብልዐክነሁ
+'iebl`eknehu # bl`|A;ኢeብልዐክነሁ
 'alabelakman_ # blh|A;አላበላክማን
 ## tr;prf,2pf,3smo,neg,rel
 zeyebla`kn'o # bl`|A;ዘየብላዕክንኦ
 yalabel_ac_hut # bl'|A;ያላበላችሁት
-le'i'ebl`eknehu # bl`|A;ለኢአብልዐክነሁ
+le'iebl`eknehu # bl`|A;ለኢeብልዐክነሁ
 yalabelakman_ # blh|A;ያላበላክማን
 ## tr;prf,2pf,3smo,aff,main
 'abla`kn'o # bl`|A;ኣብላዕክንኦ
@@ -2738,17 +2738,17 @@ yalabelakman_ # blh|A;ያላበላክማን
 ## tr;prf,2pf,3smo,aff,rel
 zebla`kn'o # bl`|A;ዘብላዕክንኦ
 yabel_ac_hut # bl'|A;ያበላችሁት
-le'ebl`eknehu # bl`|A;ለአብልዐክነሁ
+leebl`eknehu # bl`|A;ለአብልዐክነሁ
 yabel_akman_ # blh|A;ያበላክማን
 ## tr;prf,2pf,3sfo,neg,main
 'ayebla`kn'an # bl`|A;ኣየብላዕክንኣን
 'alabel_ac_hWatm # bl'|A;አላበላችኋትም
-'i'ebl`eknehe # bl`|A;ኢአብልዐክነሀ
+'iebl`eknehe # bl`|A;ኢeብልዐክነሀ
 'alabelakman_a # blh|A;አላበላክማና
 ## tr;prf,2pf,3sfo,neg,rel
 zeyebla`kn'a # bl`|A;ዘየብላዕክንኣ
 yalabel_ac_hWat # bl'|A;ያላበላችኋት
-le'i'ebl`eknehe # bl`|A;ለኢአብልዐክነሀ
+le'iebl`eknehe # bl`|A;ለኢeብልዐክነሀ
 yalabelakman_a # blh|A;ያላበላክማና
 ## tr;prf,2pf,3sfo,aff,main
 'abla`kn'a # bl`|A;ኣብላዕክንኣ
@@ -2758,17 +2758,17 @@ yalabelakman_a # blh|A;ያላበላክማና
 ## tr;prf,2pf,3sfo,aff,rel
 zebla`kn'a # bl`|A;ዘብላዕክንኣ
 yabel_ac_hWat # bl'|A;ያበላችኋት
-le'ebl`eknehe # bl`|A;ለአብልዐክነሀ
+leebl`eknehe # bl`|A;ለአብልዐክነሀ
 yabel_akman_a # blh|A;ያበላክማና
 ## tr;imf,1s,3smo,neg,main
 'ayebl`on # bl`|A;ኣየብልዖን
 'alabelawm # bl'|A;አላበላውም
-'i'ebel_`o # bl`|A;ኢአበልዖ
+'iebel_`o # bl`|A;ኢeበልዖ
 tabelan_ # blh|A;ታበላን
 ## tr;imf,1s,3smo,neg,rel
 zeyebl`o # bl`|A;ዘየብልዖ
 yem_alabelaw # bl'|A;የማላበላው
-le'i'ebel_`o # bl`|A;ለኢአበልዖ
+le'iebel_`o # bl`|A;ለኢeበልዖ
 'an_abelan_ # blh|A;አናበላን
 ## tr;imf,1s,3smo,aff,main
 'abl`o # bl`|A;ኣብልዖ
@@ -2778,17 +2778,17 @@ le'i'ebel_`o # bl`|A;ለኢአበልዖ
 ## tr;imf,1s,3smo,aff,rel
 zebl`o # bl`|A;ዘብልዖ
 yem_abelaw # bl'|A;የማበላው
-le'ebel_`o # bl`|A;ለአበልዖ
+leebel_`o # bl`|A;ለአበልዖ
 'abelan_ # blh|A;አበላን
 ## tr;imf,1s,3sfo,neg,main
 'ayebl`an # bl`|A;ኣየብልዓን
 'alabelatm # bl'|A;አላበላትም
-'i'ebel_`e # bl`|A;ኢአበልዐ
+'iebel_`e # bl`|A;ኢeበልዐ
 tabelan_a # blh|A;ታበላና
 ## tr;imf,1s,3sfo,neg,rel
 zeyebl`a # bl`|A;ዘየብልዓ
 yem_alabelat # bl'|A;የማላበላት
-le'i'ebel_`e # bl`|A;ለኢአበልዐ
+le'iebel_`e # bl`|A;ለኢeበልዐ
 'an_abelan_a # blh|A;አናበላና
 ## tr;imf,1s,3sfo,aff,main
 'abl`a # bl`|A;ኣብልዓ
@@ -2798,7 +2798,7 @@ le'i'ebel_`e # bl`|A;ለኢአበልዐ
 ## tr;imf,1s,3sfo,aff,rel
 zebl`a # bl`|A;ዘብልዓ
 yem_abelat # bl'|A;የማበላት
-le'ebel_`e # bl`|A;ለአበልዐ
+leebel_`e # bl`|A;ለአበልዐ
 'abelan_a # blh|A;አበላና
 ## tr;imf,3sm,3smo,neg,main
 'ay_ebl`on # bl`|A;ኣየብልዖን
